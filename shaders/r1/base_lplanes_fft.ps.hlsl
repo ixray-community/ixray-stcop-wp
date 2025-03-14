@@ -7,9 +7,12 @@ struct 	v2p
   	float4	c0:		COLOR0;		// sun
 };
 
+// ���������� ��������� �������� --#SM+#--
+uniform	float4		m_hud_params;	//
+
 inline bool isCollimatorActive()
 {
-	return (m_hud_params.z == 1.f);
+	return (m_hud_params.w == 1.f);
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////

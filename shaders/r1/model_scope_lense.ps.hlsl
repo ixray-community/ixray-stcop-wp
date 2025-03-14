@@ -11,6 +11,7 @@ struct 	v2p
 
 
 uniform	float4		screen_res;
+uniform	float4		m_hud_params;
 
 // Pixel
 uniform sampler2D	s_vp2;
