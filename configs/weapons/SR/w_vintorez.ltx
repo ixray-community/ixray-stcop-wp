@@ -351,14 +351,13 @@ aim_hud_offset_rot_16x9			= 0.016137,0.003735,0.000000
 [wpn_vintorez_nimble]:wpn_vintorez,wpn_val_sounds
 $spawn							= "weapons\vintorez_nimble"
 hud								= wpn_vintorez_nimble_hud
-visual							= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_rds.ogf
+visual							= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1.ogf
 description						= st_wpn_vintorez_nimble_descr
+
+parent_section  				= wpn_vintorez_nimble
 
 fire_dispersion_base			= 0.15
 crosshair_inertion				= 5.5
-
-scopes 							= none
-parent_section  				= wpn_vintorez_nimble
 
 PDM_disp_base 					= 0.8
 PDM_disp_vel_factor 			= 1.2
@@ -376,13 +375,110 @@ upgr_icon_y						= 1300
 inv_weight						= 3.600
 
 [wpn_vintorez_nimble_hud]:wpn_vintorez_hud
-item_visual                		= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_rds_hud.ogf
+item_visual                		= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_hud.ogf
 
-aim_hud_offset_pos				= -0.059700,-0.000700,-0.147000
-aim_hud_offset_rot				= -0.010763,-0.011615,0
+aim_hud_offset_pos				= -0.059450,0.031450,-0.12
+aim_hud_offset_rot				= -0.017113,-0.012640,0
 
-aim_hud_offset_pos_16x9			= -0.059700,-0.000700,-0.147000
-aim_hud_offset_rot_16x9			= -0.010763,-0.011615,0
+aim_hud_offset_pos_16x9			= -0.059450,0.031450,-0.12
+aim_hud_offset_rot_16x9			= -0.017113,-0.012640,0
 
 anm_reload              		= val_ac_reload, reload
 anm_reload_empty        		= val_ac_reload_empty, reload_empty
+;-----------------------------------------------------------------------------
+; ְההמםû
+;-----------------------------------------------------------------------------
+[wpn_vintorez_nimble_ekp]:wpn_vintorez_nimble
+$spawn             				= "weapons\wpn_vintorez_nimble_ekp"
+hud								= wpn_vintorez_nimble_ekp_hud
+visual							= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_ekp.ogf
+
+scope_x							= 80
+scope_y							= 8
+
+[wpn_vintorez_nimble_ekp_hud]:wpn_vintorez_nimble_hud
+item_visual                		= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_ekp_hud.ogf
+
+aim_hud_offset_pos				= -0.059500,0.000300,-0.074
+aim_hud_offset_rot				= -0.003113,-0.011890,0
+
+aim_hud_offset_pos_16x9			= -0.059500,0.000300,-0.074
+aim_hud_offset_rot_16x9			= -0.003113,-0.011890,0
+
+[wpn_vintorez_nimble_kobra]:wpn_vintorez_nimble
+$spawn             				= "weapons\wpn_vintorez_nimble_kobra"
+hud								= wpn_vintorez_nimble_kobra_hud
+visual							= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_kobra.ogf
+
+scope_x							= 78
+scope_y							= 14
+
+[wpn_vintorez_nimble_kobra_hud]:wpn_vintorez_nimble_hud
+item_visual                		= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_kobra_hud.ogf
+
+[wpn_vintorez_nimble_1p78]:wpn_vintorez_nimble
+$spawn             				= "weapons\wpn_vintorez_nimble_1p78"
+hud								= wpn_vintorez_nimble_1p78_hud
+visual							= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_1p78.ogf
+
+scope_x							= 69
+scope_y							= 2
+
+[wpn_vintorez_nimble_1p78_hud]:wpn_vintorez_nimble_hud
+item_visual                		= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_1p78_hud.ogf
+
+aim_hud_offset_pos				= -0.060250,0.000300,-0.083
+aim_hud_offset_rot				= -0.016488,-0.011140,0
+
+aim_hud_offset_pos_16x9			= -0.060250,0.000300,-0.083
+aim_hud_offset_rot_16x9			= -0.016488,-0.011140,0
+
+[wpn_vintorez_nimble_1pn93-1]:wpn_vintorez_nimble
+$spawn             				= "weapons\wpn_vintorez_nimble_1pn93-1"
+hud								= wpn_vintorez_nimble_1pn93-1_hud
+visual							= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_1pn93-1.ogf
+
+scope_x							= 36
+scope_y							= 6
+
+[wpn_vintorez_nimble_1pn93-1_hud]:wpn_vintorez_nimble_hud
+item_visual                		= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_1pn93-1_hud.ogf
+
+aim_hud_offset_pos				= -0.047450,-0.006550,-0.043
+aim_hud_offset_rot				= -0.017613,-0.010515,0
+
+aim_hud_offset_pos_16x9			= -0.047450,-0.006550,-0.043
+aim_hud_offset_rot_16x9			= -0.017613,-0.010515,0
+
+[wpn_vintorez_nimble_pso1m21]:wpn_vintorez_nimble
+$spawn             				= "weapons\wpn_vintorez_nimble_pso1m21"
+hud								= wpn_vintorez_nimble_pso1m21_hud
+
+scope_x							= 50
+scope_y							= 8
+
+[wpn_vintorez_nimble_pso1m21_hud]:wpn_vintorez_nimble_hud
+item_visual                		= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_hud.ogf
+
+aim_hud_offset_pos				= -0.052175,0.000550,-0.055000
+aim_hud_offset_rot				= -0.032962,-0.016855,-0.006825
+
+aim_hud_offset_pos_16x9			= -0.052175,0.000550,-0.055000
+aim_hud_offset_rot_16x9			= -0.032962,-0.016855,-0.006825
+
+[wpn_vintorez_nimble_okp]:wpn_vintorez_nimble
+$spawn             				= "weapons\wpn_vintorez_nimble_okp"
+hud								= wpn_vintorez_nimble_okp_hud
+visual							= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_okp.ogf
+
+scope_x							= 83
+scope_y							= 10
+
+[wpn_vintorez_nimble_okp_hud]:wpn_vintorez_nimble_hud
+item_visual                		= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_okp_hud.ogf
+
+aim_hud_offset_pos				= -0.060000,0.019300,-0.1
+aim_hud_offset_rot				= 0.016137,0.003735,0
+
+aim_hud_offset_pos_16x9			= -0.060000,0.019300,-0.1
+aim_hud_offset_rot_16x9			= 0.016137,0.003735,0

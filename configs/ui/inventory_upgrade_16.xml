@@ -430,7 +430,7 @@
 	            <cell x="80" y="204" point_x="229" point_y="205"/>
 	            <cell x="80" y="253" point_x="158" point_y="194"/>
 	            <cell x="80" y="330" point_x="122" point_y="194"/>
-	            <cell x="80" y="409" point_x="306" point_y="212"/>
+	            <cell x="-8000" y="409" point_x="306" point_y="212"/>
 	        </column>
 	        <column>
 	            <cell x="160" y="0" point_x="90" point_y="179"/>

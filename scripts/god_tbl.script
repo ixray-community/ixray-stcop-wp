@@ -310,7 +310,6 @@ god_ammo_table = {
 						"ammo_9x19_pbp",
 						"ammo_11.43x23_fmj",
 						"ammo_11.43x23_hydro",
-						"ammo_338_lapua",
 						"ammo_50ae",
 						"ammo_50bmg",
 						"ammo_5.45x39_fmj",

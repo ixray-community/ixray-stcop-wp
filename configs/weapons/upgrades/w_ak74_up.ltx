@@ -21,9 +21,9 @@ value					= +15
 ;увеличение дисперсии в процентах при максимальном износе
 fire_dispersion_condition_factor    = -0.5 ;15
 ;увеличение изношености при выстреле очередью
-condition_queue_shot_dec	= -0.0001 ;0.0013
+condition_queue_shot_dec	= -0.00009 ;0.0013
 ;увеличение изношености при одиночном выстреле
-condition_shot_dec      	= -0.0001 ;0.0011
+condition_shot_dec      	= -0.000075 ;0.0011
 ;шанс осечки при изношености больше чем misfireStartCondition
 misfire_start_prob	     	= -0.0015
 ;шанс осечки при изношености больше чем misfireEndCondition
@@ -99,9 +99,9 @@ value					= +10
 ;увеличение дисперсии в процентах при максимальном износе
 fire_dispersion_condition_factor    = -0.25 ;15
 ;увеличение изношености при выстреле очередью
-condition_queue_shot_dec	= -0.0001 ;0.0013
+condition_queue_shot_dec	= -0.00009 ;0.0013
 ;увеличение изношености при одиночном выстреле
-condition_shot_dec      	= -0.0001 ;0.0011
+condition_shot_dec      	= -0.000075 ;0.0011
 ;шанс осечки при изношености больше чем misfireStartCondition
 misfire_start_prob	     	= -0.0005
 ;шанс осечки при изношености больше чем misfireEndCondition
@@ -219,7 +219,7 @@ icon                    = ui_inGame2_upgrade_AKM_74_2_1
 [up_firstc_ak74]
 scheme_index            = 1, 0
 known                   = 1
-effects                 = up_gr_firste_ak74 , up_gr_firstf_ak74
+effects                 = up_gr_firstef_ak74
 section                 = up_sect_firstc_ak74
 property                = prop_reliability
 
@@ -281,7 +281,7 @@ icon                    = ui_inGame2_upgrade_AKM_74_2_4
 [up_secona_ak74]
 scheme_index            = 0, 1
 known                   = 1
-effects                 = up_gr_seconc_ak74 , up_gr_second_ak74
+effects                 = up_gr_seconcd_ak74
 section                 = up_sect_secona_ak74
 property                = prop_inertion
 
@@ -364,7 +364,7 @@ icon                    = ui_inGame2_upgrade_AKM_74_2_8
 [up_thirda_ak74]
 scheme_index            = 0, 2
 known                   = 1
-effects                 = up_gr_thirdc_ak74 , up_gr_thirdd_ak74
+effects                 = up_gr_thirdcd_ak74
 section                 = up_sect_thirda_ak74
 property                = prop_reliability
 
@@ -554,22 +554,14 @@ elements                = up_firsta_ak74
 [up_gr_firstcd_ak74]
 elements                = up_firstc_ak74
 
-[up_gr_firste_ak74]
-elements                = up_firste_ak74
-
-[up_gr_firstf_ak74]
-elements                = up_firstf_ak74
-
+[up_gr_firstef_ak74]
+elements                = up_firste_ak74, up_firstf_ak74
 
 [up_gr_seconab_ak74]
 elements                = up_secona_ak74
 
-[up_gr_seconc_ak74]
-elements                = up_seconc_ak74
-
-[up_gr_second_ak74]
-elements                = up_second_ak74
-
+[up_gr_seconcd_ak74]
+elements                = up_seconc_ak74, up_second_ak74
 
 [up_gr_seconef_ak74]
 elements                = up_secone_ak74
@@ -577,12 +569,8 @@ elements                = up_secone_ak74
 [up_gr_thirdab_ak74]
 elements                = up_thirda_ak74
 
-[up_gr_thirdc_ak74]
-elements                = up_thirdc_ak74
-
-[up_gr_thirdd_ak74]
-elements                = up_thirdd_ak74
-
+[up_gr_thirdcd_ak74]
+elements                = up_thirdc_ak74, up_thirdd_ak74
 
 [up_gr_thirdef_ak74]
 elements                = up_thirde_ak74

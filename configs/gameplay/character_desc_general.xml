@@ -3456,7 +3456,7 @@
       wpn_ump45 \n
 	  ammo_11.43x23_fmj = 1 \n
       ammo_9x19_pbp = 1 \n
-      wpn_usp_nimble \n
+      wpn_usp \n
       grenade_f1 = 3 \n
 
 #include "gameplay\character_items_nd.xml"
@@ -3489,8 +3489,8 @@
       
       wpn_ak12 = 1, scope=2 \n
       ammo_5.45x39_ap = 1 \n
-      wpn_usp_nimble \n
-      ammo_9x19_fmj = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_fmj = 1 \n
       grenade_f1 = 3 \n
 
 #include "gameplay\character_items_nd.xml"
@@ -4872,7 +4872,7 @@
       
       wpn_groza = 1 \n
       ammo_9x39_ap = 1 \n
-      wpn_usp_nimble = 1 \n
+      wpn_usp = 1 \n
       ammo_11.43x23_hydro = 1 \n
       grenade_f1 = 4 \n
 
@@ -5937,7 +5937,7 @@
       
       wpn_protecta \n
       ammo_12x76_zhekan = 1 \n
-      wpn_usp_nimble \n
+      wpn_usp \n
       ammo_11.43x23_hydro = 1 \n
       grenade_f1 = 4 \n
 
