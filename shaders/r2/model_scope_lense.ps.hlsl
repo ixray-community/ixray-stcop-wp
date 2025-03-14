@@ -3,13 +3,13 @@
 struct 	v2p
 {
  	float2 	tc0: 		TEXCOORD0;	// base 
- 	half3 	tc1: 		TEXCOORD1;	// environment
-  	half4	c0:			COLOR0;		// sun.(fog*fog)
+ 	float3 	tc1: 		TEXCOORD1;	// environment
+  	float4	c0:			COLOR0;		// sun.(fog*fog)
 };
 
 // Глобальные параметры шейдеров --#SM+#--
-uniform	half4		m_hud_params;	//
-uniform	half4		m_blender_mode;	// 
+uniform	float4		m_hud_params;	//
+uniform	float4		m_blender_mode;	// 
 
 // Активен-ли двойной рендер --#SM+#--
 inline bool isSecondVPActive()
@@ -31,14 +31,14 @@ uniform	float4		screen_res;
 
 uniform sampler2D	s_vp2;
 
-half4 main( v2p I )	: COLOR
+float4 main( v2p I )	: COLOR
 {
-	half4 t_base = tex2D(s_base, I.tc0); // Текстура сетки
+	float4 t_base = tex2D(s_base, I.tc0); // Текстура сетки
 	
 	// Растягиваем картинку в линзе так, чтобы на любом разрешении экрана были правильные пропорции
 	//I.tc0.x = resize(I.tc0.x, screen_res.x / screen_res.y, 0);
 	I.tc0.x = resize(I.tc0.x, I.tc1.x / I.tc1.y, 0);
-	half4 t_vp2	= tex2D(s_vp2, I.tc1); // Изображение со второго вьюпорта
+	float4 t_vp2	= tex2D(s_vp2, I.tc1); // Изображение со второго вьюпорта
 	
 	if (!isSecondVPActive()) 
 	{
@@ -49,8 +49,8 @@ half4 main( v2p I )	: COLOR
 	}
 	
 	// Миксуем с сеткой
-	half3 final = lerp(t_vp2, t_base, t_base.a);
+	float3 final = lerp(t_vp2, t_base, t_base.a);
 	
 	// out
-	return half4(final.r, final.g, final.b, m_hud_params.x);
+	return float4(final.r, final.g, final.b, m_hud_params.x);
 }
