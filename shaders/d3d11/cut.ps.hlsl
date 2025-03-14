@@ -1,4 +1,4 @@
-#include "common.h"
+#include "common.hlsli"
 
 uniform	float4		svp_screen_res;
 

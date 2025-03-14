@@ -1,5 +1,5 @@
-#include "common.h"
-#include "skin.h"
+#include "common.hlsli"
+#include "skin.hlsli"
 
 uniform float4x4 m_v2w:register(ps,c3);
 
@@ -41,4 +41,4 @@ vf 	_main (v_model v)
 /////////////////////////////////////////////////////////////////////////
 #define SKIN_LQ
 #define SKIN_VF vf
-#include "skin_main.h"
+#include "skin_main.hlsli"

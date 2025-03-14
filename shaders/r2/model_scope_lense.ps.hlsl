@@ -1,4 +1,4 @@
-#include "common.h"
+#include "common.hlsli"
 
 struct 	v2p
 {
@@ -27,7 +27,7 @@ float  resize(float input, float factor, float offset)
 // Pixel
 uniform	float4		screen_res;
 
-#include "pnv.h"
+#include "pnv.hlsli"
 
 uniform sampler2D	s_vp2;
 

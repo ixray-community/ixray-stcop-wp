@@ -1,4 +1,5 @@
-#include "common.h"
+#include "common.hlsli"
+uniform float4 screen_res;
 uniform float4 m_hud_params;
 
 float resize(float input, float factor, float offset)

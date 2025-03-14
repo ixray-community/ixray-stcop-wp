@@ -1,4 +1,4 @@
-#include "common.h"
+#include "common.hlsli"
 
 struct 	v2p
 {
@@ -7,7 +7,7 @@ struct 	v2p
   	float4	c0:		COLOR0;		// sun
 };
 
-// Глобальные параметры шейдеров --#SM+#--
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --#SM+#--
 uniform	float4		m_hud_params;	// zoom_rotate_factor, secondVP_zoom_factor, NULL, NULL
 
 inline bool isCollimatorActive()

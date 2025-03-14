@@ -1,4 +1,4 @@
-#include "common.h"
+#include "common.hlsli"
 
 struct 	v2p
 {
@@ -7,6 +7,9 @@ struct 	v2p
   	half4	c0:		COLOR0;		// sun
 };
 
+// ���������� ��������� �������� --#SM+#--
+uniform	half4		m_hud_params;	//
+
 inline bool isCollimatorActive()
 {
 	return (m_hud_params.z == 1.f);
@@ -14,7 +17,7 @@ inline bool isCollimatorActive()
 
 //////////////////////////////////////////////////////////////////////////////////////////
 // Pixel
-half4 	main_ps_1_1	( v2p I )	: COLOR
+half4 	main	( v2p I )	: COLOR
 {
 	half4	t_base 	= tex2D	(s_base,I.tc0);
 

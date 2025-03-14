@@ -1,5 +1,5 @@
-#include "common.h"
-#include "skin.h"
+#include "common.hlsli"
+#include "skin.hlsli"
 
 // KRodin: TODO: Вынести в common?
 float4 proj_to_screen(float4 proj)

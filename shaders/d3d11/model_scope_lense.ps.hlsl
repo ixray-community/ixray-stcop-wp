@@ -1,11 +1,11 @@
-#include "common.h"
+#include "common.hlsli"
 	
 //////////////////////////////////////////////////////////////////////////////////////////
 
 // Pixel
 uniform	float4		screen_res;
 
-#include "pnv.h"
+#include "pnv.hlsli"
 
 // Глобальные параметры шейдеров --#SM+#--
 uniform	float4		m_hud_params;	// zoom_rotate_factor, secondVP_zoom_factor, NULL, NULL
