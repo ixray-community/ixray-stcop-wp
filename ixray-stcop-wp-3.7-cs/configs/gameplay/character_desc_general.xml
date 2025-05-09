@@ -1375,9 +1375,10 @@
     <supplies>
       [spawn] \n
       device_torch \n
-      wpn_ppsh41 \n
-      ammo_7.62x25_p = 1 \n
+      wpn_type63 \n
+ 	  ammo_7.62x39_fmj  = 1 \n
       wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
       grenade_rgd5 = 1 \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -1586,8 +1587,8 @@
     <supplies>
       [spawn] \n
       device_torch \n
-      wpn_mr153 \n
-      ammo_12x70_buck = 1 \n
+      wpn_rpd \n
+      ammo_7.62x39_ap = 1 \n
       wpn_desert_eagle_sk1 \n
       ammo_50ae = 1 \n
       grenade_rgd5 = 1 \n
@@ -3902,7 +3903,8 @@
     <supplies>
       [spawn]\n
       device_torch \n
-          wpn_kiparis \n
+      	  wpn_type63 \n
+		  ammo_7.62x39_fmj = 1 \n
           wpn_pm \n
           ammo_9x18_fmj = 1 \n
 #include "gameplay\character_items.xml"
