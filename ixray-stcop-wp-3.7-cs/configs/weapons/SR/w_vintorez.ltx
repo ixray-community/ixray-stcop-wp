@@ -415,40 +415,62 @@ inv_weight										= 3.600
 [wpn_vintorez_up_hud]:wpn_vintorez_hud
 item_visual                						= dynamics\weapons\wpn_vintorez\wpn_vintorez_m1_hud.ogf
 
-anm_hide                              			= vin_tac_hide, idle
-anm_idle                               			= vin_tac_idle, idle
-anm_bore                              			= vin_tac_idle, idle
-anm_idle_aim                          			= vin_tac_aim, idle
-anm_idle_aim_moving                   			= vin_tac_slow, idle
-anm_idle_aim_moving_slow               			= vin_tac_crouch, idle
-anm_idle_aim_moving_crouch            			= vin_tac_crouch_slow, idle
-anm_idle_aim_moving_crouch_slow       			= vin_tac_crouch_slow, idle
-anm_idle_moving                       			= vin_tac_walk, idle
-anm_idle_moving_slow               				= vin_tac_slow, idle
-anm_idle_moving_crouch               			= vin_tac_crouch, idle
-anm_idle_moving_crouch_slow           			= vin_tac_crouch_slow, idle
-anm_idle_sprint                      			= vin_tac_sprint, idle
-anm_reload                            			= vin_tac_reload, vss_reload
-anm_reload_empty                      			= vin_tac_reload_empty, vss_tac_reload_full
-anm_shots                             			= vin_tac_shoot, vss_shoot
-anm_shots_when_aim                   			= vss_tac_shoot_scope, vss_shoot
-anm_show                              			= vin_tac_draw, idle
-anm_switch_mode                       			= vin_tac_fire_select, idle
-anm_reload_misfire                   			= vin_tac_misfire, vss_revival
+aim_hud_offset_pos								= 0.018625,0.007550,-0.029000
+aim_hud_offset_rot								= -0.016512,-0.002505,0.004375
 
-anm_hide_jammed             					= vin_tac_hide, idle_jammed
-anm_idle_jammed             					= vin_tac_idle, idle_jammed
-anm_idle_aim_jammed         					= vin_tac_aim, idle_jammed
-anm_idle_aim_moving_jammed  					= vin_tac_slow, idle_jammed
-anm_idle_aim_moving_slow_jammed 				= vin_tac_crouch, idle_jammed
-anm_idle_aim_moving_crouch_jammed 				= vin_tac_crouch_slow, idle_jammed
-anm_idle_aim_moving_crouch_slow_jammed 			= vin_tac_crouch_slow, idle_jammed
-anm_idle_moving_jammed      					= vin_tac_walk, idle_jammed
-anm_idle_moving_slow_jammed      				= vin_tac_slow, idle_jammed
-anm_idle_moving_crouch_jammed      				= vin_tac_crouch, idle_jammed
-anm_idle_moving_crouch_slow_jammed      		= vin_tac_crouch_slow, idle_jammed
-anm_idle_sprint_jammed      					= vin_tac_sprint, idle_jammed
-anm_show_jammed             					= vin_tac_draw, idle_jammed
+aim_hud_offset_pos_16x9							= 0.018625,0.007550,-0.029000
+aim_hud_offset_rot_16x9							= -0.016512,-0.002505,0.004375
+
+anm_hide                                 		= vintoreztactco_hide, idle
+anm_idle                                 		= vintoreztactco_idle, idle
+anm_idle_aim                             		= vintoreztactco_aim, idle
+anm_idle_aim_moving                      		= vintoreztactco_walk, idle, 0.6
+anm_idle_aim_moving_slow               			= vintoreztactco_walk, idle, 0.5
+anm_idle_aim_moving_crouch               		= vintoreztactco_walk, idle, 0.4
+anm_idle_aim_moving_crouch_slow               	= vintoreztactco_walk, idle, 0.3
+anm_idle_moving                          		= vintoreztactco_walk, idle
+anm_idle_moving_slow                  			= vintoreztactco_walk, idle, 0.8
+anm_idle_moving_crouch                        	= vintoreztactco_walk, idle, 0.6
+anm_idle_moving_crouch_slow                   	= vintoreztactco_walk, idle, 0.4
+anm_idle_sprint                          		= vintoreztactco_sprint, idle
+anm_reload                               		= vintoreztactco_reload, vss_reload
+anm_reload_empty                         		= vintoreztactco_reload_empty, vss_tac_reload_full
+anm_shots                                		= vintoreztactco_shoot, vss_shoot
+anm_shot_l                                		= vintoreztactco_shoot, vss_shoot
+anm_shots_aim                            		= vintoreztactco_aim_shoot, vss_shoot
+anm_shots_last_aim                           	= vintoreztactco_aim_shoot, vss_shoot
+anm_shots_aim_scope               				= vintoreztactco_aim_shoot_scope, vss_shoot
+anm_shots_last_aim_scope               			= vintoreztactco_aim_shoot_scope, vss_shoot
+anm_show                                 		= vintoreztactco_draw, idle
+anm_changefiremode                          	= vintoreztactco_fire_select, idle
+anm_reload_misfire                       		= vintoreztactco_unjam, vss_revival
+anm_idle_aim_start                       		= vintoreztactco_aim_start, idle
+anm_idle_aim_end                         		= vintoreztactco_aim_end, idle
+anm_bore                                 		= vintoreztactco_dry, idle, 0.6
+
+anm_hide_jammed                   				= vintoreztactco_hide, idle_jammed
+anm_idle_jammed                   				= vintoreztactco_idle, idle_jammed
+anm_idle_aim_jammed               				= vintoreztactco_aim, idle_jammed
+anm_idle_aim_moving_jammed                    	= vintoreztactco_walk, idle_jammed, 0.6
+anm_idle_aim_moving_slow_jammed               	= vintoreztactco_walk, idle_jammed, 0.5
+anm_idle_aim_moving_crouch_jammed           	= vintoreztactco_walk, idle_jammed, 0.4
+anm_idle_aim_moving_crouch_slow_jammed      	= vintoreztactco_walk, idle_jammed, 0.3
+anm_idle_moving_jammed                      	= vintoreztactco_walk, idle_jammed
+anm_idle_moving_slow_jammed                  	= vintoreztactco_walk, idle_jammed, 0.8
+anm_idle_moving_crouch_jammed                  	= vintoreztactco_walk, idle_jammed, 0.6
+anm_idle_moving_crouch_slow_jammed          	= vintoreztactco_walk, idle_jammed, 0.4
+anm_idle_sprint_jammed            				= vintoreztactco_sprint, idle_jammed
+anm_changefiremode_jammed                    	= vintoreztactco_fire_select, idle_jammed
+anm_show_jammed                   				= vintoreztactco_draw, idle_jammed
+anm_idle_aim_start_jammed         				= vintoreztactco_aim_start, idle_jammed
+anm_idle_aim_end_jammed           				= vintoreztactco_aim_end, idle_jammed
+anm_bore_jammed                   				= vintoreztactco_dry, idle_jammed
+
+;--- Переходы спринта---
+anm_idle_sprint_start             				= vintoreztactco_sprint_start
+anm_idle_sprint_end               				= vintoreztactco_sprint_end
+anm_idle_sprint_start_jammed      				= vintoreztactco_sprint_start, idle_jammed  
+anm_idle_sprint_end_jammed        				= vintoreztactco_sprint_end, idle_jammed 
 ;-----------------------------------------------------------------------------
 ; Аддоны
 ;-----------------------------------------------------------------------------
