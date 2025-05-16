@@ -51,6 +51,14 @@
 		<text>This modern version of the Duty bodysuit is better suited for stalker recruits who are used to lightweight suits. Unlike the PSZ series, this suit provides good protection against anomalies while also being capable of stopping a pistol bullet. The suit cannot be modified with an artifact container, but may be upgraded with a combat support system instead.</text>
 	</string>
 
+<!-- (класс "1") ЧН-1 -->
+	<string id="csky_light_outfit_name">
+		<text>CS-1 body armor</text>
+	</string>
+	<string id="csky_light_outfit_description">
+		<text>This body armor was designed for conducting search operations in areas of low anomalous activity. Its higher quality materials result in greater durability. Includes a container capable of holding one artifact.</text>
+	</string>
+
 <!-- (класс "хз") ЧН-2 -->
 	<string id="csky_standart_outfit_name">
 		<text>CS-2 body armor</text>
