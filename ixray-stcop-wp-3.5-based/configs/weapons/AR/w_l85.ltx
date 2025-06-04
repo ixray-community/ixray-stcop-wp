@@ -1,14 +1,14 @@
-; Штурмовая винтовка (автомат) Enfield L85A2
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) Enfield L85A2
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 						5.56x45 мм
-; длина ствола 					518 мм
-; магазин						30
-; вес с пустым магазином		4.61 кг
-; максимальная дальность стрельбы	3600 м
-; эффективная дальность стрельбы	500 м
-; прицельная дальность			600 м
-; дульная скорость пули			940 м/с
-; темп стрельбы					610-775 в/м
+; пїЅпїЅпїЅпїЅпїЅпїЅ 						5.56x45 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 					518 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ						30
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ		4.61 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ	3600 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ	500 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			600 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ			940 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ					610-775 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_l85]:weapon_probability,default_weapon_params,wpn_l85_sounds
 GroupControlSection				= spawn_group
@@ -238,7 +238,7 @@ anm_reload						= l85_bs_reload, reload
 anm_reload_empty				= l85_bs_reload_empty, reload_empty
 anm_reload_misfire				= l85_bs_unjam, unjam
 anm_switch_mode					= l85_bs_firemode, idle
-anm_shots						= l85_bs_shoot, shoot
+anm_shoot						= l85_bs_shoot, shoot
 anm_show						= l85_bs_draw, idle
 anm_bore						= l85_bs_idle, idle
 
@@ -251,7 +251,7 @@ gl_hud_offset_rot_16x9			= 0,0,0
 lean_hud_offset_pos				= 0,0,0
 lean_hud_offset_rot				= 0,0,0
 ;-----------------------------------------------------------------------------
-; Аддоны
+; пїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_l85_wpn_addon_scope_susat]:wpn_l85
 $spawn             				= "weapons\wpn_l85_wpn_addon_scope_susat"
@@ -270,7 +270,7 @@ aim_hud_offset_rot				= -0.054750,0.001538,0
 aim_hud_offset_pos_16x9			= -0.068490,-0.001000,-0.185
 aim_hud_offset_rot_16x9			= -0.054750,0.001538,0
 ;-----------------------------------------------------------------------------
-; Уникальные
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_l85_m1]:wpn_l85,wpn_l85_m1_sounds
 hud								= wpn_l85_m1_hud
@@ -338,7 +338,7 @@ anm_idle_moving					= wpn_hand_walk_l85, idle
 anm_idle_sprint					= wpn_hand_run_alone_hand_l85, idle
 anm_reload						= wpn_hand_reload_l85, wpn_reload_l85
 anm_reload_empty				= wpn_hand_reload_empty_l85, wpn_reload_empty_l85
-anm_shots						= wpn_hand_shoot_l85, wpn_shoot_l85
+anm_shoot						= wpn_hand_shoot_l85, wpn_shoot_l85
 anm_show						= wpn_hand_in_l85, idle
 anm_reload_misfire				= wpn_hand_misfire_l85, wpn_misfire_l85
 anm_bore						= wpn_hand_boring_l85, idle
@@ -353,7 +353,7 @@ anm_idle_moving_crouch_empty             = wpn_hand_walk_l85, wpn_idle_empty_l85
 anm_idle_aim_moving_crouch_empty         = wpn_hand_walk_l85, wpn_idle_empty_l85
 anm_idle_moving_empty                    = wpn_hand_walk_l85, wpn_idle_empty_l85
 anm_idle_sprint_empty                    = wpn_hand_run_alone_hand_l85, wpn_idle_empty_l85
-anm_shots_empty                          = wpn_hand_shoot_l85, wpn_shoot_empty_l85
+anm_shoot_empty                          = wpn_hand_shoot_l85, wpn_shoot_empty_l85
 anm_show_empty                           = wpn_hand_in_l85, wpn_idle_empty_l85
 anm_bore_empty				             = wpn_hand_boring_l85, wpn_idle_empty_l85
 
@@ -369,7 +369,7 @@ anm_idle_w_gl                            = wpn_hand_idle_w_gl_l85, wpn_idle_w_gl
 anm_idle_w_gl_aim                        = wpn_hand_idle_w_gl_l85_aim, wpn_idle_w_gl_l85
 anm_reload_w_gl                          = wpn_hand_reload_w_gl_l85, wpn_reload_w_gl_l85
 anm_reload_empty_w_gl                    = wpn_hand_reload_empty_w_gl_l85, wpn_reload_empty_w_gl_l85
-anm_shots_w_gl                           = wpn_hand_shoot_w_gl_l85, wpn_shoot_w_gl_l85
+anm_shoot_w_gl                           = wpn_hand_shoot_w_gl_l85, wpn_shoot_w_gl_l85
 anm_show_w_gl                            = wpn_hand_in_w_gl_l85, wpn_idle_w_gl_l85
 anm_switch_g                             = wpn_hand_on_gl_l85, wpn_on_gl_l85
 anm_reload_misfire_w_gl                  = wpn_hand_misfire_w_gl_l85, wpn_misfire_w_gl_l85
@@ -384,7 +384,7 @@ anm_idle_moving_empty_w_gl               = wpn_hand_walk_w_gl_l85, wpn_idle_w_gl
 anm_idle_moving_empty_w_gl_aim           = wpn_hand_walk_w_gl_l85_aim, wpn_idle_w_gl_empty_l85
 anm_idle_sprint_empty_w_gl               = wpn_hand_run_alone_hand_l85, wpn_idle_w_gl_empty_l85
 anm_idle_empty_w_gl_aim                  = wpn_hand_idle_w_gl_l85, wpn_idle_w_gl_empty_l85
-anm_shots_empty_w_gl                     = wpn_hand_shoot_w_gl_l85, wpn_shoot_w_gl_empty_l85
+anm_shoot_empty_w_gl                     = wpn_hand_shoot_w_gl_l85, wpn_shoot_w_gl_empty_l85
 anm_show_empty_w_gl                      = wpn_hand_in_w_gl_l85, wpn_idle_w_gl_empty_l85
 anm_bore_empty_w_gl		                 = wpn_hand_boring_l85, wpn_idle_w_gl_empty_l85
 anm_idle_empty_w_gl                      = wpn_hand_idle_w_gl_l85, wpn_idle_w_gl_empty_l85
@@ -399,14 +399,14 @@ anm_idle_moving_g				= wpn_hand_walk_gl_l85, wpn_idle_gl_l85
 anm_idle_moving_g_aim			= wpn_hand_walk_gl_l85_aim, wpn_idle_gl_l85
 anm_idle_sprint_g				= wpn_hand_run_alone_hand_l85, wpn_idle_gl_l85
 anm_reload_g					= wpn_hand_reload_gl_l85, wpn_reload_gl_l85
-anm_shots_g						= wpn_hand_shoot_gl_l85, wpn_idle_gl_l85
+anm_shoot_g						= wpn_hand_shoot_gl_l85, wpn_idle_gl_l85
 anm_show_g						= wpn_hand_in_gl_l85, wpn_in_gl_l85
 anm_switch						= wpn_hand_off_gl_l85, wpn_off_gl_l85
 
 lean_hud_offset_pos				= 0,0,0
 lean_hud_offset_rot				= 0,0,0
 ;-----------------------------------------------------------------------------
-; Аддоны
+; пїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_l85_m1_wpn_addon_scope_susat]:wpn_l85_m1
 $spawn             				= "weapons\wpn_l85_m1_wpn_addon_scope_susat"

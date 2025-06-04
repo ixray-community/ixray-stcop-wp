@@ -1,15 +1,15 @@
-; турмовой карабин (автомат) Heckler-Koch G36
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) Heckler-Koch G36
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 						5.56x45 мм
-; длина ствола 					480 мм
-; магазин						30
-; вес с пустым магазином		3.77 кг
-; оптический прицел				x1.5/х3
-; максимальнаЯ дальность стрельбы	3550 м
-; эффективнаЯ дальность стрельбы	440 м
-; прицельнаЯ дальность			800 м
-; дульнаЯ скорость пули			915 м/с
-; темп стрельбы					750 в/м
+; пїЅпїЅпїЅпїЅпїЅпїЅ 						5.56x45 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 					480 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ						30
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ		3.77 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ				x1.5/пїЅ3
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ	3550 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ	440 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			800 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ			915 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ					750 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_g36]:weapon_probability,default_weapon_params,wpn_g36_sounds
 GroupControlSection				= spawn_group
@@ -236,8 +236,8 @@ anm_hide             			= hk_g36_holster
 anm_idle             			= hk_g36_idle
 anm_idle_sprint       		  	= hk_g36_idle_sprint
 anm_idle_moving 				= hk_g36_idle_move
-anm_shots               		= hk_g36_shoot
-anm_shots_when_aim              = hk_g36_shoot_scope
+anm_shoot               		= hk_g36_shoot
+anm_shoot_aim             = hk_g36_shoot_scope
 anm_reload              		= hk_g36_reload
 anm_reload_empty              	= hk_g36_reload_empty
 anm_reload_misfire              = hk_g36_misfire
@@ -250,7 +250,7 @@ anm_switch_g            		= hk_g36_switch_on
 anm_hide_w_gl          		 	= hk_g36_holster_w_gl
 anm_show_w_gl          		 	= hk_g36_draw_w_gl
 anm_idle_w_gl           		= hk_g36_idle_w_gl, idle_w_gl
-anm_shots_w_gl          		= hk_g36_shoot_w_gl
+anm_shoot_w_gl          		= hk_g36_shoot_w_gl
 anm_reload_w_gl         		= hk_g36_reload_w_gl
 anm_reload_empty_w_gl           = hk_g36_reload_empty_w_gl
 anm_reload_misfire_w_gl         = hk_g36_misfire_w_gl
@@ -264,7 +264,7 @@ anm_hide_g         				= hk_g36_holster_w_gl, hk_g36_holster_grenade
 anm_idle_g         				= hk_g36_idle_w_gl, idle_grenade
 anm_reload_g       				= hk_g36_reload_grenade
 anm_idle_g_aim     				= hk_g36_idle_aim_w_gl, idle_grenade
-anm_shots_g        				= hk_g36_shoot_grenade
+anm_shoot_g        				= hk_g36_shoot_grenade
 anm_idle_sprint_g				= hk_g36_idle_sprint_w_gl, idle_grenade 
 anm_idle_moving_g				= hk_g36_idle_move_w_gl, idle_grenade 
 anm_bore_g						= hk_g36_idle_bore_w_gl, idle_grenade 
@@ -272,7 +272,7 @@ anm_bore_g						= hk_g36_idle_bore_w_gl, idle_grenade
 lean_hud_offset_pos				= 0,0,0
 lean_hud_offset_rot				= 0,0,0
 ;-----------------------------------------------------------------------------
-; Уникальные
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_g36_nimble]:wpn_g36
 $spawn                  		= "weapons\wpn_g36_nimble"
