@@ -226,11 +226,11 @@ fire_bone2						= wpn_body
 fire_point						= 0,0,0
 fire_point2						= 0,0,0
 
+disable_bore = true
+
 anm_hide						= l85_bs_holster, idle
 anm_idle						= l85_bs_idle, idle
 anm_idle_aim					= l85_bs_loop, idle
-anm_idle_aim_moving				= l85_bs_loop, idle
-anm_idle_aim_moving_crouch		= l85_bs_loop, idle
 anm_idle_moving					= l85_bs_walk, idle
 anm_idle_moving_crouch			= l85_bs_walk, idle
 anm_idle_sprint					= l85_bs_sprint, idle
@@ -240,7 +240,6 @@ anm_reload_jammed				= l85_bs_unjam, unjam
 anm_switch_mode					= l85_bs_firemode, idle
 anm_shoot						= l85_bs_shoot, shoot
 anm_show						= l85_bs_draw, idle
-anm_bore						= l85_bs_idle, idle
 
 gl_hud_offset_pos				= 0,0,0
 gl_hud_offset_pos_16x9			= 0,0,0
@@ -328,12 +327,12 @@ gl_hud_offset_rot_16x9			= -0.044000,0.006850,0.065000
 
 shell_point						= 0.01,-0.05,-0.1
 
+disable_bore = false
+
 anm_hide						= wpn_hand_out_l85, idle
 anm_idle						= wpn_hand_idle_l85, idle
 anm_idle_aim					= wpn_hand_idle_l85_aim, idle
-anm_idle_aim_moving				= wpn_hand_idle_l85_aim, idle
 anm_idle_moving_crouch			= wpn_hand_walk_l85, idle
-anm_idle_aim_moving_crouch		= wpn_hand_walk_l85_aim, idle
 anm_idle_moving					= wpn_hand_walk_l85, idle
 anm_idle_sprint					= wpn_hand_run_alone_hand_l85, idle
 anm_reload						= wpn_hand_reload_l85, wpn_reload_l85
@@ -348,9 +347,7 @@ anm_bore						= wpn_hand_boring_l85, idle
 anm_hide_empty                           = wpn_hand_out_l85, wpn_idle_empty_l85
 anm_idle_empty                           = wpn_hand_idle_l85, wpn_idle_empty_l85
 anm_idle_aim_empty                       = wpn_hand_idle_l85_aim, wpn_idle_empty_l85
-anm_idle_aim_moving_empty                = wpn_hand_walk_l85, wpn_idle_empty_l85
 anm_idle_moving_crouch_empty             = wpn_hand_walk_l85, wpn_idle_empty_l85
-anm_idle_aim_moving_crouch_empty         = wpn_hand_walk_l85, wpn_idle_empty_l85
 anm_idle_moving_empty                    = wpn_hand_walk_l85, wpn_idle_empty_l85
 anm_idle_sprint_empty                    = wpn_hand_run_alone_hand_l85, wpn_idle_empty_l85
 anm_shoot_empty                          = wpn_hand_shoot_l85, wpn_shoot_empty_l85
@@ -363,7 +360,6 @@ anm_bore_empty				             = wpn_hand_boring_l85, wpn_idle_empty_l85
 anm_hide_w_gl                            = wpn_hand_out_w_gl_l85, wpn_idle_w_gl_l85
 anm_idle_moving_crouch_w_gl          = wpn_hand_walk_w_gl_l85, wpn_idle_w_gl_l85
 anm_idle_moving_w_gl                     = wpn_hand_walk_w_gl_l85, wpn_idle_w_gl_l85
-anm_idle_moving_aim_w_gl                 = wpn_hand_walk_w_gl_l85, wpn_idle_w_gl_l85
 anm_idle_sprint_w_gl                     = wpn_hand_run_alone_hand_l85, wpn_idle_w_gl_l85
 anm_idle_w_gl                            = wpn_hand_idle_w_gl_l85, wpn_idle_w_gl_l85
 anm_idle_aim_w_gl                        = wpn_hand_idle_w_gl_l85_aim, wpn_idle_w_gl_l85
@@ -396,7 +392,6 @@ anm_hide_g						= wpn_hand_out_gl_l85, wpn_idle_gl_l85
 anm_idle_g						= wpn_hand_idle_gl_l85, wpn_idle_gl_l85
 anm_idle_aim_g					= wpn_hand_idle_gl_l85_aim, wpn_idle_gl_l85
 anm_idle_moving_g				= wpn_hand_walk_gl_l85, wpn_idle_gl_l85
-anm_idle_moving_aim_g			= wpn_hand_walk_gl_l85_aim, wpn_idle_gl_l85
 anm_idle_sprint_g				= wpn_hand_run_alone_hand_l85, wpn_idle_gl_l85
 anm_reload_g					= wpn_hand_reload_gl_l85, wpn_reload_gl_l85
 anm_shoot_g						= wpn_hand_shoot_gl_l85, wpn_idle_gl_l85

@@ -192,7 +192,7 @@ silencer_light_var_color		= 0.05
 silencer_light_var_range		= 0.5
 silencer_light_time				= 0.2
 
-[wpn_ak105_hud]
+[wpn_ak105_hud]:hud_base
 zoom_hide_crosshair        		= true
 attach_place_idx        		= 0
 item_visual                		= dynamics\weapons\wpn_ak105\wpn_ak105_hud.ogf
@@ -223,25 +223,22 @@ shell_bone                		= wpn_body
 
 anm_show						= ak105_draw, draw
 anm_hide                		= ak105_holster, holster
+
 anm_idle                		= ak105_idle, idle
+anm_idle_aim            		= ak105_idle_aim
+
 anm_idle_sprint         		= ak105_idle_sprint
 anm_idle_moving         		= ak105_idle_walk
+anm_idle_moving_crouch  		= ak105_idle_crouch_walk, idle
+
 anm_shoot               		= ak105_shoot, shoot
+
 anm_reload	        			= ak105_reload, reload
 anm_reload_empty	        	= ak105_reload_empty, reload_empty
-anm_idle_moving_crouch  		= ak105_idle_crouch_walk, idle
-anm_idle_aim            		= ak105_idle_aim
-anm_bore                		= ak105_idle_bore
 anm_reload_jammed	        	= ak105_misfire
 
-gl_hud_offset_pos				= 0,0,0
-gl_hud_offset_pos_16x9          = 0,0,0
+anm_bore                		= ak105_idle_bore
 
-gl_hud_offset_rot               = 0,0,0
-gl_hud_offset_rot_16x9          = 0,0,0
-
-lean_hud_offset_pos             = 0,0,0
-lean_hud_offset_rot             = 0,0,0
 ;-----------------------------------------------------------------------------
 ; ְההמםû
 ;-----------------------------------------------------------------------------

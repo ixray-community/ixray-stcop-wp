@@ -228,56 +228,75 @@ gl_hud_offset_rot_16x9				= -0.455438,0.042500,0.085000
 shell_bone                  	= wpn_body
 shell_dir                   	= 0, 1, 0
 shell_point                 	= 0, 0, 0
-        
+
 fire_bone                  	 	= wpn_body
 fire_bone2                  	= wpn_body
 fire_point						= 0.002,-0.003500,0.412998
 fire_point2                 	= 0, 0, 0
- 
-anm_show						= abakan_guns_draw
+
+disable_bore = true
+
+;Анимации доставания
+anm_show								= abakan_guns_draw
+anm_show_w_gl                         	= abakan_guns_draw_w_gl
+anm_show_g                            	= abakan_guns_draw_g, idle_g
+
+;Анимации прятания
 anm_hide                              	= abakan_guns_holster
+anm_hide_w_gl                         	= abakan_guns_holster_w_gl
+anm_hide_g                           	= abakan_guns_holster_g, idle_g
+
+;Анимации бездействия
 anm_idle                              	= abakan_guns_idle
 anm_idle_aim                          	= abakan_guns_idle_aim
+
+anm_idle_w_gl                         	= abakan_guns_idle_w_gl
+anm_idle_aim_w_gl                     	= abakan_guns_idle_aim_w_gl
+
+anm_idle_g                            	= abakan_guns_idle_g, idle_g
+anm_idle_aim_g                        	= abakan_guns_idle_aim_g, idle_g
+
+;Анимации движения
 anm_idle_sprint                       	= abakan_guns_sprint
 anm_idle_moving                       	= abakan_guns_move
 anm_idle_moving_slow                  	= abakan_guns_move_slow
 anm_idle_moving_crouch                	= abakan_guns_move_crouch
-anm_shoot_aim                   	= abakan_guns_shoot_aim, shoot_aim
-anm_shoot                             	= abakan_guns_shoot, shoot
-anm_reload                            	= abakan_guns_reload, reload
-anm_reload_empty                      	= abakan_guns_reload_empty, reload_empty
-anm_reload_jammed                   	= abakan_guns_misfire, misfire
-anm_bore                              	= abakan_guns_idle_aim
-anm_switch                            	= abakan_guns_switch_g_off, switch_off
-anm_switch_g                          	= abakan_guns_switch_g_on, switch_on
-anm_hide_w_gl                         	= abakan_guns_holster_w_gl
-anm_show_w_gl                         	= abakan_guns_draw_w_gl
-anm_idle_w_gl                         	= abakan_guns_idle_w_gl
-anm_shoot_w_gl                       	= abakan_guns_shoot_w_gl, shoot
-anm_shoot_aim_w_gl               	= abakan_guns_shoot_aim_w_gl, shoot
-anm_reload_w_gl                       	= abakan_guns_reload_w_gl, reload
-anm_reload_empty_w_gl                 	= abakan_guns_reload_empty_w_gl, reload_empty
-anm_reload_jammed_w_gl               	= abakan_guns_misfire_w_gl, misfire
-anm_idle_aim_w_gl                     	= abakan_guns_idle_aim_w_gl
+
 anm_idle_sprint_w_gl                  	= abakan_guns_sprint_w_gl
 anm_idle_moving_slow_w_gl             	= abakan_guns_move_slow_w_gl
 anm_idle_moving_w_gl                  	= abakan_guns_move_w_gl
 anm_idle_moving_crouch_w_gl           	= abakan_guns_move_crouch_w_gl
-anm_bore_w_gl                         	= abakan_guns_idle_aim_w_gl
-anm_show_g                            	= abakan_guns_draw_g, idle_g
-anm_hide_g                           	= abakan_guns_holster_g, idle_g
-anm_idle_g                            	= abakan_guns_idle_g, idle_g
-anm_reload_g                          	= abakan_guns_reload_g, reload_g
-anm_idle_aim_g                        	= abakan_guns_idle_aim_g, idle_g
-anm_shoot_g                           	= abakan_guns_shoot_g, shoot_g
+
 anm_idle_sprint_g                     	= abakan_guns_sprint_g, idle_g
 anm_idle_moving_g                     	= abakan_guns_move_g, idle_g
 anm_idle_moving_slow_g                	= abakan_guns_move_slow_g, idle_g
-anm_idle_moving_crouch_g		= abakan_guns_move_crouch_g, idle_g
-anm_bore_g						= abakan_guns_idle_aim_g, idle_g
-      
-lean_hud_offset_pos        		= 0,0,0
-lean_hud_offset_rot        		= 0,0,0
+anm_idle_moving_crouch_g				= abakan_guns_move_crouch_g, idle_g
+
+;Анимации перезарядки
+anm_reload                            	= abakan_guns_reload, reload
+anm_reload_empty                      	= abakan_guns_reload_empty, reload_empty
+anm_reload_jammed                   	= abakan_guns_misfire, misfire
+
+anm_reload_w_gl                       	= abakan_guns_reload_w_gl, reload
+anm_reload_empty_w_gl                 	= abakan_guns_reload_empty_w_gl, reload_empty
+anm_reload_jammed_w_gl               	= abakan_guns_misfire_w_gl, misfire
+
+anm_reload_g                          	= abakan_guns_reload_g, reload_g
+
+;Анимации выстрелов
+anm_shoot                             	= abakan_guns_shoot, shoot
+anm_shoot_aim                   		= abakan_guns_shoot_aim, shoot_aim
+
+anm_shoot_w_gl                       	= abakan_guns_shoot_w_gl, shoot
+anm_shoot_aim_w_gl               		= abakan_guns_shoot_aim_w_gl, shoot_aim
+
+anm_shoot_g                           	= abakan_guns_shoot_g, shoot_g
+anm_shoot_aim_g                         = abakan_guns_shoot_g, shoot_g
+
+;Анимации перехода режима гранатомёта
+anm_switch                            	= abakan_guns_switch_g_off, switch_off
+anm_switch_g                          	= abakan_guns_switch_g_on, switch_on
+
 ;-----------------------------------------------------------------------------
 ; Аддоны
 ;-----------------------------------------------------------------------------
