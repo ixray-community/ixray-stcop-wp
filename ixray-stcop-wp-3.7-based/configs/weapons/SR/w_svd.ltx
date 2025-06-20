@@ -293,12 +293,6 @@ anm_idle_sprint_end_jammed        				= ssd_sprint_end, idle_jammed
 		
 ;--- Паттерны спринта---
 
-gl_hud_offset_pos                        		= 0, 0, 0
-gl_hud_offset_rot                        		= 0, 0, 0
-
-lean_hud_offset_pos                      		= 0, 0, 0
-lean_hud_offset_rot                      		= 0, 0, 0
-
 ts_pattern_sprint_start      					= .+, anm_idle_sprint, anm_sprint_start, 1
 ts_pattern_sprint_end        					= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
 ts_strict_sprint_end_move    					= anm_sprint_start, anm_idle_moving, anm_sprint_end
