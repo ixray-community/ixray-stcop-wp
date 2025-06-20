@@ -238,7 +238,7 @@ anm_idle_sprint_1                  			= izh_sprint
 anm_idle_sprint_2                			= izh_sprint
 anm_reload_1                 				= izh_reload, toz34_reload
 anm_reload_2                      			= izh_reload, toz34_reload
-anm_shots                        			= izh_shoot, idle
+anm_shoot                        			= izh_shoot, idle
 anm_show                           			= izh_draw
 anm_show_0                          		= izh_draw
 anm_show_1                         			= izh_draw
@@ -248,8 +248,8 @@ anm_reload_misfire              			= izh_misfire, toz34_revival
 ;anm_idle_aim_end        					= izh_aim_end, idle
 anm_shot_1                         			= izh_shoot, idle
 anm_shot_2                     				= izh_shoot, idle
-anm_shots_aim_scope                 		= izh18_shoot_scope
-anm_shots_last_aim_scope              		= izh18_shoot_scope
+anm_shoot_aim_scope                 		= izh18_shoot_scope
+anm_shoot_last_aim_scope              		= izh18_shoot_scope
 anm_bore                           			= izh18_aim
 anm_bore_0                         			= izh18_aim
 anm_bore_1                         			= izh18_aim
@@ -273,11 +273,11 @@ ts_pattern_idle_sprint_end              	= anm_idle_sprint, ^anm_idle.*, anm_idl
 ts_strict_idle_sprint_end_move         		= anm_idle_sprint_start, anm_idle_moving, anm_idle_sprint_end	
 			
 ;--- Переходы выстрела в аиме---
-;anm_shots_aim 								= izh_aim_shoot, idle
+;anm_shoot_aim 								= izh_aim_shoot, idle
 	
 ;--- Паттерны выстрела в аиме---
-ts_pattern_aimshoot1_start      			= anm_idle_aim, anm_shot_1, anm_shots_aim
-ts_pattern_aimshoot2_start        			= anm_idle_aim, anm_shot_2, anm_shots_aim
+ts_pattern_aimshoot1_start      			= anm_idle_aim, anm_shot_1, anm_shoot_aim
+ts_pattern_aimshoot2_start        			= anm_idle_aim, anm_shot_2, anm_shoot_aim
 
 freelook_z_offset_mul						= 0.4
 ;-----------------------------------------------------------------------------
