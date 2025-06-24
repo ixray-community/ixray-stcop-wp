@@ -543,13 +543,6 @@
 	<string id="st_addon_scope_acog_descr">
 		<text>4-х кратный оптический прицел для винтовок НАТО.</text>
 	</string>
-<!-- Прицел ELCAN SpecterDR -->
-	<string id="st_addon_scope_specterDR">
-		<text>Прицел ELCAN SpecterDR</text>
-	</string>
-	<string id="st_addon_scope_specterDR_descr">
-		<text>Оптический прицел с изменяемой кратностью, призванный прийти на замену 4-x кратному прицелу ACOG от компании Trijicon.</text>
-	</string>
 <!-- Прицел Barska ELECTRO SIGHT AC10632 -->
 	<string id="st_addon_scope_ac10632">
 		<text>Прицел Barska ELECTRO SIGHT AC10632</text>
@@ -682,13 +675,6 @@
 	</string>
 	<string id="st_addon_sil_57_descr">
 		<text>Прибор бесшумной стрельбы для пистолета FN Five-Seven.</text>
-	</string>
-<!-- Глушак для АПС -->
-	<string id="st_addon_sil_aps">
-		<text>Глушитель для АПС</text>
-	</string>
-	<string id="st_addon_sil_aps_descr">
-		<text>Прибор бесшумной стрельбы для пистолета АПС.</text>
 	</string>
 <!-- Глушитель 45-го калибра. -->
 	<string id="st_addon_sil_45">

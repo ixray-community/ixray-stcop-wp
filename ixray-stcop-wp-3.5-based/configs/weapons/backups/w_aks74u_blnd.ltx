@@ -20,7 +20,7 @@ cform					= skeleton
 class					= WP_AK74
 description				= st_wpn_ak74u_descr
 
-scopes 					= 1p78,1pn93-1,kobra,ekp,okp
+scopes 					= 1p78,1pn93-1,ekp,okp
 parent_section  			= wpn_ak74u
 
 ef_main_weapon_type			= 2
@@ -171,7 +171,7 @@ zoom_enabled				= true
 zoom_rotate_time			= 0.2
 scope_zoom_factor			= 83.3
 
-scope_name 				= pso
+scope_name 				= 
 scope_x					= 23
 scope_y					= 7
 
@@ -301,23 +301,6 @@ aim_hud_offset_rot			= 0.029500,0.009375,0.000000
 
 aim_hud_offset_pos_16x9			= -0.060800,-0.003350,-0.121750
 aim_hud_offset_rot_16x9			= 0.029500,0.009375,0.000000
-
-[wpn_ak74u_kobra]:wpn_ak74u
-$spawn             			= "weapons\wpn_ak74u_kobra"
-hud					= wpn_ak74u_kobra_hud
-visual					= dynamics\weapons\wpn_ak74u\wpn_ak74u_kobra.ogf
-
-scope_x					= 57
-scope_y					= 12
-
-[wpn_ak74u_kobra_hud]:wpn_ak74u_hud
-item_visual               		= dynamics\weapons\wpn_ak74u\wpn_ak74u_kobra_hud.ogf
-
-aim_hud_offset_pos			= -0.060725,0.004150,-0.150253
-aim_hud_offset_rot			= -0.011194,-0.058338,-0.001500
-
-aim_hud_offset_pos_16x9			= -0.060725,0.004150,-0.150253
-aim_hud_offset_rot_16x9			= -0.011194,-0.058338,-0.001500
 
 [wpn_ak74u_okp]:wpn_ak74u
 $spawn             			= "weapons\wpn_ak74u_okp"
@@ -464,23 +447,6 @@ aim_hud_offset_rot			= 0.014814,-0.067386,-0.003500
 aim_hud_offset_pos_16x9			= -0.064850,-0.002150,-0.118750
 aim_hud_offset_rot_16x9			= 0.014814,-0.067386,-0.003500
 
-[wpn_ak74u_actor_kobra]:wpn_ak74u_actor
-$spawn             			= "weapons\wpn_ak74u_actor_kobra"
-hud					= wpn_ak74u_actor_kobra_hud
-visual					= dynamics\weapons\wpn_ak74u\wpn_ak74u_actor_kobra.ogf
-
-scope_x                     		= 62
-scope_y                     		= 15
-
-[wpn_ak74u_actor_kobra_hud]:wpn_ak74u_actor_hud
-item_visual                		= dynamics\weapons\wpn_ak74u\wpn_ak74u_actor_kobra_hud.ogf
-
-aim_hud_offset_pos			= -0.061350,-0.002150,-0.142250
-aim_hud_offset_rot			= -0.010211,-0.078061,-0.010000
-
-aim_hud_offset_pos_16x9			= -0.061350,-0.002150,-0.142250
-aim_hud_offset_rot_16x9			= -0.010211,-0.078061,-0.010000
-
 [wpn_ak74u_actor_pso]:wpn_ak74u_actor
 $spawn             			= "weapons\wpn_ak74u_actor_pso"
 hud					= wpn_ak74u_actor_pso_hud
@@ -548,58 +514,3 @@ bullet_speed				= 310
 
 silencer_status				= 1
 scope_status				= 0
-
-[wpn_ak74u_snag_hud]:wpn_ak74u_kobra_hud
-item_visual               		= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_hud.ogf
-
-aim_hud_offset_pos			= -0.060725,0.005525,-0.144253
-aim_hud_offset_rot			= -0.011694,-0.058275,-0.011500
-
-aim_hud_offset_pos_16x9			= -0.060725,0.005525,-0.144253
-aim_hud_offset_rot_16x9			= -0.011694,-0.058275,-0.011500
-;-----------------------------------------------------------------------------
-; Ўкурки
-;-----------------------------------------------------------------------------
-[wpn_ak74u_sk1]:wpn_ak74u
-$spawn					= "weapons\ak-74u_sk1"
-description				= st_wpn_ak74u_without_rail_descr
-
-hud					= wpn_ak74u_sk1_hud
-visual					= dynamics\weapons\wpn_ak74u\wpn_ak74u_sk1.ogf
-
-inv_weight				= 2.7
-
-inv_grid_x				= 29
-
-upgr_icon_x				= 900
-upgr_icon_y				= 1200
-
-scopes 					= none
-parent_section  			= wpn_ak74u_sk1
-
-scope_status				= 0
-
-[wpn_ak74u_sk1_hud]:wpn_ak74u_hud
-item_visual				= dynamics\weapons\wpn_ak74u\wpn_ak74u_sk1_hud.ogf
-;-----------------------------------------------------------------------------
-[wpn_ak74u_sk2]:wpn_ak74u
-$spawn					= "weapons\ak-74u_sk2"
-description				= st_wpn_ak74u_without_rail_descr
-
-hud					= wpn_ak74u_sk2_hud
-visual					= dynamics\weapons\wpn_ak74u\wpn_ak74u_sk2.ogf
-
-inv_weight				= 2.7
-
-inv_grid_x				= 33
-
-upgr_icon_x				= 900
-upgr_icon_y				= 1300
-
-scopes 					= none
-parent_section  			= wpn_ak74u_sk2
-
-scope_status				= 0
-
-[wpn_ak74u_sk2_hud]:wpn_ak74u_sk1_hud
-item_visual				= dynamics\weapons\wpn_ak74u\wpn_ak74u_sk2_hud.ogf

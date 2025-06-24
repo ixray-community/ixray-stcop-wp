@@ -337,23 +337,6 @@ tracer					= off
 wm_size					= 0.21082
 k_air_resistance			= 2.4
 ;-------------------------------------------------------------------------------
-[ammo_357]:ammo_11.43x23_fmj
-$spawn					= "weapons\ammo\ammo_357"
-visual					= dynamics\weapons\wpn_ammo\ammo_357_hp.ogf
-description				= ammo-357_descr
-
-cost					= 550
-
-inv_name				= ammo-357
-inv_name_short				= ammo-357_s
-inv_weight				= 0.75
-
-inv_grid_x				= 12
-inv_grid_y				= 37
-
-k_pierce				= 0.95
-impair					= 1.45
-;-------------------------------------------------------------------------------
 [ammo_50ae]:ammo_11.43x23_hydro
 $spawn					= "weapons\ammo\ammo_50ae"
 visual					= dynamics\weapons\wpn_ammo\ammo_50_ae.ogf
@@ -1099,42 +1082,6 @@ tracer					= off
 
 wm_size					= 0.079
 k_air_resistance			= 1.17
-;-------------------------------------------------------------------------------
-[ammo_338_lapua]:ammo_base
-GroupControlSection			= spawn_group
-discovery_dependency 			= 
-class					= AMMO_S
-cform                   		= skeleton
-visual                  		= dynamics\weapons\wpn_ammo\ammo_86x70_fmj.ogf 
-description				= ammo-8,6x70-fmj_descr
-$prefetch 				= 64
-
-cost					= 6000
-
-box_size				= 20
-
-inv_name				= ammo-8,6x70-fmj
-inv_name_short				= ammo-8,6x70-fmj_s
-inv_weight				= 0.88
-
-inv_grid_width				= 2
-inv_grid_height				= 1
-inv_grid_x				= 14
-inv_grid_y				= 37
-
-k_dist					= 1.11
-k_disp					= 0.73
-k_hit					= 1.85
-k_impulse				= 9.0
-k_pierce				= 0.62
-k_ap		        		= 1.0
-impair					= 1
-buck_shot				= 1
-
-tracer							= off
-
-wm_size							= 0.079
-k_air_resistance				= 1.17
 ;-------------------------------------------------------------------------------
 [ammo_12.7x55_fmj]:ammo_base
 GroupControlSection				= spawn_group

@@ -5,12 +5,6 @@
     </auto_static>
   </wpn_crosshair>
 
-  <wpn_crosshair_1p29 x="0" y="0" width="2048" height="1536">
-    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
-      <texture>wpn_crosshair_1p29</texture>
-    </auto_static>
-  </wpn_crosshair_1p29>
-
   <wpn_crosshair_aug x="0" y="0" width="2048" height="1536">
     <auto_static x="0" y="0" width="1024" height="768" stretch="1">
       <texture>wpn_crosshair_aug</texture>
@@ -64,12 +58,6 @@
       <texture>wpn_crosshair_acog</texture>
     </auto_static>
   </wpn_crosshair_acog>
-
-  <wpn_crosshair_specter x="0" y="0" width="2048" height="1536">
-    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
-      <texture>wpn_crosshair_specter</texture>
-    </auto_static>
-  </wpn_crosshair_specter>
 
   <wpn_crosshair_bino x="0" y="0" width="2048" height="1536">
     <auto_static x="0" y="0" width="1024" height="768" stretch="1">

@@ -353,10 +353,6 @@
 		<texture id="ui_inGame2_upgrade_helm_respirator_2" x="1080" y="1871" width="90" height="44" />
 		<texture id="ui_inGame2_upgrade_helm_respirator_3" x="1080" y="1915" width="90" height="44" />
 
-		<texture id="ui_inGame2_upgrade_helm_respirator_gp7_1" x="990" y="1959" width="90" height="44" />
-		<texture id="ui_inGame2_upgrade_helm_respirator_gp7_2" x="1080" y="1959" width="90" height="44" />
-		<texture id="ui_inGame2_upgrade_helm_respirator_gp7_3" x="1080" y="2003" width="90" height="44" />
-
 		<texture id="ui_inGame2_upgrade_helm_hardhat_1" x="810" y="1871" width="90" height="44" />
 		<texture id="ui_inGame2_upgrade_helm_hardhat_2" x="900" y="1871" width="90" height="44" />
 		<texture id="ui_inGame2_upgrade_helm_hardhat_3" x="900" y="1915" width="90" height="44" />
