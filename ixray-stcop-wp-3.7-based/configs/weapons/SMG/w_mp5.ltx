@@ -1,14 +1,14 @@
-; Џистолет-пулемет Heckler-Koch MP5A3
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ Heckler-Koch MP5A3
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 									9х19 мм
-; длина ствола 								225 мм
-; магазин									30
-; вес с пустым магазином					3.1 кг
-; максимальнаЯ дальность стрельбы			1700 м
-; эффективнаЯ дальность стрельбы			100 м
-; прицельнаЯ дальность						200 м
-; дульнаЯ скорость пули						400 м/с
-; темп стрельбы								800 в/м
+; пїЅпїЅпїЅпїЅпїЅпїЅ 									9пїЅ19 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 								225 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ									30
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ					3.1 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			1700 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			100 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ						200 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ						400 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ								800 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_mp5]:weapon_probability,default_weapon_params,wpn_mp5_sounds
 GroupControlSection 						= spawn_group
@@ -221,10 +221,6 @@ anm_show									= teivazmp_draw
 anm_hide									= teivazmp_hide
 anm_idle									= teivazmp_idle
 anm_idle_aim								= teivazmp_aim
-;anm_idle_aim_moving						= teivazmp_idle,, 3.5
-;anm_idle_aim_moving_slow					= teivazmp_idle,, 3
-;anm_idle_aim_moving_crouch					= teivazmp_idle,, 2.5
-;anm_idle_aim_moving_crouch_slow			= teivazmp_idle,, 2
 anm_idle_moving								= teivazmp_walk
 anm_idle_moving_slow						= teivazmp_walk,, 0.8
 anm_idle_moving_crouch						= teivazmp_walk,, 0.6
@@ -248,10 +244,6 @@ anm_idle_aim_end		         			= teivazmp_aim_end, idle
 anm_hide_jammed                   			= teivazmp_hide, idle_jammed         
 anm_idle_jammed                   			= teivazmp_idle, idle_jammed
 anm_idle_aim_jammed             			= teivazmp_aim, idle_jammed
-;anm_idle_aim_moving_jammed       			= teivazmp_walk, idle_jammed, 0.6
-;anm_idle_aim_moving_slow_jammed  			= teivazmp_walk, idle_jammed, 0.5
-;anm_idle_aim_moving_crouch_jammed  		= teivazmp_walk, idle_jammed, 0.4
-;anm_idle_aim_moving_crouch_slow_jammed  	= teivazmp_walk, idle_jammed, 0.3
 anm_idle_moving_jammed            			= teivazmp_walk, idle_jammed
 anm_idle_moving_slow_jammed      			= teivazmp_walk, idle_jammed, 0.8
 anm_idle_moving_crouch_jammed      			= teivazmp_walk, idle_jammed, 0.6
@@ -262,14 +254,14 @@ anm_idle_aim_start_jammed          			= teivazmp_aim_start, idle_jammed
 anm_idle_aim_end_jammed           			= teivazmp_aim_end, idle_jammed
 anm_changefiremode_jammed             		= teivazmp_fire_mode, idle_jammed
 
-;--- Џереходы спринта---
+;--- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ---
 
 anm_idle_sprint_start             			= teivazmp_sprint_start
 anm_idle_sprint_end               			= teivazmp_sprint_end
 anm_idle_sprint_start_jammed      			= teivazmp_sprint_start, idle_jammed   
 anm_idle_sprint_end_jammed        			= teivazmp_sprint_end, idle_jammed
 
-;--- Џаттерны спринта---
+;--- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ---
 
 ts_pattern_idle_sprint_start      			= .+, anm_idle_sprint, anm_idle_sprint_start, 1
 ts_pattern_idle_sprint_end        			= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end
@@ -359,5 +351,5 @@ aim_hud_offset_rot							= 0.017595,0.009758,0.000000
 aim_hud_offset_pos_16x9						= 0.042381,-0.047431,-0.034000
 aim_hud_offset_rot_16x9						= 0.017595,0.009758,0.000000
 ;-----------------------------------------------------------------------------
-; “никальные
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------

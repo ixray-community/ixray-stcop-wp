@@ -1,14 +1,14 @@
-; Лёгкая автоматическая винтовка FN FAL
+; ЛёпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ FN FAL
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 									7.62x51 мм
-; длина ствола 								533 мм
-; магазин									20/30
-; вес с пустым магазином на 30 патронов		4.45 кг
-; максимальнаЯ дальность стрельбы			-- м
-; эффективнаЯ дальность стрельбы			500 м
-; прицельнаЯ дальность						650 м
-; дульнаЯ скорость пули						823 м/с
-; темп стрельбы								650-700 в/с
+; пїЅпїЅпїЅпїЅпїЅпїЅ 									7.62x51 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 								533 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ									20/30
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 30 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ		4.45 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			-- пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			500 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ						650 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ						823 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ								650-700 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_fal]:weapon_probability,default_weapon_params,wpn_fal_sounds
 GroupControlSection							= spawn_group
@@ -226,10 +226,6 @@ anm_show                                    = sa58_new_draw, idle
 anm_hide                                    = sa58_new_holster, idle
 
 anm_idle                                    = sa58_new_idle, idle
-anm_idle_aim_moving                         = sa58_walk_aim, idle, 0.6
-anm_idle_aim_moving_slow          	      	= sa58_walk_aim, idle, 0.5
-anm_idle_aim_moving_crouch                  = sa58_walk_aim, idle, 0.4
-anm_idle_aim_moving_crouch_slow         	= sa58_walk_aim, idle, 0.3
 anm_idle_moving                             = sa58_new_walk, idle, 0.95
 anm_idle_moving_slow                      	= sa58_new_walk, idle, 0.75
 anm_idle_moving_crouch                      = sa58_new_walk, idle, 0.55
@@ -260,10 +256,6 @@ anm_show_empty                          	= sa58_new_draw, idle_empty
 anm_hide_empty                         		= sa58_new_holster, idle_empty
 
 anm_idle_empty                        		= sa58_new_idle, idle_empty
-anm_idle_aim_moving_empty               	= sa58_walk_aim, idle_empty, 0.6
-anm_idle_aim_moving_slow_empty         		= sa58_walk_aim, idle_empty, 0.5
-anm_idle_aim_moving_crouch_empty         	= sa58_walk_aim, idle_empty, 0.4
-anm_idle_aim_moving_crouch_slow_empty    	= sa58_walk_aim, idle_empty, 0.3
 anm_idle_moving_empty                    	= sa58_new_walk, idle_empty, 0.95
 anm_idle_moving_slow_empty               	= sa58_new_walk, idle_empty, 0.75
 anm_idle_moving_crouch_empty            	= sa58_new_walk, idle_empty, 0.55
@@ -287,10 +279,6 @@ anm_show_jammed                           	= sa58_new_draw, idle_jammed
 anm_hide_jammed                           	= sa58_new_holster, idle_jammed
 
 anm_idle_jammed                         	= sa58_new_idle, idle_jammed
-anm_idle_aim_moving_jammed               	= sa58_walk_aim, idle_jammed, 0.6
-anm_idle_aim_moving_slow_jammed         	= sa58_walk_aim, idle_jammed, 0.5
-anm_idle_aim_moving_crouch_jammed         	= sa58_walk_aim, idle_jammed, 0.4
-anm_idle_aim_moving_crouch_slow_jammed    	= sa58_walk_aim, idle_jammed, 0.3
 anm_idle_moving_jammed                    	= sa58_new_walk, idle_jammed, 0.95
 anm_idle_moving_slow_jammed               	= sa58_new_walk, idle_jammed, 0.75
 anm_idle_moving_crouch_jammed            	= sa58_new_walk, idle_jammed, 0.55
@@ -329,7 +317,7 @@ ts_strict_sprint2aim         				= anm_idle_sprint, anm_idle_aim, anm_sprint2wal
 ts_strict_sprint2inspect        			= anm_idle_sprint, anm_bore, anm_sprint2walk
 ts_strict_walk2sprint_inspect   			= anm_walk2sprint, anm_bore, anm_sprint2walk
 ;-----------------------------------------------------------------------------
-; Ђддоны
+; пїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_fal_ac10632]:wpn_fal
 $spawn             							= "weapons\fal_ac10632"
@@ -413,7 +401,7 @@ aim_hud_offset_rot							= 0.010867,-0.003259,-0.000255
 aim_hud_offset_pos_16x9						= -0.044441,-0.007232,-0.070006
 aim_hud_offset_rot_16x9						= 0.010867,-0.003259,-0.000255
 ;-----------------------------------------------------------------------------
-; “никальные
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_sa58]:wpn_fal,wpn_sa58_sounds
 $spawn										= "weapons\sa58"
@@ -483,10 +471,6 @@ anm_show									= sa_ins_draw
 anm_hide                					= sa_ins_hide
 anm_idle                					= sa_ins_idle, idle
 anm_idle_aim            					= sa_ins_idle_aim
-anm_idle_aim_moving          		 		= sa_ins_idle_aim
-anm_idle_aim_moving_slow          			= sa_ins_idle_aim
-anm_idle_aim_moving_crouch          		= sa_ins_idle_aim
-anm_idle_aim_moving_crouch_slow     		= sa_ins_idle_aim
 anm_idle_moving         					= sa_ins_idle_moving, idle
 anm_idle_moving_slow         				= sa_ins_idle_moving, idle, 0.8
 anm_idle_moving_crouch     					= sa_ins_idle_moving, idle, 0.6
@@ -509,7 +493,7 @@ gl_hud_offset_rot							= 0,0,0
 gl_hud_offset_pos_16x9						= 0,0,0
 gl_hud_offset_rot_16x9						= 0,0,0
 ;-----------------------------------------------------------------------------
-; Ђддоны
+; пїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_sa58_ac10632]:wpn_sa58
 $spawn             							= "weapons\sa58_ac10632"

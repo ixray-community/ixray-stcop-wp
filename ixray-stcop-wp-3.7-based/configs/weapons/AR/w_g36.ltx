@@ -1,15 +1,15 @@
-; турмовой карабин (автомат) Heckler-Koch G36
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) Heckler-Koch G36
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 									5.56x45 мм
-; длина ствола 								480 мм
-; магазин									30
-; вес с пустым магазином					3.77 кг
-; оптический прицел							x1.5/х3
-; максимальнаЯ дальность стрельбы			3550 м
-; эффективнаЯ дальность стрельбы			440 м
-; прицельнаЯ дальность						800 м
-; дульнаЯ скорость пули						915 м/с
-; темп стрельбы								750 в/м
+; пїЅпїЅпїЅпїЅпїЅпїЅ 									5.56x45 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 								480 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ									30
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ					3.77 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ							x1.5/пїЅ3
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			3550 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			440 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ						800 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ						915 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ								750 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_g36]:weapon_probability,default_weapon_params,wpn_g36_sounds
 GroupControlSection							= spawn_group
@@ -232,10 +232,6 @@ fire_point2                        			= 0, 0, 0
 anm_hide                             		= g36_h_hide, idle
 anm_idle                            		= g36_h_idle, idle
 anm_idle_aim                       			= g36_h_idle_aim, idle
-anm_idle_aim_moving                   		= g36_h_walk, idle, 0.6
-anm_idle_aim_moving_slow           			= g36_h_walk, idle, 0.5
-anm_idle_aim_moving_crouch					= g36_h_walk, idle, 0.4
-anm_idle_aim_moving_crouch_slow     		= g36_h_walk, idle, 0.3
 anm_idle_moving                      		= g36_h_walk, idle
 anm_idle_moving_slow           				= g36_h_walk, idle, 0.8
 anm_idle_moving_crouch						= g36_h_walk, idle, 0.6
@@ -254,10 +250,6 @@ anm_shoot_last                          		= g36_h_shot, g36_g_shot_l
 anm_hide_jammed                  			= g36_h_hide, idle_jammed
 anm_idle_jammed                   			= g36_h_idle, idle_jammed
 anm_idle_aim_jammed                  		= g36_h_idle_aim, idle_jammed
-anm_idle_aim_moving_jammed             		= g36_h_walk, idle_jammed, 0.6
-anm_idle_aim_moving_slow_jammed       		= g36_h_walk, idle_jammed, 0.5
-anm_idle_aim_moving_crouch_jammed    		= g36_h_walk, idle_jammed, 0.4
-anm_idle_aim_moving_crouch_slow_jammed 		= g36_h_walk, idle_jammed, 0.3
 anm_idle_moving_jammed             			= g36_h_walk, idle_jammed
 anm_idle_moving_slow_jammed           		= g36_h_walk, idle_jammed, 0.8
 anm_idle_moving_crouch_jammed         		= g36_h_walk, idle_jammed, 0.6
@@ -269,10 +261,6 @@ anm_bore_jammed                  	 		= g36_h_bore_empty, idle_jammed
 anm_hide_empty                 				= g36_h_hide, idle_empty
 anm_idle_empty                      		= g36_h_idle, idle_empty
 anm_idle_aim_empty                 			= g36_h_idle_aim, idle_empty
-anm_idle_aim_moving_empty           		= g36_h_walk, idle_empty, 0.6
-anm_idle_aim_moving_slow_empty      		= g36_h_walk, idle_empty, 0.5
-anm_idle_aim_moving_crouch_empty       		= g36_h_walk, idle_empty, 0.4
-anm_idle_aim_moving_crouch_slow_empty 		= g36_h_walk, idle_empty, 0.3
 anm_idle_moving_empty                		= g36_h_walk, idle_empty
 anm_idle_moving_slow_empty            		= g36_h_walk, idle_empty, 0.8
 anm_idle_moving_crouch_empty            	= g36_h_walk, idle_empty, 0.6
@@ -280,7 +268,7 @@ anm_idle_moving_crouch_slow_empty    		= g36_h_walk, idle_empty, 0.4
 anm_idle_sprint_empty                 		= g36_h_sprint, idle_empty
 anm_show_empty                        		= g36_h_draw, idle_empty
 anm_bore_empty                      		= g36_h_bore_empty, idle_empty
-;---------------------•ђ…Ќњ----------------------------------------------
+;---------------------пїЅпїЅпїЅпїЅпїЅ----------------------------------------------
 ;anm_hide_empty_jammed           			= g36_h_hide, idle_jammed
 ;anm_idle_empty_jammed              		= g36_h_idle, idle_jammed
 ;anm_idle_aim_empty_jammed           		= g36_h_idle_aim, idle_jammed
@@ -292,10 +280,6 @@ anm_shoot_jammed                    		= g36_h_shot, shot_jamm
 anm_bore_w_gl                      			= g36_h_bore_gl_off, g36_g_bore 
 anm_hide_w_gl                    			= g36_h_hide_gl_off, idle
 anm_idle_aim_w_gl                  			= g36_h_idle_aim_gl_off, idle
-anm_idle_aim_moving_w_gl              		= g36_h_walk_gl_off, idle, 0.6
-anm_idle_aim_moving_slow_w_gl           	= g36_h_walk_gl_off, idle, 0.5
-anm_idle_aim_moving_crouch_w_gl				= g36_h_walk_gl_off, idle, 0.4
-anm_idle_aim_moving_crouch_slow_w_gl  		= g36_h_walk_gl_off, idle, 0.3
 anm_idle_moving_w_gl                		= g36_h_walk_gl_off, idle
 anm_idle_moving_slow_w_gl             		= g36_h_walk_gl_off, idle, 0.8
 anm_idle_moving_crouch_w_gl          		= g36_h_walk_gl_off, idle, 0.6
@@ -312,10 +296,6 @@ anm_shot_w_gl_l                    			= g36_h_shot_gl_off, g36_g_shot_l
 ;-------------------------------------------------------------------
 anm_hide_empty_w_gl                 		= g36_h_hide_gl_off, idle_empty
 anm_idle_aim_empty_w_gl               		= g36_h_idle_aim_gl_off, idle_empty
-anm_idle_aim_moving_empty_w_gl              = g36_h_walk_gl_off, idle_empty, 0.6
-anm_idle_aim_moving_slow_empty_w_gl        	= g36_h_walk_gl_off, idle_empty, 0.5
-anm_idle_aim_moving_crouch_empty_w_gl		= g36_h_walk_gl_off, idle_empty, 0.4
-anm_idle_aim_moving_crouch_slow_empty_w_gl  = g36_h_walk_gl_off, idle_empty, 0.3
 anm_idle_moving_empty_w_gl         			= g36_h_walk_gl_off, idle_empty
 anm_idle_moving_slow_empty_w_gl         	= g36_h_walk_gl_off, idle_empty, 0.8
 anm_idle_moving_crouch_empty_w_gl     		= g36_h_walk_gl_off, idle_empty, 0.6
@@ -328,10 +308,6 @@ anm_bore_empty_w_gl                 		= g36_h_bore_empty_gl_off, idle_empty
 anm_hide_g                        			= g36_h_hide_gl_on, idle_g
 anm_idle_g                          		= g36_h_gl_on_idle, idle_g
 anm_idle_aim_g                     			= g36_h_idle_aim_g_on, idle_g
-anm_idle_aim_moving_g                  		= g36_h_walk_gl_on, idle_g, 0.6
-anm_idle_aim_moving_slow_g                	= g36_h_walk_gl_on, idle_g, 0.5
-anm_idle_aim_moving_crouch_g              	= g36_h_walk_gl_on, idle_g, 0.4
-anm_idle_aim_moving_crouch_slow_g         	= g36_h_walk_gl_on, idle_g, 0.3
 anm_idle_moving_g                  			= g36_h_walk_gl_on, idle_g
 anm_idle_moving_slow_g                		= g36_h_walk_gl_on, idle_g, 0.8
 anm_idle_moving_crouch_g              		= g36_h_walk_gl_on, idle_g, 0.6
@@ -340,7 +316,7 @@ anm_idle_sprint_g                   		= g36_h_sprint_gl_on, idle_g
 anm_shoot_g                           		= g36_h_g_on_shot, idle_g ; 1.2
 anm_reload_g                   				= g36_h_gl_reload, g36_g_gl_reload ; 0.8
 anm_show_g                            		= g36_h_draw_gl_on, g36_g_g_on_shot
-;------------------Ќе работают из-за ограничений движка-------------------------------------------------
+;------------------пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ-------------------------------------------------
 ;anm_hide_g_empty                    		= g36_h_hide_gl_off, idle_g_empty
 ;anm_idle_g_empty                      		= g36_h_gl_on_idle, idle_g_empty
 ;anm_idle_g_aim_empty                		= g36_h_idle_aim_g_on, idle_g_empty
@@ -359,7 +335,7 @@ gl_hud_offset_rot							= -0.052088,0.029565,0.064756
 gl_hud_offset_pos_16x9						= -0.038705,-0.042703,-0.071000
 gl_hud_offset_rot_16x9						= -0.052088,0.029565,0.064756
 ;-----------------------------------------------------------------------------
-; “никальные
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_g36_nimble]:wpn_g36
 $spawn                  					= "weapons\wpn_g36_nimble"

@@ -1,14 +1,14 @@
-; Џистолет-пулемет FN P90 Tactical
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ FN P90 Tactical
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 										5,7x28 мм
-; длина ствола 									264 мм
-; магазин										50
-; вес с пустым магазином						2.85 кг
-; максимальнаЯ дальность стрельбы				1510 м
-; эффективнаЯ дальность стрельбы				200 м
-; прицельнаЯ дальность							200 м
-; дульнаЯ скорость пули							715 м/с
-; темп стрельбы									900 в/м
+; пїЅпїЅпїЅпїЅпїЅпїЅ 										5,7x28 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 									264 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ										50
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ						2.85 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ				1510 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ				200 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ							200 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ							715 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ									900 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_p90]:weapon_probability,default_weapon_params,wpn_p90_sounds
 GroupControlSection 							= spawn_group
@@ -215,10 +215,6 @@ fire_point2                              		= 0, 0.015, 0.21
 anm_hide                                		= p_hide, idle
 anm_idle                                		= p_idle, idle
 anm_idle_aim                          			= p_aim, idle
-;anm_idle_aim_moving                    			= p_walk, idle, 0.6
-;anm_idle_aim_moving_slow             			= p_walk, idle, 0.5
-;anm_idle_aim_moving_crouch             			= p_walk, idle, 0.4
-;anm_idle_aim_moving_crouch_slow             	= p_walk, idle, 0.3
 anm_idle_moving                        			= p_walk, idle
 anm_idle_moving_slow                        	= p_walk, idle, 0.8
 anm_idle_moving_crouch                   		= p_walk, idle, 0.6
@@ -237,12 +233,12 @@ anm_idle_aim_start                    			= p_aim_start, idle
 anm_idle_aim_end                      			= p_aim_end, idle
 disable_bore									= true
 
-;--- Џереходы спринта---
+;--- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ---
 
 anm_idle_sprint_start             				= p_sprint_start
 anm_idle_sprint_end               				= p_sprint_end
 		
-;--- Џаттерны спринта---
+;--- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ---
 
 ts_pattern_idle_sprint_start      				= .+, anm_idle_sprint, anm_idle_sprint_start, 1
 ts_pattern_idle_sprint_end        				= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end

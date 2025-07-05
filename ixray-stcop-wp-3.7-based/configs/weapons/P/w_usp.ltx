@@ -1,14 +1,14 @@
 ; Heckler-Koch USP45
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 										11.43x23 мм (.ACP)
-; длина ствола 									112 мм
-; магазин										12
-; вес с пустым магазином						0.89 кг
-; максимальная дальность стрельбы				700 м
-; эффективная дальность стрельбы				60 м
-; прицельная дальность							---
-; дульная скорость пули							260 м/с
-; темп стрельбы									30 в/м
+; пїЅпїЅпїЅпїЅпїЅпїЅ 										11.43x23 пїЅпїЅ (.ACP)
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 									112 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ										12
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ						0.89 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ				700 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ				60 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ							---
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ							260 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ									30 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_usp]:weapon_probability,default_weapon_params,wpn_usp_sounds
 GroupControlSection								= spawn_group
@@ -209,14 +209,6 @@ anm_hide_empty        							= ups_hide, idle_empty
 anm_idle                        				= ups_idle, idle
 anm_idle_aim                					= ups_aim, idle
 anm_idle_aim_empty                				= ups_aim, idle_empty
-;anm_idle_aim_moving               				= ups_walk, idle, 0.6
-;anm_idle_aim_moving_empty       				= ups_walk, idle_empty, 0.6
-;anm_idle_aim_moving_slow    					= ups_walk, idle, 0.5
-;anm_idle_aim_moving_slow_empty  				= ups_walk, idle_empty, 0.5
-;anm_idle_aim_moving_crouch    					= ups_walk, idle, 0.4
-;anm_idle_aim_moving_crouch_empty  				= ups_walk, idle_empty, 0.4
-;anm_idle_aim_moving_crouch_slow    				= ups_walk, idle, 0.3
-;anm_idle_aim_moving_crouch_slow_empty  			= ups_walk, idle_empty, 0.3
 anm_idle_empty                   				= ups_idle, idle_empty
 anm_idle_moving                 				= ups_walk, idle
 anm_idle_moving_empty             				= ups_walk, idle_empty
@@ -246,10 +238,6 @@ anm_idle_aim_end_empty       					= ups_aim_end, idle_empty
 anm_hide_jammed                  				= ups_hide, idle_jammed         
 anm_idle_jammed                    				= ups_idle, idle_jammed
 anm_idle_aim_jammed                				= ups_aim, idle_jammed
-;anm_idle_aim_moving_jammed         				= ups_walk, idle_jammed, 0.6
-;anm_idle_aim_moving_slow_jammed 				= ups_walk, idle_jammed, 0.5
-;anm_idle_aim_moving_crouch_jammed 				= ups_walk, idle_jammed, 0.4
-;anm_idle_aim_moving_crouch_slow_jammed 			= ups_walk, idle_jammed, 0.3
 anm_idle_moving_jammed           				= ups_walk, idle_jammed
 anm_idle_moving_slow_jammed    					= ups_walk, idle_jammed, 0.8
 anm_idle_moving_crouch_jammed    				= ups_walk, idle_jammed, 0.6
@@ -259,7 +247,7 @@ anm_show_jammed                  				= ups_draw, idle_jammed
 anm_idle_aim_start_jammed        				= ups_aim_start, idle_jammed
 anm_idle_aim_end_jammed          				= ups_aim_end, idle_jammed
 
-;--- Переходы спринта---
+;--- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ---
 
 anm_idle_sprint_start             				= ups_sprint_start, idle
 anm_idle_sprint_end               				= ups_sprint_end, idle
@@ -268,7 +256,7 @@ anm_idle_sprint_end_empty         				= ups_sprint_end, idle_empty
 anm_idle_sprint_start_jammed      				= ups_sprint_start, idle_jammed   
 anm_idle_sprint_end_jammed        				= ups_sprint_end, idle_jammed
 
-;--- Паттерны спринта---
+;--- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ---
 
 ts_pattern_idle_sprint_start     	 			= .+, anm_idle_sprint, anm_idle_sprint_start, 1
 ts_pattern_idle_sprint_end        				= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end

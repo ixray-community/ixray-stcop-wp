@@ -1,14 +1,14 @@
-; АвтоматическаЯ винтовка SIG SG-550
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ SIG SG-550
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 									5.56x45 мм
-; длина ствола 								528 мм
-; магазин									10/20/30
-; вес с пустым магазином на 30 патронов		4.11 кг
-; максимальнаЯ дальность стрельбы			3600 м
-; эффективнаЯ дальность стрельбы			550 м
-; прицельнаЯ дальность						400 м
-; дульнаЯ скорость пули						930 м/с
-; темп стрельбы								700 в/с
+; пїЅпїЅпїЅпїЅпїЅпїЅ 									5.56x45 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 								528 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ									10/20/30
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 30 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ		4.11 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			3600 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ			550 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ						400 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ						930 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ								700 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_sig550]:weapon_probability,default_weapon_params,wpn_sig550_sounds
 GroupControlSection							= spawn_group
@@ -226,10 +226,6 @@ fire_point2									= 0,0,0
 anm_hide									= wpn_hand_sig550_out, idle
 anm_idle									= wpn_hand_sig550_idle, idle
 anm_idle_aim								= wpn_hand_sig550_idle_aim, idle
-anm_idle_aim_moving							= wpn_hand_sig550_idle, idle, 2.0
-anm_idle_aim_moving_slow					= wpn_hand_sig550_idle, idle, 1.75
-anm_idle_aim_moving_crouch					= wpn_hand_sig550_idle, idle, 1.5
-anm_idle_aim_moving_crouch_slow				= wpn_hand_sig550_idle, idle, 1.25
 anm_idle_moving								= wpn_hand_sig550_walk, idle
 anm_idle_moving_slow						= wpn_hand_sig550_walk, idle, 0.8
 anm_idle_moving_crouch						= wpn_hand_sig550_walk, idle, 0.6
@@ -250,10 +246,6 @@ anm_bore									= wpn_hand_sig550_boring, idle
 anm_hide_empty								= wpn_hand_sig550_out, wpn_sig550_tact_idle_empty
 anm_idle_empty								= wpn_hand_sig550_idle, wpn_sig550_tact_idle_empty
 anm_idle_aim_empty							= wpn_hand_sig550_idle_aim, wpn_sig550_tact_idle_empty
-anm_idle_aim_moving_empty					= wpn_hand_sig550_idle, wpn_sig550_tact_idle_empty, 2.0
-anm_idle_aim_moving_slow_empty				= wpn_hand_sig550_idle, wpn_sig550_tact_idle_empty, 1.75
-anm_idle_aim_moving_crouch_empty			= wpn_hand_sig550_idle, wpn_sig550_tact_idle_empty, 1.5
-anm_idle_aim_moving_crouch_slow_empty		= wpn_hand_sig550_idle, wpn_sig550_tact_idle_empty, 1.25
 anm_idle_moving_empty						= wpn_hand_sig550_walk, wpn_sig550_tact_idle_empty
 anm_idle_moving_slow_empty					= wpn_hand_sig550_walk, wpn_sig550_tact_idle_empty, 0.8
 anm_idle_moving_crouch_empty				= wpn_hand_sig550_walk, wpn_sig550_tact_idle_empty, 0.6
@@ -269,10 +261,6 @@ anm_bore_empty								= wpn_hand_sig550_boring, wpn_sig550_tact_idle_empty
 anm_hide_jammed								= wpn_hand_sig550_out, idle_jammed
 anm_idle_jammed								= wpn_hand_sig550_idle, idle_jammed
 anm_idle_aim_jammed							= wpn_hand_sig550_idle_aim, idle_jammed
-anm_idle_aim_moving_jammed					= wpn_hand_sig550_idle, idle_jammed, 2.0
-anm_idle_aim_moving_slow_jammed				= wpn_hand_sig550_idle, idle_jammed, 1.75
-anm_idle_aim_moving_crouch_jammed			= wpn_hand_sig550_idle, idle_jammed, 1.5
-anm_idle_aim_moving_crouch_slow_jammed		= wpn_hand_sig550_idle, idle_jammed, 1.25
 anm_idle_moving_jammed						= wpn_hand_sig550_walk, idle_jammed
 anm_idle_moving_slow_jammed					= wpn_hand_sig550_walk, idle_jammed, 0.8
 anm_idle_moving_crouch_jammed				= wpn_hand_sig550_walk, idle_jammed, 0.6
@@ -288,7 +276,7 @@ gl_hud_offset_rot							= -0.138400,0.010335,0.003000
 gl_hud_offset_pos_16x9						= -0.062290,-0.076101,-0.242301
 gl_hud_offset_rot_16x9						= -0.138400,0.010335,0.003000
 ;-----------------------------------------------------------------------------
-; Ђддоны
+; пїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------
 [wpn_sig550_aimpoint]:wpn_sig550
 $spawn             							= "weapons\sig550_aimpoint"
@@ -375,5 +363,5 @@ aim_hud_offset_rot							= 0.011000,0.008460,0
 aim_hud_offset_pos_16x9						= -0.061778,0.001061,-0.068063
 aim_hud_offset_rot_16x9						= 0.011000,0.008460,0
 ;-----------------------------------------------------------------------------
-; “никальные
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 ;-----------------------------------------------------------------------------

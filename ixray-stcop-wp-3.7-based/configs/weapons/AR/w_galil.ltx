@@ -1,14 +1,14 @@
-; Израильский автомат IMI Galil
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ IMI Galil
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр										5.56х45
-; длина ствола 									535 мм
-; магазин										25
-; вес с пустым магазином						4.30 кг
-; максимальная дальность стрельбы				3660 м
-; эффективная дальность стрельбы				400 м
-; прицельная дальность							500 м
-; дульная скорость пули							837 м/с
-; темп стрельбы									650 в/м
+; пїЅпїЅпїЅпїЅпїЅпїЅ										5.56пїЅ45
+; пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 									535 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ										25
+; пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ						4.30 пїЅпїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ				3660 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ				400 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ							500 пїЅ
+; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ							837 пїЅ/пїЅ
+; пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ									650 пїЅ/пїЅ
 ;---------------------------------------------------
 [wpn_galil]:identity_immunities,weapon_probability,default_weapon_params,wpn_galil_sounds
 GroupControlSection								= spawn_group
@@ -226,10 +226,6 @@ fire_direction                           		= 0.0, 0.0, 1
 anm_hide                                 		= glil_hide
 anm_idle                                 		= glil_idle, idle
 anm_idle_aim                             		= glil_aim, idle
-;anm_idle_aim_moving                      		= glil_walk, idle, 0.6
-;anm_idle_aim_moving_slow               		= glil_walk, idle, 0.5
-;anm_idle_aim_moving_crouch               		= glil_walk, idle, 0.4
-;anm_idle_aim_moving_crouch_slow          		= glil_walk, idle, 0.3
 anm_idle_moving	                 				= glil_walk, idle
 anm_idle_moving_slow	          				= glil_walk, idle, 0.8
 anm_idle_moving_crouch	          				= glil_walk, idle, 0.6
@@ -252,10 +248,6 @@ disable_bore									= true
 anm_hide_jammed                       	 		= glil_hide, idle_jammed         
 anm_idle_jammed                        			= glil_idle, idle_jammed
 anm_idle_aim_jammed                    			= glil_aim, idle_jammed
-;anm_idle_aim_moving_jammed                   	= glil_walk, idle_jammed, 0.6
-;anm_idle_aim_moving_slow_jammed              	= glil_walk, idle_jammed, 0.5
-;anm_idle_aim_moving_crouch_jammed             	= glil_walk, idle_jammed, 0.4
-;anm_idle_aim_moving_crouch_slow_jammed       	= glil_walk, idle_jammed, 0.3
 anm_idle_moving_jammed                 			= glil_walk, idle_jammed
 anm_idle_moving_slow_jammed          			= glil_walk, idle_jammed, 0.8
 anm_idle_moving_crouch_jammed          			= glil_walk, idle_jammed, 0.6
@@ -266,14 +258,14 @@ anm_switch_mode_jammed                 			= glil_fire_change, idle_jammed
 anm_idle_aim_start_jammed              			= glil_aim_start, idle_jammed
 anm_idle_aim_end_jammed                			= glil_aim_end, idle_jammed
 
-;--- Переходы ---
+;--- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ---
 anm_idle_sprint_start             				= glil_sprint_start, idle
 anm_idle_sprint_start_jammed      				= glil_sprint_start, idle_jammed
 
 anm_idle_sprint_end               				= glil_sprint_end, idle
 anm_idle_sprint_end_jammed        				= glil_sprint_end, idle_jammed
 		
-;--- Паттерны ---
+;--- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ---
 ts_pattern_sprint_start      					= .+, anm_idle_sprint, anm_idle_sprint_start, 1
 ts_pattern_sprint_end        					= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end
 ts_strict_sprint_end_move    					= anm_idle_sprint_start, anm_idle_moving, anm_idle_sprint_end
