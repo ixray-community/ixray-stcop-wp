@@ -620,17 +620,6 @@ anm_shoot_aim_last							= wpn_hand_pkm_siber_shoot_aim, wpn_pkp_siber_shoot_emp
 ;-----------------------------------------------------------------------------
 ; Аддоны
 ;-----------------------------------------------------------------------------
-[wpn_pkm_zulus_ekp]:wpn_pkm_zulus
-$spawn             							= "weapons\wpn_pkm_zulus_ekp"
-hud											= wpn_pkp_ekp_hud
-visual										= dynamics\weapons\wpn_pkp\wpn_pkp_ekp.ogf
-
-scope_x										= 67
-scope_y										= 0
-
-[wpn_pkp_ekp_hud]:wpn_pkp_hud
-item_visual                					= dynamics\weapons\wpn_pkp\wpn_pkp_ekp_hud.ogf
-
 [wpn_desert_eagle_nimble]:wpn_desert_eagle
 $spawn 											= "weapons\wpn_desert_eagle_nimble"
 
@@ -1112,108 +1101,23 @@ parent_section  							= wpn_mp5_nimble
 fire_dispersion_base						= 0.25
 crosshair_inertion 							= 4.0
 
-inv_grid_x									= 31
-inv_grid_y									= 22
-
-upgr_icon_x									= 1150
-upgr_icon_y									= 1900
-upgr_icon_width								= 200
-upgr_icon_height 							= 100
-
-hud                                      	= wpn_mp5k_hud
-visual										= dynamics\weapons\wpn_mp5k\wpn_mp5k.ogf
-
-silencer_x                  				= 194
-silencer_y                  				= 1
-
-[wpn_mp5k_hud]:hud_base
-item_visual                              	= dynamics\weapons\wpn_mp5k\wpn_mp5k_hud.ogf
-attach_place_idx                         	= 0
-zoom_hide_crosshair                      	= true
-
-hands_orientation                			= 2.512, 3.181338, 0
-hands_orientation_16x9           			= 2.512, 3.181338, 0
-
-hands_position                   			= -0.019038, 0.003609, -0.090834
-hands_position_16x9              			= -0.019038, 0.003609, -0.090834
-
-item_position                            	= 0, 0, 0
-item_orientation                         	= 0, 0, 0
-
-aim_hud_offset_pos               			= 0.022232, -0.006587, 0.012973
-aim_hud_offset_pos_16x9          			= 0.022232, -0.006587, 0.012973
-		
-aim_hud_offset_rot               			= 0.058985, 0.044224, 0
-aim_hud_offset_rot_16x9          			= 0.058985, 0.044224, 0
-
-shell_bone                               	= wpn_body
-shell_dir                                	= 0, 1, 0
-shell_point                      			= 0, -0.03, 0.1
-
-fire_bone                                	= wpn_body
-fire_bone2                               	= wpn_body
-fire_point                       			= -0.000531, -0.016567, 0.204794
-fire_point2                      			= 0, 0, 0.35
-use_firemode_change_anim                        = true
-
-anm_hide                                 	= mp5k_hide, idle
-anm_idle                                 	= mp5k_idle, idle
-anm_idle_aim                             	= mp5k_aim, idle
-anm_idle_moving                          	= mp5k_walk, idle
-anm_idle_moving_slow                   		= mp5k_walk, idle, 0.8
-anm_idle_moving_crouch                   	= mp5k_walk, idle, 0.6
-anm_idle_moving_slow_crouch               	= mp5k_walk, idle, 0.4
-anm_idle_sprint                          	= mp5k_sprint, idle
-anm_reload                               	= mp5k_reload, mp5_reload
-anm_reload_empty                         	= mp5k_reload_empty, mp5_reload_empty
-anm_shoot                                	= mp5k_shoot, mp5_new_shoot
-anm_show                                 	= mp5k_draw, idle
-anm_reload_jammed                       	= mp5k_misfire, mp5_revival
-anm_shoot_aim               				= mp5k_aim_shoot, mp5_new_shoot
-anm_shoot_aim_last             				= mp5k_aim_shoot, mp5_new_shoot
-;anm_idle_aim_start          				= mp5k_aim_start, mp5_aim_start
-;anm_idle_aim_end            				= mp5k_aim_end, mp5_aim_end
-anm_firemode             				= mp5k_fire_mode, idle
-anm_firemode_empty       				= mp5k_fire_mode, idle
-
-anm_hide_jammed                        		= mp5k_hide, idle_jammed         
-anm_idle_jammed                        		= mp5k_idle, idle_jammed
-anm_idle_aim_jammed                    		= mp5k_aim, idle_jammed
-anm_idle_moving_jammed                 		= mp5k_walk, idle_jammed
-anm_idle_moving_slow_jammed             	= mp5k_walk, idle_jammed, 0.8
-anm_idle_moving_crouch_jammed           	= mp5k_walk, idle_jammed, 0.6
-anm_idle_moving_slow_crouch_jammed      	= mp5k_walk, idle_jammed, 0.4
-anm_idle_sprint_jammed                 		= mp5k_sprint, idle_jammed
-anm_show_jammed                        		= mp5k_draw, idle_jammed
-;anm_idle_aim_start_jammed              	= mp5k_aim_start, idle_jammed  
-;anm_idle_aim_end_jammed                	= mp5k_aim_end, idle_jammed  
-anm_firemode_jammed                 		= mp5k_fire_mode, idle_jammed
-
-;--- Џереходы спринта---
-
-anm_idle_sprint_start             			= mp5k_sprint_start
-anm_idle_sprint_end               			= mp5k_sprint_end
-anm_idle_sprint_start_jammed      			= mp5k_sprint_start, idle_jammed   
-anm_idle_sprint_end_jammed        			= mp5k_sprint_end, idle_jammed
-		
-;--- Џаттерны спринта---
-
-ts_pattern_idle_sprint_start      			= .+, anm_idle_sprint, anm_idle_sprint_start, 1
-ts_pattern_idle_sprint_end        			= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end
-ts_strict_idle_sprint_end_move    			= anm_idle_sprint_start, anm_idle_moving, anm_idle_sprint_end  
-
-freelook_z_offset_mul                    	= 0.3
 ;-----------------------------------------------------------------------------
 ; Addons
 ;-----------------------------------------------------------------------------
-[wpn_mp5_nimble_acog]:wpn_mp5_nimble
-$spawn										= "weapons\mp5k_acog"
-hud											= wpn_mp5k_acog_hud
+[wpn_mp5_nimble_ac10632]:wpn_mp5_ac10632
+$spawn             							= "weapons\mp5_nimble_ac10632"
 
-scope_x										= 107
-scope_y										= -24
+[wpn_mp5_nimble_acog]:wpn_mp5_acog
+$spawn										= "weapons\mp5_nimble_acog"
 
-[wpn_mp5k_acog_hud]:wpn_mp5k_hud
+[wpn_mp5_nimble_aimpoint]:wpn_mp5_aimpoint
+$spawn										= "weapons\mp5_nimble_aimpoint"
+
+[wpn_mp5_nimble_eot]:wpn_mp5_eot
+$spawn										= "weapons\mp5_nimble_eot"
+
+[wpn_mp5_nimble_pn23]:wpn_mp5_pn23
+$spawn										= "weapons\mp5_nimble_pn23"
 
 [pri_a17_gauss_rifle]:wpn_gauss
 $spawn										= "weapons\uniq\pri_a17_gauss_rifle"

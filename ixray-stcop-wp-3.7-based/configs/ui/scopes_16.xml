@@ -11,18 +11,6 @@
     </auto_static>
   </wpn_crosshair>
 
-  <wpn_crosshair_1p29 x="0" y="0" width="2048" height="1536">
-    <auto_static x="128" y="0" width="768" height="768" stretch="1">
-      <texture>wpn_crosshair_1p29</texture>
-    </auto_static>
-    <auto_static x="0" y="0" width="128" height="768" stretch="1">
-      <texture>wpn_crosshair_add_l</texture>
-    </auto_static>
-    <auto_static x="896" y="0" width="128" height="768" stretch="1">
-      <texture>wpn_crosshair_add_r</texture>
-    </auto_static>
-  </wpn_crosshair_1p29>
-
   <wpn_crosshair_1p59 x="0" y="0" width="2048" height="1536">
     <auto_static x="128" y="0" width="768" height="768" stretch="1">
       <texture>wpn_crosshair_1p59</texture>
@@ -154,18 +142,6 @@
       <texture>wpn_crosshair_add_r</texture>
     </auto_static>
   </wpn_crosshair_acog>
-
-  <wpn_crosshair_specter x="0" y="0" width="2048" height="1536">
-    <auto_static x="128" y="0" width="768" height="768" stretch="1">
-      <texture>wpn_crosshair_specter</texture>
-    </auto_static>
-    <auto_static x="0" y="0" width="128" height="768" stretch="1">
-      <texture>wpn_crosshair_add_l</texture>
-    </auto_static>
-    <auto_static x="896" y="0" width="128" height="768" stretch="1">
-      <texture>wpn_crosshair_add_r</texture>
-    </auto_static>
-  </wpn_crosshair_specter>
 
   <wpn_crosshair_fn2000 x="0" y="0" width="2048" height="1536">
     <auto_static x="128" y="0" width="768" height="768" stretch="1">

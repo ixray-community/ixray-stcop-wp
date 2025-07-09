@@ -270,40 +270,4 @@ anm_idle_sprint_end_jammed        				= 92_sprint_end, idle_jammed
 
 ts_pattern_idle_sprint_start      				= .+, anm_idle_sprint, anm_idle_sprint_start, 1
 ts_pattern_idle_sprint_end        				= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end
-ts_strict_idle_sprint_end_move    				= anm_idle_sprint_start, anm_idle_moving, anm_idle_sprint_end  
-;-----------------------------------------------------------------------------
-; Цзшка автоматическая (из сиес гоу)
-;-----------------------------------------------------------------------------
-[wpn_cz75_auto]:wpn_cz75
-$spawn											= "weapons\cz75_auto"
-class 											= WP_AK74
-description										= st_wpn_cz75_auto_descr
-
-scopes 											= none
-parent_section  								= wpn_cz75_auto
-
-inv_name										= st_wpn_cz75_auto
-inv_name_short									= st_wpn_cz75_auto
-
-inv_grid_x										= 10
-inv_grid_y										= 28
-
-upgr_icon_x										= 1750
-upgr_icon_y										= 1250
-
-rpm 											= 600
-
-fire_modes										= 1, -1
-
-grenade_class									= ammo_vog-25
-grenade_flame_particles 						= amik\weapons\grenade_flame_particles\grenade_flame_particles_00
-
-silencer_x                  					= 63
-
-cost											= 2000
-inv_weight										= 1.12
-hud												= wpn_cz75_auto_hud
-visual											= dynamics\weapons\wpn_cz75\wpn_cz75_auto.ogf
-
-[wpn_cz75_auto_hud]:wpn_cz75_hud
-item_visual										= dynamics\weapons\wpn_cz75\wpn_cz75_auto_hud.ogf
+ts_strict_idle_sprint_end_move    				= anm_idle_sprint_start, anm_idle_moving, anm_idle_sprint_end

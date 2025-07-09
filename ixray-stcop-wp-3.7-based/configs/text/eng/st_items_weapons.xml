@@ -550,13 +550,6 @@
 	<string id="st_addon_scope_aimpoint_descr">
 		<text>A compact sight for small arms, developed and manufactured by the Swedish company Aimpoint M68 AB.</text>
 	</string>
-<!-- ѕрицел ELCAN SpecterDR -->
-	<string id="st_addon_scope_specterDR">
-		<text>Scope ELCAN SpecterDR</text>
-	</string>
-	<string id="st_addon_scope_specterDR_descr">
-		<text>An optical sight with variable magnification designed to replace the 4x ACOG sight from Trijicon.</text>
-	</string>
 <!-- ѕрицел Barska ELECTRO SIGHT AC10632 -->
 	<string id="st_addon_scope_ac10632">
 		<text>Scope Barska ELECTRO SIGHT AC10632</text>
@@ -818,7 +811,7 @@
 		<text>9A-91</text>
 	</string>
 	<string id="st_wpn_9a91_descr">
-		<text>\n%c[255,1,255,255]Х%c[default] Sights Cobra EKP-8-02, Cobra EKP-1S-03, 1P29 "Tulip", PSO-1M2-01\n \n\n%c[255,1,255,255]Х%c[default] Silencer 9x39mm\n \nThe 9A-91 automatics are based on diverting gunpowder gases from the barrel channel. Locking is done by turning the bolt, with 4 combat stops. The fire control system is cock-type, allowing for single and continuous fire.</text>
+		<text>\n%c[255,1,255,255]Х%c[default] Sights Cobra EKP-8-02, Cobra EKP-1S-03 "Tulip", PSO-1M2-01\n \n\n%c[255,1,255,255]Х%c[default] Silencer 9x39mm\n \nThe 9A-91 automatics are based on diverting gunpowder gases from the barrel channel. Locking is done by turning the bolt, with 4 combat stops. The fire control system is cock-type, allowing for single and continuous fire.</text>
 	</string>
 <!-- Agram 2000 -->
 	<string id="st_wpn_agram2000">
@@ -1048,13 +1041,6 @@
 	</string>
 	<string id="st_wpn_cz75_descr">
 		<text>\n%c[255,1,255,255]Х%c[default] 9mm Silencer\n \nThe CZ-75 is a pistol developed in Czechoslovakia in 1975. It gained widespread popularity worldwide. In the Czech Republic, it is mainly used by the police (the army uses the CZ 83).</text>
-	</string>
-<!-- CZ-75 Auto -->
-	<string id="st_wpn_cz75_auto">
-		<text>CZ-75 Auto</text>
-	</string>
-	<string id="st_wpn_cz75_auto_descr">
-		<text>\n%c[255,1,255,255]Х%c[default] 9mm Silencer\n \nThe CZ-75 Auto is the 1992 model, a fully automatic variant with an extended 150mm barrel and the ability to fire in bursts.</text>
 	</string>
 <!-- IMI Galil -->
 	<string id="st_wpn_galil">

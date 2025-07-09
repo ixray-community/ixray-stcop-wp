@@ -91,14 +91,6 @@
 		<text>This item comprises military PS5 series body armor with beryllium sputter modified for use in the Zone. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity. The suit makes its way to stalkers through the military, who exchange it for loot. Does not come with an artifact container.</text>
 	</string>
 	
-<!-- (класс "5") Берилл-5М1 -->
-	<string id="specops_outfit_2_name">
-		<text>Berill-5M armored suit</text>
-	</string>
-	<string id="specops_outfit_2_description">
-		<text>Modified for operation in the Zone conditions army armored vest of PSZ-5 series with beryllium spraying. Designed for assault operations in areas with high radiation background, but ineffective in conditions of high anomalous activity. Equipped with a container for artifacts.\n(commander)\n \n %c[255,1,255,255,255]Use with a steel helmet or Sphere M12%c[default]\n</text>
-	</string>
-		
 <!-- (класс "5а") Булат -->
 	<string id="military_outfit_name">
 		<text>Bulat armored suit</text>
@@ -330,23 +322,6 @@
 	</string>
 	<string id="protection_outfit_description">
 		<text>High quality modified SSP-99 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body.</text>
-	</string>
-
-<!--- HELMETS --->
-<!-- противогаз М40 -->
-	<string id="st_helm_respirator_gp7">
-		<text>M40 gas mask</text>
-	</string>
-	<string id="st_helm_respirator_gp7_descr">
-		<text>The M40 gas mask reliably protects against poisonous and many emergency chemical hazardous substances, radioactive dust and bacterial agents. It is respected among stalkers, mainly used by members of the “Mercenaries” group.</text>
-	</string>
-
-<!-- боевой Долга -->
-	<string id="st_helm_battle_dolg">
-		<text>Sphere-D helmet</text>
-	</string>
-	<string id="st_helm_battle_dolg_descr">
-		<text>A modification of the Sphere B12 helmet, modified by Dolg technicians to meet the needs of the group. The gas mask provides increased protection from radiation and chemical threats. It has a built-in night vision device. </text>
 	</string>
 
 <!--------------------------------------------------------------------------------------------------------------->

@@ -550,13 +550,6 @@
 	<string id="st_addon_scope_aimpoint_descr">
 		<text>Компактный прицел для стрелкового оружия, разработанный и производящийся шведской компанией Aimpoint M68 AB.</text>
 	</string>
-<!-- Прицел ELCAN SpecterDR -->
-	<string id="st_addon_scope_specterDR">
-		<text>Прицел ELCAN SpecterDR</text>
-	</string>
-	<string id="st_addon_scope_specterDR_descr">
-		<text>Оптический прицел с изменяемой кратностью, призванный прийти на замену 4-x кратному прицелу ACOG от компании Trijicon.</text>
-	</string>
 <!-- Прицел Barska ELECTRO SIGHT AC10632 -->
 	<string id="st_addon_scope_ac10632">
 		<text>Прицел Barska ELECTRO SIGHT AC10632</text>
@@ -1048,13 +1041,6 @@
 	</string>
 	<string id="st_wpn_cz75_descr">
 		<text>\n%c[255,1,255,255]•%c[default] Глушитель 9мм\n \nCZ-75 - пистолет, разработанный в Чехословакии в 1975 году. Получил широкое распространение во всём мире. В самой Чехии его использует в основном полиция (армия применяет CZ 83).</text>
-	</string>
-<!-- CZ-75 Auto -->
-	<string id="st_wpn_cz75_auto">
-		<text>CZ-75 Auto</text>
-	</string>
-	<string id="st_wpn_cz75_auto_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Глушитель 9мм\n \nCZ-75 Auto - модель 1992 года, полностью автоматический вариант с удлинённым до 150 мм стволом и возможностью стрельбы очередями.</text>
 	</string>
 <!-- IMI Galil -->
 	<string id="st_wpn_galil">
