@@ -168,6 +168,8 @@ light_var_color		 							= 0.05
 light_var_range		 							= 0.5
 light_time 		 								= 0.2
 
+block_reload = true
+
 [wpn_spas12_hud]:hud_base
 zoom_hide_crosshair         					= true
 attach_place_idx								= 0
@@ -196,7 +198,6 @@ fire_bone                   					= muzzle
 fire_point                  					= 0, 0, 0
 
 add_cartridge_in_open = false
-empty_preload_mode = true
 
 anm_open                    					= wpn_spas12_new_open, open
 anm_open_empty              					= wpn_spas12_new_open_empty, open_empty
@@ -204,7 +205,6 @@ anm_add_cartridge_empty     					= wpn_spas12_new_load_empty, load_empty
 anm_add_cartridge          		 				= wpn_spas12_new_load
 anm_close                   					= wpn_spas12_new_close, close
 anm_reload_jammed         			 			= wpn_spas12_new_unjam, unjam
-anm_reload_jammed_empty          	 			= wpn_spas12_new_unjam_empty, idle_empty
 anm_bore_empty                     		 		= wpn_spas12_new_inspect, idle_empty
 anm_bore                            			= wpn_spas12_new_inspect, idle
 
