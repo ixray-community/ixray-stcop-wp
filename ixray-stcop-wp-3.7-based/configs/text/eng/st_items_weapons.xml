@@ -1652,7 +1652,7 @@
 		<text>SIG SG-550 Strelok</text>
 	</string>
 	<string id="st_wpn_sig550_strelok_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Sights ACOG, Aimpoint M68, Barska ES AC10632, EOTech, 1PN23 "Saratsin"\n \n\n%c[255,1,255,255]•%c[default] M203 Grenade Launcher\n \n\n%c[255,1,255,255]•%c[default] AAC M4-2000 Suppressor\n \nAlthough this specimen of the assault rifle was clearly not produced yesterday, it is clear that the previous owner treated the weapon carefully. The rifle has been completely overhauled, and its parts are carefully fitted to each other, which has slightly increased its stopping power.</text>
+		<text>\n%c[255,1,255,255]•%c[default] Sights ACOG, Aimpoint M68, Barska ES AC10632, EOTech, 1PN23 "Saratsin"\n \n\n%c[255,1,255,255]•%c[default] AAC M4-2000 Suppressor\n \nAlthough this specimen of the assault rifle was clearly not produced yesterday, it is clear that the previous owner treated the weapon carefully. The rifle has been completely overhauled, and its parts are carefully fitted to each other, which has slightly increased its stopping power.</text>
 	</string>
 <!-- SIG SG-552 -->
 	<string id="st_wpn_sig552">
