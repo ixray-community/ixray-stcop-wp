@@ -6,6 +6,11 @@ function jup_b208_give_reward(first_speaker, second_speaker)
 	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_18")
 	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_35")
 	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_45")
+	-- Jurok start
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 250})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 200})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 250})
+	-- Jurok end
 end
 
 -- a9
@@ -268,10 +273,12 @@ end
 -- Jupiter a10, by alex
 
 function jup_a10_proverka_wpn(first_speaker, second_speaker)
+	-- Jurok start
 	local table = {
 					"wpn_desert_eagle",
 					"wpn_desert_eagle_nimble",
 					"wpn_sig550",
+					"wpn_sig550_luckygun",
 					"wpn_g36",
 					"wpn_g36_nimble",
 					"wpn_fn2000",
@@ -282,7 +289,9 @@ function jup_a10_proverka_wpn(first_speaker, second_speaker)
 					"wpn_vintorez",
 					"wpn_vintorez_nimble",
 					"wpn_svd",
+					"wpn_svd_nimble",
 					"wpn_svu",
+					"wpn_svu_nimble",
 					"wpn_pkm",
 					"wpn_spas12",
 					"wpn_spas12_nimble",
@@ -294,6 +303,7 @@ function jup_a10_proverka_wpn(first_speaker, second_speaker)
 					"wpn_pkm_zulus",
 
 					}
+	-- Jurok end
 
 	for k,v in pairs(table) do
 		if db.actor:item_in_slot(2)~= nil and db.actor:item_in_slot(2):section() == v then
@@ -364,6 +374,16 @@ end
 function give_jup_b16_oasis_artifact(first_speaker, second_speaker)
 	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_oasis_heart")
 end
+
+-- Jurok start
+function jup_a12_actor_has_money(first_speaker, second_speaker)
+	return db.actor:money() > 0
+end
+
+function jup_a12_actor_has_no_money(first_speaker, second_speaker)
+	return db.actor:money() <= 0
+end
+-- Jurok end
 
 -- Jupiter A12, by yojig
 
@@ -447,7 +467,12 @@ function jup_a12_transfer_5000_money_to_actor(first_speaker, second_speaker)
 end
 
 function jup_a12_transfer_artefact_to_actor(first_speaker, second_speaker)
+	-- Jurok start
+	if (not has_alife_info("jup_a12_give_artefact_to_actor_info")) then
 	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_gold_fish")
+		db.actor:give_info_portion("jup_a12_give_artefact_to_actor_info")
+	end
+	-- Jurok end
 	if has_alife_info("jup_a12_stalker_prisoner_free_dialog_done") then
 		treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_40")
 		treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_34")
@@ -744,6 +769,12 @@ function jup_b6_actor_outfit_cs(first_speaker, second_speaker)
 	end
 	return false
 end
+
+-- Jurok start
+function jup_b6_actor_has_detector_scientific(first_speaker, second_speaker)
+	return db.actor:object("detector_scientific") ~= nil
+end
+-- Jurok end
 
 function jup_b6_first_reward_for_actor(first_speaker, second_speaker)
 	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2500)
@@ -1323,6 +1354,14 @@ end
 
 function jup_b211_kill_bludsuckers_reward(first_speaker, second_speaker)
 	dialogs.relocate_money_to_actor(second_speaker, first_speaker, 3000)
+	-- Jurok start
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 250})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 250})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 250})
+	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_9")
+	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_41")
+	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_47")
+	-- Jurok end
 end
 
 function jup_b19_transfer_conserva_to_actor(first_speaker, second_speaker)

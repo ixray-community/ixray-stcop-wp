@@ -2,6 +2,7 @@ function pri_b301_zulus_reward(first_speaker, second_speaker)
 	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_pkm_zulus")
 end
 
+--[[
 function pri_a17_reward(first_speaker, second_speaker)
 	if has_alife_info("pri_a17_reward_well") then
 		dialogs.relocate_money_to_actor(first_speaker, second_speaker, 7500)
@@ -11,6 +12,7 @@ function pri_a17_reward(first_speaker, second_speaker)
 		dialogs.relocate_money_to_actor(first_speaker, second_speaker, 3000)
 	end
 end
+]]--
 
 function actor_has_pri_a17_gauss_rifle(first_speaker, second_speaker)
 	return db.actor:object("pri_a17_gauss_rifle") ~= nil
@@ -39,16 +41,20 @@ end
 -- проверка, платежеспособности игрока за телепорт на Затон через Юпитер
 
 function jup_b43_actor_has_10000_money(first_speaker, second_speaker)
+	-- Jurok start
 	if has_alife_info("zat_b215_gave_maps") then
-		return db.actor:money() >= 3000
+		return db.actor:money() >= 1000
 	end
-	return db.actor:money() >= 5000
+		return db.actor:money() >= 3000
+	-- Jurok end
+
 end
 
 function jup_b43_actor_do_not_has_10000_money(first_speaker, second_speaker)
 	return not jup_b43_actor_has_10000_money(first_speaker, second_speaker)
 end
 
+--[[
 -- плата за телепорт игрока на Юпитер (диалог с проводником с Юпитера)
 
 function pay_cost_to_guide_to_jupiter(first_speaker, second_speaker)
@@ -64,12 +70,18 @@ end
 function jup_b43_actor_do_not_has_7000_money(first_speaker, second_speaker)
 	return db.actor:money() < 7000
 end
+]]--
 
 -- Pripyat B35
 
 function pri_b35_transfer_svd(first_speaker, second_speaker)
-	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_sv98")
-	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_7.62x54_ap")
+	-- Jurok start
+	if (not has_alife_info("pri_b35_transfer_svd_info")) then
+		dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_svd")
+		dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_7.62x54_7h1")
+		db.actor:give_info_portion("pri_b35_transfer_svd_info")
+	end
+	-- Jurok end
 end
 
 function pri_b35_give_actor_reward(first_speaker, second_speaker)

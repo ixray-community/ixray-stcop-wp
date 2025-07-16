@@ -262,6 +262,16 @@ function zat_b7_give_stalker_reward_2_to_actor(first_speaker, second_speaker)
 	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "antirad",2)
 end
 
+-- Jurok start
+function zat_b7_actor_has_money(first_speaker, second_speaker)
+	return db.actor:money() > 0
+end
+
+function zat_b7_actor_has_no_money(first_speaker, second_speaker)
+	return db.actor:money() <= 0
+end
+-- Jurok end
+
 function zat_b7_rob_actor(first_speaker, second_speaker)
 	local amount = math.floor(db.actor:money()*math.random(75,100)/100)
 	if db.actor:money() < amount then
@@ -392,35 +402,29 @@ function zat_b33_counter_ne_10(first_speaker, second_speaker)
 end
 
 function zat_b33_transfer_first_item(first_speaker, second_speaker)
-	local actor = dialogs.who_is_actor(first_speaker, second_speaker)
-	dialogs.relocate_item_section(actor,"wpn_fort_snag","in")
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_fort_snag")
 end
 
 function zat_b33_transfer_second_item(first_speaker, second_speaker)
-	local actor = dialogs.who_is_actor(first_speaker, second_speaker)
-	dialogs.relocate_item_section(actor,"medkit_scientic","in",3)
-	dialogs.relocate_item_section(actor,"antirad","in",3)
-	dialogs.relocate_item_section(actor,"bandage","in",5)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkit_scientic", 3)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "antirad", 3)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage", 5)
 end
 
 function zat_b33_transfer_third_item(first_speaker, second_speaker)
-	local actor = dialogs.who_is_actor(first_speaker, second_speaker)
-	dialogs.relocate_item_section(actor,"wpn_ak74u_snag","in")
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_ak74u_snag")
 end
 
 function zat_b33_transfer_fourth_item(first_speaker, second_speaker)
-	local actor = dialogs.who_is_actor(first_speaker, second_speaker)
-	dialogs.relocate_item_section(actor,"af_soul","in")
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_soul")
 end
 
 function zat_b33_transfer_fifth_item(first_speaker, second_speaker)
-	local actor = dialogs.who_is_actor(first_speaker, second_speaker)
-	dialogs.relocate_item_section(actor,"helm_hardhat_snag","in")
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "helm_hardhat_snag")
 end
 
 function zat_b33_transfer_safe_container(first_speaker, second_speaker)
-	local npc = dialogs.who_is_npc(first_speaker, second_speaker)
-	dialogs.relocate_item_section(npc,"zat_b33_safe_container","out")
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "zat_b33_safe_container")
 end
 
 function zat_b33_aractor_has_habar(first_speaker, second_speaker)
@@ -900,6 +904,16 @@ function actor_has_nimble_weapon(first_speaker, second_speaker)
 	db.actor:object("wpn_vintorez_nimble") ~= nil or
 	db.actor:object("wpn_groza_nimble") ~= nil
 end
+
+-- Jurok start
+function zat_b52_actor_has_money(first_speaker, second_speaker)
+	return db.actor:money() > 0
+end
+
+function zat_b52_actor_has_no_money(first_speaker, second_speaker)
+	return db.actor:money() <= 0
+end
+-- Jurok end
 
 function zat_b51_robbery(first_speaker, second_speaker)
 	local amount = math.floor(db.actor:money()*math.random(35,50)/100)
@@ -1570,7 +1584,12 @@ function is_not_zat_b106_hunting_time (first_speaker, second_speaker)
 end
 
 function zat_b106_transfer_weap_to_actor(first_speaker, second_speaker)
-	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_vepr")
+	-- Jurok start
+	if (not has_alife_info("zat_b106_give_spas12_to_actor_info")) then
+		dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_vepr")
+		db.actor:give_info_portion("zat_b106_give_spas12_to_actor_info")
+	end
+	-- Jurok end
 end
 
 function zat_b106_soroka_reward(first_speaker, second_speaker)
@@ -1590,7 +1609,7 @@ function zat_b106_soroka_not_gone(first_speaker, second_speaker)
 end
 
 function zat_b22_actor_has_proof(first_speaker, second_speaker)
-	return dialogs.actor_has_item(first_speaker, second_speaker, "zat_b22_medic_pda")
+	return db.actor:object("zat_b22_medic_pda") ~= nil
 end
 
 function zat_b22_transfer_proof(first_speaker, second_speaker)
@@ -1623,21 +1642,41 @@ function zat_b103_actor_has_needed_food(first_speaker, second_speaker)
 end
 
 function zat_b5_stalker_transfer_money(first_speaker, second_speaker)
+	-- Jurok start
+	if (not has_alife_info("zat_b5_give_reward_to_actor_info")) then
 	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2500)
 	treasure_manager.get_treasure_manager():give_treasure("zat_hiding_place_7")
+		db.actor:give_info_portion("zat_b5_give_reward_to_actor_info")
+	end
+	-- Jurok end
 end
 
 function zat_b5_dealer_full_revard(first_speaker, second_speaker)
+	-- Jurok start
+	if (not has_alife_info("zat_b5_give_reward_to_actor_info")) then
 	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 6000)
+		db.actor:give_info_portion("zat_b5_give_reward_to_actor_info")
+	end
+	-- Jurok end
 end
 
 function zat_b5_dealer_easy_revard(first_speaker, second_speaker)
+	-- Jurok start
+	if (not has_alife_info("zat_b5_give_reward_to_actor_info")) then
 	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 3000)
+		db.actor:give_info_portion("zat_b5_give_reward_to_actor_info")
+	end
+	-- Jurok end
 end
 
 function zat_b5_bandits_revard(first_speaker, second_speaker)
+	-- Jurok start
+	if (not has_alife_info("zat_b5_give_reward_to_actor_info")) then
 	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 5000)
 	treasure_manager.get_treasure_manager():give_treasure("zat_hiding_place_20")
+		db.actor:give_info_portion("zat_b5_give_reward_to_actor_info")
+	end
+	-- Jurok end
 end
 
 function zat_b106_give_reward(first_speaker, second_speaker)

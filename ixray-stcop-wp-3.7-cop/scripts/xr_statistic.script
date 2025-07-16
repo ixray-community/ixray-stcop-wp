@@ -272,6 +272,7 @@ function set_best_weapon(hit_amount)
 end
 
 function save(package)
+	-- av661194 start
 	package:w_u16(actor_statistic.surges)
 	package:w_u16(actor_statistic.completed_quests)
 	package:w_u32(actor_statistic.killed_monsters)
@@ -307,9 +308,11 @@ function save(package)
 	for k,v in pairs(taken_artefacts) do
 		package:w_u32(k)
 	end
+	-- av661194 end
 end
 
 function load(package)
+	-- av661194 start
 	actor_statistic = {}
 	actor_statistic.surges  			= package:r_u16()
 	actor_statistic.completed_quests 	= package:r_u16()
@@ -348,16 +351,19 @@ function load(package)
 		local k = package:r_u32()
 		taken_artefacts[k] = k
 	end
+	-- av661194 end
 end
 
 function pioneer_functor()
 	if not has_alife_info("pioneer_achievement_gained") then
-		if has_alife_info("zat_b14_give_item_linker")
+		-- Jurok start
+		if (has_alife_info("zat_b14_give_item_linker") or has_alife_info("jup_b6_half_artefact_from_b14_given_to_sci"))
 				and has_alife_info("jup_b1_complete_end")
 				and has_alife_info("jup_b206_anomalous_grove_done") then
 			db.actor:give_info_portion("pioneer_achievement_gained")
 			news_manager.send_tip(db.actor, "st_ach_pioneer", nil, "pioneer", nil, nil)
 		end
+		-- Jurok end
 	end
 	return has_alife_info("pioneer_achievement_gained")
 end
