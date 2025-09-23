@@ -1644,8 +1644,8 @@ end
 function zat_b5_stalker_transfer_money(first_speaker, second_speaker)
 	-- Jurok start
 	if (not has_alife_info("zat_b5_give_reward_to_actor_info")) then
-	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2500)
-	treasure_manager.get_treasure_manager():give_treasure("zat_hiding_place_7")
+		dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2500)
+		treasure_manager.get_treasure_manager():give_treasure("zat_hiding_place_7")
 		db.actor:give_info_portion("zat_b5_give_reward_to_actor_info")
 	end
 	-- Jurok end
@@ -1654,7 +1654,7 @@ end
 function zat_b5_dealer_full_revard(first_speaker, second_speaker)
 	-- Jurok start
 	if (not has_alife_info("zat_b5_give_reward_to_actor_info")) then
-	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 6000)
+		dialogs.relocate_money_to_actor(first_speaker, second_speaker, 6000)
 		db.actor:give_info_portion("zat_b5_give_reward_to_actor_info")
 	end
 	-- Jurok end
@@ -1663,7 +1663,7 @@ end
 function zat_b5_dealer_easy_revard(first_speaker, second_speaker)
 	-- Jurok start
 	if (not has_alife_info("zat_b5_give_reward_to_actor_info")) then
-	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 3000)
+		dialogs.relocate_money_to_actor(first_speaker, second_speaker, 3000)
 		db.actor:give_info_portion("zat_b5_give_reward_to_actor_info")
 	end
 	-- Jurok end
@@ -1672,8 +1672,8 @@ end
 function zat_b5_bandits_revard(first_speaker, second_speaker)
 	-- Jurok start
 	if (not has_alife_info("zat_b5_give_reward_to_actor_info")) then
-	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 5000)
-	treasure_manager.get_treasure_manager():give_treasure("zat_hiding_place_20")
+		dialogs.relocate_money_to_actor(first_speaker, second_speaker, 5000)
+		treasure_manager.get_treasure_manager():give_treasure("zat_hiding_place_20")
 		db.actor:give_info_portion("zat_b5_give_reward_to_actor_info")
 	end
 	-- Jurok end

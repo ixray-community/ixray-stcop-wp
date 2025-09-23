@@ -45,7 +45,7 @@ function jup_b43_actor_has_10000_money(first_speaker, second_speaker)
 	if has_alife_info("zat_b215_gave_maps") then
 		return db.actor:money() >= 1000
 	end
-		return db.actor:money() >= 3000
+	return db.actor:money() >= 3000
 	-- Jurok end
 
 end
