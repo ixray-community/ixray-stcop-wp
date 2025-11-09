@@ -1,0 +1,901 @@
+;-----------Outfits-----------
+
+[outfit_novice_m1]:novice_outfit	;Аномальная куртка новичка
+$spawn              			= "outfit\uniq\outfit_novice_m1"
+inv_name						= novice_outfit_name_m
+inv_name_short					= novice_outfit_name_m
+description						= novice_outfit_description_m
+health_restore_speed			= 0.0006
+satiety_restore_speed			= 0.001
+bleeding_restore_speed			= -0.006
+power_restore_speed				= 0.003
+inv_grid_x						= 12
+inv_grid_y						= 21
+; TODO Уменьшить износ
+
+[outfit_bandit_m1]:bandit_outfit	;Уплотненный бандитский костюм
+$spawn              			= "outfit\uniq\outfit_bandit_m1"
+inv_name						= bandit_outfit_name_m
+inv_name_short					= bandit_outfit_name_m
+description						= bandit_outfit_description_m
+bones_koeff_protection			= plasch_antigas_damage
+fire_wound_protection  			= 0.28
+inv_grid_x						= 14
+inv_grid_y						= 21
+; TODO Уменьшить износ
+
+[outfit_dolg_m1]:dolg_outfit	;Охотничий комбинезон Долга
+$spawn							= "outfit\uniq\outfit_dolg_m1"
+inv_name						= dolg_outfit_name_m1
+inv_name_short					= dolg_outfit_name_m1
+description						= dolg_outfit_description_m1
+wound_protection				= 0.7 ; TODO Нужна защита от монстров
+inv_grid_x						= 16
+inv_grid_y						= 21
+; TODO Уменьшить износ
+
+[outfit_killer_m1]:killer_outfit	;Укрепленный комбинезон Наемника
+$spawn							= "outfit\uniq\outfit_killer_m1"
+inv_name						= killer_outfit_name_m1
+inv_name_short					= killer_outfit_name_m1
+description						= killer_outfit_description_m1
+wound_protection				= 0.6 ; TODO Нужна защита от монстров
+bones_koeff_protection			= gilet_antigas_damage ; TODO Нужна защита от пуль
+inv_grid_x						= 18
+inv_grid_y						= 21
+nightvision_sect				= effector_nightvision_bad
+; TODO Уменьшить износ
+
+[outfit_specnaz_m1]:specops_outfit	;Модифицированный армейский бронекостюм
+$spawn							= "outfit\uniq\outfit_specnaz_m1"
+inv_name						= specnaz_outfit_name_m1
+inv_name_short					= specnaz_outfit_name_m1
+description						= specnaz_outfit_description_m1
+bleeding_restore_speed			= -0.006
+inv_grid_x						= 18
+inv_grid_y						= 24
+; TODO Уменьшить износ
+
+[outfit_stalker_m1]:stalker_outfit	;Комбинезон призрачного сталкера
+$spawn							= "outfit\uniq\outfit_stalker_m1"
+inv_name						= stalker_outfit_name_m1
+inv_name_short					= stalker_outfit_name_m1
+description						= stalker_outfit_description_m1
+health_restore_speed			= 0.0006
+inv_grid_x						= 16
+inv_grid_y						= 24
+; TODO Уменьшить износ
+
+[outfit_stalker_m2]:stalker_outfit	;Куртка и рюкзак бывалого
+$spawn							= "outfit\uniq\outfit_stalker_m2"
+inv_name						= stalker_outfit_name_m2
+inv_name_short					= stalker_outfit_name_m2
+description						= stalker_outfit_description_m2
+additional_inventory_weight		= 10
+additional_inventory_weight2	= 20
+cost							= 18000
+inv_grid_x						= 16
+inv_grid_y						= 24
+; TODO Уменьшить износ
+
+[outfit_svoboda_m1]:svoboda_light_outfit	;Модифицированный комбинезон свободы
+$spawn							= "outfit\uniq\outfit_svoboda_m1"
+inv_name						= svoboda_outfit_name_m1
+inv_name_short					= svoboda_outfit_name_m1
+description						= svoboda_outfit_description_m1
+shock_protection 				= 0.9
+;strike_protection 				= 0.1
+inv_grid_x						= 12
+inv_grid_y						= 24
+nightvision_sect				= effector_nightvision_bad
+; TODO Уменьшить износ
+
+[outfit_exo_m1]:exo_outfit	;Модифицированный экзоскелет
+$spawn							= "outfit\uniq\outfit_exo_m1"
+inv_name						= exo_outfit_name_m1
+inv_name_short					= exo_outfit_name_m1
+description						= exo_outfit_description_m1
+inv_grid_x						= 14
+inv_grid_y						= 24
+nightvision_sect				= effector_nightvision_good
+; TODO Уменьшить износ
+
+
+;-----------Weapons-----------
+
+[wpn_ak74_m1]:wpn_ak74	;Скорострельный АК-74
+$spawn             				= "weapons\uniq\wpn_ak74_m1"	
+description						= wpn_ak74_m1_descr
+inv_name	        			= wpn_ak74_m1_name
+inv_name_short					= wpn_ak74_m1_name
+rpm                      		= 850
+condition_shot_dec 				= 0.0001
+condition_shot_queue_dec 		= 0.0001
+cam_dispersion					= 0.05		
+cam_dispersion_inc				= 0.1
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+
+[wpn_abakan_m1]:wpn_abakan	;АH-94 снайперский
+$spawn              			= "weapons\uniq\wpn_abakan_m1"	
+description						= wpn_abakan_m1_descr
+inv_name	        			= wpn_abakan_m1_name
+inv_name_short					= wpn_abakan_m1_name
+fire_dispersion_base			= 0.12
+scope_status					= 1
+scope_zoom_factor				= 20
+scope_texture					= wpn_crosshair_1p78
+condition_shot_dec 				= 0.0001
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+inv_grid_x						= 30
+inv_grid_y						= 16
+scope_zoom_factor				= 19
+
+[wpn_fort_m1]:wpn_fort,wpn_fort17_sounds	;Экспериментальный Fort
+$spawn              							= "weapons\uniq\wpn_fort_m1"
+
+scopes 											= none
+parent_section  								= wpn_fort_m1
+
+inv_name										= st_wpn_fort17
+inv_name_short									= st_wpn_fort17
+description										= st_wpn_fort17_descr
+
+inv_grid_x										= 2
+inv_grid_y										= 30
+inv_scale 										= 1.0
+icons_texture									= ui\ui_icon_equipment_stcop
+
+condition_shot_dec								= 0.0034
+condition_queue_shot_dec						= 0.0034
+
+ammo_mag_size		 							= 13
+
+cost											= 900
+inv_weight										= 0.680
+
+hit_power 										= 0.6
+bullet_speed		 							= 320
+
+silencer_x                  					= 79
+silencer_y                  					= -19
+
+hud												= wpn_fort17_hud
+visual 											= dynamics\weapons\wpn_fort\wpn_fort_snag.ogf
+
+[wpn_fort17_hud]:wpn_fort_hud
+item_visual										= dynamics\weapons\wpn_fort\wpn_fort_snag_hud.ogf
+
+anm_bore										= fort17_new_inspect, idle
+anm_show										= fort17_new_draw, idle
+anm_hide										= fort17_new_holster, idle
+anm_idle										= fort17_new_idle, idle
+anm_idle_aim									= fort17_new_aim, idle
+anm_idle_aim_empty								= fort17_new_aim, idle_empty
+anm_idle_moving									= fort17_new_walk, idle
+anm_idle_moving_empty							= fort17_new_walk, idle_empty
+anm_idle_moving_slow							= fort17_new_walk, idle, 0.8
+anm_idle_moving_slow_empty						= fort17_new_walk, idle_empty, 0.8
+anm_idle_moving_crouch							= fort17_new_walk, idle, 0.6
+anm_idle_moving_crouch_empty					= fort17_new_walk, idle_empty, 0.6
+anm_idle_moving_slow_crouch						= fort17_new_walk, idle, 0.4
+anm_idle_moving_slow_crouch_empty				= fort17_new_walk, idle_empty, 0.4
+anm_idle_sprint									= fort17_new_sprint, idle
+anm_reload										= fort17_new_reload_slow, reload_slow
+anm_reload_empty								= fort17_new_reload_empty_fast, reload_empty_fast
+anm_reload_jammed								= fort17_new_unjam, unjam
+anm_shoot										= fort17_new_shoot
+anm_bore_empty									= fort17_new_inspect, idle_empty
+anm_show_empty									= fort17_new_draw, idle_empty
+anm_hide_empty									= fort17_new_holster, idle_empty
+anm_shoot_last										= fort17_new_shoot, shoot_empty
+anm_idle_empty									= fort17_new_idle, idle_empty
+anm_idle_sprint_empty							= fort17_new_sprint, idle_empty
+
+; Jammed Animation Variants
+anm_idle_jammed                    				= fort17_new_idle, idle_jammed
+anm_show_jammed                    				= fort17_new_draw, idle_jammed
+anm_hide_jammed                    				= fort17_new_holster, idle_jammed
+anm_idle_aim_jammed                				= fort17_new_aim, idle_jammed
+anm_idle_moving_jammed             				= fort17_new_walk, idle_jammed
+anm_idle_moving_slow_jammed      				= fort17_new_walk, idle_jammed, 0.8
+anm_idle_moving_crouch_jammed      				= fort17_new_walk, idle_jammed, 0.6
+anm_idle_moving_slow_crouch_jammed      		= fort17_new_walk, idle_jammed, 0.4
+anm_idle_sprint_jammed             				= fort17_new_sprint, idle_jammed, 1.2
+anm_bore_jammed                    				= fort17_new_inspect_jammed, idle_jammed
+
+; Transition/Intermediate Animations
+anm_idle_sprint_start             				= fort17_new_walk2sprint
+anm_idle_sprint_start_empty 					= fort17_new_walk2sprint, idle_empty
+anm_idle_sprint_start_jammed 					= fort17_new_walk2sprint, idle_jammed
+
+anm_idle_sprint_end            					= fort17_new_sprint2walk
+anm_idle_sprint_end_empty       				= fort17_new_sprint2walk, idle_empty
+anm_idle_sprint_end_jammed       				= fort17_new_sprint2walk, idle_jammed
+
+aim_hud_offset_pos								= -0.04935,0.033881,-0.05
+aim_hud_offset_rot								= -0.006606,0.00048,-0.086627
+
+aim_hud_offset_pos_16x9							= -0.04935,0.033881,-0.05
+aim_hud_offset_rot_16x9							= -0.006606,0.00048,-0.086627
+
+[wpn_ak74u_m1]:wpn_ak74u	;АК-74у спецназ
+$spawn             							= "weapons\uniq\wpn_ak74u_m1"
+description									= wpn_ak74u_m1_descr
+inv_name	        						= wpn_ak74u_m1_name
+inv_name_short								= wpn_ak74u_m1_name
+silencer_status								= 1
+condition_shot_dec 							= 0.00003
+parent_section  							= wpn_ak74u_m1
+
+cost 										= 6500
+weapon_class								= assault_rifle
+inv_weight									= 3.77
+hud											= wpn_ak74u_snag_hud
+visual										= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag.ogf
+
+inv_grid_width								= 5
+inv_grid_x									= 5
+inv_grid_y									= 25
+inv_scale 									= 1.0
+icons_texture								= ui\ui_icon_equipment_stcop
+
+startup_ammo								= 45
+ammo_mag_size								= 45 					
+	
+fire_distance								= 500
+bullet_speed								= 310
+
+silencer_status								= 1
+
+[wpn_ak74u_snag_hud]:wpn_ak74u_hud
+item_visual               					= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_hud.ogf
+;-----------------------------------------------------------------------------
+; Аддоны
+;-----------------------------------------------------------------------------
+[wpn_ak74u_m1_1p78]:wpn_ak74u_m1
+$spawn             							= "weapons\wpn_ak74u_snag_1p78"
+hud											= wpn_ak74u_snag_1p78_hud
+
+scope_x										= 50
+scope_y										= -10
+
+[wpn_ak74u_snag_1p78_hud]:wpn_ak74u_1p78_hud
+item_visual               					= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_hud.ogf
+
+[wpn_ak74u_m1_1pn93-1]:wpn_ak74u_m1
+$spawn             							= "weapons\wpn_ak74u_snag_1pn93-1"
+hud											= wpn_ak74u_snag_1pn93-1_hud
+visual										= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_1pn93-1.ogf
+
+scope_x										= 26
+scope_y										= -3
+
+[wpn_ak74u_snag_1pn93-1_hud]:wpn_ak74u_1pn93-1_hud
+item_visual                					= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_1pn93-1_hud.ogf
+
+[wpn_ak74u_m1_kobra]:wpn_ak74u_m1
+$spawn             							= "weapons\wpn_ak74u_snag_kobra"
+hud											= wpn_ak74u_snag_kobra_hud
+visual										= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_kobra.ogf
+
+scope_x										= 59
+scope_y										= 1
+
+[wpn_ak74u_snag_kobra_hud]:wpn_ak74u_kobra_hud
+item_visual                					= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_kobra_hud.ogf
+
+[wpn_ak74u_m1_ekp]:wpn_ak74u_m1
+$spawn             							= "weapons\wpn_ak74u_snag_ekp"
+hud											= wpn_ak74u_snag_ekp_hud
+visual										= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_ekp.ogf
+
+scope_x										= 58
+scope_y										= -1
+
+[wpn_ak74u_snag_ekp_hud]:wpn_ak74u_ekp_hud
+item_visual                					= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_ekp_hud.ogf
+
+[wpn_ak74u_m1_okp]:wpn_ak74u_m1
+$spawn             							= "weapons\wpn_ak74u_snag_okp"
+hud											= wpn_ak74u_snag_okp_hud
+visual										= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_okp.ogf
+
+scope_x										= 61
+scope_y										= -7
+
+[wpn_ak74u_snag_okp_hud]:wpn_ak74u_okp_hud
+item_visual                					= dynamics\weapons\wpn_ak74u\wpn_ak74u_snag_okp_hud.ogf
+
+[wpn_mp5_m1]:wpn_mp5	;Модифицированный МП5
+$spawn             				= "weapons\uniq\wpn_mp5_m1"
+description						= wpn_mp5_m1_descr
+inv_name	        			= wpn_mp5_m1_name
+inv_name_short					= wpn_mp5_m1_name
+ammo_class		 				= ammo_9x18_fmj, ammo_9x18_pmm
+condition_shot_dec 				= 0.00003
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+[wpn_groza_m1]:wpn_groza,wpn_groza_nimble_sounds	;Гроза генерала Воронина
+$spawn             								= "weapons\uniq\wpn_groza_m1"	
+description										= st_wpn_groza_nimble_descr
+
+scopes											= wpn_addon_scope,ac10632,acog,aimpoint,eot,pn23
+parent_section  								= wpn_groza_m1
+
+inv_name										= st_wpn_groza_nimble
+inv_name_short									= st_wpn_groza_nimble
+
+visual											= dynamics\weapons\wpn_groza\wpn_groza_nimble.ogf
+
+fire_dispersion_base							= 0.26
+control_inertion_factor							= 1.1f
+crosshair_inertion								= 5.0
+
+hud												= wpn_groza_nimble_hud
+
+ammo_elapsed									= 60
+ammo_mag_size									= 60
+
+ammo_class										= ammo_5.45x39_fmj, ammo_5.45x39_ap
+
+inv_grid_x										= 33
+inv_grid_y										= 30
+inv_scale = 1.0
+icons_texture						= ui\ui_icon_equipment_stcop
+
+upgr_icon_x										= 900
+upgr_icon_y										= 1900
+upgr_icon_width									= 250
+upgr_icon_height 								= 150
+
+grenade_launcher_status							= 0
+
+position										= -0.026,-0.16,-0.01
+orientation										= 0,0,0
+
+fire_point										= 0,0.194,0.274
+fire_point2										= 0,0.156,0.285
+
+[wpn_groza_nimble_hud]:wpn_groza_hud
+item_visual										= dynamics\weapons\wpn_groza\wpn_groza_nimble_hud.ogf
+use_firemode_change_anim                        = true
+
+anm_hide                          				= groz_hide, idle
+anm_idle                        				= groz_idle, idle
+anm_idle_aim                      				= groz_aim, idle
+anm_idle_moving                    				= groz_walk, idle
+anm_idle_moving_slow             				= groz_slow, idle
+anm_idle_moving_crouch             				= groz_crouch, idle
+anm_idle_moving_slow_crouch      				= groz_crouch_slow, idle
+anm_idle_sprint                    				= gr_sprint, idle
+anm_reload                      				= groz_reload, groza_reload
+anm_reload_empty                   				= groz_reload_empty, groza_reload_empty
+anm_shoot                         				= groz_shoot, groza_shoot
+anm_shoot_last                       				= groz_shoot, groza_shoot
+anm_show                           				= groz_draw, idle
+anm_firemode                    			= groz_fire_select, idle
+anm_reload_jammed               				= groz_misfire, groza_revival
+anm_shoot_aim               					= groz_aim_shoot, groza_aim_shoot
+anm_shoot_aim_last             					= groz_aim_shoot, groza_aim_shoot
+anm_idle_aim_start          					= groz_aim_start, idle
+anm_idle_aim_end            					= groz_aim_end, idle
+anm_idle_aim_start_empty    					= groz_aim_start, idle_empty
+anm_idle_aim_end_empty      					= groz_aim_end, idle_empty
+disable_bore									= true
+
+anm_hide_jammed                     			= groz_hide, idle_jammed         
+anm_idle_jammed                    				= groz_idle, idle_jammed
+anm_idle_aim_jammed               				= groz_aim, idle_jammed
+anm_idle_moving_jammed            				= groz_walk, idle_jammed
+anm_idle_moving_slow_jammed      				= groz_slow, idle_jammed
+anm_idle_moving_crouch_jammed      				= groz_crouch, idle_jammed
+anm_idle_moving_slow_crouch_jammed 				= groz_crouch_slow, idle_jammed
+anm_idle_sprint_jammed             				= gr_sprint, idle_jammed
+anm_show_jammed                  				= groz_draw, idle_jammed
+anm_firemode_jammed           			= groz_fire_select, idle_jammed 
+anm_idle_aim_start_jammed         				= groz_aim_start, idle_jammed
+anm_idle_aim_end_jammed            				= groz_aim_end, idle_jammed
+
+;--- Переходы спринта---
+
+anm_idle_sprint_start             				= groz_sprint_start
+anm_idle_sprint_end               				= groz_sprint_end
+anm_idle_sprint_start_jammed      				= groz_sprint_start, idle_jammed   
+anm_idle_sprint_end_jammed        				= groz_sprint_end, idle_jammed
+
+;--- Паттерны спринта---
+ts_pattern_idle_sprint_start     	 			= .+, anm_idle_sprint, anm_idle_sprint_start, 1
+ts_pattern_idle_sprint_end        				= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end
+ts_strict_idle_sprint_end_move    				= anm_idle_sprint_start, anm_idle_moving, anm_idle_sprint_end  
+
+[wpn_groza_m1_wpn_addon_scope]:wpn_groza_m1
+$spawn             								= "weapons\groza_m1_wpn_addon_scope"
+hud												= wpn_groza_nimble_po4x34_hud
+
+scope_x											= 59
+scope_y											= -26
+
+[wpn_groza_nimble_po4x34_hud]:wpn_groza_nimble_hud
+aim_hud_offset_pos								= 0.014000,-0.036500,0.1
+aim_hud_offset_rot								= 0.019301,0.017481,0.000000
+
+aim_hud_offset_pos_16x9							= 0.014000,-0.036500,0.1
+aim_hud_offset_rot_16x9							= 0.019301,0.017481,0.000000
+
+[wpn_groza_m1_acog]:wpn_groza_m1
+$spawn											= "weapons\groza_m1_acog"
+visual											= dynamics\weapons\wpn_groza\wpn_groza_nimble_acog.ogf
+hud												= wpn_groza_nimble_acog_hud
+
+scope_x 										= 80
+scope_y 										= -17
+
+[wpn_groza_nimble_acog_hud]:wpn_groza_nimble_hud
+item_visual            	 						= dynamics\weapons\wpn_groza\wpn_groza_nimble_acog_hud.ogf
+
+aim_hud_offset_pos								= 0.013500,-0.011614,0.053400
+aim_hud_offset_rot								= 0.013001,0.016731,0.000000
+
+aim_hud_offset_pos_16x9							= 0.013500,-0.011614,0.053400
+aim_hud_offset_rot_16x9							= 0.013001,0.016731,0.000000
+
+[wpn_groza_m1_ac10632]:wpn_groza_m1
+$spawn             								= "weapons\groza_m1_ac10632"
+visual											= dynamics\weapons\wpn_groza\wpn_groza_nimble_barska.ogf
+hud												= wpn_groza_nimble_ac10632_hud
+
+scope_x											= 88
+scope_y											= -19
+
+[wpn_groza_nimble_ac10632_hud]:wpn_groza_nimble_hud
+item_visual            	 						= dynamics\weapons\wpn_groza\wpn_groza_nimble_barska_hud.ogf
+
+aim_hud_offset_pos								= 0.013900,-0.005714,-0.030000
+aim_hud_offset_rot								= 0.014151,0.018681,0.000000
+
+aim_hud_offset_pos_16x9							= 0.013900,-0.005714,-0.030000
+aim_hud_offset_rot_16x9							= 0.014151,0.018681,0.000000
+
+[wpn_groza_m1_aimpoint]:wpn_groza_nimble
+$spawn             								= "weapons\groza_m1_aimpoint"
+visual											= dynamics\weapons\wpn_groza\wpn_groza_nimble_aimpoint.ogf
+hud												= wpn_groza_nimble_aimpoint_hud
+
+scope_x											= 94
+scope_y											= -22
+
+[wpn_groza_nimble_aimpoint_hud]:wpn_groza_nimble_hud
+item_visual            	 						= dynamics\weapons\wpn_groza\wpn_groza_nimble_aimpoint_hud.ogf
+
+aim_hud_offset_pos								= 0.012900,-0.020714,-0.040000
+aim_hud_offset_rot								= 0.032801,0.018581,0.000000
+
+aim_hud_offset_pos_16x9							= 0.012900,-0.020714,-0.040000
+aim_hud_offset_rot_16x9							= 0.032801,0.018581,0.000000
+
+[wpn_groza_m1_eot]:wpn_groza_m1
+$spawn											= "weapons\groza_m1_eot"
+visual											= dynamics\weapons\wpn_groza\wpn_groza_nimble_eot.ogf
+hud												= wpn_groza_nimble_eot_hud
+
+scope_x											= 89
+scope_y											= -17
+
+[wpn_groza_nimble_eot_hud]:wpn_groza_nimble_hud
+item_visual										= dynamics\weapons\wpn_groza\wpn_groza_nimble_eot_hud.ogf
+
+aim_hud_offset_pos								= 0.013900,-0.009714,-0.056000
+aim_hud_offset_rot								= 0.008851,0.017781,0.000000
+
+aim_hud_offset_pos_16x9							= 0.013900,-0.009714,-0.056000
+aim_hud_offset_rot_16x9							= 0.008851,0.017781,0.000000
+
+[wpn_groza_m1_pn23]:wpn_groza_m1
+$spawn											= "weapons\groza_m1_pn23"
+visual											= dynamics\weapons\wpn_groza\wpn_groza_nimble_pn23.ogf
+hud												= wpn_groza_nimble_pn23_hud
+
+scope_x											= 59
+scope_y											= -21
+
+[wpn_groza_nimble_pn23_hud]:wpn_groza_nimble_hud
+item_visual										= dynamics\weapons\wpn_groza\wpn_groza_nimble_pn23_hud.ogf
+
+aim_hud_offset_pos								= 0.013800,-0.027714,0.2
+aim_hud_offset_rot								= 0.006401,0.011781,0.000000
+
+aim_hud_offset_pos_16x9							= 0.013800,-0.027714,0.2
+aim_hud_offset_rot_16x9							= 0.006401,0.011781,0.000000
+
+[wpn_spas12_m1]:wpn_spas12	;Спас-12 Хантера
+$spawn             				= "weapons\uniq\wpn_spas12_m1"	
+description						= wpn_spas12_m1_descr
+inv_name						= wpn_spas12_m1_name
+inv_name_short					= wpn_spas12_m1_name
+fire_dispersion_base			= 0.25
+condition_shot_dec 				= 0.00015
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+[wpn_winchester_m1]:wpn_wincheaster1300	;Боевой винчестер
+$spawn             				= "weapons\uniq\wpn_winchester_m1"	
+description						= wpn_winchester_m1_descr
+inv_name	        			= wpn_winchester_m1_name
+inv_name_short					= wpn_winchester_m1_name
+hit_power        				= 0.9
+hit_impulse      				= 250
+ammo_mag_size		 			= 4
+condition_shot_dec 				= 0.00015
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+[wpn_l85_m1]:wpn_l85	;Сбалансированная L85
+$spawn             				= "weapons\uniq\wpn_l85_m1"	
+description						= wpn_l85_m1_descr
+inv_name	        			= wpn_l85_m1_name
+inv_name_short					= wpn_l85_m1_name
+cam_dispersion					= 0.05		
+cam_dispersion_inc				= 0.1
+condition_shot_dec 				= 0.00005
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+[wpn_lr300_m1]:wpn_lr300_acog	;LR300 М1
+$spawn             				= "weapons\uniq\wpn_lr300_m1"	
+description						= wpn_lr300_m1_descr
+inv_name						= wpn_lr300_m1_name
+inv_name_short					= wpn_lr300_m1_name
+rpm								= 300
+fire_dispersion_base			= 0.09
+scope_texture					= wpn_crosshair_acog
+scope_status					= 1
+silencer_status					= 1
+condition_shot_dec 				= 0.00005
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+inv_grid_x						= 29
+inv_grid_y						= 20
+inv_grid_width					= 6
+scope_zoom_factor				= 19
+
+smoke_particles 				= weapons\generic_shoot_00
+flame_particles					= 
+light_disabled					= true
+
+snd_shoot					= weapons\w_ak74_shot1 
+
+[wpn_svd_m1]:wpn_svd_pso1m2	;СВД "Дальнобойщик"
+$spawn             				= "weapons\uniq\wpn_svd_m1"	
+description						= wpn_svd_m1_descr
+inv_name						= wpn_svd_m1_name
+inv_name_short					= wpn_svd_m1_name
+cam_dispersion					= 0.9
+cam_step_angle_horz				= 0.1
+scope_zoom_factor				= 10
+scope_status					= 1
+condition_shot_dec 				= 0.00055
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+scope_texture					= wpn_crosshair_pso_1m2
+inv_grid_x						= 29
+inv_grid_y						= 22
+
+[wpn_sig_m1]:wpn_sig550	;Штурмовой SiG
+$spawn             				= "weapons\uniq\wpn_sig_m1"	
+description						= wpn_sig_m1_descr
+inv_name						= wpn_sig_m1_name
+inv_name_short					= wpn_sig_m1_name
+scope_status					= 0
+silencer_status					= 0
+grenade_launcher_status			= 0
+inv_weight						= 2.2
+condition_shot_dec 				= 0.00005
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+[wpn_eagle_m1]:wpn_desert_eagle	;Большой Бэн
+$spawn             				= "weapons\uniq\wpn_eagle_m1"	
+description						= enc_weapons1_wpn-eagle_m1
+inv_name						= wpn-eagle_m1
+inv_name_short					= wpn-eagle_m1
+ammo_class						= ammo_9x39_sp5, ammo_9x39_ap, ammo_9x39_pab9
+hit_power               		= 0.67
+condition_shot_dec				= 0.0003
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+[wpn_colt_m1]:wpn_colt1911	;Модифицированный кольт
+$spawn             				= "weapons\uniq\wpn_colt_m1"	
+description						= wpn_colt_m1_descr
+inv_name						= wpn_colt_m1_name
+inv_name_short					= wpn_colt_m1_name
+silencer_status					= 1
+condition_shot_dec 				= 0.00033
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+inv_grid_width					= 3
+inv_grid_x						= 20
+inv_grid_y						= 20
+
+[wpn_val_m1]:wpn_val	;Модифицированный Вал
+$spawn             				= "weapons\uniq\wpn_val_m1"	
+
+[wpn_mp5_m2]:wpn_mp5	;Модифицированный МП5
+$spawn             				= "weapons\uniq\wpn_mp5_m2"
+description						= wpn_mp5_m2_descr
+inv_name	        			= wpn_mp5_m2_name
+inv_name_short					= wpn_mp5_m2_name
+silencer_status					= 1
+fire_dispersion_base			= 0.15
+condition_shot_dec 				= 0.00003
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+inv_grid_width					= 5
+inv_grid_x						= 30
+inv_grid_y						= 14
+
+smoke_particles 				= weapons\generic_shoot_00
+flame_particles					= 
+light_disabled					= true
+
+snd_shoot						= weapons\w_ak74_shot1 
+
+[wpn_abakan_m2]:wpn_abakan	;АH-94 штурмовой
+$spawn              			= "weapons\uniq\wpn_abakan_m2"	
+description						= wpn_abakan_m2_descr
+inv_name	        			= wpn_abakan_m2_name
+inv_name_short					= wpn_abakan_m2_name
+grenade_launcher_status			= 1
+grenade_vel						= 76
+condition_shot_dec 				= 0.00003
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+inv_grid_x						= 30
+inv_grid_y						= 18
+
+[wpn_l85_m2]:wpn_l85	;Облегченная l85
+$spawn             				= "weapons\uniq\wpn_l85_m2"	
+description						= wpn_l85_m2_descr
+inv_name	        			= wpn_l85_m2_name
+inv_name_short					= wpn_l85_m2_name
+silencer_status					= 1
+inv_weight						= 3
+condition_shot_dec 				= 0.00005
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+inv_grid_x						= 25
+inv_grid_y						= 8
+inv_grid_width					= 6
+
+[wpn_sig_m2]:wpn_sig550	;SiG снайперский
+$spawn             							= "weapons\uniq\wpn_sig_m2"	
+class										= WP_AK74
+description									= st_wpn_sig550_strelok_descr
+
+parent_section  							= wpn_sig_m2
+
+inv_name									= wpn_sig_m2_name
+inv_name_short								= wpn_sig_m2_name
+
+inv_grid_x									= 25
+inv_grid_y									= 12
+inv_scale = 1.0
+icons_texture								= ui\ui_icon_equipment_stcop
+scope_zoom_factor							= 19
+
+hud											= wpn_sig550_luckygun_hud
+visual										= dynamics\weapons\wpn_sig550\wpn_sig550_m1_acog.ogf
+
+hit_power									= 0.42
+silencer_hit_power							= 0.48
+
+silencer_x									= 189
+silencer_y									= 18
+
+grenade_launcher_x							= 116
+
+grenade_launcher_status						= 0
+scope_status								= 1
+scope_texture								= wpn_crosshair_acog
+
+[wpn_sig550_luckygun_hud]:wpn_sig550_hud
+item_visual									= dynamics\weapons\wpn_sig550\wpn_sig550_m1_acog_hud.ogf
+
+aim_hud_offset_pos							= -0.061978,0.012761,0.05
+aim_hud_offset_rot							= 0.006450,0.009660,0.000000
+
+aim_hud_offset_pos_16x9						= -0.061978,0.012761,0.05
+aim_hud_offset_rot_16x9						= 0.006450,0.009660,0.000000
+use_firemode_change_anim                        = true
+
+anm_hide									= wpn_hand_sig550_tact_out, idle
+anm_idle									= wpn_hand_sig550_tact_idle, idle
+anm_idle_aim								= wpn_hand_sig550_tact_idle_aim, idle
+anm_idle_moving								= wpn_hand_sig550_tact_walk, idle
+anm_idle_moving_slow						= wpn_hand_sig550_tact_walk, idle, 0.8
+anm_idle_moving_crouch						= wpn_hand_sig550_tact_walk, idle, 0.6
+anm_idle_moving_slow_crouch					= wpn_hand_sig550_tact_walk, idle, 0.4
+anm_idle_sprint								= wpn_hand_sig550_tact_run, idle
+anm_reload									= wpn_hand_sig550_tact_reload, wpn_sig550_tact_reload
+anm_reload_empty							= wpn_hand_sig550_tact_reload_empty, wpn_sig550_tact_reload_empty
+anm_firemode								= wpn_hand_sig550_tact_switch_mode, idle
+anm_shoot									= wpn_hand_sig550_tact_shoot, wpn_sig550_tact_shoot
+anm_shoot_aim							= sig550_tact_shoot_scope, wpn_sig550_tact_shoot
+anm_shoot_aim_w_gl					= sig550_tact_shoot_scope_w_gl, wpn_sig550_tact_shoot
+anm_shoot_aim_last					= sig550_tact_shoot_scope, wpn_sig550_tact_shoot_empty_w_gl
+anm_shoot_aim_last_w_gl				= sig550_tact_shoot_scope_w_gl, wpn_sig550_tact_shoot_empty_w_gl
+anm_show									= wpn_hand_sig550_tact_in, idle
+anm_reload_jammed							= wpn_hand_sig550_tact_misfire, wpn_sig550_tact_misfire
+anm_bore									= wpn_hand_sig550_tact_boring, idle
+
+;EMPTY
+
+anm_hide_empty								= wpn_hand_sig550_tact_out, wpn_sig550_tact_idle_empty
+anm_idle_empty								= wpn_hand_sig550_tact_idle, wpn_sig550_tact_idle_empty
+anm_idle_aim_empty							= wpn_hand_sig550_tact_idle_aim, wpn_sig550_tact_idle_empty
+anm_idle_moving_empty						= wpn_hand_sig550_tact_walk, wpn_sig550_tact_idle_empty
+anm_idle_moving_slow_empty					= wpn_hand_sig550_tact_walk, wpn_sig550_tact_idle_empty, 0.8
+anm_idle_moving_crouch_empty				= wpn_hand_sig550_tact_walk, wpn_sig550_tact_idle_empty, 0.6
+anm_idle_moving_slow_crouch_empty			= wpn_hand_sig550_tact_walk, wpn_sig550_tact_idle_empty, 0.4
+anm_idle_sprint_empty						= wpn_hand_sig550_tact_run, wpn_sig550_tact_idle_empty
+anm_firemode_empty						= wpn_hand_sig550_tact_switch_mode, wpn_sig550_tact_idle_empty
+anm_shoot_last									= wpn_hand_sig550_tact_shoot, wpn_sig550_tact_shoot_empty_w_gl
+anm_show_empty								= wpn_hand_sig550_tact_in, wpn_sig550_tact_idle_empty
+anm_bore_empty								= wpn_hand_sig550_tact_boring, wpn_sig550_tact_idle_empty
+
+;Jammed
+
+anm_hide_jammed								= wpn_hand_sig550_tact_out, idle_jammed
+anm_idle_jammed								= wpn_hand_sig550_tact_idle, idle_jammed
+anm_idle_aim_jammed							= wpn_hand_sig550_tact_idle_aim, idle_jammed
+anm_idle_moving_jammed						= wpn_hand_sig550_tact_walk, idle_jammed
+anm_idle_moving_slow_jammed					= wpn_hand_sig550_tact_walk, idle_jammed, 0.8
+anm_idle_moving_crouch_jammed				= wpn_hand_sig550_tact_walk, idle_jammed, 0.6
+anm_idle_moving_slow_crouch_jammed			= wpn_hand_sig550_tact_walk, idle_jammed, 0.4
+anm_idle_sprint_jammed						= wpn_hand_sig550_tact_run, idle_jammed
+anm_firemode_jammed						= wpn_hand_sig550_tact_switch_mode, idle_jammed
+anm_shoot_last									= wpn_hand_sig550_tact_shoot, wpn_sig550_tact_shoot_jammed_w_gl
+anm_show_jammed								= wpn_hand_sig550_tact_in, idle_jammed
+anm_bore_jammed								= wpn_hand_sig550_tact_boring, idle_jammed
+
+;Grenade Launcher
+
+anm_idle_aim_w_gl							= wpn_hand_sig550_tact_idle_w_gl_aim, wpn_sig550_tact_idle_w_gl
+anm_idle_moving_w_gl						= wpn_hand_sig550_tact_walk_w_gl, wpn_sig550_tact_idle_w_gl
+anm_idle_moving_slow_w_gl					= wpn_hand_sig550_tact_walk_w_gl, wpn_sig550_tact_idle_w_gl, 0.8
+anm_idle_moving_crouch_w_gl					= wpn_hand_sig550_tact_walk_w_gl, wpn_sig550_tact_idle_w_gl, 0.6
+anm_idle_moving_slow_crouch_w_gl			= wpn_hand_sig550_tact_walk_w_gl, wpn_sig550_tact_idle_w_gl, 0.4
+anm_idle_sprint_w_gl						= wpn_hand_sig550_tact_run_w_gl, wpn_sig550_tact_idle_w_gl
+anm_idle_w_gl								= wpn_hand_sig550_tact_idle_w_gl, wpn_sig550_tact_idle_w_gl
+anm_reload_w_gl								= wpn_hand_sig550_tact_reload_w_gl, wpn_sig550_tact_reload_w_gl
+anm_reload_empty_w_gl						= wpn_hand_sig550_tact_reload_empty_w_gl, wpn_sig550_tact_reload_empty_w_gl
+anm_shoot_w_gl								= wpn_hand_sig550_tact_shoot_w_gl, wpn_sig550_tact_shoot_w_gl
+anm_show_w_gl								= wpn_hand_sig550_tact_in_w_gl, wpn_sig550_tact_idle_w_gl
+anm_hide_w_gl								= wpn_hand_sig550_tact_out_w_gl, wpn_sig550_tact_idle_w_gl
+anm_switch_g								= wpn_hand_sig550_tact_gl_on, wpn_sig550_tact_gl_on
+anm_reload_jammed_w_gl						= wpn_hand_sig550_tact_misfire_w_gl, wpn_sig550_tact_misfire_w_gl
+anm_bore_w_gl								= wpn_hand_sig550_tact_boring_w_gl, wpn_sig550_tact_idle_w_gl 
+
+;EMPTY
+
+anm_idle_aim_empty_w_gl						= wpn_hand_sig550_tact_idle_w_gl_aim, wpn_sig550_tact_idle_empty_w_gl
+anm_idle_moving_empty_w_gl					= wpn_hand_sig550_tact_walk_w_gl, wpn_sig550_tact_idle_empty_w_gl
+anm_idle_moving_slow_empty_w_gl				= wpn_hand_sig550_tact_walk_w_gl, wpn_sig550_tact_idle_empty_w_gl, 0.8
+anm_idle_moving_crouch_empty_w_gl			= wpn_hand_sig550_tact_walk_w_gl, wpn_sig550_tact_idle_empty_w_gl, 0.6
+anm_idle_moving_slow_crouch_empty_w_gl		= wpn_hand_sig550_tact_walk_w_gl, wpn_sig550_tact_idle_empty_w_gl, 0.4
+anm_idle_sprint_empty_w_gl					= wpn_hand_sig550_tact_run_w_gl, wpn_sig550_tact_idle_empty_w_gl
+anm_shoot_last_w_gl								= wpn_hand_sig550_tact_shoot_w_gl, wpn_sig550_tact_shoot_empty_w_gl
+anm_idle_empty_w_gl							= wpn_hand_sig550_tact_idle_w_gl, wpn_sig550_tact_idle_empty_w_gl
+anm_hide_empty_w_gl							= wpn_hand_sig550_tact_out_w_gl, wpn_sig550_tact_idle_empty_w_gl
+anm_show_empty_w_gl							= wpn_hand_sig550_tact_in_w_gl, wpn_sig550_tact_idle_empty_w_gl
+anm_bore_empty_w_gl							= wpn_hand_sig550_tact_boring_w_gl, wpn_sig550_tact_idle_empty_w_gl
+
+;Jammed GL
+
+anm_idle_aim_jammed_w_gl					= wpn_hand_sig550_tact_idle_w_gl_aim, idle_jammed_w_gl
+anm_idle_moving_jammed_w_gl					= wpn_hand_sig550_tact_walk_w_gl, idle_jammed_w_gl
+anm_idle_moving_slow_jammed_w_gl			= wpn_hand_sig550_tact_walk_w_gl, idle_jammed_w_gl, 0.8
+anm_idle_moving_crouch_jammed_w_gl			= wpn_hand_sig550_tact_walk_w_gl, idle_jammed_w_gl, 0.6
+anm_idle_moving_slow_crouch_jammed_w_gl		= wpn_hand_sig550_tact_walk_w_gl, idle_jammed_w_gl, 0.4
+anm_idle_sprint_jammed_w_gl					= wpn_hand_sig550_tact_run_w_gl, idle_jammed_w_gl
+anm_idle_jammed_w_gl						= wpn_hand_sig550_tact_idle_w_gl, idle_jammed_w_gl
+anm_hide_jammed_w_gl						= wpn_hand_sig550_tact_out_w_gl, idle_jammed_w_gl
+anm_show_jammed_w_gl						= wpn_hand_sig550_tact_in_w_gl, idle_jammed_w_gl
+anm_bore_jammed_w_gl						= wpn_hand_sig550_tact_boring_w_gl, idle_jammed_w_gl
+
+;Grenade Laucher ON
+;---------------------------------------
+
+anm_hide_g									= wpn_hand_sig550_tact_out_gl, wpn_sig550_tact_idle_gl
+anm_idle_g									= wpn_hand_sig550_tact_idle_gl, wpn_sig550_tact_idle_gl
+anm_idle_aim_g								= wpn_hand_sig550_tact_idle_gl_aim, wpn_sig550_tact_idle_gl
+anm_idle_moving_g							= wpn_hand_sig550_tact_walk_gl, wpn_sig550_tact_idle_gl
+anm_idle_moving_slow_g						= wpn_hand_sig550_tact_walk_gl, wpn_sig550_tact_idle_gl, 0.8
+anm_idle_moving_crouch_g					= wpn_hand_sig550_tact_walk_gl, wpn_sig550_tact_idle_gl, 0.6
+anm_idle_moving_slow_crouch_g				= wpn_hand_sig550_tact_walk_gl, wpn_sig550_tact_idle_gl, 0.4
+anm_idle_sprint_g							= wpn_hand_sig550_tact_run_gl, wpn_sig550_tact_idle_gl
+anm_reload_g								= wpn_hand_sig550_tact_reload_gl, wpn_sig550_tact_reload_gl
+anm_shoot_g									= wpn_hand_sig550_tact_shoot_gl, wpn_sig550_tact_idle_gl
+anm_show_g									= wpn_hand_sig550_tact_in_gl, wpn_sig550_tact_idle_gl
+anm_switch									= wpn_hand_sig550_tact_gl_off, wpn_sig550_tact_gl_off
+anm_bore_g									= wpn_hand_sig550_tact_idle_gl, wpn_sig550_tact_idle_gl
+
+;Grenade Laucher ON empty
+;---------------------------------------
+
+;anm_hide_empty_g							= wpn_hand_sig550_tact_out_gl, wpn_sig550_tact_idle_empty_w_gl
+;anm_idle_empty_g							= wpn_hand_sig550_tact_idle_gl, wpn_sig550_tact_idle_empty_w_gl
+;anm_idle_aim_empty_g						= wpn_hand_sig550_tact_idle_gl_aim, wpn_sig550_tact_idle_empty_w_gl
+;anm_idle_moving_empty_g						= wpn_hand_sig550_tact_walk_gl, wpn_sig550_tact_idle_empty_w_gl
+;anm_idle_moving_slow_empty_g				= wpn_hand_sig550_tact_walk_gl, wpn_sig550_tact_idle_empty_w_gl, 0.8
+;anm_idle_moving_crouch_empty_g				= wpn_hand_sig550_tact_walk_gl, wpn_sig550_tact_idle_empty_w_gl, 0.6
+;anm_idle_moving_slow_crouch_empty_g			= wpn_hand_sig550_tact_walk_gl, wpn_sig550_tact_idle_empty_w_gl, 0.4
+;anm_idle_sprint_empty_g						= wpn_hand_sig550_tact_run_gl, wpn_sig550_tact_idle_empty_w_gl
+;anm_reload_empty_g							= wpn_hand_sig550_tact_reload_gl, wpn_sig550_tact_reload_gl
+;anm_show_empty_g							= wpn_hand_sig550_tact_in_gl, wpn_sig550_tact_idle_empty_w_gl
+;anm_switch_empty							= wpn_hand_sig550_tact_gl_off, wpn_sig550_tact_gl_off
+;anm_bore_empty_g							= wpn_hand_sig550_tact_idle_gl, wpn_sig550_tact_idle_empty_w_gl
+
+[wpn_rg6_m1]:wpn_rg-6	;РГ-6 м209
+$spawn             				= "weapons\uniq\wpn_rg6_m1"	
+description						= enc_weapons1_wpn-rg6_m1
+inv_name						= wpn-rg6_m1
+inv_name_short					= wpn-rg6_m1
+ammo_class		 				= ammo_m209
+condition_shot_dec 				= 0.00001
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+[wpn_walther_m1]:wpn_walther	;Вальтер 9x18
+$spawn             				= "weapons\uniq\wpn_walther_m1"	
+description						= wpn_walther_m1_descr
+inv_name	        			= wpn_walther_m1_name
+inv_name_short					= wpn_walther_m1_name
+ammo_class		 				= ammo_9x18_fmj, ammo_9x18_pmm
+condition_shot_dec 				= 0.00015
+item_custom_mark				= true
+item_custom_mark_texture		= ui_upgrade_arrow1
+
+
+;-----------Arena-----------
+[wpn_pm_arena]:wpn_pm;
+$spawn             		= "weapons\arena\wpn_pm_arena"
+
+[wpn_mp5_arena]:wpn_mp5;
+$spawn             		= "weapons\arena\wpn_mp5_arena"
+
+[wpn_toz34_arena]:wpn_bm16;
+$spawn             		= "weapons\arena\wpn_toz34_arena"
+
+[wpn_spas12_arena]:wpn_spas12;
+$spawn             		= "weapons\arena\wpn_spas12_arena"
+
+[wpn_ak74_arena]:wpn_ak74;
+$spawn             		= "weapons\arena\wpn_ak74_arena"
+
+[wpn_bm16_arena]:wpn_bm16;
+$spawn             		= "weapons\arena\wpn_bm16_arena"
+
+[wpn_ak74u_arena]:wpn_ak74u;
+$spawn             		= "weapons\arena\wpn_ak74u_arena"
+
+[wpn_val_arena]:wpn_val;
+$spawn             		= "weapons\arena\wpn_val_arena"
+
+[wpn_groza_arena]:wpn_groza;
+$spawn             		= "weapons\arena\wpn_groza_arena"
+
+[wpn_fn2000_arena]:wpn_fn2000;
+$spawn             		= "weapons\arena\wpn_fn2000_arena"
+
+[wpn_g36_arena]:wpn_g36;
+$spawn             		= "weapons\arena\wpn_g36_arena"
+
+
+
+[hunters_toz]:wpn_bm16
+$spawn                  = "devices\uniq\hunters_toz"					; option for Level Editor
