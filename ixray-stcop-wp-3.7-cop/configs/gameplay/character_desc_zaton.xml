@@ -1616,7 +1616,7 @@
 		<supplies>
 
       [spawn] \n
-      wpn_ak74_sk1 \n
+      wpn_ak74 \n
       ammo_5.45x39_fmj = 1 \n
       wpn_fort \n
       ammo_9x18_fmj = 1 \n
@@ -2327,7 +2327,7 @@
 		<supplies>
 
       [spawn] \n
-      wpn_ak74_sk1 \n
+      wpn_ak74 \n
       ammo_5.45x39_fmj = 1 \n
       wpn_aps \n
       ammo_9x18_fmj = 1 \n
