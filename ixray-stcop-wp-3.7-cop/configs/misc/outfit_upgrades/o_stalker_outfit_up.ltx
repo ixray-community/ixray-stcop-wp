@@ -86,12 +86,6 @@ value       				= +2
 
 artefact_count				= 2
 
-[up_sect_firstte_stalker_medic_outfit]
-cost 						= 3000
-value 						= +4
-bleeding_restore_speed		= 0.004
-
-
      
 [up_firsta_stalker_outfit]
 scheme_index           	 	= 0, 0
@@ -353,23 +347,6 @@ name                    	= st_up_uti_c1_name
 description             	= st_up_uti_c1_descr
 icon                    	= ui_inGame2_upgrade_stalker_outfit_12
 
-[up_firstte_stalker_medic_outfit]
-scheme_index            	= 2, 5
-known                   	= 1
-effects                 	= 
-section                 	= up_sect_firstte_stalker_medic_outfit
-property                	= prop_restore_bleeding, prop_restore_health
-precondition_functor    	= inventory_upgrades.precondition_functor_a
-precondition_parameter  	= a & b
-effect_functor          	= inventory_upgrades.effect_functor_a
-effect_parameter        	= something_here
-prereq_functor          	= inventory_upgrades.prereq_functor_a
-prereq_tooltip_functor  	= inventory_upgrades.prereq_tooltip_functor_a
-prereq_params           	= 
-name                    	= st_up_stalker_medic_outfit_name
-description             	= st_up_stalker_medic_outfit_descr
-icon                    	= ui_inGame2_upgrade_stalker_outfit_1
-
 [up_gr_firstab_stalker_outfit]
 elements                	= up_firsta_stalker_outfit
 
@@ -396,6 +373,3 @@ elements                	= up_thirdc_stalker_outfit, up_thirdd_stalker_outfit
 
 [up_gr_thirdef_stalker_outfit]
 elements                	= up_thirde_stalker_outfit
-
-[up_gr_firstte_stalker_medic_outfit]
-elements                	= up_firstte_stalker_medic_outfit
