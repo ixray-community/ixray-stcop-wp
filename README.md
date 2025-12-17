@@ -2,17 +2,17 @@
 
 ## Overview
 
-This is a port of the STCoP mod for the X-Ray platform.
+This is a port of the STCoP WP mod for the IX-Ray Platform.
 
 Each version of the weapon pack resides in its own branch and is distributed independently of others.
 You can obtain the pack by switching to the desired branch or downloading it from the Releases section.
 
-In addition to adapting the pack for X-Ray, work has been done to fix original issues.
+In addition to adapting the pack for IX-Ray, work has been done to fix original issues.
 Broken .thm files, as well as models with configs, have been fixed. This addon works fully
-with the debug (Debug) version of the X-Ray engine. More details can be found in the release changelogs.
+with the debug (Debug) version of the IX-Ray engine. More details can be found in the release changelogs.
 
 Prior to version 3.7, the weapon pack was distributed as a single module, ready for both mod adaptation
-and the original game. Starting from version 3.7, the weapon pack utilizes X-Ray's modular addon system
+and the original game. Starting from version 3.7, the weapon pack utilizes IX-Ray's modular addon system
 and is divided into two main addons:
 
 1. **Core Weapon Module**, containing unified resources such as:
@@ -67,7 +67,7 @@ Link to the current __IX-Ray__ [release](https://github.com/ixray-team/ixray-1.6
 
 ## Обзор
 
-Это порт модификации STCOP на платформу IX-Ray
+Это порт модификации STCoP WP на платформу IX-Ray
 Каждая версия оружейного пака находится в своей ветке и поставляется независимо от других
 Вы можете получить пак, переключившись на нужную ветку или скачав его из релизов
 
