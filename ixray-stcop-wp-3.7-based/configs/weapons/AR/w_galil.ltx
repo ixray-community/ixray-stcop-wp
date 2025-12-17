@@ -1,14 +1,14 @@
-; ����������� ������� IMI Galil
+; Израильский автомат IMI Galil
 ;-(TrickSR, Ga2z)-----------------------------------------
-; ������										5.56�45
-; ����� ������ 									535 ��
-; �������										25
-; ��� � ������ ���������						4.30 ��
-; ������������ ��������� ��������				3660 �
-; ����������� ��������� ��������				400 �
-; ���������� ���������							500 �
-; ������� �������� ����							837 �/�
-; ���� ��������									650 �/�
+; калибр										5.56х45
+; длина ствола 									535 мм
+; магазин										25
+; вес с пустым магазином						4.30 кг
+; максимальная дальность стрельбы				3660 м
+; эффективная дальность стрельбы				400 м
+; прицельная дальность							500 м
+; дульная скорость пули							837 м/с
+; темп стрельбы									650 в/м
 ;---------------------------------------------------
 [wpn_galil]:identity_immunities,weapon_probability,default_weapon_params,wpn_galil_sounds
 GroupControlSection								= spawn_group
@@ -258,14 +258,14 @@ anm_firemode_jammed                 			= glil_fire_change, idle_jammed
 anm_idle_aim_start_jammed              			= glil_aim_start, idle_jammed
 anm_idle_aim_end_jammed                			= glil_aim_end, idle_jammed
 
-;--- �������� ---
+;--- Переходы ---
 anm_idle_sprint_start             				= glil_sprint_start, idle
 anm_idle_sprint_start_jammed      				= glil_sprint_start, idle_jammed
 
 anm_idle_sprint_end               				= glil_sprint_end, idle
 anm_idle_sprint_end_jammed        				= glil_sprint_end, idle_jammed
 		
-;--- �������� ---
+;--- Паттерны ---
 ts_pattern_sprint_start      					= .+, anm_idle_sprint, anm_idle_sprint_start, 1
 ts_pattern_sprint_end        					= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end
 ts_strict_sprint_end_move    					= anm_idle_sprint_start, anm_idle_moving, anm_idle_sprint_end

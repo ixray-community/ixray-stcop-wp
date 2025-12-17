@@ -1,14 +1,14 @@
-; ��������� �������� Colt M1911
+; Армейский пистолет Colt M1911
 ;-(TrickSR, Ga2z)-----------------------------------------
-; ������ 										11.43x23 �� (.45ACP)
-; ����� ������ 									127 ��
-; �������										7
-; ��� � ������ ���������						1.1 ��
-; ������������ ��������� ��������				700 �
-; ����������� ��������� ��������				62 �
-; ���������� ���������							---
-; ������� �������� ����							262 �/�
-; ���� ��������									30 �/�
+; калибр 										11.43x23 мм (.45ACP)
+; длина ствола 									127 мм
+; магазин										7
+; вес с пустым магазином						1.1 кг
+; максимальнаЯ дальность стрельбы				700 м
+; эффективнаЯ дальность стрельбы				62 м
+; прицельнаЯ дальность							---
+; дульнаЯ скорость пули							262 м/с
+; темп стрельбы									30 в/м
 ;---------------------------------------------------
 [wpn_colt1911]:weapon_probability,default_weapon_params,wpn_colt1911_sounds
 GroupControlSection								= spawn_group
@@ -244,7 +244,7 @@ anm_show_jammed                    				= cult_draw, idle_jammed
 anm_idle_aim_start_jammed         				= cult_aim_start, idle_jammed 
 anm_idle_aim_end_jammed           				= cult_aim_end, idle_jammed 
 
-;--- �������� �������---
+;--- Переходы спринта---
 
 anm_idle_sprint_start             				= cult_sprint_start
 anm_idle_sprint_end               				= cult_sprint_end
@@ -253,11 +253,11 @@ anm_idle_sprint_end_empty         				= cult_sprint_end, idle_empty
 anm_idle_sprint_start_jammed      				= cult_sprint_start, idle_jammed   
 anm_idle_sprint_end_jammed        				= cult_sprint_end, idle_jammed
 		
-;--- �������� �������---
+;--- Паттерны спринта---
 
 ts_pattern_idle_sprint_start      				= .+, anm_idle_sprint, anm_idle_sprint_start, 1
 ts_pattern_idle_sprint_end        				= anm_idle_sprint, ^anm_idle.*, anm_idle_sprint_end
 ts_strict_idle_sprint_end_move    				= anm_idle_sprint_start, anm_idle_moving, anm_idle_sprint_end  
 ;-----------------------------------------------------------------------------
-; ����������
+; Уникальные
 ;-----------------------------------------------------------------------------
