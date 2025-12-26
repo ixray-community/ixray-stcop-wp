@@ -28,7 +28,7 @@ Special thanks for helping to fix bugs in the original version: @WoWanDJ, @zovch
 - Enabled deferred weapon actions
 - Reworked the reload animation for the Winchester 1300
 
-## Models, HUD, and Visual Fixes
+### Models, HUD, and Visual Fixes
 
 - Fixed broken HUD models and aiming positions for most weapon types
 - Replaced the `lfo_light_dot_weapons` shader with a modern equivalent from PRS
@@ -84,7 +84,7 @@ Special thanks for helping to fix bugs in the original version: @WoWanDJ, @zovch
 - Включены отложенные действия с оружием
 - Переделана анимация перезарядки Winchester 1300
 
-## Исправления моделей, HUD и визуала
+### Исправления моделей, HUD и визуала
 
 - Исправлены сломанные HUD-модели и позиции прицеливания для большинства типов оружия
 - Заменён шейдер `lfo_light_dot_weapons` на современный аналог из PRS
