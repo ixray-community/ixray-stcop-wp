@@ -1,54 +1,67 @@
-# IX-Ray Stalker Weapon Packs
+# Stalker Weapon Pack v3.8 for IX-Ray Platform
 
-## Обзор
+## Overview
 
-Это неофициальный порт модификаций STCOP и STCS на платформу IX-Ray.  
-Каждая версия оружейного пака находится в своей ветке и поставляется независимо от других.  
-Вы можете получить пак, переключившись на нужную ветку или скачав его из релизов.  
+## Remarks
 
-Помимо адаптации пака под IX-Ray, была проведена работа по исправлению оригинальных проблем.  
-Исправлены битые THM-файлы, а также модели с конфигами. Данный аддон полноценно работает с  
-отладочной (Debug) версией движка IX-Ray. Подробнее можно узнать в списке изменений релизов.  
+> [!WARNING]
+>
+> Supported only on __IX-Ray Platform__!
+>
+> Not compatible with other weapon mods
 
-До версии 3.7 оружейный пак поставлялся единым модулем, готовым как для адаптации к модам,  
-так и для оригинальной игры. Начиная с версии 3.7, оружейный пак использует систему аддонов  
-IX-Ray и разделен на два основных аддона:
+## Requirements
 
-1. **Основной модуль оружейной составляющей**, содержащий унифицированные ресурсы, такие как:
-   - Общие конфиги
-   - Модели
-   - Текстуры
-   - Звуки
-   - Партиклы
+Installation:
 
-2. **Модуль для каждой поддерживаемой платформы**:
-   - Call of Pripyat
-   - Clear Sky
-   - ~~Call of Chernobyl~~
+1. Install original Stalker Call of Pripyat 1.6.02
+2. Install current version of IX-Ray (minimum 1.3)
+3. Extract addon archive into the game folder
+4. Start the game and play
 
-При установке выберите нужный вам модуль с поддержкой платформы.
-
-|Версия               |Платформа|
-|---------------------|---------|
-|STCoP Weapon Pack 3.5|CoP      |
-|STCoP Weapon Pack 3.7|CoP      |
-|STCS Weapon Pack 3.7 |CS       |
-
-## Требования
-
-### Установка
-
-1. Установите оригинальную версию **S.T.A.L.K.E.R.: Call of Pripyat 1.6.02**.
-2. Установите актуальную версию **IX-Ray**.
-3. В корневой папке игры создайте папку `ixr_addons`.
-4. Распакуйте архив аддона в папку `ixr_addons`.
-5. Запустите игру и наслаждайтесь.
-
-Ссылка на актуальный релиз **IX-Ray**: [последний релиз](https://github.com/ixray-team/ixray-1.6-stcop/releases/latest).
+Link to the current __IX-Ray__ [release](https://github.com/ixray-team/ixray-1.6-stcop/releases/latest)
 
 ## Contributors
 
-### IX-Ray Team
+- `Drombeys`
+- `St4lker0k765`
+- `zovchernobyl`
+- `MSR`
+
+## License
+
+Сontents of this repository are licensed under terms of the __CC BY-NC-SA 4.0__ license unless otherwise specified. See [this](./LICENSE.txt) file for details
+
+---
+
+## Обзор
+
+## Примечаниe
+
+> [!WARNING]
+>
+> Поддерживается только на __IX-Ray Platform__!
+>
+> Не совместим с другими оружейными модами
+
+## Рекомендации
+
+Установка:
+
+1. Установить оригинальный Stalker Call of Pripyat 1.6.02
+2. Установить актуальную версию IX-Ray (минимальная 1.3)
+3. Распакуйте архив аддона в папку с игрой
+4. Запустите игру и играйте
+
+Ссылка на текущую версию __IX-Ray__ [релиз](https://github.com/ixray-team/ixray-1.6-stcop/releases/latest)
+
+## Контрибьюторы
 
 - `Drombeys`
 - `St4lker0k765`
+- `zovchernobyl`
+- `MSR`
+
+## Лицензия
+
+Содержимое этого репозитория лицензировано в соответствии с условиями лицензии __CC BY-NC-SA 4.0__, если не указано иное. Подробности см. в файле [здесь](./LICENSE.txt)
