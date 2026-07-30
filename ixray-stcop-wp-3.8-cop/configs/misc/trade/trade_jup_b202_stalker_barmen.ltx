@@ -1,0 +1,1242 @@
+[trader]
+buy_condition =  trade_generic_buy
+sell_condition = trade_generic_sell
+
+buy_supplies = {+jup_a9_tech_way_info =counter_greater(jup_a6_actor_help_freedom:3) =wealthy_functor} sci_supplies_freedom_wealthy_tier_2, {=counter_greater(jup_a6_actor_help_freedom:3) =wealthy_functor} supplies_freedom_wealthy_tier_2, {+jup_a9_tech_way_info =counter_greater(jup_a6_actor_help_duty:3) =wealthy_functor} sci_supplies_duty_wealthy_tier_2, {=counter_greater(jup_a6_actor_help_duty:3) =wealthy_functor} supplies_duty_wealthy_tier_2, {+jup_a9_tech_way_info =counter_greater(jup_a6_actor_help_freedom:3)} sci_supplies_freedom_tier_2, {=counter_greater(jup_a6_actor_help_freedom:3)} supplies_freedom_tier_2, {+jup_a9_tech_way_info =counter_greater(jup_a6_actor_help_duty:3)} sci_supplies_duty_tier_2, {=counter_greater(jup_a6_actor_help_duty:3)} supplies_duty_tier_2, {+jup_a9_tech_way_info =counter_equal(jup_a6_actor_help_duty:2) =counter_equal(jup_a6_actor_help_freedom:2)} sci_supplies_freedom_duty_tier, {=counter_equal(jup_a6_actor_help_duty:2) =counter_equal(jup_a6_actor_help_freedom:2)} supplies_freedom_duty_tier, {+jup_a9_tech_way_info =counter_equal(jup_a6_actor_help_duty:2)} sci_supplies_duty_tier_1, {=counter_equal(jup_a6_actor_help_duty:2)} supplies_duty_tier_1, {+jup_a9_tech_way_info =counter_equal(jup_a6_actor_help_freedom:2)} sci_supplies_freedom_tier_1, {=counter_equal(jup_a6_actor_help_freedom:2)} supplies_freedom_tier_1, {+jup_a9_tech_way_info} sci_supplies_generic, supplies_generic
+
+discounts = {=counter_greater(jup_a6_actor_help_freedom:3)} discount_1, {=counter_equal(jup_a6_actor_help_stalkers:3)} discount_2, {=counter_greater(jup_a6_actor_help_duty:3)} discount_3
+
+buy_item_condition_factor = 0.7
+
+[discount_1]
+buy =  1
+sell = 0.80
+
+[discount_2]
+buy =  1
+sell = 0.85
+
+[discount_3]
+buy =  1.1
+sell = 1.1
+
+[trade_generic_buy]
+;Артефакты
+af_cristall							= 0.9, 0.6
+af_fireball							= 0.9, 0.6
+af_dummy_glassbeads					= 0.9, 0.6
+af_eye								= 0.9, 0.6
+af_fire								= 0.9, 0.6
+af_medusa							= 0.9, 0.6
+af_cristall_flower					= 0.9, 0.6
+af_night_star						= 0.9, 0.6
+af_vyvert							= 0.9, 0.6
+af_gravi							= 0.9, 0.6
+af_gold_fish						= 0.9, 0.6
+af_blood							= 0.9, 0.6
+af_mincer_meat						= 0.9, 0.6
+af_soul								= 0.9, 0.6
+af_fuzz_kolobok						= 0.9, 0.6
+af_baloon							= 0.9, 0.6
+af_glass							= 0.9, 0.6
+af_electra_sparkler					= 0.9, 0.6
+af_electra_flash					= 0.9, 0.6
+af_electra_moonlight				= 0.9, 0.6
+af_dummy_battery					= 0.9, 0.6
+af_dummy_dummy						= 0.9, 0.6
+af_ice								= 0.9, 0.6
+
+;Аммуниция
+ammo_9x18_fmj						= 1, 2
+ammo_9x18_pmm						= 0.2, 	0.1
+ammo_9x19_pbp						= 0.2, 	0.1
+ammo_9x19_fmj						= 0.2, 	0.1
+ammo_11.43x23_hydro					= 0.4,	0.2
+ammo_11.43x23_fmj					= 1, 2
+ammo_12x70_buck						= 1, 2
+ammo_12x76_zhekan					= 0.3,	0.15
+ammo_5.45x39_ap						= 0.3,	0.15
+ammo_5.45x39_fmj					= 1, 2
+ammo_9x39_ap						= 0.4,	0.2
+ammo_9x39_sp5						= 0.4,	0.2
+ammo_9x39_pab9						= 0.3,	0.15
+ammo_5.56x45_ss190					= 1, 2
+ammo_5.56x45_ap						= 0.3,	0.15
+ammo_5.7x28_fmj						= 1, 2
+ammo_5.7x28_ap						= 0.3,	0.15
+ammo_7.62x25_p						= 1, 2
+ammo_7.62x25_ps						= 1, 2
+ammo_7.62x39_fmj					= 1, 2
+ammo_7.62x39_ap						= 0.3,	0.15
+ammo_7.62x51_fmj					= 1, 2
+ammo_7.62x51_ap						= 0.3,	0.15
+ammo_7.62x54_7h1					= 0.4,	0.2
+ammo_7.62x54_7h14					= 0.4,	0.2
+ammo_7.62x54_ap						= 0.4,	0.2
+ammo_12.7x55_fmj					= 0.4,	0.2
+ammo_50ae							= 0.4,	0.2
+ammo_50bmg							= 0.4,	0.2
+ammo_338_lapua						= 0.4,	0.2
+ammo_og-7b							= 0.6,	0.3
+ammo_vog-25							= 0.4,	0.2
+ammo_vog-25p						= 0.4,	0.2
+grenade_f1							= 0.4,	0.2
+grenade_rgd5						= 0.4,	0.2
+ammo_m209							= 0.4,	0.2
+ammo_pkm_100						= 0.4,	0.2
+ammo_gauss							;NOTRADE
+ammo_gauss_cardan					;NOTRADE
+
+;Оружие
+wpn_9a91							= 0.3,	0.2
+wpn_abakan							= 0.3,	0.2
+wpn_ace52							= 0.3,	0.2
+wpn_aek971							= 0.3,	0.2
+wpn_ak								= 0.3,	0.2
+wpn_ak12							= 0.3,	0.2
+wpn_ak74							= 0.3,	0.2
+wpn_ak74m							= 0.3,	0.2
+wpn_ak101							= 0.3,	0.2
+wpn_ak102							= 0.3,	0.2
+wpn_ak103							= 0.3,	0.2
+wpn_ak104							= 0.3,	0.2
+wpn_ak105							= 0.3,	0.2
+wpn_akm								= 0.3,	0.2
+wpn_akms							= 0.3,	0.2
+wpn_aks								= 0.3,	0.2
+wpn_aks74							= 0.3,	0.2
+wpn_ak74u							= 0.3,	0.2
+wpn_ash12							= 0.3,	0.2
+wpn_aug								= 0.3,	0.2
+wpn_aug_a3							= 0.3,	0.2
+wpn_fal								= 0.3,	0.2
+wpn_famas							= 0.3,	0.2
+wpn_famas_f1						= 0.3,	0.2
+wpn_famas_g2						= 0.3,	0.2
+wpn_fn2000							= 0.3,	0.2
+wpn_fnc								= 0.3,	0.2
+wpn_g3								= 0.3,	0.2
+wpn_g36								= 0.3,	0.2
+wpn_g36c							= 0.3,	0.2
+wpn_g36k							= 0.3,	0.2
+wpn_galil							= 0.3,	0.2
+wpn_groza							= 0.3,	0.2
+wpn_hk416							= 0.3,	0.2
+wpn_hk417							= 0.3,	0.2
+wpn_kac								= 0.3,	0.2
+wpn_l85								= 0.3,	0.2
+wpn_lr300							= 0.3,	0.2
+wpn_m4								= 0.3,	0.2
+wpn_m4a1							= 0.3,	0.2
+wpn_m16								= 0.3,	0.2
+wpn_m16a2							= 0.3,	0.2
+wpn_mtar21							= 0.3,	0.2
+wpn_type63							= 0.3,	0.2
+wpn_scar							= 0.3,	0.2
+wpn_sig550							= 0.3,	0.2
+wpn_sig552							= 0.3,	0.2
+wpn_val								= 0.3,	0.2
+wpn_vihr							= 0.3,	0.2
+wpn_vsk94							= 0.3,	0.2
+
+wpn_aps								= 0.3,	0.2
+wpn_beretta							= 0.3,	0.2
+wpn_colt1911						= 0.3,	0.2
+wpn_c96								= 0.3,	0.2
+wpn_cz75							= 0.3,	0.2
+wpn_desert_eagle					= 0.3,	0.2
+wpn_fn57							= 0.3,	0.2
+wpn_fnp45							= 0.3,	0.2
+wpn_fnx45							= 0.3,	0.2
+wpn_fort							= 0.3,	0.2
+wpn_glock							= 0.3,	0.2
+wpn_mp443							= 0.3,	0.2
+wpn_gsh18							= 0.3,	0.2
+wpn_hpsa							= 0.3,	0.2
+wpn_oc27							= 0.3,	0.2
+wpn_oc33							= 0.3,	0.2
+wpn_sig220							= 0.3,	0.2
+wpn_pb								= 0.3,	0.2
+wpn_pm								= 0.3,	0.2
+wpn_pmm								= 0.3,	0.2
+wpn_tt33							= 0.3,	0.2
+wpn_usp								= 0.3,	0.2
+wpn_walther							= 0.3,	0.2
+
+wpn_bm16							= 0.3,	0.2
+wpn_bm16_full						= 0.3,	0.2
+wpn_fort500							= 0.3,	0.2
+wpn_wincheaster1300					= 0.3,	0.2
+wpn_m3super90						= 0.3,	0.2
+wpn_mr133							= 0.3,	0.2
+wpn_mr153							= 0.3,	0.2
+wpn_izh18							= 0.3,	0.2
+wpn_protecta						= 0.3,	0.2
+wpn_win1873							= 0.3,	0.2
+wpn_saiga							= 0.3,	0.2
+wpn_spas12							= 0.3,	0.2
+wpn_toz34							= 0.3,	0.2
+wpn_toz34_obrez						= 0.3,	0.2
+wpn_toz106							= 0.3,	0.2
+wpn_toz106_tacticool				= 0.3,	0.2
+wpn_toz194							= 0.3,	0.2
+wpn_vepr							= 0.3,	0.2
+
+wpn_dvl10							= 0.3,	0.2
+wpn_g3sg1							= 0.3,	0.2
+wpn_gauss							= 0.3,	0.2
+wpn_kar98k							= 0.3,	0.2
+wpn_l96								= 0.3,	0.2
+wpn_m82								= 0.3,	0.2
+wpn_m98b							= 0.3,	0.2
+wpn_mosin							= 0.3,	0.2
+wpn_mk14							= 0.3,	0.2
+wpn_remington700					= 0.3,	0.2
+wpn_m24								= 0.3,	0.2
+wpn_sks								= 0.3,	0.2
+wpn_sr25							= 0.3,	0.2
+wpn_sv98							= 0.3,	0.2
+wpn_svd								= 0.3,	0.2
+wpn_svt40							= 0.3,	0.2
+wpn_svu								= 0.3,	0.2
+wpn_vintorez						= 0.3,	0.2
+wpn_vssk							= 0.3,	0.2
+wpn_wa2000							= 0.3,	0.2
+
+wpn_hk21							= 0.3,	0.2
+wpn_m60								= 0.3,	0.2
+wpn_m249							= 0.3,	0.2
+wpn_pkm								= 0.3,	0.2
+wpn_pkp								= 0.3,	0.2
+wpn_rpd								= 0.3,	0.2
+wpn_rpk								= 0.3,	0.2
+wpn_rpk74							= 0.3,	0.2
+wpn_rpk203							= 0.3,	0.2
+
+wpn_m79								= 0.3,	0.2
+wpn_rg-6							= 0.3,	0.2
+wpn_rpg7							= 0.3,	0.2
+
+wpn_bizon							= 0.3,	0.2
+wpn_kedr							= 0.3,	0.2
+wpn_kiparis							= 0.3,	0.2
+wpn_kriss_vector					= 0.3,	0.2
+wpn_mp5								= 0.3,	0.2
+wpn_p90								= 0.3,	0.2
+wpn_pp2000							= 0.3,	0.2
+wpn_ppsh41							= 0.3,	0.2
+wpn_ump45							= 0.3,	0.2
+wpn_uzi								= 0.3,	0.2
+wpn_uzi_mini						= 0.3,	0.2
+wpn_uzi_micro						= 0.3,	0.2
+wpn_vityaz							= 0.3,	0.2
+
+wpn_colt1911_m1						= 0.3,	0.2
+wpn_l85_nimble						= 0.3,	0.2
+wpn_ak74_m1							= 0.3,	0.2
+wpn_ak74m_camo						= 0.3,	0.2
+wpn_toz34_nimble					= 0.3,	0.2
+wpn_m4_tac							= 0.3,	0.2
+wpn_ak12_m1							= 0.3,	0.2
+
+;ADDONS
+wpn_addon_scope						= 0.4, 0.2
+wpn_addon_scope_x2.7				= 0.4, 0.2
+wpn_addon_scope_detector			= 0.25, 0.15
+wpn_addon_scope_night				= 0.4, 0.2
+wpn_addon_scope_susat				= 0.4, 0.2
+wpn_addon_scope_susat_x1.6			= 0.4, 0.2
+wpn_addon_scope_susat_custom		= 0.25, 0.15
+wpn_addon_scope_susat_dusk			= 0.4, 0.2
+wpn_addon_scope_susat_night			= 0.4, 0.2
+wpn_addon_silencer					= 0.4, 0.2
+wpn_addon_grenade_launcher			= 0.3, 0.2
+wpn_addon_grenade_launcher_m203 	= 0.3, 0.2
+
+sil_6p9								= 0.4, 0.2
+sil_45								= 0.4, 0.2
+sil_57								= 0.4, 0.2
+sil_556								= 0.4, 0.2
+sil_762_nato						= 0.4, 0.2
+sil_aps								= 0.4, 0.2
+sil_groza							= 0.4, 0.2
+sil_hexagon							= 0.4, 0.2
+sil_kedr							= 0.4, 0.2
+sil_p90								= 0.4, 0.2
+sil_pp2000							= 0.4, 0.2
+sil_pbs1							= 0.4, 0.2
+sil_pbs4							= 0.4, 0.2
+sil_rotor43							= 0.4, 0.2
+sil_salvo12							= 0.4, 0.2
+sil_sr25							= 0.4, 0.2
+sil_sv98							= 0.4, 0.2
+sil_tgp-a							= 0.4, 0.2
+sil_tgp-v							= 0.4, 0.2
+sil_uzi								= 0.4, 0.2
+sil_vityaz							= 0.4, 0.2
+sil_vihr							= 0.4, 0.2
+sil_vsk94							= 0.4, 0.2
+
+pn23								= 0.4, 0.2
+1p78								= 0.4, 0.2
+1pn93-1								= 0.4, 0.2
+1pn93-4								= 0.4, 0.2
+okp									= 0.4, 0.2
+ekp									= 0.4, 0.2
+kobra								= 0.4, 0.2
+pso									= 0.4, 0.2
+pso1m2								= 0.4, 0.2
+pu									= 0.4, 0.2
+pso1m21								= 0.4, 0.2
+acog								= 0.4, 0.2
+ac10632								= 0.4, 0.2
+aimpoint							= 0.4, 0.2
+eot									= 0.4, 0.2
+galil_scope							= 0.4, 0.2
+wpn_addon_grenade_launcher_l123a2	= 0.3, 0.2
+wpn_addon_grenade_launcher_ag36		= 0.3, 0.2
+wpn_addon_grenade_launcher_m320		= 0.3, 0.2
+
+;Броники
+novice_outfit						= 0.5, 0.3
+stalker_outfit						= 0.5, 0.3
+scientific_outfit					= 0.5, 0.3
+neutral_assault_outfit				= 0.5, 0.3
+exo_outfit							= 0.5, 0.3
+bandit_outfit						= 0.5, 0.3
+bandit_blackrain_outfit				= 0.5, 0.3
+bandit_brownrain_outfit				= 0.5, 0.3
+bandit_light_outfit					= 0.5, 0.3
+merc_outfit							= 0.5, 0.3
+merc_exo_outfit						= 0.5, 0.3
+svoboda_light_outfit				= 0.5, 0.3
+svoboda_outfit						= 0.5, 0.3
+svoboda_scientific_outfit			= 0.5, 0.3
+svoboda_heavy_outfit				= 0.5, 0.3
+svoboda_exo_outfit					= 0.5, 0.3
+dolg_outfit							= 0.5, 0.3
+dolg_scientific_outfit				= 0.5, 0.3
+dolg_heavy_outfit					= 0.5, 0.3
+dolg_exo_outfit						= 0.5, 0.3
+ecolog_outfit						= 0.5, 0.3
+cs_heavy_outfit						= 0.5, 0.3
+soldier_outfit						= 0.5, 0.3
+specops_outfit						= 0.5, 0.3
+military_outfit						= 0.5, 0.3
+monolith_outfit						= 0.5, 0.3
+monolith_scientific_outfit			= 0.5, 0.3
+monolith_assault_outfit				= 0.5, 0.3
+monolith_exo_outfit					= 0.5, 0.3
+
+;Шлемы
+helm_respirator						= 0.5, 0.3
+helm_hardhat						= 0.5, 0.3
+helm_protective						= 0.5, 0.3
+helm_tactic							= 0.5, 0.3
+helm_battle							= 0.5, 0.3
+
+;Медикаменты
+bandage								;NOTRADE
+medkit								;NOTRADE
+medkit_scientic						;NOTRADE
+medkit_army							;NOTRADE
+antirad								;NOTRADE
+
+;Бустеры			
+drug_booster						;NOTRADE
+drug_coagulant						;NOTRADE
+drug_psy_blockade					;NOTRADE
+drug_antidot						;NOTRADE
+drug_radioprotector					;NOTRADE
+drug_anabiotic						;NOTRADE
+
+;Еда			
+bread								= 0.5, 0.25
+kolbasa								= 0.5, 0.25
+conserva							= 0.5, 0.25
+vodka								= 0.5, 0.25
+energy_drink						= 0.5, 0.25
+
+;Предметы
+device_torch						;NOTRADE
+detector_simple						= 0.3,	0.1
+detector_advanced					= 0.4,	0.2
+detector_elite						= 0.5,	0.3
+detector_scientific					= 0.6,	0.4
+device_pda							;NOTRADE
+hand_radio							;NOTRADE
+guitar_a							;NOTRADE
+harmonica_a							;NOTRADE
+anomaly_scaner						;NOTRADE
+
+;Квестовые предметы
+jup_a9_conservation_info			;NOTRADE
+jup_a9_power_info					;NOTRADE
+jup_a9_way_info						;NOTRADE
+jup_a9_evacuation_info				;NOTRADE
+jup_a9_meeting_info					;NOTRADE
+jup_a9_losses_info					;NOTRADE
+jup_a9_delivery_info				;NOTRADE
+jup_b10_ufo_memory					;NOTRADE
+jup_b10_ufo_memory_2				;NOTRADE
+jup_b10_notes_01					;NOTRADE
+jup_b10_notes_02					;NOTRADE
+jup_b10_notes_03					;NOTRADE
+jup_b205_sokolov_note				;NOTRADE
+jup_b206_plant						;NOTRADE
+jup_b209_monster_scanner			;NOTRADE
+jup_b200_tech_materials_wire		;NOTRADE
+jup_b200_tech_materials_acetone		;NOTRADE
+jup_b200_tech_materials_textolite	;NOTRADE
+jup_b200_tech_materials_transistor	;NOTRADE
+jup_b200_tech_materials_capacitor	;NOTRADE
+jup_b9_blackbox						;NOTRADE
+jup_b32_scanner_device				;NOTRADE
+jup_b46_duty_founder_pda			;NOTRADE
+jup_b207_merc_pda_with_contract		;NOTRADE
+jup_b47_jupiter_products_info		;NOTRADE
+toolkit_2							;NOTRADE
+toolkit_1							;NOTRADE
+zat_b33_safe_container				;NOTRADE
+zat_b57_gas							;NOTRADE
+zat_b12_key_1						;NOTRADE
+zat_b12_key_2						;NOTRADE
+zat_b12_documents_1					;NOTRADE
+zat_b12_documents_2					;NOTRADE
+device_pda_port_bandit_leader		;NOTRADE
+device_flash_snag					;NOTRADE
+jup_b202_bandit_pda					;NOTRADE
+zat_b40_notebook					;NOTRADE
+zat_b40_pda_1						;NOTRADE
+zat_b40_pda_2						;NOTRADE
+device_pda_zat_b5_dealer			;NOTRADE
+zat_b20_noah_pda					;NOTRADE
+zat_a23_access_card					;NOTRADE
+zat_a23_gauss_rifle_docs			;NOTRADE
+zat_b44_barge_pda					;NOTRADE
+zat_b39_joker_pda					;NOTRADE
+zat_b22_medic_pda					;NOTRADE
+toolkit_3							;NOTRADE
+pri_b35_lab_x8_key					;NOTRADE
+pri_b306_envoy_pda					;NOTRADE
+pri_b36_monolith_hiding_place_pda	;NOTRADE
+pri_a25_explosive_charge_item		;NOTRADE
+pri_a19_american_experiment_info	;NOTRADE
+pri_a19_lab_x16_info				;NOTRADE
+pri_a19_lab_x10_info				;NOTRADE
+pri_a19_lab_x7_info					;NOTRADE
+pri_a19_lab_x18_info				;NOTRADE
+zat_a23_labx8_key					;NOTRADE
+lx8_service_instruction				;NOTRADE
+af_compass							;NOTRADE
+af_oasis_heart						;NOTRADE
+jup_b1_half_artifact				;NOTRADE
+af_quest_b14_twisted				;NOTRADE
+
+;Уникальные предметы
+wpn_pm_actor						= 0.5, 0.2
+wpn_sig550_luckygun 				= 0.5, 0.2
+wpn_pkm_zulus						= 0.5, 0.2
+wpn_wincheaster1300_trapper 		= 0.5, 0.2
+wpn_desert_eagle_nimble 			= 0.5, 0.2
+wpn_groza_nimble					= 0.5, 0.2
+wpn_mp5_nimble 						= 0.5, 0.2
+wpn_sig220_nimble					= 0.5, 0.2
+wpn_spas12_nimble 					= 0.5, 0.2
+wpn_svd_nimble 						= 0.5, 0.2
+wpn_svu_nimble 						= 0.5, 0.2
+wpn_usp_nimble 						= 0.5, 0.2
+wpn_vintorez_nimble 				= 0.5, 0.2
+wpn_g36_nimble						= 0.5, 0.2
+wpn_fn2000_nimble 					= 0.5, 0.2
+wpn_protecta_nimble 				= 0.5, 0.2
+stalker_outfit_barge 				= 0.5,  0.3
+helm_respirator_joker 				= 0.5,  0.3
+helm_hardhat_snag 					= 0.5,  0.3
+wpn_ak74u_snag  					= 0.5, 0.2
+wpn_fort_snag  						= 0.5, 0.2
+
+[trade_generic_sell]
+;Артефакты
+af_cristall							= 1.2, 2
+af_fireball							= 1.2, 2
+af_dummy_glassbeads					= 1.2, 2
+af_eye								= 1.2, 2
+af_fire								= 1.2, 2
+af_medusa							= 1.2, 2
+af_cristall_flower					= 1.2, 2
+af_night_star						= 1.2, 2
+af_vyvert							= 1.2, 2
+af_gravi							= 1.2, 2
+af_gold_fish						= 1.2, 2
+af_blood							= 1.2, 2
+af_mincer_meat						= 1.2, 2
+af_soul								= 1.2, 2
+af_fuzz_kolobok						= 1.2, 2
+af_baloon							= 1.2, 2
+af_glass							= 1.2, 2
+af_electra_sparkler					= 1.2, 2
+af_electra_flash					= 1.2, 2
+af_electra_moonlight				= 1.2, 2
+af_dummy_battery					= 1.2, 2
+af_dummy_dummy						= 1.2, 2
+af_ice								= 1.2, 2
+
+;Аммуниция
+ammo_9x18_fmj						= 1, 2
+ammo_9x18_pmm						= 1, 2
+ammo_9x19_pbp						= 1, 2
+ammo_9x19_fmj						= 1, 2
+ammo_11.43x23_hydro					= 1, 2
+ammo_11.43x23_fmj					= 1, 2
+ammo_12x70_buck						= 1, 2
+ammo_12x76_zhekan					= 1, 2
+ammo_5.45x39_ap						= 1, 2
+ammo_5.45x39_fmj					= 1, 2
+ammo_9x39_ap						= 1, 2
+ammo_9x39_sp5						= 1, 2
+ammo_9x39_pab9						= 1, 2
+ammo_5.56x45_ss190					= 1, 2
+ammo_5.56x45_ap						= 1, 2
+ammo_5.7x28_fmj						= 1, 2
+ammo_5.7x28_ap						= 1, 2
+ammo_7.62x25_p						= 1, 2
+ammo_7.62x25_ps						= 1, 2
+ammo_7.62x39_fmj					= 1, 2
+ammo_7.62x39_ap						= 1, 2
+ammo_7.62x51_fmj					= 1, 2
+ammo_7.62x51_ap						= 1, 2
+ammo_7.62x54_7h1					= 1, 2
+ammo_7.62x54_7h14					= 1, 2
+ammo_7.62x54_ap						= 1, 2
+ammo_12.7x55_fmj					= 1, 2
+ammo_50ae							= 1, 2
+ammo_50bmg							= 1, 2
+ammo_338_lapua						= 1, 2
+ammo_og-7b							= 1, 2
+ammo_vog-25							= 1, 2
+ammo_vog-25p						= 1, 2
+grenade_f1							= 1, 2
+grenade_rgd5						= 1, 2
+ammo_m209							= 1, 2
+ammo_pkm_100						= 1, 2
+ammo_gauss							;NOTRADE
+ammo_gauss_cardan					;NOTRADE
+
+;Оружие
+wpn_9a91							= 1, 2
+wpn_abakan							= 1, 2
+wpn_ace52							= 1, 2
+wpn_aek971							= 1, 2
+wpn_ak								= 1, 2
+wpn_ak12							= 1, 2
+wpn_ak74							= 1, 2
+wpn_ak74m							= 1, 2
+wpn_ak101							= 1, 2
+wpn_ak102							= 1, 2
+wpn_ak103							= 1, 2
+wpn_ak104							= 1, 2
+wpn_ak105							= 1, 2
+wpn_akm								= 1, 2
+wpn_akms							= 1, 2
+wpn_aks								= 1, 2
+wpn_aks74							= 1, 2
+wpn_ak74u							= 1, 2
+wpn_ash12							= 1, 2
+wpn_aug								= 1, 2
+wpn_aug_a3							= 1, 2
+wpn_fal								= 1, 2
+wpn_famas							= 1, 2
+wpn_famas_f1						= 1, 2
+wpn_famas_g2						= 1, 2
+wpn_fn2000							= 1, 2
+wpn_fnc								= 1, 2
+wpn_g3								= 1, 2
+wpn_g36								= 1, 2
+wpn_g36c							= 1, 2
+wpn_g36k							= 1, 2
+wpn_galil							= 1, 2
+wpn_groza							= 1, 2
+wpn_hk416							= 1, 2
+wpn_hk417							= 1, 2
+wpn_kac								= 1, 2
+wpn_l85								= 1, 2
+wpn_lr300							= 1, 2
+wpn_m4								= 1, 2
+wpn_m4a1							= 1, 2
+wpn_m16								= 1, 2
+wpn_m16a2							= 1, 2
+wpn_mtar21							= 1, 2
+wpn_type63							= 1, 2
+wpn_scar							= 1, 2
+wpn_sig550							= 1, 2
+wpn_sig552							= 1, 2
+wpn_val								= 1, 2
+wpn_vihr							= 1, 2
+wpn_vsk94							= 1, 2
+
+wpn_aps								= 1, 2
+wpn_beretta							= 1, 2
+wpn_colt1911						= 1, 2
+wpn_c96								= 1, 2
+wpn_cz75							= 1, 2
+wpn_desert_eagle					= 1, 2
+wpn_fn57							= 1, 2
+wpn_fnp45							= 1, 2
+wpn_fnx45							= 1, 2
+wpn_fort							= 1, 2
+wpn_glock							= 1, 2
+wpn_mp443							= 1, 2
+wpn_gsh18							= 1, 2
+wpn_hpsa							= 1, 2
+wpn_oc27							= 1, 2
+wpn_oc33							= 1, 2
+wpn_sig220							= 1, 2
+wpn_pb								= 1, 2
+wpn_pm								= 1, 2
+wpn_pmm								= 1, 2
+wpn_tt33							= 1, 2
+wpn_usp								= 1, 2
+wpn_walther							= 1, 2
+
+wpn_bm16							= 1, 2
+wpn_bm16_full						= 1, 2
+wpn_fort500							= 1, 2
+wpn_wincheaster1300					= 1, 2
+wpn_m3super90						= 1, 2
+wpn_mr133							= 1, 2
+wpn_mr153							= 1, 2
+wpn_izh18							= 1, 2
+wpn_protecta						= 1, 2
+wpn_win1873							= 1, 2
+wpn_saiga							= 1, 2
+wpn_spas12							= 1, 2
+wpn_toz34							= 1, 2
+wpn_toz34_obrez						= 1, 2
+wpn_toz106							= 1, 2
+wpn_toz106_tacticool				= 1, 2
+wpn_toz194							= 1, 2
+wpn_vepr							= 1, 2
+
+wpn_dvl10							= 1, 2
+wpn_g3sg1							= 1, 2
+wpn_gauss							= 1, 2
+wpn_kar98k							= 1, 2
+wpn_l96								= 1, 2
+wpn_m82								= 1, 2
+wpn_m98b							= 1, 2
+wpn_mosin							= 1, 2
+wpn_mk14							= 1, 2
+wpn_remington700					= 1, 2
+wpn_m24								= 1, 2
+wpn_sks								= 1, 2
+wpn_sr25							= 1, 2
+wpn_sv98							= 1, 2
+wpn_svd								= 1, 2
+wpn_svt40							= 1, 2
+wpn_svu								= 1, 2
+wpn_vintorez						= 1, 2
+wpn_vssk							= 1, 2
+wpn_wa2000							= 1, 2
+
+wpn_hk21							= 1, 2
+wpn_m60								= 1, 2
+wpn_m249							= 1, 2
+wpn_pkm								= 1, 2
+wpn_pkp								= 1, 2
+wpn_rpd								= 1, 2
+wpn_rpk								= 1, 2
+wpn_rpk74							= 1, 2
+wpn_rpk203							= 1, 2
+
+wpn_m79								= 1, 2
+wpn_rg-6							= 1, 2
+wpn_rpg7							= 1, 2
+
+wpn_bizon							= 1, 2
+wpn_kedr							= 1, 2
+wpn_kiparis							= 1, 2
+wpn_kriss_vector					= 1, 2
+wpn_mp5								= 1, 2
+wpn_p90								= 1, 2
+wpn_pp2000							= 1, 2
+wpn_ppsh41							= 1, 2
+wpn_ump45							= 1, 2
+wpn_uzi								= 1, 2
+wpn_uzi_mini						= 1, 2
+wpn_uzi_micro						= 1, 2
+wpn_vityaz							= 1, 2
+
+wpn_colt1911_m1						= 1, 2
+wpn_l85_nimble						= 1, 2
+wpn_ak74_m1							= 1, 2
+wpn_ak74m_camo						= 1, 2
+wpn_toz34_nimble					= 1, 2
+wpn_m4_tac							= 1, 2
+wpn_ak12_m1							= 1, 2
+
+;ADDONS
+wpn_addon_scope						= 1, 2
+wpn_addon_scope_x2.7				= 1, 2
+wpn_addon_scope_detector			= 1, 2
+wpn_addon_scope_night				= 1, 2
+wpn_addon_scope_susat				= 1, 2
+wpn_addon_scope_susat_x1.6			= 1, 2
+wpn_addon_scope_susat_custom		= 1, 2
+wpn_addon_scope_susat_dusk			= 1, 2
+wpn_addon_scope_susat_night			= 1, 2
+wpn_addon_silencer					= 1, 2
+wpn_addon_grenade_launcher			= 1, 2
+wpn_addon_grenade_launcher_m203 	= 1, 2
+
+sil_6p9								= 1, 2
+sil_45								= 1, 2
+sil_57								= 1, 2
+sil_556								= 1, 2
+sil_762_nato						= 1, 2
+sil_aps								= 1, 2
+sil_groza							= 1, 2
+sil_hexagon							= 1, 2
+sil_kedr							= 1, 2
+sil_p90								= 1, 2
+sil_pp2000							= 1, 2
+sil_pbs1							= 1, 2
+sil_pbs4							= 1, 2
+sil_rotor43							= 1, 2
+sil_salvo12							= 1, 2
+sil_sr25							= 1, 2
+sil_sv98							= 1, 2
+sil_tgp-a							= 1, 2
+sil_tgp-v							= 1, 2
+sil_uzi								= 1, 2
+sil_vityaz							= 1, 2
+sil_vihr							= 1, 2
+sil_vsk94							= 1, 2
+	
+pn23								= 1, 2
+1p78								= 1, 2
+1pn93-1								= 1, 2
+1pn93-4								= 1, 2
+okp									= 1, 2
+ekp									= 1, 2
+kobra								= 1, 2
+pso									= 1, 2
+pso1m2								= 1, 2
+pu									= 1, 2
+pso1m21								= 1, 2
+acog								= 1, 2
+ac10632								= 1, 2
+aimpoint							= 1, 2
+eot									= 1, 2
+galil_scope							= 1, 2
+wpn_addon_grenade_launcher_l123a2	= 1, 2
+wpn_addon_grenade_launcher_ag36		= 1, 2
+wpn_addon_grenade_launcher_m320		= 1, 2
+
+;Броники
+novice_outfit						= 1, 2
+stalker_outfit						= 1, 2
+scientific_outfit					= 1, 2
+neutral_assault_outfit				= 1, 2
+exo_outfit							= 1, 2
+bandit_outfit						= 1, 2
+bandit_blackrain_outfit				= 1, 2
+bandit_brownrain_outfit				= 1, 2
+bandit_light_outfit					= 1, 2
+merc_outfit							= 1, 2
+merc_exo_outfit						= 1, 2
+svoboda_light_outfit				= 1, 2
+svoboda_outfit						= 1, 2
+svoboda_scientific_outfit			= 1, 2
+svoboda_heavy_outfit				= 1, 2
+svoboda_exo_outfit					= 1, 2
+dolg_outfit							= 1, 2
+dolg_scientific_outfit				= 1, 2
+dolg_heavy_outfit					= 1, 2
+dolg_exo_outfit						= 1, 2
+ecolog_outfit						= 1, 2
+cs_heavy_outfit						= 1, 2
+soldier_outfit						= 1, 2
+specops_outfit						= 1, 2
+military_outfit						= 1, 2
+monolith_outfit						= 1, 2
+monolith_scientific_outfit			= 1, 2
+monolith_assault_outfit				= 1, 2
+monolith_exo_outfit					= 1, 2
+
+;Шлемы
+helm_respirator						= 1, 2
+helm_hardhat						= 1, 2
+helm_protective						= 1, 2
+helm_tactic							= 1, 2
+helm_battle							= 1, 2
+
+;Медикаменты
+bandage								;NOTRADE
+medkit								;NOTRADE
+medkit_scientic						;NOTRADE
+medkit_army							;NOTRADE
+antirad								;NOTRADE
+
+;Бустеры			
+drug_booster						;NOTRADE
+drug_coagulant						;NOTRADE
+drug_psy_blockade					;NOTRADE
+drug_antidot						;NOTRADE
+drug_radioprotector					;NOTRADE
+drug_anabiotic						;NOTRADE
+
+;Еда
+bread								= 1, 1.8
+kolbasa								= 1, 1.8
+conserva							= 1, 1.8
+vodka								= 1, 1.8
+energy_drink						= 1, 1.8
+
+;Предметы
+device_torch						;NOTRADE
+hand_radio							;NOTRADE
+detector_simple						= 1, 2
+detector_advanced					= 1, 2
+detector_elite						= 1, 2
+detector_scientific					= 1, 2
+device_pda							;NOTRADE
+guitar_a							;NOTRADE
+harmonica_a							;NOTRADE
+anomaly_scaner						;NOTRADE
+
+;Квестовые предметы
+jup_a9_conservation_info			;NOTRADE
+jup_a9_power_info					;NOTRADE
+jup_a9_way_info						;NOTRADE
+jup_a9_evacuation_info				;NOTRADE
+jup_a9_meeting_info					;NOTRADE
+jup_a9_losses_info					;NOTRADE
+jup_a9_delivery_info				;NOTRADE
+jup_b10_ufo_memory					;NOTRADE
+jup_b10_ufo_memory_2				;NOTRADE
+jup_b10_notes_01					;NOTRADE
+jup_b10_notes_02					;NOTRADE
+jup_b10_notes_03					;NOTRADE
+jup_b205_sokolov_note				;NOTRADE
+jup_b206_plant						;NOTRADE
+jup_b209_monster_scanner			;NOTRADE
+jup_b200_tech_materials_wire		;NOTRADE
+jup_b200_tech_materials_acetone		;NOTRADE
+jup_b200_tech_materials_textolite	;NOTRADE
+jup_b200_tech_materials_transistor	;NOTRADE
+jup_b200_tech_materials_capacitor	;NOTRADE
+jup_b9_blackbox						;NOTRADE
+jup_b32_scanner_device				;NOTRADE
+jup_b46_duty_founder_pda			;NOTRADE
+jup_b207_merc_pda_with_contract		;NOTRADE
+jup_b47_jupiter_products_info		;NOTRADE
+toolkit_2							;NOTRADE
+toolkit_1							;NOTRADE
+zat_b33_safe_container				;NOTRADE
+zat_b57_gas							;NOTRADE
+zat_b12_key_1						;NOTRADE
+zat_b12_key_2						;NOTRADE
+zat_b12_documents_1					;NOTRADE
+zat_b12_documents_2					;NOTRADE
+device_pda_port_bandit_leader		;NOTRADE
+device_flash_snag					;NOTRADE
+jup_b202_bandit_pda					;NOTRADE
+zat_b40_notebook					;NOTRADE
+zat_b40_pda_1						;NOTRADE
+zat_b40_pda_2						;NOTRADE
+device_pda_zat_b5_dealer			;NOTRADE
+zat_b20_noah_pda					;NOTRADE
+zat_a23_access_card					;NOTRADE
+zat_a23_gauss_rifle_docs			;NOTRADE
+zat_b44_barge_pda					;NOTRADE
+zat_b39_joker_pda					;NOTRADE
+zat_b22_medic_pda					;NOTRADE
+toolkit_3							;NOTRADE
+pri_b35_lab_x8_key					;NOTRADE
+pri_b306_envoy_pda					;NOTRADE
+pri_b36_monolith_hiding_place_pda	;NOTRADE
+pri_a25_explosive_charge_item		;NOTRADE
+pri_a19_american_experiment_info	;NOTRADE
+pri_a19_lab_x16_info				;NOTRADE
+pri_a19_lab_x10_info				;NOTRADE
+pri_a19_lab_x7_info					;NOTRADE
+pri_a19_lab_x18_info				;NOTRADE
+zat_a23_labx8_key					;NOTRADE
+lx8_service_instruction				;NOTRADE
+af_compass							;NOTRADE
+af_oasis_heart						;NOTRADE
+jup_b1_half_artifact				;NOTRADE
+af_quest_b14_twisted				;NOTRADE
+
+;Уникальные вещи
+wpn_pm_actor						= 1.2, 3
+wpn_sig550_luckygun 				= 1.2, 3
+wpn_pkm_zulus						= 1.2, 3
+wpn_wincheaster1300_trapper 		= 1.2, 3
+wpn_desert_eagle_nimble 			= 1.2, 3
+wpn_groza_nimble					= 1.2, 3
+wpn_mp5_nimble 						= 1.2, 3
+wpn_sig220_nimble					= 1.2, 3
+wpn_spas12_nimble 					= 1.2, 3
+wpn_svd_nimble 						= 1.2, 3
+wpn_svu_nimble 						= 1.2, 3
+wpn_usp_nimble 						= 1.2, 3
+wpn_vintorez_nimble 				= 1.2, 3
+wpn_g36_nimble						= 1.2, 3
+wpn_fn2000_nimble 					= 1.2, 3
+wpn_protecta_nimble 				= 1.2, 3
+stalker_outfit_barge 				= 1, 2
+helm_respirator_joker 				= 1, 2
+helm_hardhat_snag 					= 1, 2
+wpn_ak74u_snag  					= 1, 2
+wpn_fort_snag  						= 1, 2
+
+;-----------------------------------------------------------
+
+[supplies_scientific]
+scientific_outfit 					= 1, 	1
+dolg_scientific_outfit 				= 1, 	1
+svoboda_scientific_outfit 			= 1, 	1
+
+[supplies_generic]
+;Еда
+bread								= 5,	0.5
+kolbasa								= 5,	0.5
+conserva							= 5,	0.5
+vodka								= 5,	0.8
+energy_drink						= 5,	0.8
+
+;Аммуниция
+ammo_7.62x25_p 						= 4,	0.7
+ammo_7.62x25_ps 					= 4,	0.5
+ammo_9x18_fmj						= 4,	0.7
+ammo_9x18_pmm 						= 4,	0.5
+ammo_9x19_fmj 						= 4,	0.7
+ammo_9x19_pbp 						= 4,	0.5
+ammo_11.43x23_fmj 					= 2,	0.7
+ammo_12x70_buck 					= 6,	0.7
+ammo_5.45x39_fmj 					= 4,	0.7
+ammo_5.45x39_ap 					= 2,	0.5
+ammo_5.56x45_ss190 					= 4,	0.7
+ammo_5.56x45_ap 					= 2,	0.5
+ammo_5.7x28_fmj 					= 4,	0.7
+ammo_5.7x28_ap 						= 2,	0.5
+ammo_7.62x39_fmj 					= 4,	0.7
+ammo_7.62x39_ap 					= 2,	0.5
+ammo_7.62x51_fmj 					= 8,	0.7
+ammo_7.62x51_ap 					= 4,	0.5
+ammo_50ae 							= 2,	0.8
+			
+grenade_rgd5 	 					= 4,	0.7
+
+;Оружие
+wpn_uzi_mini						= 1,	0.8
+wpn_vityaz 							= 1,	0.8
+wpn_saiga							= 1,	0.8
+			
+;Броники			
+merc_outfit							= 1,	0.8
+helm_respirator 					= 1,	0.8
+			
+;Аддоны			
+sil_hexagon							= 1,	0.7
+1p78								= 1,	0.7
+kobra								= 1,	0.7
+ac10632								= 1,	0.7
+acog								= 1,	0.7
+pu									= 1, 	0.7
+wpn_addon_silencer 					= 1,	0.3
+
+;Предметы
+detector_advanced					= 1,	1
+
+[sci_supplies_generic]:supplies_generic, supplies_scientific
+
+[supplies_duty_tier_1]:supplies_generic
+;Аммуниция
+ammo_9x19_fmj 						= 4,	0.7
+ammo_5.45x39_fmj 					= 6,	0.7
+ammo_5.45x39_ap 					= 4,	0.7
+ammo_7.62x39_fmj 					= 6,	0.7
+ammo_7.62x39_ap 					= 4,	0.7
+ammo_5.56x45_ap 					= 1,	0.0001
+ammo_5.7x28_ap 						= 1,	0.0001
+ammo_7.62x51_ap 					= 1,	0.0001
+ammo_12x76_zhekan 					= 4,	0.7
+ammo_vog-25							= 6,	0.7
+			
+;Оружие			
+wpn_uzi_mini						= 1,	0.0001
+wpn_vsk94							= 1,	0.8
+wpn_rpk74  							= 1,	0.5
+
+;Аддоны
+wpn_addon_scope  					= 1,	0.8
+wpn_addon_grenade_launcher			= 1,	0.8
+wpn_addon_grenade_launcher_gp34		= 1,	0.8
+wpn_addon_silencer 					= 1,	0.0001
+
+1pn93-1								= 1,	0.8
+1pn93-4								= 1,	0.8
+ac10632								= 1,	0.3
+acog								= 1,	0.3
+okp									= 1,    0.8
+ekp									= 1,	0.8
+pso1m2								= 1,	0.8
+pso1m21								= 1,	0.8
+
+sil_6p9								= 1,	0.8
+sil_groza							= 1,	0.8
+sil_aps								= 1,	0.8
+sil_pbs1							= 1,	0.8
+sil_pbs4							= 1,	0.8
+sil_tgp-v							= 1,	0.8
+sil_hexagon							= 1,	0.8
+sil_vihr							= 1,	0.5
+sil_vsk94							= 1,	0.5
+
+;Броники
+dolg_outfit							= 1,	0.8
+monolith_outfit						= 1,	0.5
+helm_hardhat						= 1, 	0.9
+helm_respirator 					= 1,	0.4
+
+[sci_supplies_duty_tier_1]:supplies_duty_tier_1, supplies_scientific
+
+[supplies_freedom_tier_1]:supplies_generic
+;Аммуниция
+ammo_7.62x25_ps 					= 4,	0.0001
+ammo_9x18_fmj 						= 4,	0.7
+ammo_9x19_fmj 						= 6,	0.7
+ammo_9x19_pbp 						= 4,	0.7
+ammo_12x76_zhekan 					= 4,	0.7
+ammo_11.43x23_fmj 					= 4,	0.7
+ammo_5.45x39_ap 					= 1,	0.0001
+ammo_5.56x45_ss190 					= 6,	0.7
+ammo_5.56x45_ap 					= 4,	0.5
+ammo_5.7x28_fmj 					= 6,	0.7
+ammo_5.7x28_ap 						= 4,	0.5
+ammo_7.62x39_ap 					= 1,	0.0001
+ammo_7.62x51_fmj 					= 10,	0.7
+ammo_7.62x51_ap 					= 7,	0.5
+
+;Оружие
+wpn_vityaz							= 1,	0.0001
+wpn_p90 							= 1,	0.8
+wpn_saiga							= 1,	0.0001
+wpn_mk14							= 1,	0.3
+wpn_sr25							= 1,	0.5
+
+;Аддоны
+wpn_addon_scope_susat				= 1,	0.8
+wpn_addon_silencer 					= 1,	0.5
+wpn_addon_grenade_launcher_ag36		= 1,	0.5
+wpn_addon_grenade_launcher_m203		= 1,	0.7
+wpn_addon_grenade_launcher_l123a2	= 1,	0.5
+
+1p78								= 1,	0.3
+kobra								= 1,	0.3
+		
+ac10632								= 1,	0.8
+acog								= 1,	0.8
+aimpoint							= 1,	0.8
+eot									= 1, 	0.8
+pn23								= 1,	0.8
+galil_scope							= 1,	0.8
+
+sil_45								= 1,	0.8
+sil_57								= 1, 	0.8
+sil_556								= 1,	0.8
+sil_762_nato						= 1,	0.8
+sil_salvo12							= 1,	0.8
+sil_hexagon							= 1,	0.3
+		
+;Броники		
+svoboda_light_outfit	    		= 1,	0.9
+monolith_outfit	    				= 1,	0.5
+helm_respirator 					= 1,	0.4
+
+;Предметы
+detector_elite						= 1,	1
+detector_advanced		    		= 1,	0.0001
+
+[sci_supplies_freedom_tier_1]:supplies_freedom_tier_1, supplies_scientific
+
+[supplies_freedom_duty_tier]:supplies_generic
+;Аммуниция
+ammo_9x18_fmj 						= 4,	0.7
+ammo_9x19_fmj 						= 4,	0.7
+ammo_9x19_pbp 						= 4,	0.7
+ammo_12x76_zhekan 					= 4,	0.7
+ammo_11.43x23_fmj 					= 4,	0.7
+ammo_5.45x39_ap 					= 2,	0.7
+ammo_5.56x45_ss190 					= 4,	0.7
+ammo_5.56x45_ap 					= 2,	0.7
+ammo_7.62x39_ap 					= 2,	0.7
+ammo_7.62x51_ap 					= 2,	0.7
+ammo_12.7x55_fmj					= 2,	0.5
+grenade_f1 							= 4, 	0.8
+		
+;Оружие		
+wpn_p90								= 1,	0.7
+wpn_vsk94							= 1,	0.7
+
+;Аддоны
+wpn_addon_scope  					= 1,	0.6
+wpn_addon_grenade_launcher			= 1,	0.6
+wpn_addon_grenade_launcher_l123a2	= 1,	0.6
+wpn_addon_scope_susat				= 1,	0.6
+
+1pn93-1								= 1,	0.6
+1pn93-4								= 1,	0.6
+okp									= 1,    0.6
+ekp									= 1,	0.6
+pso1m2								= 1,	0.6
+pso1m21								= 1,	0.6
+		
+ac10632								= 1,	0.6
+acog								= 1,	0.6
+aimpoint							= 1,	0.6
+eot									= 1, 	0.6
+pn23								= 1,	0.6
+		
+sil_45								= 1,	0.6
+sil_57								= 1, 	0.6
+sil_556								= 1,	0.6
+sil_762_nato						= 1,	0.6
+sil_salvo12							= 1,	0.6
+sil_hexagon							= 1,	0.6
+		
+sil_6p9								= 1,	0.6
+sil_groza							= 1,	0.6
+sil_aps								= 1,	0.6
+sil_pbs1							= 1,	0.6
+sil_pbs4							= 1,	0.6
+sil_tgp-v							= 1,	0.6
+sil_hexagon							= 1,	0.6
+sil_vihr							= 1,	0.6
+sil_vsk94							= 1,	0.6
+
+;Броники
+svoboda_light_outfit				= 1,	0.7
+dolg_outfit							= 1,	0.7
+monolith_outfit						= 1,	0.7
+helm_hardhat						= 1, 	0.3
+helm_respirator 					= 1,	0.3
+		
+;Предметы		
+detector_elite						= 1,	1
+detector_advanced		    		= 1,	0.0001
+
+[sci_supplies_freedom_duty_tier]:supplies_freedom_duty_tier, supplies_scientific
+
+[supplies_duty_tier_2]:supplies_duty_tier_1
+;Аммуниция
+grenade_rgd5 						= 1,	0.0001
+grenade_f1  						= 6,	0.7
+ammo_vog-25  						= 4,	0.7
+ammo_vog-25p  						= 2,	0.5
+ammo_pkm_100 						= 2,	0.7
+ammo_9x39_ap  						= 3,	0.7
+ammo_9x39_sp5  						= 3,	0.7
+ammo_9x39_pab9  					= 5,	0.7
+ammo_11.43x23_fmj 					= 5,	0.7
+ammo_11.43x23_hydro 				= 3,	0.7
+ammo_7.62x54_7h1  					= 4,	0.7
+ammo_7.62x54_7h14  					= 2,	0.7
+ammo_7.62x54_ap 					= 2,	0.7
+ammo_12.7x55_fmj					= 2,	0.8
+
+;Оружие
+wpn_aek971  						= 1,	0.8
+wpn_pkm 							= 1,	0.5
+
+;Аддоны
+
+;Броники
+stalker_outfit						= 1,	0.0001
+dolg_heavy_outfit					= 1,	0.8
+helm_battle							= 1,	0.8
+helm_hardhat						= 1, 	0.1
+helm_respirator 					= 1,	0.1
+dolg_exo_outfit 					= 1, 	0.3
+
+;Предметы
+detector_elite						= 1,	1
+detector_advanced		    		= 1,	0.0001
+
+[sci_supplies_duty_tier_2]:supplies_duty_tier_2, supplies_scientific
+
+[supplies_freedom_tier_2]:supplies_generic, supplies_freedom_tier_1 
+;Аммуниция
+grenade_rgd5 						= 1,	0.0001
+grenade_f1  						= 5,	0.7
+ammo_m209   						= 3,	0.7
+ammo_7.62x54_7h1  					= 4,	0.7
+ammo_7.62x54_7h14  					= 2,	0.7
+ammo_7.62x54_ap 					= 2,	0.7
+ammo_11.43x23_hydro 				= 3,	0.7
+ammo_338_lapua 						= 4,	0.7
+ammo_12.7x55_fmj					= 2,	0.5
+
+;Оружие			
+wpn_kriss_vector   					= 1,	0.8
+wpn_mk14  							= 1,	0.8
+wpn_m24 							= 1,	0.3
+wpn_scar 							= 1,	0.8
+wpn_g36								= 1,	0.6
+wpn_sr25							= 1,	0.8
+
+;Аддоны
+wpn_addon_grenade_launcher_ag36		= 1,	0.8
+wpn_addon_grenade_launcher_m203		= 1,	0.8
+wpn_addon_grenade_launcher_l123a2	= 1,	0.8
+
+;Броники
+stalker_outfit						= 1,	0.0001
+svoboda_heavy_outfit				= 1,	0.8
+helm_protective   					= 1,	0.8
+helm_hardhat						= 1, 	0.1
+helm_respirator 					= 1,	0.1
+svoboda_exo_outfit 					= 1, 	0.3
+
+[sci_supplies_freedom_tier_2]:supplies_freedom_tier_2, supplies_scientific
+
+[supplies_duty_wealthy_tier_2]:supplies_duty_tier_2
+;Оружие
+wpn_sv98  							= 1,	0.5
+wpn_pkm 							= 1,	0.8
+wpn_svd  							= 1,	0.5
+wpn_svu   							= 1,	0.5
+
+;Аддоны
+wpn_addon_grenade_launcher			= 1,	1
+
+;Броники
+exo_outfit 							= 1, 	0.5
+monolith_exo_outfit 				= 1, 	0.5
+merc_exo_outfit 					= 1, 	0.5
+
+[sci_supplies_duty_wealthy_tier_2]:supplies_duty_wealthy_tier_2, supplies_scientific
+
+[supplies_freedom_wealthy_tier_2]:supplies_freedom_tier_2
+;Оружие
+wpn_protecta						= 1,	1
+wpn_desert_eagle 					= 1,	1
+wpn_g3								= 1,	0.8
+wpn_fn2000							= 1,	0.5
+wpn_svd  							= 1,	0.5
+wpn_svu   							= 1,	0.5
+wpn_m24 							= 1,	0.5
+
+;Аддоны
+wpn_addon_grenade_launcher_ag36		= 1,	1
+wpn_addon_grenade_launcher_m203		= 1,	1
+
+;Броники
+exo_outfit 							= 1, 	0.5
+monolith_exo_outfit 				= 1, 	0.5
+merc_exo_outfit 					= 1, 	0.5
+
+[sci_supplies_freedom_wealthy_tier_2]:supplies_freedom_wealthy_tier_2, supplies_scientific

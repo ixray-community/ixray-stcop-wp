@@ -1,0 +1,329 @@
+; Итальянское боевое ружьё Benelli M3 Super 90
+;-(TrickSR, Ga2z)-----------------------------------------
+; калибр 										12/76
+; длина ствола 									660 мм
+; магазин										7
+; вес с пустым магазином						4.3 кг
+; максимальная дальность стрельбы				-- м
+; эффективная дальность стрельбы				до 80 м
+; прицельная дальность							40 м
+; дульная скорость пули							373 м/с
+; темп стрельбы									3 в/с
+;---------------------------------------------------
+[wpn_m3super90]:weapon_probability,default_weapon_params,wpn_m3super90_sounds
+GroupControlSection								= spawn_group
+$spawn 											= "weapons\m3super90"
+$npc			 								= on
+$prefetch 		 								= 8
+scheduled										= off
+cform											= skeleton
+class											= WP_ASHTG
+description										= st_wpn_m3super90_descr
+
+scopes 											= ac10632,aimpoint,eot
+parent_section  								= wpn_m3super90
+
+icons_texture									= ui\ui_icon_equipment_stcopwp
+upgr_icons_texture 								= ui\ui_actor_weapons_stcopwp
+	
+ef_main_weapon_type								= 1
+ef_weapon_type									= 9
+	
+inv_name										= st_wpn_m3super90
+inv_name_short									= st_wpn_m3super90
+	
+inv_grid_width									= 6
+inv_grid_height									= 2
+inv_grid_x										= 35
+inv_grid_y										= 32
+	
+upgr_icon_x										= 850
+upgr_icon_y										= 1700
+upgr_icon_width									= 300
+upgr_icon_height 								= 100
+	
+kill_msg_x										= 171
+kill_msg_y										= 104
+kill_msg_width									= 75
+kill_msg_height									= 20
+	
+cost											= 5000
+weapon_class									= shotgun
+inv_weight										= 4.3
+hud												= wpn_m3super90_hud
+visual 											= dynamics\weapons\wpn_m3super90\wpn_m3super90.ogf
+
+upgrades										= up_gr_firstab_svd, up_gr_seconab_svd, up_gr_thirdab_svd, up_gr_fourtab_svd, up_gr_fourtcd_svd, up_gr_fourtef_svd
+installed_upgrades								=
+upgrade_scheme									= upgrade_scheme_svd
+
+ph_mass			 								= 3
+	
+ammo_class		 								= ammo_12x70_buck, ammo_12x76_zhekan
+	
+startup_ammo 									= 10
+ammo_current									= 30
+ammo_elapsed		 							= 0
+ammo_limit										= 35
+ammo_mag_size		 							= 7
+ammo_in_chamber									= false
+	
+fire_modes										= 1
+	
+tri_state_reload								= on
+	
+hand_dependence 	 							= 1
+single_handed									= 0
+	
+hit_power										= 0.55
+hit_impulse										= 35
+hit_type 										= fire_wound
+fire_distance									= 180
+bullet_speed									= 373
+rpm												= 180
+rpm_empty_click 	 							= 200
+	
+misfire_probability								= 0.005
+misfire_start_condition							= 0.6
+misfire_end_condition							= 0.1
+misfire_start_prob	 							= 0.006
+misfire_end_prob	 							= 0.072	
+condition_shot_dec 								= 0.003
+condition_queue_shot_dec						= 0.0035
+	
+zoom_dof										= 0.5,1,180
+;reload_dof										= 0,0.5,5,1.7
+	
+fire_dispersion_base							= 0.36
+fire_dispersion_condition_factor				= 3
+control_inertion_factor							= 1.35f
+crosshair_inertion								= 6.75
+	
+cam_return										= 0
+cam_relax_speed									= 10
+cam_relax_speed_ai								= 360
+cam_dispersion									= 3.0
+cam_dispersion_inc								= 2
+cam_dispersion_frac								= 0.7
+cam_max_angle									= 15
+cam_max_angle_horz								= 15
+cam_step_angle_horz								= 3
+	
+zoom_cam_relax_speed							= 10
+zoom_cam_relax_speed_ai							= 120.75
+zoom_cam_dispersion								= 3
+zoom_cam_dispersion_inc							= 2.5
+zoom_cam_dispersion_frac						= 0.7
+zoom_cam_max_angle								= 15
+zoom_cam_max_angle_horz							= 15
+zoom_cam_step_angle_horz						= 3
+	
+PDM_disp_base 									= 0.5
+PDM_disp_vel_factor 							= 2
+PDM_disp_accel_factor 							= 2
+PDM_disp_crouch	 								= 1
+PDM_disp_crouch_no_acc 							= 1
+	
+min_radius 										= 30
+max_radius 										= 50
+	
+holder_range_modifier							= 1
+holder_fov_modifier								= 1
+	
+slot 				 							= 2
+animation_slot		 							= 9
+	
+position                   						= -0.033,-0.1,-0.01
+orientation              						= 0,0,0
+	
+fire_point 										= 0,0.168,0.755
+fire_point2										= 0,0.168,0.755
+	
+flame_particles         						= weapons\generic_weapon05
+smoke_particles         						= weapons\generic_shoot_00
+	
+shell_point										= 0,0.180,0.647
+
+strap_position 									= -0.26,-0.10,0.05
+strap_orientation								= -15,-9,110
+strap_bone0										= bip01_spine2
+strap_bone1										= bip01_spine1
+	
+light_color		 								= 0.6,0.5,0.3
+light_range		 								= 6.0
+light_var_color		 							= 0.05
+light_var_range		 							= 0.5
+light_time 		 								= 0.2
+	
+scope_status									= 2
+silencer_status									= 0
+grenade_launcher_status							= 0
+	
+zoom_enabled									= true
+zoom_rotate_time								= 0.2
+scope_zoom_factor								= 73.3
+	
+block_reload 									= true	
+	
+[wpn_m3super90_hud]:hud_base	
+zoom_hide_crosshair								= true
+attach_place_idx								= 0
+item_visual                 					= dynamics\weapons\wpn_m3super90\wpn_m3super90_hud.ogf
+
+hands_orientation								= 1.253117, 0.269092, 0
+hands_orientation_16x9							= 1.253117, 0.269092, 0
+
+hands_position									= -0.000691, -0.020442, -0.049619
+hands_position_16x9								= -0.000691, -0.020442, -0.049619
+
+item_position               					= 0, 0, 0
+item_orientation            					= 0, 0, 0
+	
+aim_hud_offset_pos								= -0.071066, 0.035497, -0.03
+aim_hud_offset_pos_16x9							= -0.071066, 0.035497, -0.03
+
+aim_hud_offset_rot								= 0.00426, 0.022223, 0
+aim_hud_offset_rot_16x9							= 0.00426, 0.022223, 0
+
+shell_bone										= wpn_body
+shell_dir										= 0, 0, 0
+shell_point										= 0, 0, 0
+
+fire_bone										= muzzle
+fire_bone2										= muzzle
+fire_point										= 0, 0, 0
+fire_point2										= 0, 0, 0
+;==============================================================================================
+anm_show										= tarkov_super90_draw_sedzhimol, idle
+anm_show_variant1								= tarkov_super90_draw_first_sedzhimol
+anm_hide										= tarkov_super90_holster_first_sedzhimol
+anm_bore										= tarkov_super90_inspect_sedzhimol
+anm_bore_empty									= tarkov_super90_inspect_sedzhimol, idle_empty
+anm_bore_jammed									= tarkov_super90_inspect_sedzhimol, idle_jammed
+anm_bore_aim									= tarkov_super90_aim_sedzhimol, idle
+anm_bore_empty_aim								= tarkov_super90_aim_sedzhimol, idle_empty
+anm_bore_aim_jammed								= tarkov_super90_aim_sedzhimol, idle_jammed
+
+anm_idle										= tarkov_super90_idle_sedzhimol, idle
+anm_idle_aim									= tarkov_super90_aim_sedzhimol, idle
+anm_idle_aim_start								= tarkov_super90_aim_in_sedzhimol
+anm_idle_aim_end								= tarkov_super90_aim_in_sedzhimol
+
+anm_idle_moving									= tarkov_super90_walk_sedzhimol, idle
+anm_idle_moving_slow							= tarkov_super90_walk_sedzhimol, idle, 0.8
+anm_idle_moving_crouch							= tarkov_super90_walk_sedzhimol, idle, 0.6
+anm_idle_moving_slow_crouch						= tarkov_super90_walk_sedzhimol, idle, 0.4
+anm_idle_sprint									= tarkov_super90_sprint_sedzhimol, idle
+anm_idle_sprint_start							= tarkov_super90_sprint_start_sedzhimol, idle
+anm_idle_sprint_end								= tarkov_super90_sprint_end_sedzhimol, idle
+;==============================================================================================
+anm_show_empty									= tarkov_super90_draw_sedzhimol, idle_empty
+anm_hide_empty									= tarkov_super90_holster_first_sedzhimol, idle_empty
+
+anm_idle_empty									= tarkov_super90_idle_sedzhimol, idle_empty
+anm_idle_aim_empty								= tarkov_super90_aim_sedzhimol, idle_empty
+anm_idle_aim_start_empty						= tarkov_super90_aim_in_sedzhimol, idle_empty
+anm_idle_aim_end_empty							= tarkov_super90_aim_in_sedzhimol, idle_empty
+
+anm_idle_moving_empty							= tarkov_super90_walk_sedzhimol, idle_empty
+anm_idle_moving_slow_empty						= tarkov_super90_walk_sedzhimol, idle_empty, 0.8
+anm_idle_moving_crouch_empty					= tarkov_super90_walk_sedzhimol, idle_empty, 0.6
+anm_idle_moving_slow_crouch_empty				= tarkov_super90_walk_sedzhimol, idle_empty, 0.4
+anm_idle_sprint_empty							= tarkov_super90_sprint_sedzhimol, idle_empty
+anm_idle_sprint_start_empty						= tarkov_super90_sprint_start_sedzhimol, idle_empty
+anm_idle_sprint_end_empty						= tarkov_super90_sprint_end_sedzhimol, idle_empty
+;--------------Psevdo Jammed-------------------------------
+anm_show_jammed									= tarkov_super90_draw_sedzhimol, idle_jammed
+anm_hide_jammed									= tarkov_super90_holster_first_sedzhimol, idle_jammed
+
+anm_idle_jammed									= tarkov_super90_idle_sedzhimol, idle_jammed
+anm_idle_aim_jammed								= tarkov_super90_aim_sedzhimol, idle_jammed
+anm_idle_aim_start_jammed						= tarkov_super90_aim_in_sedzhimol, idle_jammed
+anm_idle_aim_end_jammed							= tarkov_super90_aim_in_sedzhimol, idle_jammed
+
+anm_idle_moving_jammed							= tarkov_super90_walk_sedzhimol, idle_jammed
+anm_idle_moving_slow_jammed						= tarkov_super90_walk_sedzhimol, idle_jammed, 0.8
+anm_idle_moving_crouch_jammed					= tarkov_super90_walk_sedzhimol, idle_jammed, 0.6
+anm_idle_moving_slow_crouch_jammed				= tarkov_super90_walk_sedzhimol, idle_jammed, 0.4
+anm_idle_sprint_jammed							= tarkov_super90_sprint_sedzhimol, idle_jammed
+anm_idle_sprint_start_jammed					= tarkov_super90_sprint_start_sedzhimol, idle_jammed
+anm_idle_sprint_end_jammed						= tarkov_super90_sprint_end_sedzhimol, idle_jammed
+;--------------Psevdo Jammed (shto eto blyat)-------------------------------
+anm_show_empty_jammed							= tarkov_super90_draw_sedzhimol, idle_jammed
+anm_hide_empty_jammed							= tarkov_super90_holster_first_sedzhimol, idle_jammed
+
+anm_idle_empty_jammed							= tarkov_super90_idle_sedzhimol, idle_jammed
+anm_idle_empty_aim_jammed						= tarkov_super90_aim_sedzhimol, idle_jammed
+anm_idle_aim_start_empty_jammed					= tarkov_super90_aim_in_sedzhimol, idle_jammed
+anm_idle_aim_end_empty_jammed					= tarkov_super90_aim_in_sedzhimol, idle_jammed
+
+anm_idle_aim_moving_empty_jammed				= tarkov_super90_aim_sedzhimol, idle_jammed
+anm_idle_aim_moving_crouch_empty_jammed			= tarkov_super90_aim_sedzhimol, idle_jammed
+anm_idle_moving_empty_jammed					= tarkov_super90_walk_sedzhimol, idle_jammed
+anm_idle_moving_crouch_empty_jammed				= tarkov_super90_walk_sedzhimol, idle_jammed
+anm_idle_sprint_empty_jammed					= tarkov_super90_sprint_sedzhimol, idle_jammed
+anm_idle_sprint_start_empty_jammed				= tarkov_super90_sprint_start_sedzhimol, idle_jammed
+anm_idle_sprint_end_empty_jammed				= tarkov_super90_sprint_end_sedzhimol, idle_jammed
+;-----------------------------------------------------------
+anm_add_cartridge								= tarkov_super90_add_cartridge_sedzhimol
+anm_add_cartridge_empty							= tarkov_super90_open_empty_sedzhimol
+anm_close										= tarkov_super90_close_sedzhimol, idle
+anm_open										= tarkov_super90_open_sedzhimol, idle
+anm_open_empty									= tarkov_super90_aim_sedzhimol, idle_empty
+anm_reload_jammed								= tarkov_super90_misfire_sedzhimol
+anm_shoot										= tarkov_super90_shoot_sedzhimol
+anm_shoot_jammed								= tarkov_super90_shoot_sedzhimol, tarkov_super90_shoot_jammed_sedzhimol
+anm_shoot_last									= tarkov_super90_shoot_sedzhimol, tarkov_super90_shoot_last_sedzhimol
+;-----------------------------------------------------------------------------
+; Аддоны
+;-----------------------------------------------------------------------------
+[wpn_m3super90_ac10632]:wpn_m3super90
+$spawn             								= "weapons\wpn_m3super90_ac10632"
+visual											= dynamics\weapons\wpn_m3super90\wpn_m3super90_barska.ogf
+hud												= wpn_m3super90_ac10632_hud
+
+scope_x											= 114
+scope_y											= -4
+
+[wpn_m3super90_ac10632_hud]:wpn_m3super90_hud
+item_visual            	 						= dynamics\weapons\wpn_m3super90\wpn_m3super90_barska_hud.ogf
+
+aim_hud_offset_pos						         = -0.069066, 0.009497, -0.081558
+aim_hud_offset_rot						         = -0.002000, 0.014500, 0.000000
+
+aim_hud_offset_pos_16x9         				= -0.069066, 0.009497, -0.081558
+aim_hud_offset_rot_16x9         				= -0.002000, 0.014500, 0.000000
+
+[wpn_m3super90_aimpoint]:wpn_m3super90
+$spawn             								= "weapons\wpn_m3super90_aimpoint"
+visual											= dynamics\weapons\wpn_m3super90\wpn_m3super90_aimpoint.ogf
+hud												= wpn_m3super90_aimpoint_hud
+
+scope_x											= 119
+scope_y											= -6
+
+[wpn_m3super90_aimpoint_hud]:wpn_m3super90_hud
+item_visual            	 						= dynamics\weapons\wpn_m3super90\wpn_m3super90_aimpoint_hud.ogf
+
+aim_hud_offset_pos						  		= -0.073066, 0.011000, -0.081558
+aim_hud_offset_rot						  		= 0.012500, 0.030000, 0.000000
+
+aim_hud_offset_pos_16x9          				= -0.073066, 0.011000, -0.081558
+aim_hud_offset_rot_16x9          				= 0.012500, 0.030000, 0.000000
+
+[wpn_m3super90_eot]:wpn_m3super90
+$spawn             								= "weapons\wpn_m3super90_eot"
+hud												= wpn_m3super90_eot_hud
+visual											= dynamics\weapons\wpn_m3super90\wpn_m3super90_eot.ogf
+
+scope_x											= 115
+scope_y											= -2
+
+[wpn_m3super90_eot_hud]:wpn_m3super90_hud
+item_visual                						= dynamics\weapons\wpn_m3super90\wpn_m3super90_eot_hud.ogf
+
+aim_hud_offset_pos		         				= -0.073000, 0.007000, -0.100558
+aim_hud_offset_rot		         				= 0.012500, 0.030000, 0.000000
+
+aim_hud_offset_pos_16x9          				= -0.073000, 0.007000, -0.100558
+aim_hud_offset_rot_16x9          				= 0.012500, 0.030000, 0.000000
