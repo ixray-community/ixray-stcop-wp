@@ -1,0 +1,3 @@
+name: ixray-stwp-cop-cs
+platform: [cop, cs]
+depends: ixray-stcop-wp-3.8-based

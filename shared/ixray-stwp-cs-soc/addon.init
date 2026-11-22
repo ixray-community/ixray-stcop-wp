@@ -1,0 +1,3 @@
+name: ixray-stwp-cs-soc
+platform: [cs, soc]
+depends: ixray-stcop-wp-3.8-based
