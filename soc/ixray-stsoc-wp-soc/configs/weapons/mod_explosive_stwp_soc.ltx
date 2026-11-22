@@ -1,0 +1,193 @@
+![explosive_fuelcan]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,identity_immunities,delayed_action_fuse
+visual = physics\balon\balon_01.ogf
+inv_name = Fuelcan
+
+![explosive_fuelcan_immunities_sect]
+burn_immunity = 1.0
+
+![explosive_tank]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,identity_immunities,delayed_action_fuse
+visual = physics\balon\bomb_01.ogf
+inv_name = Fuelcan
+
+![explosive_tank_immunities_sect]
+burn_immunity = 1.0
+
+![explosive_barrel_low]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,identity_immunities,delayed_action_fuse
+visual = physics\balon\bochka_fuel.ogf
+inv_name = Barrel
+
+!![explosive_grenade]
+!GroupControlSection
+!discovery_dependency
+!$spawn
+!$prefetch
+!class
+!cform
+!visual
+!inv_name
+!inv_name_short
+!inv_weight
+!inv_grid_width
+!inv_grid_height
+!inv_grid_x
+!inv_grid_y
+!can_take
+!cost
+!blast
+!blast_r
+!blast_impulse
+!blast_impulse_factor
+!frags
+!frags_r
+!frag_hit
+!frag_hit_impulse
+!hit_type_blast
+!hit_type_frag
+!up_throw_factor
+!wm_size
+!explode_particles
+!light_color
+!light_range
+!light_time
+!fragment_speed
+!explode_duration
+!wallmark_section
+!snd_explode
+!immunities_sect
+
+![explosive_grenade]:!identity_immunities,!delayed_action_fuse,!default_weapon_params
+
+!![explosive_explosive_grenade_immunities_sect]
+!burn_immunity
+!strike_immunity
+!shock_immunity
+!wound_immunity
+!radiation_immunity
+!telepatic_immunity
+!chemical_burn_immunity
+!explosion_immunity
+!fire_wound_immunity
+
+!![explosive_hide]
+!GroupControlSection
+!discovery_dependency
+!$spawn
+!$prefetch
+!class
+!cform
+!visual
+!inv_name
+!inv_name_short
+!inv_weight
+!inv_grid_width
+!inv_grid_height
+!inv_grid_x
+!inv_grid_y
+!can_take
+!cost
+!blast
+!blast_r
+!blast_impulse
+!blast_impulse_factor
+!frags
+!frags_r
+!frag_hit
+!frag_hit_impulse
+!hit_type_blast
+!hit_type_frag
+!up_throw_factor
+!wm_size
+!explode_particles
+!light_color
+!light_range
+!light_time
+!fragment_speed
+!explode_duration
+!wallmark_section
+!snd_explode
+!immunities_sect
+
+![explosive_hide]:!identity_immunities,!delayed_action_fuse,!default_weapon_params
+
+!![explosive_hide_immunities_sect]
+!burn_immunity
+!strike_immunity
+!shock_immunity
+!wound_immunity
+!radiation_immunity
+!telepatic_immunity
+!chemical_burn_immunity
+!explosion_immunity
+!fire_wound_immunity
+
+!![explosive_particle]
+!GroupControlSection
+!discovery_dependency
+!$spawn
+!$prefetch
+!class
+!cform
+!visual
+!inv_name
+!inv_name_short
+!inv_weight
+!inv_grid_width
+!inv_grid_height
+!inv_grid_x
+!inv_grid_y
+!can_take
+!cost
+!blast
+!blast_r
+!blast_impulse
+!blast_impulse_factor
+!frags
+!frags_r
+!frag_hit
+!frag_hit_impulse
+!hit_type_blast
+!hit_type_frag
+!up_throw_factor
+!wm_size
+!explode_particles
+!light_color
+!light_range
+!light_time
+!fragment_speed
+!explode_duration
+!wallmark_section
+!snd_explode
+!immunities_sect
+
+![explosive_particle]:!identity_immunities,!delayed_action_fuse,!default_weapon_params
+
+![explosive_barrel]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,identity_immunities,delayed_action_fuse
+visual = physics\balon\bochka_fuel.ogf
+inv_name = Barrel
+
+![explosive_barrel_immunities_sect]
+burn_immunity = 1
+
+![explosive_mobiltank]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,identity_immunities,delayed_action_fuse
+visual = physics\balon\kanistra.ogf
+inv_name = Barrel
+
+![explosive_mobiltank_immunities_sect]
+burn_immunity = 1.0
+
+![explosive_dinamit]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse
+visual = physics\box\expl_dinamit.ogf
+inv_name = Dimanit
+blast = 2.00
+blast_r = 5
+frags = 5
+frags_r = 8
+frag_hit = 0.55
+frag_hit_impulse = 150
+hit_type_blast = chemical_burn
+hit_type_frag = burn
+fragment_speed = 100
+
+![dinamit_immunities_sect]
+explosion_immunity = 0.0
+fire_wound_immunity = 0.0

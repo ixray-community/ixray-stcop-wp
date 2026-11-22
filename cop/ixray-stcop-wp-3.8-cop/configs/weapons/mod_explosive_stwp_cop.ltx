@@ -1,0 +1,126 @@
+![explosive_fuelcan]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_fuelcan_sounds
+class = S_EXPLO
+inv_name = "Газовый балон 6 кг"
+inv_name_short = "Газовый балон 6 кг"
+inv_weight = 6
+inv_grid_height = 3
+inv_grid_x = 16
+inv_grid_y = 37
+cost = 500
+frag_hit = 5.75
+hit_type_frag = light_burn
+!snd_explode
+
+![explosive_tank]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_tank_sounds
+class = S_EXPLO
+inv_name = "Канистра 20л"
+inv_name_short = "Канистра 20л"
+inv_weight = 20
+inv_grid_height = 2
+inv_grid_x = 17
+inv_grid_y = 38
+frag_hit = 5.75
+hit_type_frag = light_burn
+!snd_explode
+
+![explosive_barrel_low]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_barrel_low_sounds
+class = S_EXPLO
+inv_name = "Бочка 10л"
+inv_name_short = "Бочка 10л"
+inv_weight = 10
+inv_grid_width = 2
+inv_grid_height = 3
+inv_grid_x = 14
+inv_grid_y = 37
+cost = 1000
+frag_hit = 5.75
+hit_type_frag = light_burn
+!snd_explode
+
+![explosive_grenade]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_grenade_sounds
+class = S_EXPLO
+blast = 1.50
+blast_r = 2
+blast_impulse = 240
+frags = 100
+frag_hit = 5.5
+frag_hit_impulse = 240
+!snd_explode
+
+![explosive_hide]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_hide_sounds
+class = S_EXPLO
+!snd_explode
+
+![explosive_particle]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_particle_sounds
+class = S_EXPLO
+frag_hit = 5.75
+!snd_explode
+
+![explosive_barrel]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_barrel_sounds
+class = S_EXPLO
+inv_name = "Бочка 10л"
+inv_name_short = "Бочка 10л"
+inv_weight = 10
+inv_grid_width = 2
+inv_grid_height = 3
+inv_grid_x = 14
+inv_grid_y = 37
+cost = 1000
+frag_hit = 5.75
+hit_type_frag = light_burn
+!snd_explode
+
+![explosive_mobiltank]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_mobiltank_sounds
+class = S_EXPLO
+inv_name = "Канистра 5л"
+inv_name_short = "Канистра 5л"
+inv_weight = 5
+inv_grid_width = 2
+inv_grid_height = 2
+inv_grid_x = 12
+inv_grid_y = 36
+cost = 1000
+frag_hit = 5.75
+hit_type_frag = light_burn
+!snd_explode
+
+![explosive_dinamit]:!identity_immunities,!delayed_action_fuse,!default_weapon_params,delayed_action_fuse,default_weapon_params,explosive_dinamit_sounds
+class = S_EXPLO
+inv_name = "Ящик с динамитом"
+inv_name_short = "Ящик с динамитом"
+inv_grid_width = 2
+inv_grid_height = 2
+inv_grid_x = 18
+inv_grid_y = 38
+cost = 2500
+!snd_explode
+
+[explosive_gaz_balon]:explosive_fuelcan
+$spawn						= "weapons\explosive\gaz_balon"
+visual						= dynamics\balon\gaz_balon.ogf
+inv_name						= "Газовый балон 4 кг"
+inv_name_short					= "Газовый балон 4 кг"
+inv_weight					= 4
+inv_grid_width					= 2
+inv_grid_height					= 2
+inv_grid_x					= 12
+inv_grid_y					= 38
+
+;вещь невозможно подобрать
+can_take			                                          = false
+
+cost				                            = 400
+
+[pri_a25_enter_door_explosive_grenade]:explosive_grenade
+$spawn							= "dynamic_objects\scene_objects\pri_a25_enter_door_explosive_grenade"
+story_id 						= pri_a25_enter_door_explosive_grenade
+hit_type_blast					= chemical_burn
+hit_type_frag					= chemical_burn
+visual							= dynamics\light\light_signal.ogf
+
+;- pri_a25_antenna_grenade -----------------------------------------------------
+
+[pri_a25_antenna_grenade]:explosive_grenade
+$spawn							= "dynamic_objects\scene_objects\pri_a25_antenna_grenade"
+story_id 						= pri_a25_antenna_grenade
+visual							= dynamics\light\light_signal.ogf
