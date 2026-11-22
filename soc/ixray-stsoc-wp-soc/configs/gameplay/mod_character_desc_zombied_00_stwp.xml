@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="zombied_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_default6">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_default7">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_veteran_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_veteran_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_veteran_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_veteran_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="zombied_veteran_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+</xml>

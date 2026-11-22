@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="killer_leader">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_regular_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_regular_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_regular_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_sniper_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_sniper.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_specnaz_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_specnaz_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_specnaz_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_specnaz_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_master_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_master_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_specnaz_stukach">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="killer_informator">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+</xml>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="aes_Monolit_specnaz">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+      #include "gameplay\character_items.xml"\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="aes_Monolit_sniper">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_sniper.ltx"
+      [spawn] \n
+      #include "gameplay\character_items.xml"\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="aes_Monolit_master">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+      #include "gameplay\character_items.xml"\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="aes_Soldier_commander">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes_Soldier_military">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes_Soldier_specnaz">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"	\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes_Soldier_specnaz_aes">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes_Soldier_sniper">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_sniper.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes_x">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_sniper.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes_x_2">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_sniper.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"\n
+#include "gameplay\character_food.xml" \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+</xml>

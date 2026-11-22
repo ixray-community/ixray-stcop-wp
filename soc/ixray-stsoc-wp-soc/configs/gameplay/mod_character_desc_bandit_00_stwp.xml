@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="bandit_novice_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_novice_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"						
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_novice_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_general_defaul1t">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_general_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_general_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_veteran_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_veteran_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_veteran_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_master_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_master_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="bandit_master_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="svoboda_zombi_stalker">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_beretta \n
+			ammo_9x19_pbp = 1 \n			
+			wpn_ak74m = 1, 1, 1, 0 \n
+			ammo_5.45x39_ap = 1 \n		
+		</supplies>
+	</specific_character>
+</xml>

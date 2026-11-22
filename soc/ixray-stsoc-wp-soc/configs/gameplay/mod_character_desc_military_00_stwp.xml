@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="mil_Svoboda_specnaz">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Svoboda_regular">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Svoboda_sniper">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_sniper.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"				
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Svoboda_zoneguard">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Svoboda_bodyguard">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Svoboda_master_Max">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_usp  \n
+			ammo_11.43x23_hydro = 1 \n
+			wpn_svu = 1, scope \n
+			ammo_7.62x54_7h14 = 1 \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Svoboda_master">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Svoboda_cook">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_glock \n
+			ammo_9x19_fmj = 1 \n
+			wpn_galil \n
+			ammo_5.56x45_ap = 1 \n
+			device_torch \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"				
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Dolg_specnaz">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_4.ltx"
+      [spawn] \n	
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"				
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Dolg_specnaz_silence">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n	
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Killer_informator">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_3.ltx"
+      [spawn] \n	
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Killer_specnaz">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_killer_sniper">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_walther \n
+			ammo_9x19_pbp \n
+			wpn_l85 = 1, scope \n
+			ammo_5.56x45_ap = 1 \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_killer_master">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Stalker_master">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Stalker_veteran">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+		</supplies>
+	</specific_character>
+	<specific_character id="mil_Svoboda_zombi_stalker">
+		<supplies override="replace">
+                        [spawn] \n
+						wpn_walther \n
+						ammo_9x19_fmj \n
+                        wpn_ak101 = 1, 1, 1, 0 \n
+                        ammo_5.56x45_ap = 1 \n
+                </supplies>
+	</specific_character>
+	<specific_character id="mil_Monolit_regular">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+    </supplies>
+	</specific_character>
+	<specific_character id="mil_Monolit_master">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+    </supplies>
+	</specific_character>
+</xml>

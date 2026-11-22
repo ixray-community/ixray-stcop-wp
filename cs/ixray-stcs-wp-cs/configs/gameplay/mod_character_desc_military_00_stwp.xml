@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="mil_kostiuk">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_desert_eagle \n
+      ammo_50ae = 1 \n
+      device_torch \n
+      wpn_g3 = 1, scope, silencer \n
+      ammo_7.62x51_ap = 10 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="mil_freedom_speaker">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      device_torch \n
+      wpn_sig550 \n
+      ammo_5.56x45_ap = 10 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="mil_hog">
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      wpn_desert_eagle \n
+      ammo_50ae = 1 \n
+      device_torch \n
+      wpn_hk416 = 1, scope, silencer \n
+      ammo_5.56x45_ap = 10 \n
+      hand_radio \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="mil_questman">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_cz75 \n
+      ammo_9x19_pbp = 1 \n
+      device_torch \n
+      wpn_sig552 \n
+      ammo_5.56x45_ap = 10 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+</xml>

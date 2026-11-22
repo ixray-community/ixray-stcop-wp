@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_esc_quest_akm47">
+		<text override="replace">Трофейный АКМ</text>
+	</string>
+	<string id="st_gar_quest_wpn_wincheaster1300">
+		<text override="replace">Бандитская Сайга</text>
+	</string>
+	<string id="st_gar_quest_wpn_wincheaster1300_descr">
+		<text override="replace">\n%c[255,1,255,255]•%c[default] Прицелы SUSAT, ACOG, Aimpoint CompM4s, Barska ES AC10632, EOTech, 1ПН23 "Сарацин"\n \n\n%c[255,1,255,255]•%c[default] Модератор звука Гексагон 12К\n \nНа стволе дробовика нацарапаны несколько каракулей, очевидно изображающих убитых сталкеров.</text>
+	</string>
+</string_table>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="esc_wolf">
+		<snd_config override="replace">characters_voice\human_02\stalker\</snd_config>
+	</specific_character>
+	<specific_character id="esc_military_secret_trader">
+		<actor_dialog override="remove"></actor_dialog>
+	</specific_character>
+	<specific_character id="esc_military_general">
+		<snd_config override="replace">characters_voice\human_02\military\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_oc27 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+      wpn_binoc = 1 \n
+      flesh_up_ac_ak74u \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="esc_stalker_novice_quest">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+    </supplies>
+	</specific_character>
+</xml>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="aes2_Monolit_specnaz">
+		<supplies override="replace">
+      [spawn] \n
+	  wpn_sig550 = 1, scope \n
+	  ammo_5.56x45_ap = 1 \n
+    </supplies>
+	</specific_character>
+	<specific_character id="aes2_Monolit_sniper">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_sv98 \n
+      ammo_7.62x54_ap = 1 \n
+    </supplies>
+	</specific_character>
+	<specific_character id="aes2_Soldier_commander">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_pmm = 1 \n
+			wpn_ak12 = 1, scope \n
+			ammo_5.45x39_ap = 1 \n
+			device_torch \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes2_Soldier_military">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_pkp = 1, scope \n
+			ammo_pkm_100 = 1 \n
+			device_torch \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes2_Soldier_specnaz">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_grach \n
+			ammo_9x19_pbp = 1 \n
+			wpn_val = 1, scope \n
+			ammo_9x39_sp5 = 1 \n
+			device_torch \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="aes2_Soldier_specnaz_aes">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_oc33 \n
+			ammo_9x18_pmm = 1 \n
+			wpn_groza = 1, scope, silencer \n
+			ammo_9x39_pab9 = 1 \n
+			device_torch \n
+		</supplies>
+	</specific_character>
+	<specific_character id="aes2_Soldier_sniper">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_aps \n
+			ammo_9x18_pmm = 1 \n
+			wpn_svd = 1, scope \n
+			ammo_7.62x54_ap = 1 \n
+			device_torch \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+</xml>

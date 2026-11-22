@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="stalker_novice_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_novice_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_novice_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_novice_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n	
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_novice_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_novice_default6">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n		
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_novice_default9">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_novice_default10">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_general_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_general_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_general_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_general_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_general_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_veteran_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_veteran_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_veteran_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_veteran_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_veteran_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_master_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_master_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_master_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_master_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="stalker_master_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+		</supplies>
+	</specific_character>
+</xml>

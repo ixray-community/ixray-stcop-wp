@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="agr_secret_trader">
+		<supplies override="replace">
+                        [spawn] \n
+                        wpn_vssk = 1 \n
+                        wpn_m60 = 2 \n
+                        wpn_m98b = 1 \n
+						wpn_pkp = 1 \n
+                        ammo_7.62x51_ap = 1 \n
+                        wpn_rpg7 = 1 \n
+                        medkit_scientic = 11 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+                </supplies>
+	</specific_character>
+	<specific_character id="agr_hourman">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_gsh18 \n
+      ammo_9x19_fmj = 1 \n
+      wpn_val \n
+      ammo_9x39_ap = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="agr_zooman">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_gsh18 \n
+      ammo_9x19_fmj = 1 \n
+      wpn_mr153 \n
+      ammo_12x70_buck = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="agr_holeman">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_gsh18 \n
+      ammo_9x19_fmj = 1 \n
+      wpn_mr153 \n
+      ammo_12x70_buck = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="agr_bar_stalker_2">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_ak12 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="agr_bar_stalker_3">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_ak104 = 1, scope \n
+      ammo_7.62x39_ap = 1 \n
+      wpn_oc27 = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="agr_bar_stalker_4">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_ak103 \n
+      ammo_7.62x39_ap = 1 \n
+      wpn_oc27 = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+		<actor_dialog override="remove"></actor_dialog>
+	</specific_character>
+	<specific_character id="agr_bar_stalker_5">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_akm \n
+      ammo_7.62x39_ap = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+		<actor_dialog override="remove"></actor_dialog>
+	</specific_character>
+	<specific_character id="agr_dolg_blockpost_commander">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_ak103 \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_oc27 = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+</xml>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character override="replace" id="val_freedom_leader" team_default = "1">
+    <name>val_freedom_leader_name</name>
+    <icon>ui_npc_u_freedom_2_face_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio></bio>
+
+    <class>val_freedom_leader</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+    <rank>930</rank>lf
+    <reputation>0</reputation>
+    <money min="50000" max="100000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_face_2</visual>
+		<snd_config>characters_voice\human_02\freedom\</snd_config>
+    <supplies>
+      [spawn] \n
+      device_torch \n
+      wpn_dvl10 \n
+      ammo_7.62x51_fmj = 5 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 2 \n
+      grenade_f1 = 3 \n
+      hand_radio \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+#include "gameplay\character_criticals_1.xml"
+
+    <actor_dialog>val_freedom_leader_questions_dialog</actor_dialog>
+    <start_dialog>val_freedom_leader_hello_dialog</start_dialog>
+    <actor_dialog>val_freedom_leader_about_clan</actor_dialog>
+    <actor_dialog>val_freedom_leader_about_zone</actor_dialog>
+    <actor_dialog>val_freedom_leader_about_dolg</actor_dialog>
+    <actor_dialog>val_freedom_leader_join_first</actor_dialog>
+    <actor_dialog>val_freedom_leader_join_main</actor_dialog>
+  </specific_character>
+	<specific_character id="val_freedom_comendant">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_hk416 \n
+      ammo_5.56x45_ss190 = 5 \n
+      wpn_glock \n
+      ammo_9x19_fmj = 5 \n
+      grenade_f1 = 10 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_trader">
+		<money override="replace" min="10000" max="27500" infinitive="1"/>
+	</specific_character>
+	<specific_character id="val_freedom_fixer">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_m3super90 \n
+      ammo_12x76_dart = 1 \n
+      ammo_12x76_zhekan = 2\n
+      wpn_desert_eagle \n
+      ammo_50ae = 1 \n
+      grenade_f1 = 3 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_barmen">
+		<money override="replace" min="2000" max="7500" infinitive="0"/>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_cz75 \n
+      ammo_9x19_fmj = 5 \n
+      wpn_fal \n
+      ammo_7.62x51_ap = 1\n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_blockpost_guard_leader_north">
+		<snd_config override="replace">characters_voice\human_03\freedom\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_ace52 \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_glock \n
+      ammo_9x19_fmj = 1 \n
+      grenade_f1 = 2 \n
+      hand_radio \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_blockpost_guard_leader_south">
+		<snd_config override="replace">characters_voice\human_03\freedom\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_lr300 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_cz75 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_f1 = 2 \n
+      hand_radio \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_blockpost_guard">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_lr300 \n
+      ammo_5.56x45_ap = 3 \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 5 \n
+      grenade_f1 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_deadblockpost_guard">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_p90 \n
+      ammo_5.7x28_fmj = 1 \n
+      wpn_fn57 \n
+      grenade_f1 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_deadblockpost_guard_pda">
+		<snd_config override="replace">characters_voice\human_03\freedom\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_famas_f1 = 1, scope \n
+      ammo_5.56x45_ss190 = 5 \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 5 \n
+      grenade_rgd5 = 1 \n
+      device_pda_freedom \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_base_sniper">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_sr25 \n
+      ammo_7.62x51_fmj = 5 \n
+      wpn_cz75 \n
+      ammo_9x19_fmj = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_killer_sniper">
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_m4 = 1, scope, silencer \n
+      ammo_5.56x45_ap = 2 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_f1 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_attack">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_galil \n
+      ammo_5.56x45_ss190 = 5 \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 5 \n
+      grenade_f1 = 2 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_freedom_attack_commander">
+		<snd_config override="replace">characters_voice\human_03\freedom\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_sig552 = 1, scope, silencer \n
+      ammo_5.56x45_ss190 = 2 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj = 2 \n
+      grenade_f1 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_killer">
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_ak74m = 1, scope \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_glock \n
+      ammo_9x19_fmj = 2 \n
+      grenade_f1 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_bandit_spy">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_akm \n
+      ammo_7.62x39_fmj = 5 \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 5 \n
+      grenade_rgd5 = 3 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_bandit_spy_pda">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_saiga \n
+      ammo_12x76_zhekan = 5 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj = 5 \n
+      grenade_rgd5 = 3 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"      
+    </supplies>
+	</specific_character>
+	<specific_character id="val_default_freedom_sniper_default">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_mk14 = 1, scope \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_fn57 = 1 \n
+      ammo_5.7x28_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+</xml>

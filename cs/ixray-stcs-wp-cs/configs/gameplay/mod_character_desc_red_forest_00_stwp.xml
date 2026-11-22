@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="red_bridge_bandit_sniper_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_sr25 \n
+      ammo_7.62x51_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_bridge_bandit_sniper_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_svu = 1, scope \n
+      ammo_7.62x54_7h1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_bridge_bandit_sniper_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_dvl10 \n
+      ammo_7.62x51_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_bridge_renegade_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_akm = 1 \n
+      ammo_7.62x39_ap = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_bridge_renegade_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+	  wpn_vsk94 = 1, scope, silencer \n
+      ammo_9x39_ap = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_bridge_stalker_leshiy">
+		<snd_config override="replace">characters_voice\human_02\stalker\</snd_config>
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      hand_radio \n
+      wpn_hk416 \n
+      ammo_5.56x45_ap \n
+      wpn_sig220 \n
+      ammo_11.43x23_fmj \n
+      grenade_f1 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_csky_commander">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_binoc = 1 \n
+      wpn_sig550 = 1, scope2 \n
+      wpn_walther = 1 \n
+      ammo_9x19_fmj \n
+      grenade_f1 = 5 \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_bounty_hunter_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_m4 = 1, scope \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_fort = 1 \n
+      ammo_9x18_fmj \n
+      grenade_f1 = 2 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_bounty_hunter_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_ak105 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_hpsa = 1 \n
+      ammo_9x19_fmj \n
+      grenade_f1 = 2 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="red_strong_merc_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      device_torch \n
+      wpn_hk416 = 1, scope2, silencer \n
+      ammo_5.56x45_ap \n
+      wpn_fnx45 = 1 \n
+      ammo_11.43x23_fmj \n
+      grenade_f1 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+</xml>

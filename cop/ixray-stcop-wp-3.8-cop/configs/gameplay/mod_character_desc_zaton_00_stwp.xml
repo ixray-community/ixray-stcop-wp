@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="zat_b106_stalker_gonta">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj = 1 \n
+      detector_advanced = 1 \n
+
+#include "gameplay\character_items_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b38_stalker_cop">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_akm \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_pmm = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b38_stalker_cop_dead">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_akm \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_pmm = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b7_duty_illicit_dealer">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_rpk203 = 1, scope3 \n
+      ammo_7.62x39_ap = 1 \n
+      wpn_pm \n
+      ammo_9x18_pmm = 1 \n
+	  device_pda_zat_b5_dealer = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+	</supplies>
+	</specific_character>
+	<specific_character id="zat_b5_dealer_assistant_1">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_l85 \n
+	  ammo_5.56x45_ap = 1 \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b5_dealer_assistant_2">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_ak101 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_hpsa \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b5_stalker_raider_2">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_beretta \n
+      wpn_ak74m \n
+      ammo_5.45x39_fmj = 1 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b5_stalker_raider_4">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_beretta = 1 \n
+      wpn_ump45 \n
+      ammo_9x19_pbp = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b5_stalker_raider_leader">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_glock \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b7_bandit_boss_sultan">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_desert_eagle = 1 \n
+      ammo_50ae = 1 \n
+
+#include "gameplay\character_items_nd_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b5_stalker_commander_b7">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak74 = 1, launcher \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_rgd5 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b5_stalker_2">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak101 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b5_stalker_4">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_l85 \n
+      ammo_5.56x45_ss190  = 1 \n
+      wpn_fn57 \n
+      ammo_5.7x28_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_a2_stalker_barmen">
+		<supplies override="replace">
+
+        [spawn] \n
+        wpn_sig552 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_beretta \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 3 \n
+
+#include "gameplay\character_items_3_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b103_lost_merc_leader">
+		<supplies override="replace">
+
+        [spawn] \n
+		wpn_m4 = 1, scope \n
+		ammo_5.56x45_ap = 1 \n
+		wpn_beretta = 1 \n
+		ammo_9x19_pbp = 1 \n
+		grenade_rgd5 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b103_lost_merc_1">
+		<supplies override="replace">
+
+        [spawn] \n
+		wpn_ump45 = 1, silencer, scope=2 \n
+		ammo_11.43x23_fmj = 1 \n
+		wpn_sig220 \n
+		grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b103_lost_merc_2">
+		<supplies override="replace">
+
+        [spawn] \n
+		
+		wpn_vector \n
+		ammo_11.43x23_fmj = 1 \n
+		wpn_fn57 \n
+		ammo_5.7x28_fmj = 1 \n
+		grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b103_lost_merc_3">
+		<supplies override="replace">
+
+        [spawn] \n
+		wpn_g3 \n
+		ammo_7.62x51_fmj = 1 \n
+		wpn_hpsa \n
+		ammo_9x19_fmj = 1 \n
+		grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b103_lost_merc_4">
+		<supplies override="replace">
+
+        [spawn] \n
+		wpn_sig552 \n
+		ammo_5.56x45_ss190 = 1 \n
+		wpn_glock \n
+		ammo_9x19_fmj = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b103_lost_merc_5">
+		<supplies override="replace">
+
+        [spawn] \n
+		wpn_lr300 = 1, silencer \n
+		ammo_5.56x45_ss190 = 1 \n
+		wpn_beretta \n
+		ammo_9x19_fmj = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b103_lost_merc_6">
+		<supplies override="replace">
+
+        [spawn] \n
+		wpn_mr133 \n
+		ammo_12x76_zhekan = 1 \n
+		wpn_glock \n
+		ammo_9x19_fmj = 1 \n
+		grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b103_lost_merc_7">
+		<supplies override="replace">
+
+        [spawn] \n
+		wpn_ak105 \n
+		ammo_5.45x39_fmj = 1 \n
+		wpn_beretta \n
+		ammo_9x19_fmj = 1 \n
+		grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b7_stalker_raider_1">
+		<supplies override="replace">
+      	[spawn] \n
+
+     	wpn_ak104 \n
+    	ammo_7.62x39_fmj = 1 \n      
+     	wpn_hpsa \n
+	   	ammo_9x19_fmj = 1 \n
+    	grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+   	 </supplies>
+	</specific_character>
+	<specific_character id="zat_b7_stalker_raider_2">
+		<supplies override="replace">
+      	[spawn] \n
+
+     	wpn_spas12 \n
+    	ammo_12x70_buck = 1 \n      
+     	wpn_beretta \n
+	   	ammo_9x19_fmj = 1 \n
+    	grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+   	 </supplies>
+	</specific_character>
+	<specific_character id="zat_b7_stalker_victim_1">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_akm \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_colt1911 = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b28_draper">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak74m \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b28_umerov">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak105 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b28_smoliak">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_abakan \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b29_stalker_rival_1">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_lr300 \n
+		ammo_5.56x45_ap = 1 \n
+		wpn_colt1911 = 1 \n
+		ammo_11.43x23_hydro = 1 \n
+		grenade_f1 = 1 \n
+		wpn_binoc \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b29_stalker_rival_2">
+		<supplies override="replace">
+
+		[spawn] \n
+		device_torch \n
+		wpn_abakan = 1, scope \n
+		ammo_5.45x39_ap = 1 \n
+		wpn_walther \n
+		ammo_9x19_pbp = 1 \n
+		grenade_f1 = 1 \n
+		wpn_binoc \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b29_stalker_rival_default_1">
+		<supplies override="replace">
+
+		[spawn] \n
+		device_torch \n
+		wpn_ak74 \n
+		ammo_5.45x39_fmj = 1 \n
+		wpn_fn57 \n
+		ammo_5.7x28_fmj = 1 \n
+		grenade_rgd5 = 1 \n
+		detector_elite \n
+		wpn_binoc \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b29_stalker_rival_default_2">
+		<supplies override="replace">
+
+		[spawn] \n
+		device_torch \n
+		wpn_ak74u \n
+	 	ammo_5.45x39_fmj = 1 \n
+		wpn_aps \n
+		ammo_9x18_fmj = 1 \n
+		grenade_rgd5 = 1 \n
+		detector_elite \n
+		wpn_binoc \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b18_noah">
+		<supplies override="replace">
+		[spawn] \n
+		wpn_saiga \n
+		ammo_12x70_buck = 2 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_fmj = 1 \n
+		grenade_f1 = 3 \n
+		af_compass = 2 \n
+		zat_b20_noah_pda =1 \n
+      
+#include "gameplay\character_items_3_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b52_port_bandit_leader">
+		<supplies override="replace">
+
+      	[spawn] \n
+		wpn_ak105 \n
+		ammo_5.45x39_fmj = 1 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_hydro = 1 \n
+		grenade_f1 = 2 \n
+		device_pda_port_bandit_leader = 1 \n
+
+#include "gameplay\character_items_nd.xml"	
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b215_stalker_guide">
+		<supplies override="replace">
+
+      	[spawn] \n
+		wpn_desert_eagle \n
+		ammo_50ae = 1 \n
+		wpn_akm = 1 \n
+		ammo_7.62x39_fmj = 1 \n
+    	grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b40_merc_squad_leader_1">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_lr300 = 1, scope \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 4 \n
+      zat_b40_pda_1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b40_merc_squad_leader_2">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_m4 = 1, silencer \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp = 1, silencer = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+      zat_b40_pda_2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b20_noah_teleport">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_saiga \n
+		ammo_12x70_buck = 2 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_fmj = 1 \n
+		grenade_f1 = 3 \n
+		af_compass = 2 \n
+		zat_b20_noah_pda =1 \n
+      
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b53_artefact_hunter_2">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_toz34 \n
+		ammo_12x70_buck = 1 \n
+		wpn_walther \n
+		ammo_9x19_fmj = 1 \n
+        medkit = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b38_stalker_corpse_1">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_bm16_full \n
+      ammo_12x70_buck  = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b100_military_2">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak104 \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="zat_b100_military_3">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak74m \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+</xml>

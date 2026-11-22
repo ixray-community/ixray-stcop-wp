@@ -1,0 +1,2817 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="stalker_freedom_default">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_walther = 1 \n
+      wpn_sig550 \n
+      ammo_5.56x45_ss190 = 1 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_0_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_ak74u \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_0_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_vityaz \n
+      ammo_9x19_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_0_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_ak105 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_0_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_bizon \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_1_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak74m \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_1_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_1_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_akm \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_fort = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_1_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak104 \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_rpk \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_saiga \n
+      ammo_12x70_buck = 1 \n
+	  wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_3">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak74m \n
+      ammo_5.45x39_fmj = 1 \n
+	  wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vityaz \n
+      ammo_9x19_fmj = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak105 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_6">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak104 = 1, scope3 \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_7">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_akm \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_tt33 \n
+      ammo_7.62x25_ps = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_3_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak103 = 1, scope5 \n
+      ammo_7.62x39_ap = 1 \n
+      wpn_gsh18 \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_3_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_aek971 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj  = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_3_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_val = 1, scope4 \n
+      ammo_9x39_pab9 = 1 \n
+      wpn_oc33 \n
+      ammo_9x18_pmm = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_3_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vepr \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_gsh18 = 1 \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_3_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_groza = 1 \n
+      ammo_9x39_pab9 = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj  = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak12 = 1, launcher \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_gsh18 \n
+      ammo_9x19_fmj  = 1 \n
+      grenade_f1 = 4 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_rpk74 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_oc33 \n
+      ammo_9x18_pmm  = 1 \n
+      grenade_f1 = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vsk94 = 1, scope6 \n
+      ammo_9x39_ap = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj  = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_pkm \n
+      ammo_pkm_100 = 1 \n
+      wpn_gsh18 \n
+      ammo_9x19_pbp  = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vihr = 1, scope4, silencer \n
+      ammo_9x39_ap = 1 \n
+      wpn_aps \n
+      ammo_9x18_pmm = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_val = 1, scope2 \n
+      ammo_9x39_ap = 1 \n
+      wpn_pmm \n
+      ammo_9x18_pmm  = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_mp5 \n
+      ammo_9x19_fmj = 1 \n
+      wpn_hpsa \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_1">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_mp5 \n
+      wpn_colt1911 \n
+      ammo_9x19_fmj = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_l85 \n
+      wpn_colt1911 \n
+	  ammo_5.56x45_ss190 = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_4">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_ump45 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj = 2 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_5">
+		<supplies override="replace">
+      [spawn] \n
+	  
+	  wpn_wincheaster1300 \n
+	  ammo_12x70_buck = 1 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  ammo_12x70_buck = 1 \n
+	  wpn_m3super90 \n
+      wpn_cz75 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_m4 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_walther \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ump45 \n
+	  ammo_11.43x23_fmj = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_famas_f1 \n
+		ammo_5.56x45_ss190 = 1 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  ammo_5.56x45_ss190 = 1 \n
+	  wpn_galil \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_m4 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_beretta \n
+	  ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_6">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_ump45 = 1, silencer \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_7">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak101 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_lr300 = 1, silencer \n
+	  ammo_5.56x45_ss190 = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_fal \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_cz75 \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ace52 = 1, silencer  \n
+	  ammo_7.62x51_fmj = 1 \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_3">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_famas_g2 = 1, scope4 \n
+	  ammo_5.56x45_ss190 = 1 \n
+      ammo_9x19_pbp = 1 \n
+      wpn_beretta \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_famas_f1 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_m4 \n
+	  ammo_5.56x45_ss190 = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_hk416 = 1, scope1 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_fn57 \n
+      ammo_5.7x28_fmj = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_sig552 = 1, scope \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_g36 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_walther \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vector = 1, scope1 \n
+      wpn_sig220 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_aug_a3 = 1, silencer, scope4 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_glock = 1, silencer \n
+      ammo_9x19_pbp = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ace52 \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_fmj = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_4_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_fn2000 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_4_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_sr25 \n
+      ammo_7.62x51_fmj = 1 \n
+	  wpn_walther \n
+      ammo_9x19_pbp = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_4_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_g3 = 1, scope1 \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_4_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_fal = 1, scope3 \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_4_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_mk14 = 1, scope2 \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_4_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_scar = 1, scope2 \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_0_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_uzi_micro \n
+      ammo_9x19_fmj = 1 \n
+      wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_0_default_2">
+		<supplies override="replace">
+      [spawn] \n
+	  wpn_kedr \n
+      ammo_9x18_fmj = 1 \n
+	  wpn_tt33 \n
+      ammo_7.62x25_p = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_1_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  wpn_toz34_obrez \n
+	  wpn_hpsa \n
+      ammo_9x19_fmj = 1 \n
+	  ammo_12x70_buck = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_1_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  wpn_sks \n
+	  ammo_7.62x39_fmj  = 1 \n
+	  wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_1_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_uzi_mini \n
+      ammo_9x19_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_1_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  wpn_kiparis \n
+	  wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_1_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  wpn_bizon \n
+	  ammo_9x18_fmj  = 1 \n
+	  wpn_hpsa \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  wpn_toz34 \n
+      ammo_12x70_buck = 1 \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  wpn_akm \n
+	  ammo_7.62x39_fmj  = 1 \n
+	  wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_pp2000 \n
+      ammo_9x19_pbp  = 1 \n
+	  wpn_beretta \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  wpn_mr133 \n
+	  ammo_12x70_buck = 1 \n
+	  wpn_glock \n
+      ammo_9x19_pbp = 2 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_ak104 \n
+	  ammo_7.62x39_fmj = 1 \n
+	  wpn_tt33 \n
+	  ammo_7.62x25_p = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+	  wpn_ak101 \n
+	  ammo_5.56x45_ss190 = 1 \n
+	  wpn_hpsa \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_3_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_spas12 \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_fn57 \n
+      ammo_5.7x28_fmj  = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_3_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vepr \n
+      ammo_12x70_buck = 1 \n
+      wpn_cz75 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_3_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_rpk \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_3_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_fal \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_oc33 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_3_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak12 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_4_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_rpd \n
+      ammo_7.62x39_ap = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_4_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_scar \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_4_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_g36 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_4_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_protecta \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_4_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_mk14 = 1, scope2 \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_sig220 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_0_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_mp5 \n  
+      wpn_glock \n
+      ammo_9x19_fmj = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_0_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ump45 \n
+      ammo_11.43x23_fmj  = 1 \n
+      wpn_cz75 \n
+      ammo_9x19_fmj = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_1_default_0">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_m4 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_beretta \n
+	  ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_1_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_famas_g2 \n
+      ammo_5.56x45_ss190 = 1 \n
+      ammo_9x19_fmj = 1 \n
+      wpn_glock \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_1_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vityaz \n
+      ammo_9x19_fmj = 1 \n
+      wpn_walther \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_2_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_p90 \n
+      wpn_fn57 \n
+      ammo_5.7x28_fmj  = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_2_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ace52 \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_hpsa \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_2_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_l85 = 1, silencer \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_2_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_lr300 = 1, silencer \n
+      ammo_5.56x45_ss190 = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      wpn_colt1911 \n
+	  grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_2_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_m4 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_fmj  = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_2_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_galil \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_3_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_sig550 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_sig220 = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_3_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_aug_a3 = 1, scope \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_3_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_g3 = 1, scope1 \n
+	  ammo_5.56x45_ss190 = 1 \n
+      ammo_9x19_pbp = 1 \n
+      wpn_usp \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_3_default_3">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_hk416 = 1, scope3, silencer \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_4_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vector = 1, silencer \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_4_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_sig552 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_sig220 = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_4_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_scar = 1, scope5, silencer \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_4_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_sr25 \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_sig220 = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_0_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_mosin = 1, scope \n
+      ammo_7.62x54_7h1  = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_0_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_toz34_obrez  \n
+      ammo_12x70_buck  = 1 \n
+      wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_0_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_kedr \n
+      wpn_fort = 1 \n
+      ammo_9x18_fmj = 2 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_0_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+ 	  wpn_ppsh41 \n
+      wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+ 	  wpn_ak74m \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_type63 \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+ 	  wpn_bizon \n
+      ammo_9x18_fmj = 1 \n
+      wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_kiparis \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+ 	  wpn_akm \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_6">
+		<supplies override="replace">
+      [spawn] \n
+      
+ 	  wpn_sks \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_7">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_pp2000 \n
+      ammo_9x19_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_8">
+		<supplies override="replace">
+      [spawn] \n
+      
+ 	  wpn_famas_f1 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_9">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_lr300 \n
+      ammo_5.56x45_ss190  = 1 \n
+      wpn_hpsa \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_0">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_mr133 \n
+      ammo_12x70_buck = 1 \n      
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_1">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_ak103 \n
+      ammo_7.62x39_fmj = 1 \n      
+	  wpn_tt33 \n
+      ammo_7.62x25_p = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_2">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_galil \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_cz75 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_3">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_lr300 \n
+      ammo_5.56x45_ss190 = 1 \n      
+      wpn_glock \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_4">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_saiga \n
+      ammo_12x70_buck = 1 \n      
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_5">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_ak105 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_6">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_ak101 \n
+      wpn_pm \n
+	  ammo_9x18_fmj = 1 \n
+      ammo_5.56x45_ss190 = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_7">
+		<supplies override="replace">
+      [spawn] \n
+
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_8">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_m4 \n
+      ammo_5.56x45_ss190 = 1 \n
+	  wpn_colt1911 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_9">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_ump45 \n
+      ammo_11.43x23_fmj = 1 \n
+	  ammo_9x19_fmj = 1 \n
+      wpn_glock \n
+	  grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vihr = 1, scope3 \n
+      ammo_9x39_ap = 1 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_fal \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_colt1911 = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_sig550 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_g36 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_f1 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_mr153 \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_aek971 = 1, scope5 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_6">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_g3 = 1, scope2 \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_7">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vsk94 = 1, silencer, scope4 \n
+      ammo_9x39_ap = 1 \n
+	  wpn_tt33 \n
+      ammo_7.62x25_ps = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_8">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak12 = 1, scope1 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_sig220 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_9">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_spas12 \n
+      ammo_12x70_buck = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_4_default_0">
+		<supplies override="replace">
+      [spawn] \n
+ 	  
+      wpn_dvl10 \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_oc33 = 1 \n
+      ammo_9x18_pmm = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_4_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_fn2000 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_4_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vintorez = 1, scope \n
+      ammo_9x39_ap = 1 \n
+	  wpn_sig220 = 1 \n
+	  ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_2_default_0">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_ak74m \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_3_default_0">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_ak12 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_4_default_0">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_vintorez = 1, scope \n
+      ammo_9x39_ap = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_4_default_1">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_val \n
+      ammo_9x39_ap = 1 \n
+      wpn_gsh18 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_4_default_2">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_aek971 = 1, scope \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_pmm \n
+      ammo_9x18_pmm = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_3_default_sniper">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_sv98 \n
+      ammo_7.62x54_7h14 = 1 \n
+      wpn_gsh18 \n
+      ammo_9x19_fmj = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_0_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak105 \n
+      ammo_5.45x39_fmj = 1 \n
+	  wpn_fort \n
+      ammo_9x18_fmj = 1 \n		
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_0_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ump45 \n
+      ammo_11.43x23_fmj = 1 \n
+	  wpn_glock \n
+      ammo_9x19_fmj = 1 \n		
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_1_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_m3super90 \n
+      ammo_12x70_buck = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+	  grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_1_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_fal \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_cz75 \n
+      ammo_9x19_fmj = 1 \n
+	  grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_1_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_famas_g2 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_grach \n
+      ammo_9x19_fmj = 1 \n
+	  grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_1_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ace52 = 1, silencer \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+	  grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_lr300 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_walther \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak101 \n
+	  ammo_5.56x45_ap = 1 \n
+      ammo_9x19_fmj = 1 \n
+      wpn_glock \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_m4 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_beretta \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_p90 \n
+      ammo_5.7x28_fmj = 1 \n
+      wpn_fn57 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_g3 \n
+      ammo_7.62x51_fmj = 1 \n
+      wpn_fn57 \n
+      ammo_5.7x28_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_5">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vityaz = 1, scope \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_6">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_m4 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_glock = 1, silencer \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_7">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_ak12 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_3_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_vector = 1, scope1 \n
+      ammo_11.43x23_hydro = 1 \n
+      wpn_walther = 1 \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_3_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_rpk74 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_gsh18 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_3_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_hk416 = 1, scope3 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_3_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_svu = 1, scope \n
+      ammo_7.62x54_7h1 = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_3_default_4">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_rpd \n
+      ammo_7.62x39_ap = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_4_default_0">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_m24 \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_4_default_1">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_g36 = 1, launcher \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_4_default_2">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_protecta \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_4_default_3">
+		<supplies override="replace">
+      [spawn] \n
+      
+      wpn_scar = 1, scope2 \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_glock \n
+      ammo_9x19_fmj = 1 \n
+      grenade_f1 = 4 \n
+
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_1_default_0">
+		<supplies override="replace">
+			[spawn]\n
+			
+      		wpn_bm16_full \n
+      		ammo_12x70_buck = 1 \n
+      		wpn_tt33 \n
+      		ammo_7.62x25_p = 1 \n
+
+#include "gameplay\character_items_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_1_default_1">
+		<supplies override="replace">
+			[spawn]\n
+			
+      		wpn_uzi_mini \n
+      		wpn_pm \n
+      		ammo_9x18_fmj = 1 \n
+			ammo_9x19_fmj = 1 \n
+
+#include "gameplay\character_items_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_1_default_2">
+		<supplies override="replace">
+			[spawn]\n
+      		wpn_ppsh41 \n
+      		wpn_tt33 \n
+      		ammo_7.62x25_p = 2 \n
+
+#include "gameplay\character_items_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_2_default_0">
+		<supplies override="replace">
+			[spawn]\n
+      		wpn_type63 \n
+			ammo_7.62x39_fmj = 1 \n
+      		wpn_pm \n
+      		ammo_9x18_fmj = 1 \n
+
+#include "gameplay\character_items_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_2_default_1">
+		<supplies override="replace">
+			[spawn]\n
+			
+      		wpn_pp2000 \n
+      		wpn_beretta \n
+      		ammo_9x19_fmj = 1 \n
+
+#include "gameplay\character_items_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_2_default_2">
+		<supplies override="replace">
+			[spawn]\n
+			
+      		wpn_toz34 \n
+      		ammo_12x70_buck = 1 \n
+      		ammo_9x19_pbp = 1 \n
+      		wpn_beretta \n
+
+#include "gameplay\character_items_2_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_2_default_3">
+		<supplies override="replace">
+			[spawn]\n
+			
+			wpn_akm \n
+      		ammo_7.62x39_fmj = 1 \n
+			wpn_hpsa \n
+      		ammo_9x19_fmj = 1 \n
+
+#include "gameplay\character_items_2_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_3_default_0">
+		<supplies override="replace">
+      [spawn]\n
+      
+      wpn_ak74m \n
+      ammo_5.45x39_fmj = 1 \n
+	  wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+
+#include "gameplay\character_items_nd_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_3_default_1">
+		<supplies override="replace">
+      	[spawn]\n
+		
+   	    wpn_ak74 \n
+      	ammo_5.45x39_fmj = 1 \n
+	 	wpn_pm \n
+     	ammo_9x18_fmj = 1 \n
+
+#include "gameplay\character_items_nd_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_3_default_2">
+		<supplies override="replace">
+      [spawn]\n
+	
+   	wpn_ak103 \n
+    ammo_7.62x39_fmj = 1 \n
+	wpn_pb \n
+    ammo_9x18_fmj = 1 \n
+
+#include "gameplay\character_items_nd_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_3_default_3">
+		<supplies override="replace">
+      	[spawn]\n
+		
+   	    wpn_rpk \n
+      	ammo_7.62x39_fmj = 1 \n
+	 	wpn_oc27 \n
+     	ammo_9x18_fmj = 1 \n
+
+#include "gameplay\character_items_nd_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_4_default_0">
+		<supplies override="replace">
+      [spawn]\n
+      
+      wpn_rpk74 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_gsh18 \n
+      ammo_9x19_pbp = 1 \n
+
+#include "gameplay\character_items_3_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_4_default_1">
+		<supplies override="replace">
+      [spawn]\n
+      wpn_mr153 \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+
+#include "gameplay\character_items_3_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_4_default_2">
+		<supplies override="replace">
+      [spawn]\n
+      wpn_vihr = 1, silencer \n
+      ammo_9x39_ap = 1 \n
+      wpn_sig220  \n
+      ammo_11.43x23_fmj = 1 \n
+
+#include "gameplay\character_items_3_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="test_silencer_character">
+		<supplies override="replace">
+      [spawn] \n
+	  
+      wpn_lr300 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+</xml>

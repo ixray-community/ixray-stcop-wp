@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="sar_monolith_specnaz_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_specnaz_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_specnaz_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_specnaz_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_specnaz_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_exo_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_exo_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_exo_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_exo_default6">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_exo_default7">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_exo_default8">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_exo_crystal_1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar_monolith_commander">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar2_monolith_regular">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+			#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar2_monolith_regular2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+			#include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar2_monolith_specnaz">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+            #include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar2_monolith_specnaz2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+            #include "gameplay\character_items.xml" \n
+        </supplies>
+	</specific_character>
+	<specific_character id="sar2_monolith_exo">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+            #include "gameplay\character_items.xml" \n
+		</supplies>
+	</specific_character>
+</xml>

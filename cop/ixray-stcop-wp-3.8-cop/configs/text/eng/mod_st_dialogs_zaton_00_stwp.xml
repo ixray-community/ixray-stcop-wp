@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="zat_b33_stalker_snag_share_package_dialog_113">
+		<text override="replace">Okay... Wow. I doubt you've ever held this kinda shooter in your hands... An enhanced AKS-74U. More precisely, AKS-74UBN: night optics (costs a lot) and PBS-1! I gave this Duty fella a ton of first aid kits to get my hands on this beauty. That was when Freedom pounded a Duty squad so bad that they actually ran out of meds. Three times this baby saved my life since then... This is definitely for me.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_111">
+		<text override="replace">Here, the FNX-45 pistol! That's a nice gun. Yeah, you owe me another 2,800.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_112">
+		<text override="replace">Here, FNX-45, with scope! That'll be another 2,800.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_121">
+		<text override="replace">Look, it's a Desert Eagle, complete with collimator and compensator. It's an insane thing! The remaining 2,800 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_122">
+		<text override="replace">Here's a Desert Eagle, with a collimator and compensator. That's a killer gun! Not easy, though. The remaining 2,800 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_131">
+		<text override="replace">SIG Sauer P320 pistol in 45ACP caliber. It was produced in a small batch for an unknown special unit. The remaining 2,800 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_132">
+		<text override="replace">Here, a SIG P320 45ACP. That'll be another 2,800.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_211">
+		<text override="replace">Wait a second! Hey, R.P.D.! That'll be another 28,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_212">
+		<text override="replace">Here: RPD machine gun. That'll be another 28,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_221">
+		<text override="replace">Look, it's the VSSK "Vykhlop" sniper rifle! That's a big one. Well, 28,000 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_222">
+		<text override="replace">Sure, VSSK "Vykhlop". The missing 28,000 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_231">
+		<text override="replace">I believe this is exactly what you need. M79 grenade launcher! 28,000 and take it.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_232">
+		<text override="replace">Sure. M-79. For 28,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_311">
+		<text override="replace">Here, AK-12, new design. For 16,000, you can have it.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_312">
+		<text override="replace">Here, AK-12. That'll be 16,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_321">
+		<text override="replace">Here, a Groza 5.45. For 16,000, it's all yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_322">
+		<text override="replace">Here's a 5.45 Groza with a tactical grip. That'll be 16,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_331">
+		<text override="replace">Here: VSS Vintorez, with tactical grip and butt pad for easy aiming. Another 16,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_332">
+		<text override="replace">Of course. Here: VSS Vintorez, tactical. For the missing 16,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_411">
+		<text override="replace">Here: Barrett M98 Bravo! Look how big it is. Well, 32,000 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_412">
+		<text override="replace">Of course. Here: Barrett M98 Bravo, strong stuff.... 32,000 short, and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_421">
+		<text override="replace">Here, L96A1, popularly known as the AWP. Don't ask me where I got it. You owe me another 32,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_422">
+		<text override="replace">Uh-huh. L96A1 sniper rifle. You owe me another 32,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_431">
+		<text override="replace">Here you go - Winchester 1892, brought from afar! You owe me the remaining 32,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_432">
+		<text override="replace">Look what I got! Winchester 1892, a rarity! You owe me the remaining 32,000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_12">
+		<text override="replace">A heavy weapon.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_121">
+		<text override="replace">Sure thing. The price is 30,000, and I'll need 2,000 of that in advance.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_122">
+		<text override="replace">You refused to pick up your last order... So this one will cost you 26,000, and I'll need 4,000 of that in advance.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_13">
+		<text override="replace">A tactical weapon.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_131">
+		<text override="replace">Tactical? Well, I have something in mind... The regular price is 20,000, with a 4,000 advance payment. What do you say?</text>
+	</string>
+</string_table>

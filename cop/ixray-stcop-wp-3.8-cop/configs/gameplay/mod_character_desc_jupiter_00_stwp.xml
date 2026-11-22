@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="jup_a12_bandit_cashier">
+		<supplies override="replace">
+
+	  [spawn] \n
+	  wpn_toz106_tacticool \n
+	  ammo_12x70_buck = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    			</supplies>
+	</specific_character>
+	<specific_character id="jup_a12_merc_cover">
+		<supplies override="replace">
+
+	  [spawn] \n
+      wpn_vintorez = 1, scope=1 \n
+      ammo_9x39_ap = 1 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_fmj = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b207_merc_illicit_dealer">
+		<supplies override="replace">
+    
+	  [spawn] \n
+      wpn_abakan = 1, scope=4 \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_sig220 \n
+      ammo_11.43x23_hydro = 1 \n
+      jup_b207_merc_pda_with_contract = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_mil.xml"
+
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b207_merc_leader">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak101 = 1, scope=3 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b207_duty_security_squad_leader">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_vihr = 1 \n
+      ammo_9x39_pab9 = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b207_freedom_recon_squad_leader">
+		<supplies override="replace">
+      [spawn] \n
+
+      wpn_g36 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_a10_bandit_leader">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_protecta \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae  = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_monolith_squad_leader_monolith_skin">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_binoc \n
+		wpn_svu = 1, scope \n
+		ammo_7.62x54_7h14 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_fmj \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_monolith_squad_leader_duty_skin">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_binoc \n
+		wpn_svu = 1, scope \n
+		ammo_7.62x54_7h14 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_fmj \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_monolith_squad_leader_freedom_skin">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_binoc \n
+		wpn_svu = 1, scope \n
+		ammo_7.62x54_7h14 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_fmj \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_monolith_squad_leader_duty_mon_skin">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_binoc \n
+		wpn_svu = 1, scope \n
+		ammo_7.62x54_7h14 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_fmj \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_monolith_squad_leader_freedom_mon_skin">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_binoc \n
+		wpn_svu = 1, scope \n
+		ammo_7.62x54_7h14 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_fmj \n
+
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_monolith_squad_soldier_1_duty_skin">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_wincheaster1300 \n
+      ammo_12x76_zhekan = 1 \n
+	  wpn_beretta = 1 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_monolith_squad_soldier_1_freedom_skin">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_wincheaster1300 \n
+      ammo_12x76_zhekan = 1 \n
+	  wpn_beretta = 1 \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_monolith_squad_soldier_5_duty_skin">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+	  grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_duty_help">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_abakan \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_freedom_leader">
+		<supplies override="replace">
+
+      [spawn] \n
+      device_torch \n
+      wpn_fal = 1, scope=3, silencer \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b4_duty_leader">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_groza \n
+      ammo_9x39_pab9 = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b217_stalker_tech">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b1_stalker_1">
+		<supplies override="replace">
+
+      [spawn] \n
+	  anomaly_scaner \n
+      wpn_akm \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_aps \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 1 \n
+	  detector_elite \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b1_stalker_2">
+		<supplies override="replace">
+
+      [spawn] \n
+	  anomaly_scaner \n
+      wpn_spas12 \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b1_stalker_3">
+		<supplies override="replace">
+
+      [spawn] \n
+	  anomaly_scaner \n
+      wpn_ak101 \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b1_stalker_4">
+		<supplies override="replace">
+      [spawn] \n
+	  anomaly_scaner \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b1_pro_stalker_1">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_g36 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_f1 = 1 \n
+	  detector_scientific \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b1_pro_stalker_2">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_spas12 \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b1_pro_stalker_3">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_m4 = 1, scope=1  \n
+	  ammo_5.56x45_ap = 1 \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b1_pro_stalker_4">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_g3 = 1, scope1 \n
+	  ammo_7.62x51_ap = 1 \n
+      wpn_beretta \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b6_stalker_garmata">
+		<supplies override="replace">
+      [spawn] \n
+	  anomaly_scaner \n
+	  grenade_f1 = 3 \n
+	  wpn_wincheaster1300 = 1 \n
+      ammo_12x70_buck = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj = 1 \n
+      detector_advanced \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b6_freedom_stalker_1">
+		<supplies override="replace">
+      [spawn] \n
+	  anomaly_scaner \n      
+      wpn_sig550 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_desert_eagle \n
+      ammo_50ae = 1 \n
+      grenade_f1 = 1 \n
+      detector_elite \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b6_duty_stalker_2">
+		<supplies override="replace">
+      [spawn] \n
+ 	  anomaly_scaner \n     
+      wpn_abakan = 1, scope=3 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+      detector_advanced \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b202_bandit">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_desert_eagle \n
+      ammo_50ae = 1 \n
+      jup_b202_bandit_pda = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+	</specific_character>
+	<specific_character override="replace" id="jup_b19_freedom_yar" team_default = "1">
+		<name>jup_b19_freedom_yar_name</name>
+		<icon>ui_inGame2_Dyadka_Yar</icon>
+		<map_icon x="1" y="0">
+		</map_icon>
+		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+
+		<class>jup_b19_freedom_yar</class>
+		<community>freedom</community>]
+		<mechanic_mode>1</mechanic_mode>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<snd_config>characters_voice\human_02\freedom\</snd_config>
+
+		<rank>100</rank>
+		<reputation>0</reputation>
+		<money min="2500" max="5000" infinitive="0"/>
+		<visual>actors\stalker_freedom\stalker_freedom_2_face_2</visual>
+		<supplies>
+
+      [spawn] \n
+      wpn_svd = 1, scope=1 \n
+      ammo_7.62x54_7h1 = 3 \n
+      wpn_beretta = 1 \n
+      ammo_9x19_pbp = 1 \n
+      grenade_f1 = 2 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+
+		<start_dialog>jup_b19_freedom_yar_base_start</start_dialog>
+
+		<actor_dialog>jup_b19_freedom_yar_base_why_me</actor_dialog>
+		<actor_dialog>jup_b19_freedom_yar_base_where_to</actor_dialog>
+		<actor_dialog>jup_b19_freedom_yar_base_agreed</actor_dialog>
+		<actor_dialog>jup_b19_freedom_yar_done_why_mercs</actor_dialog>
+		<actor_dialog>jup_b19_freedom_yar_done_why_me</actor_dialog>
+		<actor_dialog>jup_b19_freedom_yar_done_bye</actor_dialog>
+		<actor_dialog>jup_b19_freedom_yar_come_with_me</actor_dialog>
+
+		<actor_dialog>jup_b19_freedom_yar_pripyat_about</actor_dialog>
+		<actor_dialog>jup_b19_freedom_yar_pripyat_healing</actor_dialog>
+
+		<actor_dialog>jup_b19_freedom_yar_break_dialog</actor_dialog>
+
+		<!--<actor_dialog>actor_break_dialog</actor_dialog>-->
+
+#include "gameplay\character_criticals_4.xml"
+  </specific_character>
+	<specific_character id="jup_b19_merc_2">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_g3 = 1, scope=1, silencer \n
+      ammo_7.62x51_ap = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b19_merc_3">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_lr300 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b19_merc_4">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_hk416 = 1, scope=1, silencer \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b19_merc_5">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_famas_g2 = 1 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b43_stalker_assistant">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_vintorez = 1, scope=1 \n
+      ammo_9x39_ap = 1 \n
+      wpn_colt1911 = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 2 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_a6_duty_leader">
+		<supplies override="replace">
+
+      [spawn] \n
+	  hand_radio \n
+      wpn_aps \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b47_merc_07">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_g36 = 1, silencer \n
+      ammo_5.56x45_ss190 = 1 \n
+      wpn_sig220 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b47_merc_06">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_saiga \n
+      ammo_12x76_zhekan = 1 \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b47_merc_05">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak12 = 1, scope=3, silencer \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_glock \n
+      ammo_9x19_pbp = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b47_merc_03">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ump45 = 1, scope=2 \n
+	  ammo_11.43x23_fmj = 1 \n
+      wpn_sig220 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b47_merc_02">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_ak101 \n
+      ammo_5.56x45_ap  = 1 \n
+      wpn_sig220 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b47_merc_01">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_aug_a3 = 1, scope=1, silencer \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_fmj = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b219_stalker_tech">
+		<supplies override="replace">
+
+      [spawn] \n
+      wpn_ak74u \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 1 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b219_monolith_squad_leader_freedom_skin">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_svu = 1, scope \n
+		ammo_7.62x54_7h14 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_fmj \n
+		grenade_f1 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="jup_b219_soldier">
+		<supplies override="replace">
+
+		[spawn] \n
+		wpn_akm \n
+		ammo_7.62x39_fmj \n
+		wpn_fort \n
+		ammo_9x18_pmm \n
+		grenade_rgd5 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+	</specific_character>
+</xml>

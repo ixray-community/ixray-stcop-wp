@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="gar_bandit_novice_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_bandit_novice_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_food.xml"							
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_bandit_novice_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_food.xml"	
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_bandit_general_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"	\n	
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"	
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_bandit_general_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"	\n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"		
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_bandit_general_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_stalker_general_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_stalker_general_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_stalker_general_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_stalker_general_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_stalker_general_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_wounded_bandit">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_dolg_blokpost_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_2.ltx"
+      [spawn] \n		
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_dolg_blokpost_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_dolg_blokpost_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_dolg_blokpost_commander">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+	<specific_character id="gar_sniper">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj = 1 \n
+			wpn_type63 = 1, scope \n
+			ammo_7.62x39_fmj = 1 \n
+			device_torch \n
+#include "gameplay\character_items.xml" \n
+#include "gameplay\character_drugs.xml" \n
+#include "gameplay\character_food.xml"			
+		</supplies>
+	</specific_character>
+</xml>

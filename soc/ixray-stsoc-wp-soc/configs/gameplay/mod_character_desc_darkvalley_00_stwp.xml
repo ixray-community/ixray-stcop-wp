@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="val_bandit_borov">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_walther \n
+			ammo_9x19_pbp = 2 \n
+			wpn_ak74m \n
+			ammo_5.45x39_fmj \n
+			;borov_flash \n
+			device_torch \n
+			;val_key_to_underground \n
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_bodyguard">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_novice_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_novice_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_novice_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_novice_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_general_defaul1t">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_general_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_general_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_general_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_veteran_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_veteran_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_bandit_veteran_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_watchtower_bandit_guard1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_watchtower_bandit_sniper1">
+		<supplies override="replace">
+#include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_dolg_regular_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_dolg_regular_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_dolg_regular_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_monolith_regular_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="val_monolith_regular_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="val_soldier_regular_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_soldier_regular_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_soldier_regular_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_soldier_regular_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_soldier_specnaz_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_soldier_specnaz_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_soldier_specnaz_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_soldier_specnaz_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_novice_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_novice_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_novice_default6">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n		
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_novice_default10">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_general_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_general_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_general_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_general_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="val_stalker_general_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="dar_stalker_explorer">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="dar_military_scout1">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+</xml>

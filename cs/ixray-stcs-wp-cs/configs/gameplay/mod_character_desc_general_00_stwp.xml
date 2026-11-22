@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="actor">
+		<supplies override="replace">
+      [spawn] \n
+      bandit_brownrain_outfit \n
+      device_torch \n
+      wpn_binoc \n
+    </supplies>
+	</specific_character>
+	<specific_character id="stalker_general_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="stalker_dolg_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="stalker_freedom_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="stalker_bandit_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="stalker_general_veteran_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="sim_duty_rewarder">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="sim_default_duty_0_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_0_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_1_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_1_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_1_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_1_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_2_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_3_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_3_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_duty_4_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_0_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_1_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_2_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_3_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_4_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_freedom_4_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\freedom_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_0_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_0_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_0_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\bandit_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_1_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_1_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_1_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\bandit_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+ #include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+ #include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_2_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+ #include "gameplay\loadouts\bandit_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_3_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+ #include "gameplay\loadouts\bandit_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_3_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+ #include "gameplay\loadouts\bandit_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_4_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+ #include "gameplay\loadouts\bandit_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_bandit_4_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+ #include "gameplay\loadouts\bandit_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_0_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_0_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_1_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_1_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_1_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_1_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_2_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_2_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_2_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_renegade_2_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\renegade_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_0_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_0_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_1_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_1_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_2_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_2_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_3_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_3_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_4_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_killer_4_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\merc_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_0_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_0_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_0_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+</supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_0_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_1_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_1_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_1_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_1_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_2_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_2_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_2_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_2_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_3_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_3_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_4_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_csky_4_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\csky_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_0_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_0_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_0_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_0_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_1_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_2">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_2_default_3">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_3_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_4_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_stalker_4_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_0_default">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_1_default">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_2_default_0">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_2_default_1">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_3_default_0">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_4_default_0">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_4_default_1">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_4_default_2">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_military_3_default_sniper">
+		<name override="replace">GENERATE_NAME_stalker</name>
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\army_sniper.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_0_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\monolith_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_0_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\monolith_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_1_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_1_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_0">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_2_default_1">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_3_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_monolith_4_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_digger_0_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_digger_1_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_digger_2_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_digger_3_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_digger_4_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\stalker_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_1_default_0">
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\zombied_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_1_default_1">
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\zombied_tier_1.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_2_default_0">
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\zombied_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_2_default_1">
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_3_default_0">
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_3_default_1">
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="sim_default_zombied_4_default">
+		<supplies override="replace">
+		
+#include "gameplay\loadouts\zombied_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="arena_first_battle_stalker_0_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="arena_second_battle_stalker_0_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="arena_second_battle_stalker_boss_0_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="arena_third_battle_stalker_boss_0_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="arena_third_battle_stalker_0_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="arena_fourth_battle_stalker_0_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="arena_fourth_battle_stalker_1_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="arena_fifth_battle_stalker_0_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+	<specific_character id="arena_fifth_battle_stalker_1_default">
+		<bio override="replace">Ћпытный сталкер. Детальная информация отсутствует.</bio>
+	</specific_character>
+</xml>

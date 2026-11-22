@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="pri_monolith_ambush_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_ambush_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_ambush_specnaz_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_ambush_specnaz_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_ambush_exo_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_ambush_exo_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_regular_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_regular_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_regular_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_regular_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_specnaz_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_specnaz_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_exo_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_exo_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_monolith_leader">
+		<supplies override="replace">
+            [spawn] \n
+			wpn_fnx45 \n
+			ammo_11.43x23_hydro = 1 \n
+            wpn_vintorez = 1, scope \n
+            ammo_9x39_ap = 3 \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+        </supplies>
+	</specific_character>
+	<specific_character id="pri_followers_bomber">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_followers_leader">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_followers_stalker1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_followers_stalker2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_followers_stalker3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_followers_stalker4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_followers_stalker5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_soldier_suicide_default1">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_aps \n
+			ammo_9x18_pmm \n
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_soldier_suicide_default2">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_oc33 \n
+			ammo_9x18_pmm \n
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_zombied_suicide_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_zombied_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_zombied_veteran_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="pri_zombied_veteran_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+</xml>

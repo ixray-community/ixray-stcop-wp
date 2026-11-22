@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="novice_outfit_name">
+		<text override="replace">Novice jacket</text>
+	</string>
+	<string id="novice_outfit_description">
+		<text override="replace">An ordinary thick jacket, one of the many. It slightly increases bullet and splinter protection. It does not protect from anomalies and other affects.</text>
+	</string>
+	<string id="svoboda_light_outfit_name">
+		<text override="replace">Wind of Freedom suit</text>
+	</string>
+	<string id="svoboda_light_outfit_description">
+		<text override="replace">Light stalker suit produced by the gunsmiths of the Freedom faction. It consists of a light military bulletproof vest with reinforcing kevlar plates. It can protect from weak weapons. The fabric of the suit is treated with a special mixture which increases anomaly activity resistance.</text>
+	</string>
+	<string override="add" id="ecolog_outfit_name">
+		<text>SSP-99 Ecologist</text>
+	</string>
+	<string override="add" id="ecolog_outfit_description">
+		<text>A SSP-99 chemical protection suit specially designed for the Zone conditions. It is used by scientific expeditions and the eco-stalkers who cooperate with them. It has an integrated air-filtering and air-conditioning system. It is heat and electricity resistant, provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments. It is not designed for combat, so it provides neither bullet, nor splinter protection.</text>
+	</string>
+	<string override="add" id="csky_light_outfit_name">
+		<text>CS-1 body armor</text>
+	</string>
+	<string override="add" id="csky_light_outfit_description">
+		<text>This body armor was designed for conducting search operations in areas of low anomalous activity. Its higher quality materials result in greater durability. Includes a container capable of holding one artifact.</text>
+	</string>
+	<string override="add" id="csky_standart_outfit_name">
+		<text>CS-2 body armor</text>
+	</string>
+	<string override="add" id="csky_standart_outfit_description">
+		<text>The reinforced body armor and built-in gas mask provide good protection against both bullets and abnormal effects, compared to earlier models. However, in general, the protection of the wearer is very insufficient for serious expeditions to the center of the Zone. It is equipped with a container for artifacts.</text>
+	</string>
+	<string id="exo_outfit_description">
+		<text override="replace">This exoskeleton provides outstanding protection against bullet and fragmentation damage at the cost of mobility.  Vulnerable to armor-piercing rounds.</text>
+	</string>
+	<string override="add" id="bandit_outfit_name">
+		<text>Bandit jacket</text>
+	</string>
+	<string override="add" id="bandit_outfit_description">
+		<text>Traditional bandit clothing - a leather jacket with armor pieces sewed in. The protection it provides is completely inadequate for the harsh conditions of the Zone. The jacket comes with a container that can hold up to two artifacts.</text>
+	</string>
+	<string override="add" id="bandit_brownrain_outfit_name">
+		<text>Bandit cape (brown)</text>
+	</string>
+	<string override="add" id="bandit_brownrain_outfit_description">
+		<text>A stylish leather bandit's cloak with sewn-in armor elements. Provides a little more protection from harmful effects than the jacket - however, very insufficient in the harsh conditions of the Zone. It has a built-in container for artifacts.</text>
+	</string>
+	<string override="add" id="bandit_blackrain_outfit_name">
+		<text>Bandit cape (black)</text>
+	</string>
+	<string override="add" id="bandit_blackrain_outfit_description">
+		<text>Stylish leather bandit cape with sewn-in armor elements. Provides a little more protection from firearms and harmful effects of the Zone than the jacket - however, very insufficient in the harsh conditions of the Zone. It has a built-in container for artifacts.</text>
+	</string>
+	<string override="add" id="bandit_light_outfit_name">
+		<text>Sunset bodysuit</text>
+	</string>
+	<string override="add" id="bandit_light_outfit_description">
+		<text>A kind of stalker suit produced in artisanal conditions. In fact, it is a lightweight army vest with additional protection from abnormal activity. Contains a built-in container for artifacts.</text>
+	</string>
+	<string override="add" id="merc_outfit_name">
+		<text>Merc suit</text>
+	</string>
+	<string override="add" id="merc_outfit_description">
+		<text>Stalker suit from the Merc faction. Its design is based on the suit used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits.</text>
+	</string>
+	<string override="add" id="exo_merc_outfit_name">
+		<text>Merc exoskeleton</text>
+	</string>
+	<string override="add" id="exo_merc_outfit_description">
+		<text>Model of exoskeleton of foreign production. Assault version with increased bullet and explosion protection, standard protection against abnormal effects.</text>
+	</string>
+	<string override="add" id="soldier_outfit_name">
+		<text>Army bodysuit</text>
+	</string>
+	<string override="add" id="soldier_outfit_description">
+		<text>A standard piece of equipment for a soldier is a lightweight army bodysuit. It is effective enough to protect against pistol bullets and shrapnel. Ineffective against abnormal and other influences. The installation of containers for artifacts is not provided.</text>
+	</string>
+	<string override="add" id="dolg_scientific_outfit_name">
+		<text>PSZ-9Md Universal Protection</text>
+	</string>
+	<string override="add" id="dolg_scientific_outfit_description">
+		<text>A wonderful protective suit for the Zone. Stalkers appreciate it because it combines excellent anomaly-proof and bullet-proof qualities. It includes the PSZ-9d suit, a closed cycle breathing system and an integrated system of anomalous field suppression. It provides quality bullet and splinter protection.</text>
+	</string>
+	<string override="add" id="exo_dolg_outfit_name">
+		<text>Duty exoskeleton</text>
+	</string>
+	<string override="add" id="exo_dolg_outfit_description">
+		<text>Special exoskeleton model for the Duty. The use of more durable materials allowed to increase protection against mechanical impacts, as well as to increase the durability of the suit itself.</text>
+	</string>
+	<string override="add" id="svoboda_outfit_name">
+		<text>Freedom bodysuit</text>
+	</string>
+	<string override="add" id="svoboda_outfit_description">
+		<text>A standard stalker's jumpsuit, produced by the artisans of the Freedom. Contains a built-in container for artifacts.</text>
+	</string>
+	<string override="add" id="svoboda_scientific_outfit_name">
+		<text>Freedom scientific bodysuit</text>
+	</string>
+	<string override="add" id="svoboda_scientific_outfit_description">
+		<text>This armored suit was created by Freedom craftsmen specifically for scientific research in the Zone. The closed breathing system and special impregnation of materials provide excellent protection from radiation and harmful abnormal influences. However, the built-in body armor is penetrated even by a pistol bullet, so the suit is not suitable for active combat.</text>
+	</string>
+	<string override="add" id="exo_freedom_outfit_name">
+		<text>Freedom exoskeleton</text>
+	</string>
+	<string override="add" id="exo_freedom_outfit_description">
+		<text>A special exoskeleton model for the Freedom. The use of lighter materials allowed to reduce the weight of the suit itself, as well as to increase its durability.</text>
+	</string>
+	<string override="add" id="neutral_assault_outfit_name">
+		<text>Armored suit “Assault”</text>
+	</string>
+	<string override="add" id="neutral_assault_outfit_description">
+		<text>A lightweight version of the exoskeleton. Its armor elements were used in manufacturing. There is no hydraulic system. The armored vest provides good protection against small arms, and the built-in gas mask and rubberized fabric coveralls provide good protection against abnormal effects. It has a built-in container for artifacts.</text>
+	</string>
+	<string override="add" id="monolith_scientific_outfit_name">
+		<text>Monolith scientific outfit</text>
+	</string>
+	<string override="add" id="monolith_scientific_outfit_description">
+		<text>Like most Monolith creations - technology unknown. It has been determined to be composed of unknown materials. They are lighter than their counterparts and protect very well from radiation. A closed-cycle breathing system is present.</text>
+	</string>
+	<string override="add" id="monolith_outfit_name">
+		<text>Monolith-2 bodysuit</text>
+	</string>
+	<string override="add" id="monolith_outfit_description">
+		<text>The body armor is capable of stopping a pistol bullet. The outer shell consists of two layers. It can protect its wearer from many abnormal effects and radiation. Contains a container for artifacts.\n Technology unknown.\n %c[255,1,255,255,255]Use with gas mask%c[default]\n</text>
+	</string>
+	<string override="add" id="monolith_assault_outfit_name">
+		<text>Monolith-A bodysuit</text>
+	</string>
+	<string override="add" id="monolith_assault_outfit_description">
+		<text>Standard equipment of the Monolith assault squads. The armor elements of the exoskeleton were used in its manufacture. The armored vest provides good protection against small arms, and the built-in gas mask and overalls made of unknown fabric provide good protection against abnormal influences. It has a built-in container for artifacts. \nTechnology unknown.</text>
+	</string>
+	<string override="add" id="exo_mono_outfit_name">
+		<text>Monolith exoskeleton</text>
+	</string>
+	<string override="add" id="exo_mono_outfit_description">
+		<text>Monolith exoskeleton. Good protection against all types of attacks. Wears slowly. \nTechnology unknown.</text>
+	</string>
+	<string override="add" id="protection_outfit_name">
+		<text>SSP-99M suit</text>
+	</string>
+	<string override="add" id="protection_outfit_description">
+		<text>High quality modified SSP-99 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body.</text>
+	</string>
+	<string override="add" id="stalker_medic_outfit_name">
+		<text>Therapeutic Sunrise outfit</text>
+	</string>
+	<string override="add" id="stalker_medic_outfit_description">
+		<text>Modified Sunrise outfit. It is a combination of two-layer rubberized fabric with Plexiglas lining and built-in body armor. Despite the fact that the vest is penetrated even by a pistol bullet, the suit is very common due to its low cost and wide possibilities for improvement. Equipped with built-in containers for artifacts. It has healing properties.</text>
+	</string>
+</string_table>

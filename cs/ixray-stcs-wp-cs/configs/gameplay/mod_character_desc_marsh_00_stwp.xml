@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="mar_intro_guide">
+		<supplies override="replace">
+      [spawn] \n
+      wpn_kiparis \n
+      ammo_9x18_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+</xml>

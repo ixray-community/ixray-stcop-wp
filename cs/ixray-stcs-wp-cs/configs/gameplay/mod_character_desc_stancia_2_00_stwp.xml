@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="stc_strelok">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_beretta = 1 \n
+			device_torch \n
+			wpn_sig550_up2 \n
+			grenade_f1 = 10 \n
+			ammo_5.56x45_ss190 = 1 \n
+			ammo_9x19_fmj = 1 \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stc_monolith_1">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_cz75 = 1 \n
+			device_torch \n
+			wpn_m4 \n
+			grenade_f1 = 10 \n
+			ammo_5.56x45_ss190 = 1 \n
+			ammo_9x19_fmj = 1 \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stc_csky_leader">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_walther = 1 \n
+			device_torch \n
+			wpn_sig550 = 1, scope2 \n
+			grenade_f1 = 10 \n
+			ammo_5.56x45_ss190 = 1 \n
+			ammo_9x19_fmj = 1 \n
+		</supplies>
+	</specific_character>
+	<specific_character id="stc_monolith_sniper_1">
+		<supplies override="replace">
+		[spawn] \n
+		wpn_glock = 1 \n
+		device_torch \n
+		wpn_sr25 \n
+		ammo_7.62x51_fmj \n
+		grenade_f1 = 10 \n
+		</supplies>
+	</specific_character>
+</xml>

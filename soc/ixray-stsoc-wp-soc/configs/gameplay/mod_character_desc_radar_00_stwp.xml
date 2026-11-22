@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="rad_monolit_regular_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_regular_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_regular_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_regular_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_regular_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_regular_default6">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_regular_default7">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_regular_default8">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_bunker_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_bunker_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_bunker_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_bunker_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_bunker_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_bunker_default6">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_bunker_default7">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_bunker_default8">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_2.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_strong_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_strong_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_strong_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_strong_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_strong_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_strong_default6">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_strong_default7">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_strong_default8">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_3.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_sniper_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_sniper.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_sniper_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_sniper.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_specnaz_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_specnaz_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_specnaz_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_specnaz_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_master">
+		<supplies override="replace">
+#include "gameplay\loadouts\monolith_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	</specific_character>
+	<specific_character id="rad_monolit_rpg_default2">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_glock \n
+			ammo_9x19_pbp = 1 \n
+			wpn_rpg7 \n
+			ammo_og-7b = 1 \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_default6">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_default7">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_default8">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_veteran_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_veteran_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_veteran_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_zombied_veteran_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\zombied_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_veteran_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_veteran_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_veteran_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_veteran_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_veteran_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_master_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_master_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_master_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_master_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_stalker_master_default5">
+		<supplies override="replace">
+#include "gameplay\loadouts\stalker_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_soldier_specnaz_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_soldier_specnaz_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_4.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_soldier_specnaz_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\army_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_Svoboda_master1">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_Svoboda_master2">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_Svoboda_master3">
+		<supplies override="replace">
+#include "gameplay\loadouts\freedom_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_dolg_master_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_dolg_master_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_dolg_master_default3">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_dolg_master_default4">
+		<supplies override="replace">
+#include "gameplay\loadouts\dolg_tier_5.ltx"
+      [spawn] \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_ecolog_default2">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_sig220 \n
+			ammo_11.43x23_hydro = 1 \n
+			wpn_ak103 \n
+			ammo_7.62x39_fmj = 1 \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+	<specific_character id="rad_ecolog_default3">
+		<supplies override="replace">
+			[spawn] \n
+			wpn_usp \n
+			ammo_11.43x23_hydro = 1 \n
+			wpn_m4 \n
+			ammo_5.56x45_ss190 = 1 \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+	</specific_character>
+</xml>

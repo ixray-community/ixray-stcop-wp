@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xml>
+	<specific_character id="ecolog_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="ecolog_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="ecolog_guard_default1">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+	<specific_character id="ecolog_guard_default2">
+		<supplies override="replace">
+#include "gameplay\loadouts\merc_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+	</specific_character>
+</xml>
