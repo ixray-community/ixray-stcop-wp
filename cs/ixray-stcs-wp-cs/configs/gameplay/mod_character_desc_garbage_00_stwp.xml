@@ -66,7 +66,6 @@
     </supplies>
 	</specific_character>
 	<specific_character id="gar_digger_fighter_2">
-		<snd_config override="replace">characters_voice\human_02\stalker\</snd_config>
 		<supplies override="replace">
       [spawn] \n
       wpn_tt33 \n

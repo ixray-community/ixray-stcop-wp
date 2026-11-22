@@ -26,9 +26,6 @@
 #include "gameplay\character_drugs.xml"
     </supplies>
 	</specific_character>
-	<specific_character id="yan_stalker_sakharov">
-		<money override="replace" min="20000" max="50000" infinitive="1"/>
-	</specific_character>
 	<specific_character id="yan_stalker_levsha">
 		<supplies override="replace">
       [spawn] \n

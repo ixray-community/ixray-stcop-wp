@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <xml>
-	<specific_character id="esc_wolf">
-		<snd_config override="replace">characters_voice\human_02\stalker\</snd_config>
-	</specific_character>
-	<specific_character id="esc_military_secret_trader">
-		<actor_dialog override="remove"></actor_dialog>
-	</specific_character>
 	<specific_character id="esc_military_general">
-		<snd_config override="replace">characters_voice\human_02\military\</snd_config>
 		<supplies override="replace">
       [spawn] \n
       device_torch \n

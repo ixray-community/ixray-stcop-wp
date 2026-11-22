@@ -112,7 +112,6 @@
     </supplies>
 	</specific_character>
 	<specific_character id="kat_enemy_sniper_strong">
-		<icon override="replace">ui_npc_u_monolith_2</icon>
 		<supplies override="replace">
       [spawn] \n
       wpn_m24 \n

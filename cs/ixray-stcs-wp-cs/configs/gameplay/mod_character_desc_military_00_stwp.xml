@@ -28,7 +28,6 @@
     </supplies>
 	</specific_character>
 	<specific_character id="mil_hog">
-		<snd_config override="replace">characters_voice\human_01\stalker\</snd_config>
 		<supplies override="replace">
       [spawn] \n
       wpn_desert_eagle \n

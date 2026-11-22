@@ -92,7 +92,6 @@
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
-		<actor_dialog override="remove"></actor_dialog>
 	</specific_character>
 	<specific_character id="agr_bar_stalker_5">
 		<supplies override="replace">
@@ -107,7 +106,6 @@
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
-		<actor_dialog override="remove"></actor_dialog>
 	</specific_character>
 	<specific_character id="agr_dolg_blockpost_commander">
 		<supplies override="replace">

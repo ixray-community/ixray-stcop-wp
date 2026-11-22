@@ -480,24 +480,8 @@
 #include "gameplay\character_drugs_2.xml"
     </supplies>
 	</specific_character>
-	<specific_character override="replace" id="jup_b19_freedom_yar" team_default = "1">
-		<name>jup_b19_freedom_yar_name</name>
-		<icon>ui_inGame2_Dyadka_Yar</icon>
-		<map_icon x="1" y="0">
-		</map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
-
-		<class>jup_b19_freedom_yar</class>
-		<community>freedom</community>]
-		<mechanic_mode>1</mechanic_mode>
-		<terrain_sect>stalker_terrain</terrain_sect>
-		<snd_config>characters_voice\human_02\freedom\</snd_config>
-
-		<rank>100</rank>
-		<reputation>0</reputation>
-		<money min="2500" max="5000" infinitive="0"/>
-		<visual>actors\stalker_freedom\stalker_freedom_2_face_2</visual>
-		<supplies>
+	<specific_character id="jup_b19_freedom_yar">
+		<supplies override="replace">
 
       [spawn] \n
       wpn_svd = 1, scope=1 \n
@@ -511,26 +495,7 @@
 #include "gameplay\character_drugs_3.xml"
 #include "gameplay\character_drugs_sci.xml"
     </supplies>
-
-		<start_dialog>jup_b19_freedom_yar_base_start</start_dialog>
-
-		<actor_dialog>jup_b19_freedom_yar_base_why_me</actor_dialog>
-		<actor_dialog>jup_b19_freedom_yar_base_where_to</actor_dialog>
-		<actor_dialog>jup_b19_freedom_yar_base_agreed</actor_dialog>
-		<actor_dialog>jup_b19_freedom_yar_done_why_mercs</actor_dialog>
-		<actor_dialog>jup_b19_freedom_yar_done_why_me</actor_dialog>
-		<actor_dialog>jup_b19_freedom_yar_done_bye</actor_dialog>
-		<actor_dialog>jup_b19_freedom_yar_come_with_me</actor_dialog>
-
-		<actor_dialog>jup_b19_freedom_yar_pripyat_about</actor_dialog>
-		<actor_dialog>jup_b19_freedom_yar_pripyat_healing</actor_dialog>
-
-		<actor_dialog>jup_b19_freedom_yar_break_dialog</actor_dialog>
-
-		<!--<actor_dialog>actor_break_dialog</actor_dialog>-->
-
-#include "gameplay\character_criticals_4.xml"
-  </specific_character>
+	</specific_character>
 	<specific_character id="jup_b19_merc_2">
 		<supplies override="replace">
 

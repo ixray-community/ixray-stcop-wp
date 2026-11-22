@@ -56,7 +56,6 @@
     </supplies>
 	</specific_character>
 	<specific_character id="red_bridge_stalker_leshiy">
-		<snd_config override="replace">characters_voice\human_02\stalker\</snd_config>
 		<supplies override="replace">
       [spawn] \n
       device_torch \n

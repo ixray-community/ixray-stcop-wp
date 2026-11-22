@@ -96,9 +96,6 @@
 #include "gameplay\character_drugs.xml"
     </supplies>
 	</specific_character>
-	<specific_character id="lim_bandit_minigunner">
-		<snd_config override="replace">characters_voice\human_02\bandit\</snd_config>
-	</specific_character>
 	<specific_character id="test_stalker_dual_weapon">
 		<supplies override="replace">
       [spawn] \n

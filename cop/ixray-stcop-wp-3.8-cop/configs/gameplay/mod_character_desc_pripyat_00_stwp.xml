@@ -48,23 +48,8 @@
 #include "gameplay\character_drugs_mil.xml"
     </supplies>
 	</specific_character>
-	<specific_character override="replace" id="pri_a15_sokolov_sci" team_default = "1">
-		<name>pri_a15_sokolov_name</name>
-		<icon>ui_inGame2_Sokolov_ecolog</icon>
-		<map_icon x="1" y="0">
-		</map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
-
-		<class>pri_a15_sokolov_sci</class>
-		<community>army</community>
-		<terrain_sect>stalker_terrain</terrain_sect>
-		<snd_config>characters_voice\human_03\military\</snd_config>
-
-		<rank>50</rank>
-		<reputation>0</reputation>
-
-		<visual>actors\stalker_soldier\stalker_soldier_ecolog_face_1</visual>
-		<supplies>
+	<specific_character id="pri_a15_sokolov_sci">
+		<supplies override="replace">
 
       [spawn] \n
 	  wpn_akm \n
@@ -77,29 +62,9 @@
 #include "gameplay\character_drugs_2.xml"
 #include "gameplay\character_drugs_mil.xml"
     </supplies>
-#include "gameplay\character_criticals_4.xml"
-		<start_dialog>pri_a15_sokolov_start_dialog</start_dialog>
-		<actor_dialog>pri_a15_sokolov_pripyat_ready</actor_dialog>
-		<actor_dialog>actor_break_dialog</actor_dialog>
-
 	</specific_character>
-	<specific_character override="replace" id="pri_a15_sokolov_sci_head" team_default = "1">
-		<name>pri_a15_sokolov_name</name>
-		<icon>ui_inGame2_Sokolov</icon>
-		<map_icon x="1" y="0">
-		</map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
-
-		<class>pri_a15_sokolov_sci_head</class>
-		<community>army</community>
-		<terrain_sect>stalker_terrain</terrain_sect>
-		<snd_config>characters_voice\human_01\military\</snd_config>
-
-		<rank>50</rank>
-		<reputation>0</reputation>
-
-		<visual>actors\stalker_soldier\stalker_soldier_1_face_1</visual>
-		<supplies>
+	<specific_character id="pri_a15_sokolov_sci_head">
+		<supplies override="replace">
 
       [spawn] \n
 	  wpn_akm \n
@@ -113,11 +78,6 @@
 #include "gameplay\character_drugs_2.xml"
 #include "gameplay\character_drugs_mil.xml"
     </supplies>
-#include "gameplay\character_criticals_4.xml"
-		<start_dialog>pri_a15_sokolov_start_dialog</start_dialog>
-		<actor_dialog>pri_a15_sokolov_pripyat_ready</actor_dialog>
-
-		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 	<specific_character id="pri_a22_military_skelja">
 		<supplies override="replace">
