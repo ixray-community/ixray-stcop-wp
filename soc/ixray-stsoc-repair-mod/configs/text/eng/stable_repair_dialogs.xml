@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+    <string id="list_trader_repair_0">
+        <text>Cost to repair the weapon in the secondary slot:</text>
+    </string>
+    <string id="list_trader_repair_1">
+        <text>Cost to repair the weapon in the primary slot:</text>
+    </string>
+    <string id="list_trader_repair_2">
+        <text>Cost to repair the suit:</text>
+    </string>
+    <string id="escape_trader_repair_0">
+        <text>Sidorovich, I take it you fix guns... and body armor too?</text>
+    </string>
+    <string id="escape_trader_repair_1">
+        <text>Ah... you mean that thing in the vise? It'll be a fine piece when I'm done. An expensive one, too. So what needs fixing? Fair warning: the worse the wear, the more it'll cost. Well?\n \nAvailable repairs:</text>
+    </string>
+    <string id="escape_trader_repair_2">
+        <text>Fix the weapon in my secondary slot.</text>
+    </string>
+    <string id="escape_trader_repair_3">
+        <text>Fix the weapon in my primary slot.</text>
+    </string>
+    <string id="escape_trader_repair_4">
+        <text>Patch up my suit.</text>
+    </string>
+    <string id="escape_trader_repair_5">
+        <text>Damn, I'm short on cash. I'll come back later.</text>
+    </string>
+    <string id="escape_trader_repair_6">
+        <text>Hang on... this won't take long.\n \nAll done. Here you go!</text>
+    </string>
+    <string id="escape_trader_repair_7">
+        <text>Marked One, you really took a beating. Now, where did I put those armor plates? Ah, here they are... there we go... phew.\n \nThere you go. Good as new!</text>
+    </string>
+    <string id="escape_trader_repair_8">
+        <text>Hm. Nice work. Say, where'd you learn to do that? No answer? Suit yourself.</text>
+    </string>
+    <string id="escape_trader_repair_9">
+        <text>Nice work. I can see what I'm paying for.</text>
+    </string>
+    <string id="escape_trader_repair_10">
+        <text>Can you fix something else for me?</text>
+    </string>
+    <string id="escape_trader_repair_11">
+        <text>Sure. Let's see it.\n \nAvailable repairs:</text>
+    </string>
+    <string id="bar_trader_repair_0">
+        <text>Barkeep, you don't happen to fix guns, do you?</text>
+    </string>
+    <string id="bar_trader_repair_1">
+        <text>Me? No. But there's a stalker working off his debts in the kitchen. Hell of a gunsmith. Guns, armor, you name it. I'll put him on it. So what needs fixing?\n \nAvailable repairs:</text>
+    </string>
+    <string id="bar_trader_repair_2">
+        <text>Fix the weapon in my secondary slot.</text>
+    </string>
+    <string id="bar_trader_repair_3">
+        <text>Fix the weapon in my primary slot.</text>
+    </string>
+    <string id="bar_trader_repair_4">
+        <text>Patch up my suit.</text>
+    </string>
+    <string id="bar_trader_repair_5">
+        <text>Damn, I'm strapped for cash. Some other time.</text>
+    </string>
+    <string id="bar_trader_repair_6">
+        <text>Here you go. Fixed up and oiled properly!</text>
+    </string>
+    <string id="bar_trader_repair_7">
+        <text>Here. It's all patched up!</text>
+    </string>
+    <string id="bar_trader_repair_8">
+        <text>Would you look at that? It's good as new! Your gunsmith really knows his stuff. Give him my regards.</text>
+    </string>
+    <string id="bar_trader_repair_9">
+        <text>Yeah, that's some fine work!</text>
+    </string>
+    <string id="bar_trader_repair_10">
+        <text>Can he fix something else?</text>
+    </string>
+    <string id="bar_trader_repair_11">
+        <text>Sure. He's got nothing on right now anyway.\n \nAvailable repairs:</text>
+    </string>
+    <string id="yantar_trader_repair_0">
+        <text>Do you do repairs, Professor?</text>
+    </string>
+    <string id="yantar_trader_repair_1">
+        <text>I can take a break from my research if need be. I don't have many tools, though. Repairs are only a hobby of mine, so it won't be cheap.\n \nAvailable repairs:</text>
+    </string>
+    <string id="yantar_trader_repair_2">
+        <text>Fix the weapon in my secondary slot.</text>
+    </string>
+    <string id="yantar_trader_repair_3">
+        <text>Fix the weapon in my primary slot.</text>
+    </string>
+    <string id="yantar_trader_repair_4">
+        <text>Could you repair my suit?</text>
+    </string>
+    <string id="yantar_trader_repair_5">
+        <text>Damn, I'm short on cash. I'll come back later.</text>
+    </string>
+    <string id="yantar_trader_repair_6">
+        <text>Give me a moment...\n \nThat should do it. Here you are!</text>
+    </string>
+    <string id="yantar_trader_repair_7">
+        <text>Armor plates are in short supply here, but I've got a few tucked away. Wait here...\n \nThere. That should hold up.</text>
+    </string>
+    <string id="yantar_trader_repair_8">
+        <text>Nice work! You could make a living as a gunsmith.</text>
+    </string>
+    <string id="yantar_trader_repair_9">
+        <text>You can sleep easy, Professor. That's first-rate work!</text>
+    </string>
+    <string id="yantar_trader_repair_10">
+        <text>Could you fix something else?</text>
+    </string>
+    <string id="yantar_trader_repair_11">
+        <text>Very well. I can do it while the data's still processing.\n \nAvailable repairs:</text>
+    </string>
+    <string id="mil_trader_repair_0">
+        <text>Sorry, I'm here to get my gear fixed. What do you charge?</text>
+    </string>
+    <string id="mil_trader_repair_1">
+        <text>Ha! Don't worry, I won't take the shirt off your back. I'm not as stingy as they say. So what needs fixing? The more beat-up it is, the more it'll cost. Well?\n \nAvailable repairs:</text>
+    </string>
+    <string id="mil_trader_repair_2">
+        <text>Fix the weapon in my secondary slot.</text>
+    </string>
+    <string id="mil_trader_repair_3">
+        <text>Fix the weapon in my primary slot.</text>
+    </string>
+    <string id="mil_trader_repair_4">
+        <text>Fix my suit.</text>
+    </string>
+    <string id="mil_trader_repair_5">
+        <text>I'm a bit short... Maybe next time.</text>
+    </string>
+    <string id="mil_trader_repair_6">
+        <text>Swapped out a few parts, cleaned it and oiled it...\n \nEnjoy!</text>
+    </string>
+    <string id="mil_trader_repair_7">
+        <text>Marked One, have you got a sign on you that says 'Shoot here'? All right, hand it over. I'll fix it...\n \nOnly the freshest armor plates, straight out of the fridge! I covered up the sign, too.</text>
+    </string>
+    <string id="mil_trader_repair_8">
+        <text>Good as new! Nice work!</text>
+    </string>
+    <string id="mil_trader_repair_9">
+        <text>Very funny... Though it does look better now!</text>
+    </string>
+    <string id="mil_trader_repair_10">
+        <text>Can you fix one more thing?</text>
+    </string>
+    <string id="mil_trader_repair_11">
+        <text>Sure, as long as you remember to pay. I don't do repairs on credit.\n \nAvailable repairs:</text>
+    </string>
+    <string id="ixr_stsoc_repair_nothing">
+        <text>There's nothing to fix.</text>
+    </string>
+    <string id="ixr_stsoc_repair_cancel">
+        <text>I'll think about it.</text>
+    </string>
+    <string id="ixr_stsoc_repair_holster">
+        <text>Fix the weapon in my pistol slot.</text>
+    </string>
+    <string id="ixr_stsoc_repair_holster_price">
+        <text>Cost to repair the weapon in the pistol slot:</text>
+    </string>
+</string_table>

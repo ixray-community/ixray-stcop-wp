@@ -1,0 +1,41 @@
+
+; SoC Only
+#include "stsocwp\unique_weapons.ltx"
+;#include "stsocwp\items.ltx"
+;#include "stsocwp\devices.ltx"
+;#include "stsocwp\quest_items.ltx"
+#include "stsocwp\outfit.ltx"
+#include "stsocwp\actor.ltx"
+#include "stsocwp\defines.ltx"
+
+![gameplay]
+BalanceMode = cop                    	; Damage balance: auto, soc, cs, cop (restart required)
+
+![hud_base]
+;движение вперед
+hud_move_forward_offset_pos = 0,-0.005,-0.015  ; 0,-0.005,-0.035
+hud_move_forward_offset_rot = 0,0,0
+
+hud_move_forward_offset_pos_16x9 = 0,-0.005,-0.015  ; 0,-0.005,-0.035
+hud_move_forward_offset_rot_16x9 = 0,0,0
+
+![bobbing_effector]
+affect_hud = true
+
+![wpn_addon_scope]
+3d_static_rotate 					= 0,-90,0
+
+![grenade_f1]
+3d_static_scale 					= 1.1
+
+![grenade_rgd5]
+3d_static_scale 					= 1.1
+
+![grenade_gd-05]
+3d_static_scale 					= 1
+
+![wpn_svd]
+3d_static_scale						= 0.95
+
+![wpn_svu]
+3d_static_scale						= 0.9

@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding="windows-1251"?>
+
+<xml>
+<!---------------------------ZOMBIED----------------------->
+	<specific_character id="zombied_default1" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied</class>
+		<community>zombied</community>
+		
+		<rank>40</rank>
+		<reputation>20</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie1</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_default2" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied</class>
+		<community>zombied</community>
+	
+		<rank>40</rank>
+		<reputation>20</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie2</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_default3" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied</class>
+		<community>zombied</community>
+		
+		<rank>40</rank>
+		<reputation>-20</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie3</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_2.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_default4" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied</class>
+		<community>zombied</community>
+		
+		<rank>40</rank>
+		<reputation>-20</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie4</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_default5" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied</class>
+		<community>zombied</community>
+		
+		<rank>60</rank>
+		<reputation>50</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie5</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_3.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_default6" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied</class>
+		<community>zombied</community>
+	
+		<rank>60</rank>
+		<reputation>50</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie7</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_default7" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied</class>
+		<community>zombied</community>
+		
+		<rank>60</rank>
+		<reputation>-50</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie8</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_1.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+<!---------------------------ZOMBIED VETERANS----------------------->
+	<specific_character id="zombied_veteran_default1" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied_veteran</class>
+		<community>zombied</community>
+		
+		<rank>60</rank>
+		<reputation>-50</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie2</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_veteran_default2" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied_veteran</class>
+		<community>zombied</community>
+		
+		<rank>60</rank>
+		<reputation>-50</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie3</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_veteran_default3" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied_veteran</class>
+		<community>zombied</community>
+		
+		<rank>60</rank>
+		<reputation>-50</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie4</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_4.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_veteran_default4" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied_veteran</class>
+		<community>zombied</community>
+		
+		<rank>60</rank>
+		<reputation>-50</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie5</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zombied_veteran_default5" team_default = "1">
+		<name>Зомбированный сталкер</name>
+		<icon x="20" y="10"></icon>
+		<map_icon x="7" y="0"></map_icon>
+		<bio>Один из сталкеров, которым не повезло.</bio>
+
+		<team>Zombied</team>
+		
+		<class>Zombied_veteran</class>
+		<community>zombied</community>
+		
+		<rank>60</rank>
+		<reputation>-50</reputation>
+
+		<visual>actors\stalker_zombi\stalker_zombie6</visual>
+		<supplies>
+#include "gameplay\loadouts\zombied_tier_5.ltx"
+      [spawn] \n
+		</supplies>
+			
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>general_pda_talk</actor_dialog>
+		<actor_dialog>esc_stalker_talk_level</actor_dialog>
+	</specific_character>
+
+</xml>

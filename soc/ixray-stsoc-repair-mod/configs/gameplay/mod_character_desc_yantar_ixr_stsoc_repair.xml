@@ -1,0 +1,5 @@
+<xml>
+    <specific_character id="yan_general_ecolog">
+        <actor_dialog override="add">yantar_trader_repair</actor_dialog>
+    </specific_character>
+</xml>

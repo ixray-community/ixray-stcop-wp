@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="bandit_brownrain_outfit_name">
+		<text>Бандитский плащ (коричневый)</text>
+	</string>
+	<string id="bandit_brownrain_outfit_description">
+		<text>Стильный бандитский кожаный плащ со вшитыми броневыми элементами. Обеспечивает чуть большую защиту владельца от вредных воздействий, чем куртка - впрочем, крайне недостаточную в суровых условиях Зоны.</text>
+	</string>
+</string_table>

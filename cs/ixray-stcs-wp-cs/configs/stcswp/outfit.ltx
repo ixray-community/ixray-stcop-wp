@@ -1,0 +1,208 @@
+![outfit_base]
+icons_texture						= ui\ui_icon_equipment_stcswp
+;---------------------------------------------------------------------------------------------
+;		œÀ¿Ÿ ÿ‡Ï‡ (ËÁ Œ√—Ã)
+;---------------------------------------------------------------------------------------------
+[bandit_brownrain_outfit]:outfit_base
+GroupControlSection					= spawn_group
+discovery_dependency 				=
+$spawn 								= "outfit\bandit_brownrain_outfit"
+;$prefetch 							= 32
+class								= E_STLK
+cform           					= skeleton
+visual          					= dynamics\outfit\bandit_brownrain_outfit
+actor_visual						= actors\stalker_hero\stalker_hero_1.ogf
+player_hud_section					= actor_hud_13
+
+ef_equipment_type					= 3
+
+inv_name							= bandit_brownrain_outfit_name
+inv_name_short						= bandit_brownrain_outfit_name
+description							= bandit_brownrain_outfit_description
+inv_weight							= 3.5
+
+inv_grid_width						= 2
+inv_grid_height 					= 2
+inv_grid_x							= 12
+inv_grid_y							= 25
+
+3d_static_scale						= 1
+
+full_icon_name						= npc_icon_novice_outfit
+
+cost								= 1000
+slot								= 6
+full_scale_icon						= 0,11
+
+immunities_sect						= sect_bandit_brownrain_outfit_immunities
+
+; NO RESISTANCE
+burn_protection 					= 0.005
+shock_protection 					= 0.005
+radiation_protection 				= 0.005
+chemical_burn_protection 			= 0.005
+telepatic_protection 				= 0.0
+strike_protection 					= 0.15
+explosion_protection 				= 0.15
+wound_protection					= 0.15
+fire_wound_protection  				= 0.1
+physic_strike_wound_immunity 		= 0.1
+
+bones_koeff_protection  			= actor_armor_suit
+hit_fraction_actor					= 0.5
+artefact_count          			= 0
+
+upgrades                			= up_gr_ab_novice_outfit, up_gr_cd_novice_outfit, up_gr_ef_novice_outfit, up_gr_g_novice_outfit
+installed_upgrades      			=
+upgrade_scheme          			= upgrade_scheme_u8a
+
+[sect_bandit_brownrain_outfit_immunities]
+burn_immunity						= 0.05			;ÍÓ˝ÙÙËˆËÂÌÚ˚ ËÏÏÛÌËÚÂÚ‡ Ò‡ÏÓ„Ó ÍÓÒÚ˛Ï‡
+strike_immunity						= 0.0
+shock_immunity						= 0.0
+wound_immunity						= 0.05
+radiation_immunity					= 0.0
+telepatic_immunity					= 0.0
+chemical_burn_immunity				= 0.05
+explosion_immunity					= 0.05
+fire_wound_immunity					= 0.02
+;---------------------------------------------------------------------------------------------
+;		 Œ—“ﬁÃ ÕŒ¬»◊ ¿
+;---------------------------------------------------------------------------------------------
+![novice_outfit]:outfit_base
+player_hud_section					= actor_hud_01
+
+inv_grid_width						= 2
+inv_grid_height 					= 2
+inv_grid_x							= 0
+inv_grid_y							= 18
+;---------------------------------------------------------------------------------------------
+;		 Œ—“ﬁÃ ¡¿Õƒ»“¿
+;---------------------------------------------------------------------------------------------
+![bandit_outfit]:outfit_base
+player_hud_section					= actor_hud_05
+
+inv_grid_width						= 2
+inv_grid_height						= 2
+inv_grid_x							= 16
+inv_grid_y							= 23
+;---------------------------------------------------------------------------------------------
+;		À≈√ »…  Œ—“ﬁÃ ◊Õ
+;---------------------------------------------------------------------------------------------
+![cs_light_outfit]:outfit_base
+player_hud_section					= actor_hud_04
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 18
+inv_grid_y							= 13
+;---------------------------------------------------------------------------------------------
+;		 Œ—“ﬁÃ Õ≈…“–¿À‹ÕŒ√Œ —“¿À ≈–¿
+;---------------------------------------------------------------------------------------------
+![stalker_outfit]:outfit_base
+player_hud_section					= actor_hud_08
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 6
+inv_grid_y							= 15
+;---------------------------------------------------------------------------------------------
+;		À≈√ »…  Œ—“ﬁÃ —¬Œ¡Œƒ€
+;---------------------------------------------------------------------------------------------
+![svoboda_light_outfit]:outfit_base
+player_hud_section					= actor_hud_03
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 12
+inv_grid_y							= 13
+;---------------------------------------------------------------------------------------------
+;		Œ¡€◊Õ€…  Œ—“ﬁÃ ƒŒÀ√¿
+;---------------------------------------------------------------------------------------------
+![dolg_outfit]:outfit_base
+player_hud_section					= actor_hud_02
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 12
+inv_grid_y							= 16
+;---------------------------------------------------------------------------------------------
+;		Õ¿”◊Õ€…  Œ—“ﬁÃ
+;---------------------------------------------------------------------------------------------
+![scientific_outfit]:outfit_base
+player_hud_section					= actor_hud_06
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 14
+inv_grid_y							= 16
+;---------------------------------------------------------------------------------------------
+;		“ﬂ∆≈À€…  Œ—“ﬁÃ ◊Õ
+;---------------------------------------------------------------------------------------------
+![cs_heavy_outfit]:outfit_base
+player_hud_section					= actor_hud_09
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 8
+inv_grid_y							= 19
+;---------------------------------------------------------------------------------------------
+;		“ﬂ∆≈À€…  Œ—“ﬁÃ —¬Œ¡Œƒ€
+;---------------------------------------------------------------------------------------------
+![svoboda_heavy_outfit]:outfit_base
+player_hud_section					= actor_hud_10
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 8
+inv_grid_y							= 15
+;---------------------------------------------------------------------------------------------
+;		 Œ—“ﬁÃ ¬Œ≈ÕÕŒ√Œ —œ≈÷Õ¿«¿
+;---------------------------------------------------------------------------------------------
+![specops_outfit]:outfit_base
+player_hud_section					= actor_hud_07
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 10
+inv_grid_y							= 13
+;---------------------------------------------------------------------------------------------
+;		 Œ—“ﬁÃ Ã»À»“¿–»
+;---------------------------------------------------------------------------------------------
+![military_outfit]:outfit_base
+player_hud_section					= actor_hud_11
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 18
+inv_grid_y							= 17
+;---------------------------------------------------------------------------------------------
+;		“ﬂ∆≈À€…  Œ—“ﬁÃ ƒŒÀ√¿
+;---------------------------------------------------------------------------------------------
+![dolg_heavy_outfit]:outfit_base
+player_hud_section					= actor_hud_12
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 16
+inv_grid_y							= 16
+;---------------------------------------------------------------------------------------------
+;		› «Œ— ≈À≈“ Õ≈…“–¿À‹ÕŒ√Œ —“¿À ≈–¿
+;---------------------------------------------------------------------------------------------
+![exo_outfit]:outfit_base
+player_hud_section					= actor_hud_exo
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 14
+inv_grid_y							= 13
+;---------------------------------------------------------------------------------------------
+;		› «Œ— ≈À≈“ —¬Œ¡Œƒ€
+;---------------------------------------------------------------------------------------------
+![svoboda_exo_outfit]:outfit_base
+player_hud_section					= actor_hud_exo_free
+
+inv_grid_width						= 2
+inv_grid_height						= 3
+inv_grid_x							= 18
+inv_grid_y							= 28

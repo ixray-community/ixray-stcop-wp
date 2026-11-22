@@ -1,0 +1,5 @@
+<xml>
+    <specific_character id="escape_trader">
+        <actor_dialog override="add">escape_trader_repair</actor_dialog>
+    </specific_character>
+</xml>

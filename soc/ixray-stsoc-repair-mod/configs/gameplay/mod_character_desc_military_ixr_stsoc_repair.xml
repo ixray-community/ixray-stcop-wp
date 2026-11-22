@@ -1,0 +1,5 @@
+<xml>
+    <specific_character id="mil_Svoboda_trader">
+        <actor_dialog override="add">mil_trader_repair</actor_dialog>
+    </specific_character>
+</xml>

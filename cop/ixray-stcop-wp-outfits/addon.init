@@ -1,0 +1,3 @@
+name: ixray-stcop-wp-outfits
+platform: cop
+depends: ixray-stcop-wp-cop

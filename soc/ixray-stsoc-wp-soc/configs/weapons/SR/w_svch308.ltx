@@ -1,0 +1,283 @@
+; Снайперская винтовка Чукавина СВЧ
+;-(Ga2z)-----------------------------------------
+; калибр 										7.62x51 мм
+; длина ствола 									410 мм / 460 мм / 565 мм
+; магазин										10
+; вес с пустым магазином						4.3
+; максимальная дальность стрельбы				-- м
+; эффективная дальность стрельбы				-- м
+; прицельная дальность							-- м
+; дульная скорость пули							820 м/с
+; темп стрельбы									30 в/м
+;---------------------------------------------------
+[wpn_svch308]:identity_immunities,weapon_probability,default_weapon_params,wpn_svch_sounds
+GroupControlSection								= spawn_group
+$spawn											= "weapons\svch308"
+$npc											= on
+$prefetch 		 								= 8
+scheduled										= off
+cform											= skeleton
+class											= WP_SVD
+description										= st_wpn_svch308_descr
+
+scopes 											= none
+parent_section  								= wpn_svch308
+
+bullet_bone_name                          		= bullet3, bullet2, bullet1
+
+icons_texture									= ui\ui_icon_equipment_stsocwp
+
+ef_main_weapon_type								= 3
+ef_weapon_type									= 11
+
+inv_name										= st_wpn_svch308
+inv_name_short									= st_wpn_svch308
+
+inv_grid_width									= 6
+inv_grid_height									= 2
+inv_grid_x										= 29
+inv_grid_y										= 26
+
+3d_static_scale 								= 0.95
+
+kill_msg_x										= 0
+kill_msg_y										= 0
+kill_msg_width									= 98
+kill_msg_height									= 23
+
+cost											= 21000
+weapon_class									= sniper_rifle
+inv_weight										= 4.3
+hud												= wpn_svch_hud
+visual											= dynamics\weapons\wpn_svch\wpn_svch.ogf
+
+ph_mass			 								= 5
+
+ammo_class										= ammo_7.62x51_fmj, ammo_7.62x51_ap
+
+startup_ammo									= 10
+ammo_current									= 10
+ammo_elapsed									= 0
+ammo_limit										= 30
+ammo_mag_size									= 10
+
+fire_modes										= 1
+
+hand_dependence									= 1
+single_handed									= 0
+
+hit_power 										= 1.0
+;hit_impulse		 							= 10
+hit_type 										= fire_wound
+fire_distance									= 1000
+bullet_speed									= 820
+rpm												= 180
+rpm_empty_click									= 120
+
+use_aim_bullet									= true
+time_to_aim										= 1
+
+misfire_probability								= 0.005
+misfire_start_condition							= 0.6
+misfire_end_condition							= 0.1
+misfire_start_prob	 							= 0.0055 
+misfire_end_prob	 							= 0.055
+condition_shot_dec								= 0.0002
+condition_queue_shot_dec						= 0.0003
+
+;zoom_dof										= 0.5,1,350
+reload_dof										= 0,0.5,5,2.2
+
+fire_dispersion_base							= 0.1
+fire_dispersion_condition_factor				= 1
+control_inertion_factor							= 2.0f
+crosshair_inertion								= 9
+
+cam_relax_speed         						= 4.5
+cam_relax_speed_ai      						= 360
+cam_dispersion          						= 2.5
+cam_dispersion_inc								= 2.5
+cam_dispersion_frac								= 1.0
+cam_max_angle									= 15.0
+cam_max_angle_horz								= 3.0
+cam_step_angle_horz								= 0.25
+
+zoom_cam_relax_speed        					= 4.5
+zoom_cam_relax_speed_ai     					= 120.75
+zoom_cam_dispersion         					= 1.8
+zoom_cam_dispersion_inc     					= 1.8
+zoom_cam_dispersion_frac    					= 1.0
+zoom_cam_max_angle          					= 10.0
+zoom_cam_max_angle_horz     					= 5.0
+zoom_cam_step_angle_horz    					= 0.25
+
+PDM_disp_base 									= 1.0
+PDM_disp_vel_factor 							= 2.0
+PDM_disp_accel_factor 							= 1.0
+PDM_disp_crouch	 								= 1.0
+PDM_disp_crouch_no_acc 							= 1.0
+
+min_radius										= 50
+max_radius										= 90
+
+holder_range_modifier							= 2
+holder_fov_modifier								= 0.75
+
+hit_probability_gd_novice						= 0.55
+hit_probability_gd_stalker						= 0.65
+hit_probability_gd_veteran						= 0.75
+hit_probability_gd_master						= 0.85
+
+slot											= 2
+animation_slot									= 2
+
+orientation                              		= -0.058882, -0.034709, 0
+position                                 		= -0.027226, -0.089141, -0.000719
+
+fire_point                               		= 0, 0.129, 0.691022
+fire_point2                              		= 0, 0.129, 0.691022
+
+flame_particles									= weapons\generic_weapon06
+smoke_particles									= weapons\generic_shoot_00
+silencer_smoke_particles   						= weapons\generic_shoot_00
+
+shell_point		 								= 0,0.129,0.192
+shell_dir		 								= 0,0,0.4
+
+strap_bone0                              		= bip01_spine2
+strap_bone1                              		= bip01_spine1
+strap_position                           		= -0.242697, -0.11558, 0.346185
+strap_orientation                        		= -25, -189, 65
+
+light_disabled									= false
+light_color		 								= 0.6,0.5,0.3
+light_range		 								= 4.0
+light_var_color		 							= 0.05
+light_var_range									= 0.5
+light_time 		 								= 0.2
+
+scope_status									= 1
+silencer_status									= 2
+grenade_launcher_status							= 0
+
+zoom_enabled									= true
+zoom_rotate_time								= 0.25
+scope_zoom_factor								= 15
+scope_dynamic_zoom								= on
+allow_3d_scope									= true
+min_lens_factor									= 4.0
+max_lens_factor									= 8.0
+
+scope_texture									= wpn_crosshair_mark4
+scope_name 										= pso1m2
+scope_x                   						= 34
+scope_y                     					= 10
+
+silencer_name									= sil_762_nato
+silencer_x                  					= 254
+silencer_y                  					= 23
+
+silencer_hit_power								= 1.0
+silencer_hit_impulse							= 20
+silencer_fire_distance							= 1000
+silencer_bullet_speed							= 810
+
+silencer_light_color							= 0.6,0.5,0.3
+silencer_light_range							= 0.01
+silencer_light_var_color						= 0.05
+silencer_light_var_range						= 0.5
+silencer_light_time 							= 0.2
+
+[wpn_svch_hud]:hud_base
+item_visual                              		= dynamics\weapons\wpn_svch\wpn_svch_hud.ogf
+attach_place_idx                         		= 0
+zoom_hide_crosshair                      		= true   
+
+hands_orientation	         					= 0.649071, 0.923513, 0
+hands_position		          					= -0.011230, -0.010225, 0.103647
+
+hands_orientation_16x9           				= 0.649071, 0.923513, 0
+hands_position_16x9              				= -0.011230, -0.010225, 0.103647
+
+item_position                            		= 0,0,0
+item_orientation                         		= 0,0,0
+
+aim_hud_offset_pos		        				= 0.004150, -0.001100, 0.1
+aim_hud_offset_rot		        				= 0.016000, 0.012000, 0
+
+aim_hud_offset_pos_16x9         				= 0.004150, -0.001100, 0.1
+aim_hud_offset_rot_16x9         				= 0.016000, 0.012000, 0
+
+shell_bone                               		= shell
+shell_dir                                		= 0,0,0
+shell_point                              		= 0,0,0
+
+fire_bone                                		= muzzle
+fire_point                               		= 0,0,0
+
+anm_reload_jammed                       		= svch_misfire_iwp_sed
+anm_reload_jammed_aim                   		= svch_aim_misfire_iwp_sed, svch_misfire_iwp_sed
+anm_reload_empty                         		= svch_reload_full_iwp_sed
+anm_reload                               		= svch_reload_part_iwp_sed
+anm_shoot                                		= svch_shot_iwp_sed
+anm_shoot_last                               	= svch_shot_iwp_sed, svch_shot_last_iwp_sed
+anm_shoot_aim                            		= svch_aim_shot_iwp_sed
+anm_shoot_aim_last                           	= svch_aim_shot_iwp_sed, svch_shot_last_iwp_sed
+
+anm_show                                 		= svch_draw_iwp_sed
+anm_hide                                 		= svch_holster_iwp_sed
+anm_idle                                 		= svch_idle_iwp_sed
+anm_idle_aim                             		= svch_aim_iwp_sed
+anm_idle_aim_moving                      		= svch_aim_iwp_sed
+anm_idle_aim_moving_crouch               		= svch_aim_iwp_sed
+anm_idle_moving                          		= svch_walk_iwp_sed
+anm_idle_sprint                          		= svch_sprint_iwp_sed
+
+anm_bore                                 		= svch_inspect_iwp_sed
+anm_bore_aim                             		= svch_aim_iwp_sed
+
+anm_idle_aim_start                       		= svch_aim_in_iwp_sed, idle
+anm_idle_aim_end                         		= svch_aim_back_iwp_sed, idle
+
+anm_idle_sprint_start                         	= svch_sprint_start_iwp_sed, idle
+anm_idle_sprint_end                           	= svch_sprint_end_iwp_sed, idle
+
+;Empty-----------------------------------------------------------------------
+anm_show_empty                           		= svch_draw_iwp_sed, idle_empty
+anm_hide_empty                           		= svch_holster_iwp_sed, idle_empty
+anm_idle_empty                           		= svch_idle_iwp_sed, idle_empty
+anm_idle_aim_empty                       		= svch_aim_iwp_sed, idle_empty
+anm_idle_aim_moving_empty                		= svch_aim_iwp_sed, idle_empty
+anm_idle_aim_moving_crouch_empty         		= svch_aim_iwp_sed, idle_empty
+anm_idle_moving_empty                    		= svch_walk_iwp_sed, idle_empty
+anm_idle_sprint_empty                    		= svch_sprint_iwp_sed, idle_empty
+
+anm_bore_empty                           		= svch_inspect_iwp_sed, idle_empty
+anm_bore_empty_aim                       		= svch_aim_iwp_sed, idle_empty
+
+anm_idle_aim_start_empty                 		= svch_aim_in_iwp_sed, idle_empty
+anm_idle_aim_end_empty                   		= svch_aim_back_iwp_sed, idle_empty
+
+anm_idle_sprint_start_empty                   	= svch_sprint_start_iwp_sed, idle_empty
+anm_idle_sprint_end_empty                     	= svch_sprint_end_iwp_sed, idle_empty
+
+anm_shoot_last_jammed                      		= svch_shot_iwp_sed, svch_shot_iwp_sed
+anm_shoot_last_aim_jammed                  		= svch_aim_shot_iwp_sed, svch_shot_iwp_sed
+
+anm_show_empty_jammed                          	= svch_draw_iwp_sed, idle
+anm_hide_empty_jammed                          	= svch_holster_iwp_sed, idle
+anm_idle_empty_jammed                          	= svch_idle_iwp_sed, idle
+anm_idle_aim_empty_jammed                      	= svch_aim_iwp_sed, idle
+anm_idle_aim_moving_empty_jammed               	= svch_aim_iwp_sed, idle
+anm_idle_aim_moving_crouch_empty_jammed        	= svch_aim_iwp_sed, idle
+anm_idle_moving_empty_jammed                   	= svch_walk_iwp_sed, idle
+anm_idle_sprint_empty_jammed                   	= svch_sprint_iwp_sed, idle
+
+anm_bore_empty_jammed                          	= svch_inspect_iwp_sed, idle
+anm_bore_empty_aim_jammed                      	= svch_aim_iwp_sed, idle
+
+anm_idle_aim_start_empty_jammed                	= svch_aim_in_iwp_sed, idle
+anm_idle_aim_end_empty_jammed                  	= svch_aim_back_iwp_sed, idle
+
+anm_idle_sprint_start_empty_jammed           	= svch_sprint_start_iwp_sed, idle
+anm_idle_sprint_end_empty_jammed             	= svch_sprint_end_iwp_sed, idle

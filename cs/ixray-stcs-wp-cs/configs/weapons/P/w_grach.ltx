@@ -1,0 +1,266 @@
+; Пистоле?т Яры?гина (ПЯ) или «Грач» (Индекс ГРАУ - 6П35)
+;-(Ga2z)-----------------------------------------
+; калибр 										9х19 мм
+; длина ствола 									112.8 мм
+; магазин										8
+; вес с пустым магазином						0.95 кг
+; максимальная дальность стрельбы				-- м
+; эффективная дальность стрельбы				50 м
+; прицельная дальность							-- м
+; дульная скорость пули							420 м/с
+; темп стрельбы									32 в/м
+;---------------------------------------------------
+[wpn_grach]:identity_immunities,weapon_probability,default_weapon_params,wpn_grach_sounds
+GroupControlSection								= spawn_group
+$spawn 											= "weapons\grach"
+$npc			 								= on
+$prefetch 										= 8
+scheduled 										= off 
+cform 											= skeleton
+class 											= WP_PM
+description										= st_wpn_grach_descr
+
+scopes 											= none
+parent_section  								= wpn_grach
+
+icons_texture									= ui\ui_icon_equipment_stcswp
+
+ef_main_weapon_type								= 0
+ef_weapon_type									= 5
+
+inv_name										= st_wpn_grach
+inv_name_short									= st_wpn_grach
+
+inv_grid_width									= 2
+inv_grid_height									= 1
+inv_grid_x										= 10
+inv_grid_y										= 27
+
+upgr_icon_x										= 1500
+upgr_icon_y										= 700
+upgr_icon_width									= 150
+upgr_icon_height 								= 100
+
+kill_msg_x										= 227
+kill_msg_y										= 82
+kill_msg_width									= 27
+kill_msg_height									= 23
+
+cost											= 1200
+weapon_class									= 
+inv_weight										= 0.95
+hud 											= wpn_grach_hud
+visual 											= dynamics\weapons\wpn_grach\wpn_grach.ogf
+
+upgrades               							= up_gr_ab_pm, up_gr_cd_pm, up_gr_e_pm, up_gr_f_pm, up_gr_g_pm, up_gr_h_pm
+installed_upgrades     							=
+upgrade_scheme         							= upgrade_scheme_u10a
+
+ph_mass			 								= 1
+
+ammo_class		 								= ammo_9x19_fmj, ammo_9x19_pbp
+
+startup_ammo									= 90
+ammo_current									= 48
+ammo_elapsed									= 18
+ammo_limit										= 56
+ammo_mag_size									= 18
+
+hand_dependence		 							= 1
+single_handed									= 0
+
+hit_power 										= 0.6
+;hit_impulse	 		 						= 10
+hit_type 										= fire_wound
+fire_distance									= 500
+bullet_speed									= 420
+rpm												= 200
+rpm_empty_click 	 							= 120
+
+use_aim_bullet									= false
+time_to_aim										= 1
+
+misfire_probability								= 0.005
+misfire_start_condition							= 0.6
+misfire_end_condition							= 0.1
+misfire_start_prob	 							= 0.007
+misfire_end_prob	 							= 0.07
+condition_shot_dec 								= 0.0002
+condition_queue_shot_dec						= 0.0004
+
+zoom_dof										= -1000,1,1000
+reload_dof										= 0,0.5,5,1.7
+
+fire_dispersion_base							= 0.21
+fire_dispersion_condition_factor				= 2.5
+control_inertion_factor							= 1
+crosshair_inertion 								= 3.5
+
+cam_return										= 0
+cam_relax_speed									= 8
+cam_relax_speed_ai								= 360
+cam_dispersion									= 0.9
+cam_dispersion_inc								= 0.9
+cam_dispersion_frac								= 1
+cam_max_angle									= 5
+cam_max_angle_horz								= 5
+cam_step_angle_horz								= 0.6
+
+zoom_cam_relax_speed							= 10
+zoom_cam_relax_speed_ai							= 120.75
+zoom_cam_dispersion								= 0.3
+zoom_cam_dispersion_inc							= 0.75
+zoom_cam_dispersion_frac						= 0.7
+zoom_cam_max_angle								= 5
+zoom_cam_max_angle_horz							= 10
+zoom_cam_step_angle_horz						= 1.5
+
+PDM_disp_base 									= 0.5
+PDM_disp_vel_factor 							= 1.1
+PDM_disp_accel_factor 							= 1.1
+PDM_disp_crouch	 								= 1
+PDM_disp_crouch_no_acc 							= 1
+
+min_radius 										= 0
+max_radius 										= 30
+
+holder_range_modifier							= 1
+holder_fov_modifier								= 1
+
+slot 			 								= 1
+animation_slot									= 1
+
+position 										= -0.021,-0.092,-0.01
+orientation 									= 0,0,0
+
+fire_point 										= 0,0.133,0.161
+
+flame_particles									= weapons\generic_weapon03
+smoke_particles        							= weapons\generic_shoot_00
+silencer_smoke_particles 						= weapons\generic_shoot_00
+
+shell_point		 								= 0,0.133,0.047
+shell_dir		 								= 0,0,0.4
+
+light_color		 								= 0.6,0.5,0.3
+light_range		 								= 3.0
+light_var_color		 							= 0.05
+light_var_range		 							= 0.5
+light_time 		 								= 0.2
+
+scope_status									= 0
+silencer_status									= 0
+grenade_launcher_status							= 0
+
+zoom_enabled									= true
+zoom_rotate_time								= 0.15
+scope_zoom_factor								= 73.3
+
+silencer_name 									= wpn_addon_silencer
+silencer_x                 						= 57
+silencer_y                  					= -16
+
+silencer_hit_power 								= 0.58
+;silencer_hit_impulse	 						= 10
+silencer_fire_distance 							= 400
+silencer_bullet_speed	 						= 290
+
+silencer_light_color							= 0.6,0.5,0.3
+silencer_light_range							= 0.01
+silencer_light_var_color						= 0.05
+silencer_light_var_range						= 0.5
+silencer_light_time 							= 0.2
+
+[wpn_grach_hud]:hud_base
+zoom_hide_crosshair								= true
+item_visual             						= dynamics\weapons\wpn_grach\wpn_grach_hud.ogf
+attach_place_idx								= 0
+
+hands_position              					= 0,0,-0.035
+hands_position_16x9         					= 0,0,-0.035
+
+hands_orientation           					= 0,0,0
+hands_orientation_16x9      					= 0,0,0
+    
+item_position               					= 0,0,0
+item_orientation            					= 0,0,0
+
+aim_hud_offset_pos		        				= 0.0015, 0.0065, 0
+aim_hud_offset_rot		        				= 0.016500, -0.001, 0
+
+aim_hud_offset_pos_16x9          				= 0.0015, 0.0065, 0
+aim_hud_offset_rot_16x9          				= 0.016500, -0.001, 0
+
+shell_bone                  					= gilza
+shell_point                 					= 0,0,0
+
+fire_bone                   					= muzzle
+fire_point                  					= 0,0,0
+------------------------------- IDLE_ANIMS ----------------------------------------------------------------
+anm_idle                                     	= pm_mlg_idle, idle
+anm_idle_empty                               	= pm_mlg_idle, idle_empty
+anm_bore                                     	= pm_mlg_inspect
+anm_bore_empty                               	= pm_mlg_inspect, inspect_empty	
+------------------------------- AIM_ANIMS -----------------------------------------------------------------
+;anm_idle_aim_start 								= pm_mlg_idle_aim_start
+anm_idle_aim 									= grach_aim
+;anm_idle_aim_end   								= pm_mlg_idle_aim_end
+;anm_idle_aim_start_empty 						= pm_mlg_idle_aim_start, idle_empty
+anm_idle_aim_empty 								= grach_aim, idle_empty
+;anm_idle_aim_end_empty  						= pm_mlg_idle_aim_end, idle_empty
+------------------------------- HOLSTER/DRAW_ANIMS ---------------------------------------------------------
+anm_hide                                      	= pm_mlg_holster
+anm_hide_empty                                	= pm_mlg_holster, idle_empty
+anm_show                                      	= pm_mlg_draw
+anm_show_empty                                	= pm_mlg_draw, idle_empty
+------------------------------- FIRE_ANIMS -----------------------------------------------------------------
+anm_shoot                               		= pm_mlg_shoot
+anm_shoot_last                          		= pm_mlg_shoot, shoot_last
+anm_shoot_aim									= pm_mlg_shoot_aim
+anm_shoot_aim_last								= pm_mlg_shoot_aim, shoot_last
+------------------------------- WALK_ANIMS -----------------------------------------------------------------
+anm_idle_moving                               	= pm_mlg_moving
+anm_idle_moving_empty                         	= pm_mlg_moving, idle_empty
+anm_idle_moving_slow                         	= pm_mlg_moving,, 0.8
+anm_idle_moving_slow_empty                   	= pm_mlg_moving, idle_empty, 0.8
+anm_idle_moving_crouch                        	= pm_mlg_moving_crouch
+anm_idle_moving_crouch_empty                  	= pm_mlg_moving_crouch, idle_empty
+anm_idle_moving_slow_crouch                  	= pm_mlg_moving_crouch,, 0.8
+anm_idle_moving_slow_crouch_empty            	= pm_mlg_moving_crouch, idle_empty, 0.8
+------------------------------- SPRINT_ANIMS ---------------------------------------------------------------
+anm_idle_sprint_start         					= pm_mlg_sprint_start
+anm_idle_sprint         						= pm_mlg_sprint
+anm_idle_sprint_end         					= pm_mlg_sprint_end
+anm_idle_sprint_start_empty         			= pm_mlg_sprint_start, idle_empty
+anm_idle_sprint_empty         					= pm_mlg_sprint, idle_empty
+anm_idle_sprint_end_empty         				= pm_mlg_sprint_end, idle_empty
+------------------------------- JAMMED_ANIMS ---------------------------------------------------------------
+anm_idle_jammed                           		= pm_mlg_idle, jammed		
+anm_bore_jammed                           		= pm_mlg_inspect_jammed, jammed
+anm_hide_jammed                           		= pm_mlg_holster, jammed
+anm_show_jammed                           		= pm_mlg_draw, jammed		
+;anm_idle_aim_start_jammed                 		= pm_mlg_idle_aim_start, jammed
+anm_idle_aim_jammed                       		= grach_aim, jammed
+;anm_idle_aim_end_jammed                   		= pm_mlg_idle_aim_end, jammed
+anm_idle_moving_jammed                    		= pm_mlg_moving, jammed
+anm_idle_moving_crouch_jammed             		= pm_mlg_moving_crouch, jammed
+anm_idle_sprint_start_jammed               		= pm_mlg_sprint_start, jammed
+anm_idle_sprint_jammed                       	= pm_mlg_sprint, jammed
+anm_idle_sprint_end_jammed                    	= pm_mlg_sprint_end, jammed
+anm_reload_jammed								= pm_mlg_unjam, unjam
+anm_reload_jammed_aim							= pm_mlg_unjam_aim, unjam
+------------------------------- RELOAD_ANIMS ---------------------------------------------------------------
+anm_reload                                  	= pm_mlg_reload, reload
+anm_reload_empty                            	= pm_mlg_reload_empty, reload_empty
+------------------------------------------------------------------------------------------------------------
+
+anm_prepare_detector                          	= grach_hand_holster
+anm_prepare_detector_empty                    	= grach_hand_holster, idle_empty
+anm_finish_detector                           	= grach_hand_draw
+anm_finish_detector_empty                     	= grach_hand_draw, idle_empty
+
+anim_fakeshot									= fakeshot_pistol, 0.7, 0.3
+
+anim_aim_start 									= aim_start_pistol, 1, 1, 0.12, 0.12
+anim_aim_idle  									= aim_idle_pistol, 1, 1, 0.2, 0.2
+anim_aim_end   						        	= aim_end_pistol, 1, 1, 0.12, 0.12

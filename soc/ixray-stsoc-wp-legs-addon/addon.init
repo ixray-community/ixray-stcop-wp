@@ -1,0 +1,3 @@
+name: ixray-stsoc-wp-legs-addon
+platform: soc
+depends: ixray-stsoc-wp-soc

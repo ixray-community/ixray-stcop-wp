@@ -1,0 +1,3 @@
+name: ixray-stcs-wp-legs-addon
+platform: cs
+depends: ixray-stcs-wp-cs

@@ -1,0 +1,3 @@
+name: lxrd-loadout-stcop
+platform: cop
+depends: ixray-stcop-wp-cop

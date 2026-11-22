@@ -1,0 +1,5 @@
+<xml>
+    <specific_character id="bar_barman">
+        <actor_dialog override="add">bar_trader_repair</actor_dialog>
+    </specific_character>
+</xml>
