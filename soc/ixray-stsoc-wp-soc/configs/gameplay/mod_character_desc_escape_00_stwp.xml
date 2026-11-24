@@ -2,8 +2,9 @@
 <xml>
 	<specific_character id="esc_bandit_novice_default1">
 		<supplies override="replace">
-#include "gameplay\loadouts\bandit_tier_1.ltx"
-      [spawn] \n
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj = 1 \n
 #include "gameplay\character_items.xml" \n
 #include "gameplay\character_drugs.xml" \n
 #include "gameplay\character_food.xml"			
@@ -11,8 +12,9 @@
 	</specific_character>
 	<specific_character id="esc_bandit_novice_default2">
 		<supplies override="replace">
-#include "gameplay\loadouts\bandit_tier_1.ltx"
-      [spawn] \n
+			[spawn] \n
+			wpn_tt33 \n
+			ammo_7.62x25_p = 1 \n
 #include "gameplay\character_items.xml" \n
 #include "gameplay\character_drugs.xml" \n
 #include "gameplay\character_food.xml"					
@@ -20,8 +22,10 @@
 	</specific_character>
 	<specific_character id="esc_bandit_novice_default3">
 		<supplies override="replace">
-#include "gameplay\loadouts\bandit_tier_1.ltx"
-      [spawn] \n
+			[spawn] \n
+			device_torch \n
+			wpn_bm16 \n
+			ammo_12x70_buck \n
 #include "gameplay\character_items.xml"	\n
 #include "gameplay\character_drugs.xml" \n
 #include "gameplay\character_food.xml"		
