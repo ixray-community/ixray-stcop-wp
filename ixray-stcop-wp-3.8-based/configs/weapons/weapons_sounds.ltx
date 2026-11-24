@@ -1,6 +1,6 @@
 ;-------------------------------------------------------------------------------
 ;  Mod: TrickSR & STCoP Weapon Pack
-; Base: "S.T.A.L.K.E.R`s sound remake" by Монгол & MulleR
+; Base: "S.T.A.L.K.E.R`s sound remake" by ГЊГ®Г­ГЈГ®Г« & MulleR
 ;-------------------------------------------------------------------------------
 ;sounds (name of the sound, volume (0.0 - 1.0), delay (sec))
 
@@ -4775,8 +4775,8 @@ snd_add_cartridge		 		= weapons\mosin\mosin_reload
 snd_shoot               		= wpn_mosin_snd_shoot
 snd_shoot_actor					= wpn_mosin_snd_shoot_actor
 
-snd_shoot_last					= wpn_mosin_snd_shoot
-snd_shoot_last_actor			= wpn_mosin_snd_shoot_actor
+snd_shot_last					= wpn_mosin_snd_shoot_last
+snd_shot_last_actor				= wpn_mosin_snd_shoot_last_actor
 
 [wpn_mosin_snd_shoot]
 snd_1_layer			          	= weapons\_gunfire\mono\mosin\Close_1
@@ -4817,6 +4817,12 @@ snd_4_layer2			      	= weapons\_shared\stereo\Echo_3
 snd_4_layer3			       	= weapons\_shared\stereo\Echo_4
 snd_5_layer			           	= weapons\_bass\bass_mid
 snd_6_layer			           	= weapons\mosin\mosin_bolt
+
+[wpn_mosin_snd_shoot_last]:wpn_mosin_snd_shoot
+snd_8_layer			           	= $no_sound
+
+[wpn_mosin_snd_shoot_last_actor]:wpn_mosin_snd_shoot_actor
+snd_6_layer			           	= $no_sound
 
 [wpn_sks_sounds]:base_sounds
 snd_draw						= weapons\sks\sks_draw
