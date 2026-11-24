@@ -1,14 +1,14 @@
-; 7,62-мм (3-линейная) винтовка образца 1891 года
+; 7,62-Г¬Г¬ (3-Г«ГЁГ­ГҐГ©Г­Г Гї) ГўГЁГ­ГІГ®ГўГЄГ  Г®ГЎГ°Г Г§Г¶Г  1891 ГЈГ®Г¤Г 
 ;-(TrickSR, Ga2z)-----------------------------------------
-; калибр 										7.62x54 мм
-; длина ствола 									800 мм
-; магазин										5
-; вес с пустым магазином						4.5 кг
-; максимальная дальность стрельбы				-- м
-; эффективная дальность стрельбы				-- м
-; прицельная дальность							2000 м
-; дульная скорость пули							865 м/с
-; темп стрельбы									-- в/м
+; ГЄГ Г«ГЁГЎГ° 										7.62x54 Г¬Г¬
+; Г¤Г«ГЁГ­Г  Г±ГІГўГ®Г«Г  									800 Г¬Г¬
+; Г¬Г ГЈГ Г§ГЁГ­										5
+; ГўГҐГ± Г± ГЇГіГ±ГІГ»Г¬ Г¬Г ГЈГ Г§ГЁГ­Г®Г¬						4.5 ГЄГЈ
+; Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г Гї Г¤Г Г«ГјГ­Г®Г±ГІГј Г±ГІГ°ГҐГ«ГјГЎГ»				-- Г¬
+; ГЅГґГґГҐГЄГІГЁГўГ­Г Гї Г¤Г Г«ГјГ­Г®Г±ГІГј Г±ГІГ°ГҐГ«ГјГЎГ»				-- Г¬
+; ГЇГ°ГЁГ¶ГҐГ«ГјГ­Г Гї Г¤Г Г«ГјГ­Г®Г±ГІГј							2000 Г¬
+; Г¤ГіГ«ГјГ­Г Гї Г±ГЄГ®Г°Г®Г±ГІГј ГЇГіГ«ГЁ							865 Г¬/Г±
+; ГІГҐГ¬ГЇ Г±ГІГ°ГҐГ«ГјГЎГ»									-- Гў/Г¬
 ;---------------------------------------------------
 [wpn_mosin]:identity_immunities,weapon_probability,default_weapon_params,wpn_mosin_sounds
 GroupControlSection								= spawn_group
@@ -242,9 +242,9 @@ anm_idle_moving_slow_crouch           			= mosin_iwp_walk_slow_down, idle, 0.8
 anm_idle_sprint                         		= mosin_iwp_sprint, idle
 anm_show                                		= mosin_iwp_draw, idle
 anm_shoot                               		= mosin_iwp_shoot, shoot
-anm_shoot_last                          		= mosin_iwp_shoot, shoot
+anm_shoot_last                          		= mosin_iwp_shoot_last, idle_empty
 anm_shoot_aim                       			= mosin_iwp_shoot_aim, shoot
-anm_shoot_aim_last                  			= mosin_iwp_shoot_aim, shoot
+anm_shoot_aim_last                  			= mosin_iwp_shoot_last_aim, idle_empty
 anm_show_empty                           		= mosin_iwp_draw, idle_empty
 anm_hide_empty                           		= mosin_iwp_hide, idle_empty
 anm_idle_empty                           		= mosin_iwp_idle, idle_empty
